@@ -1,3 +1,9 @@
+---
+description: >-
+  The main transaction part containing the encrypted data to restore balances
+  and history
+---
+
 # Memo Block
 
 * Memo block purpose

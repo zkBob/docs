@@ -10,6 +10,9 @@
 
 ## Technical Overview
 
+* [Accounts and Notes](technical-overview/account-and-notes/README.md)
+  * [Accounts](technical-overview/account-and-notes/accounts.md)
+  * [Notes](technical-overview/account-and-notes/notes.md)
 * [zkBob Merkle Tree](technical-overview/untitled.md)
 * [Memo Block](technical-overview/untitled-1.md)
 * [zkBob Keys](technical-overview/zkbob-keys.md)
