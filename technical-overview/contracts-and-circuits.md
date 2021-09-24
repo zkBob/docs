@@ -5,6 +5,7 @@
 * Pool contract
 * Tree and Tx verifiers
 * Direct withdrawal requests
+* Offset table \(used on contract side\)
 
 
 
