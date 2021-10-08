@@ -16,10 +16,15 @@
 * [zkBob Merkle Tree](technical-overview/untitled.md)
 * [zkBob Keys](technical-overview/zkbob-keys.md)
 * [Transaction Overview](technical-overview/transaction-overview/README.md)
+  * [Common Structure](technical-overview/transaction-overview/common-structure.md)
+  * [Transaction Types](technical-overview/transaction-overview/transaction-types.md)
   * [Memo Block](technical-overview/transaction-overview/untitled-1.md)
+  * [The Nullifiers](technical-overview/transaction-overview/the-nullifiers.md)
+  * [Signing a Transaction](technical-overview/transaction-overview/signing-a-transaction.md)
+  * [The Transaction Lifecycle](technical-overview/transaction-overview/the-transaction-lifecycle.md)
 * [Contracts & Circuits](technical-overview/contracts-and-circuits.md)
-* [Relayer node](technical-overview/relayer-node.md)
-* [zkBob OmniBridge interaction](technical-overview/zkbob-omnibridge-interaction.md)
+* [Relayer Node](technical-overview/relayer-node.md)
+* [zkBob OmniBridge Interaction](technical-overview/zkbob-omnibridge-interaction.md)
 
 ---
 

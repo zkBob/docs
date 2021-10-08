@@ -6,6 +6,8 @@ description: >-
 
 # Memo Block
 
+### Fields overview
+
 The memo block contains detailed transaction data such as output notes, accounts, transaction fee and other specific fields.
 
 The memo block consists of the following fields. There are two optional fields in the memo block, dependent on transaction type: `native amount` and `receiver`. These values included in the withdrawal transaction's memo block only.
@@ -26,7 +28,11 @@ The memo block consists of the following fields. There are two optional fields i
 | $$A_i$$ | 32 | Ephemeral public key for notes. It's using to decrypt $$Note_i^\text{enc}$$ by note owner \(receiver\) |
 | $$Note_i^\text{enc}$$ | 76 | An encrypted note. It can be decrypted with $$A_i$$ by owner or by transaction sender through a $$Keys^\text{enc}$$ disclosure |
 
-**TODO:**
+### **Memo block encryption**
 
-* Memo encryption and hashing
+The main purpose of the memo block is to publish transaction details. Due to transactions secure nature, the list of admitted users to access that data is strictly restricted. There are two critical data encrypted in the memo block: an output account and output notes.
+
+The transaction sender should be admitted to the output account and notes. Output account is used by the sender to keep the wallet state. Notes are used to retrieve outgoing transactions history. Output account should be unavailable to the transaction receiver.
+
+
 

@@ -1,4 +1,4 @@
-# Relayer node
+# Relayer Node
 
 * Relayer purpose and overview
 * Relayer API methods
