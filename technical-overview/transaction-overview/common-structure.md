@@ -9,14 +9,15 @@ The transaction transferred to the zkBob contract contains the following fields:
 * Account nullifier - helps protect from the double-spending
 * Transaction commitment - transaction's subtree root hash
 * Transfer index
-* Energy amount
-* Token amount
+* Energy amount - for withdrawal transaction
+* Token amount - a positive value for the deposit transaction, negative - for withdrawal
 * Transaction proof
 * Merkle tree root after transaction including
 * Merkle tree proof
-* Transaction type
+* [Transaction type](transaction-types/)
 * Transaction specific fields (depends on transaction type)
 * Memo block which contain encrypted transaction details (accounts and notes)
+* Deposit signature - to retrieve source account (exist in the deposit transaction only)
 
 In general, a transaction sender must prepare all of these fields before submitting to the contract. In case of using relayer it should calculate proofs and send the transaction to the contract.
 
