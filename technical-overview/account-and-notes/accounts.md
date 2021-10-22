@@ -10,11 +10,16 @@ The account holds current balance value and `spent offset` which split all notes
 
 An account is a tuple $$(\eta, i, b, e, t)$$ where
 
-* $$\eta$$ \(32 bytes\) is an intermediate key, derived from the spending key: $$\eta = Hash((\sigma*G).x)$$
-* $$i$$\(6 bytes\) is a spent offset. It split used \(spent\) and unused notes. Notes with indexes below $$i$$are considered to be spent
-* $$b$$\(8 bytes\) is current account balance
-* $$e$$\(8 bytes\) is an energy \("integral" account balance\)
-* $$t$$\(10 bytes\) is a salt. Since transaction contains account hash we must use a random salt to hide possible lack of account changes
+* $$\eta$$ (32 bytes) is an intermediate key, derived from the spending key: $$\eta = Hash((\sigma*G).x)$$
+* $$i$$(6 bytes) is a spent offset. It split used (spent) and unused notes in the Merkle tree . Notes with indexes below $$i$$are considered to be spent
+* $$b$$(8 bytes) is current account balance
+* $$e$$(8 bytes) is an energy ("integral" account balance)
+* $$t$$(10 bytes) is a salt. Since transaction contains account hash we must use a random salt to hide possible lack of account changes
 
-Accounts are residing in the transactions data but it never appears unencrypted in public field. Only an account owner can decrypt it. 
+Accounts are residing in the transactions data but it never appears unencrypted in public field. Only an account owner can decrypt it.
 
+{% hint style="info" %}
+#### Zero account
+
+When the user creates the first transaction he hasn't existing account in the Merkle tree yet. In this case he should use a zero account. In such account all fields are zero except the $$\eta$$​
+{% endhint %}

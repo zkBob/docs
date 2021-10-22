@@ -15,8 +15,8 @@ The transaction transferred to the zkBob contract contains the following fields:
 * Merkle tree root after transaction including
 * Merkle tree proof
 * Transaction type
-* Transaction specific fields \(depends on transaction type\)
-* Memo block which contain encrypted transaction details \(accounts and notes\)
+* Transaction specific fields (depends on transaction type)
+* Memo block which contain encrypted transaction details (accounts and notes)
 
 In general, a transaction sender must prepare all of these fields before submitting to the contract. In case of using relayer it should calculate proofs and send the transaction to the contract.
 
@@ -24,10 +24,10 @@ The sender forms two transaction parts when it's created. There are public and s
 
 #### The public transaction components
 
-* The current Merkle tree root \(before transaction processing by the contract\)
+* The current Merkle tree root (before transaction processing by the contract)
 * Input account nullifier
 * Transaction commitment
-* Delta value _**\(will be explained furthermore\)**_
+* Delta value (a composition of the transaction index, token delta and energy delta)
 * Memo block
 
 #### The secret transaction components
@@ -36,8 +36,6 @@ The sender forms two transaction parts when it's created. There are public and s
 * Input account and notes proofs
 * Transaction signature $$(S, R)$$
 * Account intermediate key $$A$$ to verify signature
-
-
 
 
 
