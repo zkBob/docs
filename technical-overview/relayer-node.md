@@ -1,6 +1,7 @@
 # Relayer Node
 
-* Relayer purpose and overview
-* Relayer API methods
-* Relayer deployment
+**TODO:**
 
+* [ ] Relayer purpose and overview
+* [ ] Relayer API methods
+* [ ] Relayer deployment
