@@ -14,7 +14,7 @@ The transaction transferred to the zkBob contract contains the following fields:
 * Transaction proof
 * Merkle tree root after transaction including
 * Merkle tree proof
-* [Transaction type](transaction-types/)
+* [Transaction type](transaction-types.md)
 * Transaction specific fields (depends on transaction type)
 * Memo block which contain encrypted transaction details (accounts and notes)
 * Deposit signature - to retrieve source account (exist in the deposit transaction only)
