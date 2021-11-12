@@ -14,7 +14,7 @@ $$H = Hash(Hash(Acc^\text{in}), Hash(Note_0^\text{in}), Hash(Note_1^\text{in}), 
 
 where
 
-* $$Hash$$ is a [Poseidon multi-hash routine](https://eprint.iacr.org/2019/458.pdf)
+* $$Hash$$ is a [Poseidon multi-hash (sponged) routine](https://eprint.iacr.org/2019/458.pdf)
 * $$Acc^\text{in}$$is an input account
 * $$Note_i^\text{in}$$is an input notes,
 * $$TxCommit$$ - is a transaction commitment hash (Merkle subtree root). It depends on transaction output account and notes
