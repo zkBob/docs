@@ -10,11 +10,11 @@ Transactions in zkBob are signed by spending key $$\sigma$$. To verify transacti
 
 A client application should sign a 'composite' transaction hash instead a full transaction data. The transaction hash is calculated from the input and output hashes:
 
-$$H = Hash(Hash(Acc^\text{in}), Hash(Note_0^\text{in}), Hash(Note_1^\text{in}), Hash(Note_2^\text{in}), TxCommit)$$&#x20;
+$$H = Hash_{sponge}(Hash_{account}(Acc^\text{in}), Hash_{note}(Note_0^\text{in}), Hash_{note}(Note_1^\text{in}), Hash_{note}(Note_2^\text{in}), TxCommit)$$&#x20;
 
 where
 
-* $$Hash$$ is a [Poseidon multi-hash (sponged) routine](https://eprint.iacr.org/2019/458.pdf)
+* $$Hash$$ is a [Poseidon multi-hash (sponged) routine](../the-poseidon-hash.md) in the different modes
 * $$Acc^\text{in}$$is an input account
 * $$Note_i^\text{in}$$is an input notes,
 * $$TxCommit$$ - is a transaction commitment hash (Merkle subtree root). It depends on transaction output account and notes
@@ -27,7 +27,7 @@ $$r = Blake2s(\sigma, H)$$, where[$$Blake2s$$ is the 256-bit hash function ](htt
 
 $$R = rG$$, $$A=\sigma G$$ (moving $$r$$ and $$\sigma$$ to the JubJub Elliptic curve field)
 
-$$S = r + Hash(R.x, A.x, H)\sigma$$
+$$S = r + Hash_{eddsa}(R.x, A.x, H)\sigma$$
 
 The output signature $$(S, R)$$ will be sent with a intermediate key $$A = \sigma G$$
 
@@ -35,5 +35,5 @@ The output signature $$(S, R)$$ will be sent with a intermediate key $$A = \sigm
 
 To verify a transaction signature a validator should perform the following computations:
 
-$$SG == R + Hash(R.x, A.x, H)A$$
+$$SG == R + Hash_{eddsa}(R.x, A.x, H)A$$
 

@@ -10,11 +10,11 @@ zkBob solution based on complex cryptography. There are several keys needed for 
 
 * **Spending key (**$$\sigma$$**)** is the top secret key. It is used to derive intermediate keys and to sign transactions.
 * **Transaction verifier key (**$$A$$**)** is used for transaction signature verification. It's derived from the spending key with multiplying by the generator point in the JubJub elliptic curve field: $$A = \sigma G$$
-* **Incoming viewing key (**$$\eta$$**)** is derived from the $$A$$ key by the $$Poseidon$$ hash function:$$\eta = Hash(A.x)$$. It's used in several cases:
+* **Incoming viewing key (**$$\eta$$**)** is derived from the $$A$$ key by the[ $$Poseidon$$ hash function](the-poseidon-hash.md):$$\eta = Hash(A.x)$$. It's used in several cases:
   * to calculate account[ nullifier](transaction-overview/the-nullifiers.md)
   * to obtain the account balance and transaction history
   * to decrypt incoming notes
-* **Private payment address **$$(d, P_d)$$ - is a set of random diversifier $$d$$ and point $$P_d = \eta G_p = \eta \text{ToSubGroupHash}{E(F_r)}(d)$$)
+* **Private payment address **$$(d, P_d)$$ - is a set of random diversifier $$d$$ and point $$P_d = \eta G_p = \eta \text{ToSubGroupHash}_{E(F_r)}(d)$$)
 * **Ephemeral keys** is used to derive shared secret for the memo block encryption
 
 

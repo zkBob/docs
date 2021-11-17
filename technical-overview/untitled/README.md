@@ -6,7 +6,9 @@ description: The main data structure
 
 ![Full Merkle tree](../../.gitbook/assets/Merkle\_200dpi\_b.png)
 
-Merkle tree in the zkBob solution is used to link and store encrypted transaction data (accounts and notes) with the strict sequence. The accounts and notes are placed in the tree leaves.
+Merkle tree in the zkBob solution is used to link and store encrypted transaction data (accounts and notes) with the strict sequence. The accounts and notes hashes are placed in the tree leaves.
+
+The Merkle tree's leaves and nodes contains hashes. Each node is calculated as hash of two children nodes. A leaf depends on leafs type (account and note leafs). The [Poseidon](../the-poseidon-hash.md) function used to calculate hashes with the appropriate parameters. Please refer to&#x20;
 
 The full Merkle tree can be divided into transaction subtrees and commitment subtree (with transaction commitments as leaves).
 
@@ -27,6 +29,8 @@ So due to this height a transaction supports up to 128 leaves (a single account 
 According to the scheme above, a new transaction determines a new transaction subtree which will be added to the full Merkle tree. Adding a new transaction will affect Merkle tree root. So Merkle tree root determines a current tree state.
 
 The pool contract holds the current leaves count (the number of transactions multiplied by 128) and the Merkle tree roots for all transactions.
+
+
 
 * [x] Merkle Tree graphical scheme
 * [x] Tree leaves: account and notes
