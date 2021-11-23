@@ -36,7 +36,7 @@ The sender forms two transaction parts when it's created. There are public and s
 * A set of unencrypted input\output account and notes for the transaction
 * Input account and notes proofs
 * Transaction signature $$(S, R)$$
-* Account intermediate key $$A$$ to verify signature
+* Transaction verifier key $$A$$ to verify signature
 
 
 

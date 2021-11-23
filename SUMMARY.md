@@ -17,7 +17,9 @@
 * [zkBob Merkle Tree](technical-overview/untitled/README.md)
   * [Transaction proof](technical-overview/untitled/transaction-proof.md)
   * [Tree proof](technical-overview/untitled/tree-proof.md)
-* [zkBob Keys](technical-overview/zkbob-keys.md)
+* [zkBob Keys](technical-overview/zkbob-keys/README.md)
+  * [Address derivation](technical-overview/zkbob-keys/address-derivation.md)
+  * [Ephemeral keys](technical-overview/zkbob-keys/ephemeral-keys.md)
 * [Transaction Overview](technical-overview/transaction-overview/README.md)
   * [Common Structure](technical-overview/transaction-overview/common-structure.md)
   * [Memo Block](technical-overview/transaction-overview/untitled-1/README.md)
@@ -30,6 +32,7 @@
 * [Relayer Node](technical-overview/relayer-node/README.md)
   * [REST API](technical-overview/relayer-node/rest-api.md)
   * [Relayer deployment](technical-overview/relayer-node/relayer-deployment.md)
+* [Elliptic curve cryptography](technical-overview/elliptic-curve-cryptography.md)
 * [zkBob OmniBridge Interaction](technical-overview/zkbob-omnibridge-interaction.md)
 
 ***

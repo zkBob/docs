@@ -21,7 +21,7 @@ An output account in the memo block is encrypted with the random key $$key_a$$ b
 Nonce for $$ChaCha20Poly1305$$ is a fixed value. It's the first 12 bytes of the $$keccak256("ZeroPool")$$: `0x5bbdffc6fe73c460f1b2b85d`
 {% endhint %}
 
-To decrypt output account user should obtain $$key_a$$ from the memo block. The transaction sender only could access this key.
+To decrypt output account user should obtain $$key_a$$ from the memo block. The transaction sender only can access this key.
 
 ### Notes Encryption
 
@@ -51,6 +51,3 @@ Shared secrets block contains symmetric keys for account and notes encryption: $
 {% hint style="info" %}
 $$keys^{enc}$$ could be decrypted with the $$\eta$$ key only
 {% endhint %}
-
-
-
