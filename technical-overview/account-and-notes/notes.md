@@ -1,6 +1,6 @@
 # Notes
 
-The note is some kind of available user's asset. The note indicates that an asset is owned by the owner of the spending key $$\sigma$$which was used to derive private address.
+The note is some kind of available user's asset. The note indicates that an asset is owned by the owner of the spending key $$\sigma$$which was used to [derive private address](../zkbob-keys/address-derivation.md).
 
 A private address is a value strictly associated with the user account. It consists of a random value called a diversifier and a diversified public key derived from the diversifier using the spending key
 
@@ -13,10 +13,10 @@ A note is a tuple $$(d, P_d, b, t)$$where
 * $$b$$(8 bytes) is a note balance (an asset amount transferred by this note)
 * $$t$$(10 bytes) is a salt. Since the transaction contains note hashes we must use a random salt to hide notes with same owners and balances
 
-Due to transactions private nature, all notes are encrypted. They can be decrypted by a sender or receiver (note owner) only. The sender decrypts notes to obtain outcome transaction history. The note receiver (owner) can decrypt it with the spending key $$\sigma$$ which was used to generate a private address $$(d, P_d)$$specified in the note.
+Due to transactions private nature, all notes are encrypted. They can be decrypted by a sender or receiver (note owner) only. The sender decrypts notes to obtain outcome transaction history. The note receiver (owner) can decrypt it with the spending key $$\sigma$$ which was used to generate a [private address](../zkbob-keys/address-derivation.md) $$(d, P_d)$$specified in the note.
 
 {% hint style="info" %}
 #### Zero note
 
-There is one extra state of the note. When the user creates a transaction he can put one or more zero output notes. They will ignored while transaction parsing. In such note all fields are zero.
+There is one extra state for the note. When the user creates a transaction he can put one or more zero output notes. They will ignored while transaction parsing. In such note **all** fields are zero.
 {% endhint %}
