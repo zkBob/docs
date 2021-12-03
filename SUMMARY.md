@@ -2,7 +2,7 @@
 
 * [Overview](README.md)
 
-## Getting Started <a href="zkbob-getting-started" id="zkbob-getting-started"></a>
+## Getting Started <a href="#zkbob-getting-started" id="zkbob-getting-started"></a>
 
 * [Private Deposits via OmniBridge](zkbob-getting-started/private-deposits-via-omnibridge.md)
 * [zkBob App](zkbob-getting-started/zkbob-app/README.md)
@@ -29,7 +29,8 @@
   * [The Nullifiers](technical-overview/transaction-overview/the-nullifiers.md)
   * [Signing a Transaction](technical-overview/transaction-overview/signing-a-transaction.md)
   * [The Transaction Lifecycle](technical-overview/transaction-overview/the-transaction-lifecycle.md)
-* [Contracts & Circuits](technical-overview/contracts-and-circuits.md)
+* [Contracts & Circuits](technical-overview/contracts-and-circuits/README.md)
+  * [Operator Manager Contract](technical-overview/contracts-and-circuits/operator-manager-contract.md)
 * [Relayer Node](technical-overview/relayer-node/README.md)
   * [REST API](technical-overview/relayer-node/rest-api.md)
   * [Relayer deployment](technical-overview/relayer-node/relayer-deployment.md)

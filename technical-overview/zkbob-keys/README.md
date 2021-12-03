@@ -16,7 +16,7 @@ zkBob solution based on complex cryptography. There are several keys needed for 
   * to decrypt incoming notes
 * **Receiving key** is used to decrypt incoming notes in the memo block. It's combination of the intermediate key and ephemeral key generated for each note
 * **Outgoing viewing key** is used to decrypt whole memo block in the transaction which is initiated by yourself.
-* **Private payment address **$$(d, P_d)$$ - is a set of random diversifier $$d$$ and point $$P_d = \eta G_p = \eta \text{ToSubGroupHash}_{E(F_r)}(d)$$
+* **Private payment address** $$(d, P_d)$$ - is a set of random diversifier $$d$$ and point $$P_d = \eta G_p = \eta \text{ToSubGroupHash}_{E(F_r)}(d)$$
 
 
 
