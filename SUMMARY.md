@@ -29,7 +29,7 @@
   * [The Nullifiers](technical-overview/transaction-overview/the-nullifiers.md)
   * [Signing a Transaction](technical-overview/transaction-overview/signing-a-transaction.md)
   * [The Transaction Lifecycle](technical-overview/transaction-overview/the-transaction-lifecycle.md)
-* [Contracts & Circuits](technical-overview/contracts-and-circuits/README.md)
+* [Contracts & Circuits](technical-overview/contracts-and-circuits.md)
   * [Operator Manager Contract](technical-overview/contracts-and-circuits/operator-manager-contract.md)
 * [Relayer Node](technical-overview/relayer-node/README.md)
   * [REST API](technical-overview/relayer-node/rest-api.md)
