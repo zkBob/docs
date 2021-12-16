@@ -1,10 +1,10 @@
 # Notes
 
-The note is some kind of available user's asset. The note indicates that an asset is owned by the owner of the spending key $$\sigma$$which was used to [derive private address](../zkbob-keys/address-derivation.md).
+The note is some kind of available user's asset. It indicates that an asset is holded by the owner of the spending key $$\sigma$$which was used to [derive private address](../zkbob-keys/address-derivation.md).
 
-A private address is a value strictly associated with the user account. It consists of a random value called a diversifier and a diversified public key derived from the diversifier using the spending key
+A private address is a value strictly associated with the user account. It consists of a random value called a diversifier and a diversified public key derived from the diversifier using the spending key.
 
-The note is created by the asset sender. The note and its hash are placed in the transaction.
+Note is created by the asset sender. Note and its hash are placed in transaction.
 
 A note is a tuple $$(d, P_d, b, t)$$where
 
@@ -18,5 +18,5 @@ Due to transactions private nature, all notes are encrypted. They can be decrypt
 {% hint style="info" %}
 #### Zero note
 
-There is one extra state for the note. When the user creates a transaction he can put one or more zero output notes. They will ignored while transaction parsing. In such note **all** fields are zero.
+There is one extra state for the note. When the user creates a transaction he can put one or more zero output notes. They will be ignored while transaction parsing. In such note **all** fields are zero.
 {% endhint %}

@@ -4,7 +4,7 @@ description: The promotional token for your involvement
 
 # The Energy
 
-Every time you put your money in the zkBob pool, you earn additional energy tokens. The energy - is some kind of your contribution in the anonymity set. The more you invested funds and the longer you hold it inside the pool, the more your energy earned.
+Every time you put your money in the zkBob pool you earn additional energy tokens. The energy - is some kind of your contribution to anonymity set. The more you invest funds and the longer you hold it inside the pool, the more your energy earns.
 
 So the energy is updated every time you made a transaction and it's growth calculated as following:
 
@@ -21,7 +21,7 @@ When you make a withdrawal transaction, you can get some amount (from zero to ov
 {% hint style="danger" %}
 **Non-production feature**
 
-The energy token mechanics is still in development. Please note that the energy is accumulated in the your account as described above when you are interacting with the zkBob solution, but you cannot withdraw energy tokens currently.
+The energy token mechanism is still under development. Please note the energy accumulates in your account as described above when you interacts with the zkBob solution, but you cannot withdraw energy tokens currently.
 {% endhint %}
 
 

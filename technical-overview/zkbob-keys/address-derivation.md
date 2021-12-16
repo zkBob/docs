@@ -6,7 +6,7 @@ description: Private payment address
 
 The zkBob's account doesn't contain any fixed address. Instead if you want to receive funds you should generate and provide one of private addresses. In general new private address can be generated for every incoming transaction. Nobody can link different private addresses derived from the single account to each other or to this account. Only the account owner can confirm that a private address belong to him.
 
-To generate new private payment address you should perform the following steps:
+In order to generate a new private payment address you should perform the following steps:
 
 * Generate a random 80-bit diversifier $$d$$
 * Calculate diversifier subgroup generator point: $$G_d = \text{ToSubGroupHash}_{E(F_r)}(d)$$
@@ -16,11 +16,11 @@ To generate new private payment address you should perform the following steps:
 * Attach $$checksum$$ first 4 bytes to the $$buf$$
 * Encode $$buf$$ with Base58 to the string
 
-Thus the address string contains diversifier public key $$(d, P_d)$$ protected with checksum to avoid typos. Checking any private address for ownership is very straightforward . You should decode address string and extract $$d$$ and $$P_d$$ values. Next you derive $$P'_d$$​ with the your $$\eta$$ key. The private address belongs to your account if and only if $$P'_d = P_d$$.
+Thus the address string contains diversifier public key $$(d, P_d)$$ protected with checksum to avoid typos. Checking any private addresses for ownership is very straightforward . You should decode address string and extract $$d$$ and $$P_d$$ values. Next you derive $$P'_d$$​ with the your $$\eta$$ key. The private address belongs to your account only if $$P'_d = P_d$$.
 
 ### Address derivation example
 
-Let's imagine you has an account with the intermediate key:
+Let's imagine you have an account with the intermediate key:
 
 $$\eta = \mathrm{0x2dedcb9b32000d350bf1055d764302b9d4f4a3820015ea49aaf02438aaa72a85}$$​
 
@@ -40,17 +40,17 @@ Convert scalar $$Hash(d)$$ to the subgroup generator point:
 
 $$G_d = \{\\x = \mathrm{0x2f6f6ef223959602c05afd2b73ea8952fe0a10ad19ed665b3ee5a0b0b9e4e3ef}, \\ y = \mathrm{0x2e23e2751abbb64461e9a852b7b20c8337fc279ed748c77dfa23cf6158f6a6c3}\}$$​
 
-Put $$d$$ and $$G_d.x$$ into the buffer as little-endian numbers (start with the least significant byte):
+Put $$d$$ and $$G_d.x$$ into the buffer as little-endian numbers (start with the last significant byte):
 
 $$
 \mathrm{da\ 9e\ e1\ b1\ b6\ 51\ c8\ 7a\ 76\ c2\ ef\ e3\ e4\ b9\ b0\ a0\ } \\ \mathrm{e5\ 3e\ 5b\ 66\ ed\ 19\ ad\ 10\ 0a\ fe\ 52\ 89\ ea\ 73\ 2b\ fd\ } \\ \mathrm{5a\ c0\ 02\ 96\ 95\ 23\ f2\ 6e\ 6f\ 2f}
 $$
 
-ext we should add a checksum to the. To do it we must compute keccak256 hash from the buffer above:
+Then we should add a checksum. To do it we must compute keccak256 hash from the buffer above:
 
 $$\mathrm{f4\ e1\ d3\ a9\ 45\ a0\ c6\ 4a\ 2c\ 8c\ 60\ a6\ 4b\ ad\ 38\ 04\ 0f\ 3f\ 75\ 24\ 30\ 79\ 7c\ 30\ d1\ 41\ 91\ a8\ 0a\ b5\ 4a\ be\ }$$​
 
-Get the first 4 byte from the hash above and append them to the end of buffer
+Get the first 4 bytes from the hash above and append them to the end of buffer:
 
 $$
 \mathrm{da\ 9e\ e1\ b1\ b6\ 51\ c8\ 7a\ 76\ c2\ ef\ e3\ e4\ b9\ b0\ a0\ } \\ \mathrm{e5\ 3e\ 5b\ 66\ ed\ 19\ ad\ 10\ 0a\ fe\ 52\ 89\ ea\ 73\ 2b\ fd\ } \\ \mathrm{5a\ c0\ 02\ 96\ 95\ 23\ f2\ 6e\ 6f\ 2f\ f4\ e1\ d3\ a9}
