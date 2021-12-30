@@ -36,6 +36,11 @@
   * [Relayer deployment](technical-overview/relayer-node/relayer-deployment.md)
 * [Elliptic curve cryptography](technical-overview/elliptic-curve-cryptography.md)
 * [zkBob OmniBridge Interaction](technical-overview/zkbob-omnibridge-interaction.md)
+* [zkBob Solution Deployment](technical-overview/zkbob-solution-deployment/README.md)
+  * [Trusted Setup Ceremony](technical-overview/zkbob-solution-deployment/trusted-setup-ceremony.md)
+  * [Creating the Verifier Contracts](technical-overview/zkbob-solution-deployment/creating-the-verifier-contracts.md)
+  * [Contracts Deployment](technical-overview/zkbob-solution-deployment/contracts-deployment.md)
+  * [Relayers Subsystem](technical-overview/zkbob-solution-deployment/relayers-subsystem.md)
 
 ***
 
