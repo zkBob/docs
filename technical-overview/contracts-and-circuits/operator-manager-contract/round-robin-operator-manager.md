@@ -2,7 +2,7 @@
 description: Round-robin relayer selection
 ---
 
-# Operator Manager Contract
+# Round-Robin Operator Manager
 
 {% hint style="info" %}
 An operator and relayer are equivalent entities in the contacts layer
@@ -48,7 +48,7 @@ The Genesis slot has the index 0 so the operator selection during that slot is u
 
 
 
-![Relayer selection scheme](../../.gitbook/assets/auction\_240ppi.png)
+![Relayer selection scheme](../../../.gitbook/assets/auction\_240ppi.png)
 
 In the picture above you can explore selection mechanism. After the contract deployment the owner adds three approved relayers (named RL-1, RL-2 and RL-3). The first and the second relayer claimed for the slot 1 during Genesis slot, so the first one will be selected as an active operator.
 

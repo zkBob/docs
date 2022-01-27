@@ -12,7 +12,7 @@ The Merkle tree leaves and nodes contain hashes. Each node is calculated as a ha
 
 The full Merkle tree can be divided into transaction subtree and commitment subtree (with transaction commitments as leaves).
 
-The commitment subtree ensures correct transaction sequence without transaction data disclosure.
+The commitment subtree ensures correct transaction sequence without transaction data processing.
 
 The transaction subtree links underlying data (accounts and notes) within a single operation. The transaction subtree's root called "transaction commitment". The commitments are using as commitment subtree leaves. Each transaction subtree is building with the corresponding [memo block](../transaction-overview/untitled-1/).
 
@@ -29,12 +29,4 @@ So due to this height transaction supports up to 128 leaves (a single account pl
 According to the scheme above, a new transaction determines a new transaction subtree which will be added to the full Merkle tree. Adding a new transaction will affect Merkle tree root. So Merkle tree root determines a current tree state.
 
 The pool contract holds the current leaves count (the number of transactions multiplied by 128) and the Merkle tree roots for all transactions.
-
-
-
-* [x] Merkle Tree graphical scheme
-* [x] Tree leaves: account and notes
-* [x] A few words about Merkle tree root
-* [ ] Merkle Tree proofs
-* [ ] Merkle tree updating example
 
