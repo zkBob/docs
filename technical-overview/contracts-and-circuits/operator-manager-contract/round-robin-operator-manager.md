@@ -4,6 +4,12 @@ description: Round-robin relayer selection
 
 # Round-Robin Operator Manager
 
+{% hint style="danger" %}
+**Non-production feature**
+
+The Round-Robin Operator Manager is just a possible case of future solution elaboration that has been drafted on this page. It has several disadvantages including high relayers gas consumption even in the idle state. Thats why it requires future improvements. At the current stage we suppose to use simplified [Mutable Operator Manager scheme](mutable-operator-manager.md)
+{% endhint %}
+
 {% hint style="info" %}
 An operator and relayer are equivalent entities in the contacts layer
 {% endhint %}

@@ -16,7 +16,7 @@ where
 * $$Note_k$$ is the transaction's input [note](account-and-notes/notes.md)
 * $$pos(Note_k)$$ is the note's position in the [Merkle tree](untitled/)
 
-When you make a withdrawal transaction, you can get some amount (from zero to overall) of your energy. The pool contract will mint energy tokens for the address specified in such transaction.
+When you make a withdrawal transaction, you can get some amount (from zero to overall) of your energy. The pool contract will mint [energy tokens](contracts-and-circuits/voucher-token-contract.md) for the address specified in such transaction.
 
 {% hint style="danger" %}
 **Non-production feature**
