@@ -2,11 +2,11 @@
 description: The promotional token for your involvement
 ---
 
-# The Energy
+# Energy
 
-Every time you put your money in the zkBob pool you earn additional energy tokens. The energy - is some kind of your contribution to anonymity set. The more you invest funds and the longer you hold it inside the pool, the more your energy earns.
+Every time you put your money in the zkBob pool you earn additional energy tokens. The energy - is some kind of your contribution to the anonymity set. The more you invest funds and the longer you hold it inside the pool, the more your energy earns.
 
-So the energy is updated every time you made a transaction and it's growth calculated as following:
+Energy is updated every time you made a transaction and it's growth calculated as following:
 
 $$e = Acc_{in}.b (Acc_{out}.i - Acc_{in}.i) + \sum_k Note_k.b (Acc_{out}.i - pos(Note_k))$$
 

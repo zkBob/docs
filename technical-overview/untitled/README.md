@@ -6,20 +6,20 @@ description: The main data structure
 
 ![Full Merkle tree](../../.gitbook/assets/Merkle\_200dpi\_b.png)
 
-Merkle tree in the zkBob solution is used to link and store encrypted transaction data (accounts and notes) with the strict sequence. The accounts and note hashes are placed in the tree leaves.
+The merkle tree in the zkBob solution is used to link and store encrypted transaction data (accounts and notes) within a strict sequence. The accounts and note hashes are placed in the tree leaves.
 
-The Merkle tree leaves and nodes contain hashes. Each node is calculated as a hash of two children nodes. Each leaf depends on it's type (account and note leaves). The [Poseidon](../the-poseidon-hash.md) function is used to calculate hashes with the appropriate parameters.
+The Merkle tree leaves and nodes contain hashes. Each node is calculated as a hash of two child nodes. Each leaf depends on its type (account and note leaves). The [Poseidon](../the-poseidon-hash.md) function is used to calculate hashes with the appropriate parameters.
 
-The full Merkle tree can be divided into transaction subtree and commitment subtree (with transaction commitments as leaves).
+The full Merkle tree can be divided into a transaction subtree and a commitment subtree (with transaction commitments as leaves).
 
-The commitment subtree ensures correct transaction sequence without transaction data processing.
+The commitment subtree ensures the correct transaction sequence without transaction data processing.
 
-The transaction subtree links underlying data (accounts and notes) within a single operation. The transaction subtree's root called "transaction commitment". The commitments are using as commitment subtree leaves. Each transaction subtree is building with the corresponding [memo block](../transaction-overview/untitled-1/).
+The transaction subtree links underlying data (accounts and notes) within a single operation. The transaction subtree's root is called the "transaction commitment". The commitments are using as commitment subtree leaves. Each transaction subtree is building with the corresponding [memo block](../transaction-overview/untitled-1/).
 
 {% hint style="warning" %}
 #### Merkle tree height
 
-Please keep in mind that the tree in the picture above is not on it's actual height. It's just a simple representation.
+Please keep in mind that the tree in the picture above is not on its actual height. It's just a simple representation.
 
 The zkBob solution uses Merkle tree with a total height of 48 (transaction subtree with the height of 7 and commitment subtree with the height of 41).
 

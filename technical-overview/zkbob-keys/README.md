@@ -4,7 +4,7 @@ description: Different key types
 
 # zkBob Keys
 
-zkBob solution based on a complex cryptography. There are several keys needed for private transactions. The keys relationship presented on the scheme below.
+zkBob is based on complex cryptography. There are several keys needed for private transactions. The relationship between these keys presented on the scheme below.
 
 ![](../../.gitbook/assets/keys.png)
 

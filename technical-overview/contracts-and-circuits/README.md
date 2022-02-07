@@ -16,7 +16,7 @@ The Pool contract uses verifiers contracts to check transaction correctness.
 
 The operator contract helps the Pool contract to determine whether transactions can be accepted from a concrete sender at the moment. It's using in the multi-relayer configuration to serialize transaction sequence from the different nodes and minimize transaction collisions count.
 
-The Voucher token is minted by the Pool to rewards users for their contribution in the anonymity set. It's token equivalent of the [energy](../the-energy.md).
+The Voucher token is minted by the Pool to rewards users for their contribution in the anonymity set. It's token equivalent of the [energy](../energy.md).
 
 **TODO:**
 

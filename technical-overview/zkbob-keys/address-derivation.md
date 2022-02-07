@@ -4,9 +4,9 @@ description: Private payment address
 
 # Address derivation
 
-The zkBob's account doesn't contain any fixed address. Instead if you want to receive funds you should generate and provide one of private addresses. In general new private address can be generated for every incoming transaction. Nobody can link different private addresses derived from the single account to each other or to this account. Only the account owner can confirm that a private address belong to him.
+The zkBob's account doesn't contain any fixed address. Instead if you want to receive funds you should generate and provide private addresses. In general a new private address can be generated for every incoming transaction. It is not possible to link different private addresses derived from the single account to one another or to the primary account. Only the account owner can confirm a private address belongs to him.
 
-In order to generate a new private payment address you should perform the following steps:
+To generate a new private payment address perform the following steps:
 
 * Generate a random 80-bit diversifier $$d$$
 * Calculate diversifier subgroup generator point: $$G_d = \text{ToSubGroupHash}_{E(F_r)}(d)$$
@@ -16,7 +16,7 @@ In order to generate a new private payment address you should perform the follow
 * Attach $$checksum$$ first 4 bytes to the $$buf$$
 * Encode $$buf$$ with Base58 to the string
 
-Thus the address string contains diversifier public key $$(d, P_d)$$ protected with checksum to avoid typos. Checking any private addresses for ownership is very straightforward . You should decode address string and extract $$d$$ and $$P_d$$ values. Next you derive $$P'_d$$​ with the your $$\eta$$ key. The private address belongs to your account only if $$P'_d = P_d$$.
+Thus the address string contains the diversifier public key $$(d, P_d)$$ protected with checksum to avoid typos. Checking any private addresses for ownership is very straightforward. You decode address string and extract $$d$$ and $$P_d$$ values. Next you derive $$P'_d$$​ with the your $$\eta$$ key. The private address belongs to your account only if $$P'_d = P_d$$.
 
 ### Address derivation example
 
@@ -27,7 +27,7 @@ $$\eta = \mathrm{0x2dedcb9b32000d350bf1055d764302b9d4f4a3820015ea49aaf02438aaa72
 {% hint style="info" %}
 **The big numbers representation**
 
-All big numbers on this page are presented in the hexadecimal form to reduce lines width. If you want to convert them to the decimal form please use one of third-party tools ([example](https://www.rapidtables.com/convert/number/hex-to-decimal.html))
+All big numbers on this page are presented in the hexadecimal form to reduce line width. If you want to convert them to the decimal form please use a third-party tool ([example](https://www.rapidtables.com/convert/number/hex-to-decimal.html))
 {% endhint %}
 
 To derive a private address we should generate a random diversifier $$d$$ and calculate the [Poseidon](../the-poseidon-hash.md) hash for it:
@@ -46,7 +46,7 @@ $$
 \mathrm{da\ 9e\ e1\ b1\ b6\ 51\ c8\ 7a\ 76\ c2\ ef\ e3\ e4\ b9\ b0\ a0\ } \\ \mathrm{e5\ 3e\ 5b\ 66\ ed\ 19\ ad\ 10\ 0a\ fe\ 52\ 89\ ea\ 73\ 2b\ fd\ } \\ \mathrm{5a\ c0\ 02\ 96\ 95\ 23\ f2\ 6e\ 6f\ 2f}
 $$
 
-Then we should add a checksum. To do it we must compute keccak256 hash from the buffer above:
+Add a checksum. To do it we must compute keccak256 hash from the buffer above:
 
 $$\mathrm{f4\ e1\ d3\ a9\ 45\ a0\ c6\ 4a\ 2c\ 8c\ 60\ a6\ 4b\ ad\ 38\ 04\ 0f\ 3f\ 75\ 24\ 30\ 79\ 7c\ 30\ d1\ 41\ 91\ a8\ 0a\ b5\ 4a\ be\ }$$​
 

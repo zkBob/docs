@@ -6,7 +6,7 @@ description: Used for the different purposes
 
 The Poseidon is a hash function designed for zero-knowledge proof systems like zkSNARKs. It operates over the $$GF(p)$$ prime field. The main advantage of the Poseidon hash is a circuits building simplification.
 
-The Poseidon contains series of rounds each based on input permutations (add constants, exponentiation and mixing). S-box routine is just an exponentiation number in the $$GF(p)$$ field (the power of 5).
+The Poseidon contains a series of rounds each based on input permutations (add constants, exponentiation and mixing). S-box routine is just an exponentiation number in the $$GF(p)$$ field (the power of 5).
 
 The round constants and S-box operations count depend on the parameter set. The Poseidon parameters are tuple $$(t, f, p, c, m)$$, where
 
@@ -18,7 +18,7 @@ The round constants and S-box operations count depend on the parameter set. The 
 
 The Poseidon routine produces a resulting hash (over prime field) after $$(f+p)$$ rounds.
 
-As mentioned previously there are different parameter sets used for hashes in the Merkle tree. These hash types are explained in the table below. Parameter set is presented in the reduced form (just a tuple$$(t, f, p)$$):&#x20;
+As mentioned previously there are different parameter sets used for hashes in the Merkle tree. These hash types are explained in the table below. The parameter set is presented in the reduced form (just a tuple$$(t, f, p)$$):&#x20;
 
 | Label                                | Parameters | Hash purpose                                | Inputs                                                                                                                                                                                                                                                     |
 | ------------------------------------ | ---------- | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
