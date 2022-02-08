@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
+* [Basic Concepts](basic-concepts.md)
 
 ## Getting Started <a href="#zkbob-getting-started" id="zkbob-getting-started"></a>
 
