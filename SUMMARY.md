@@ -11,6 +11,7 @@
 
 ## Technical Overview
 
+* [High-level Overview](technical-overview/high-level-overview.md)
 * [Accounts and Notes](technical-overview/account-and-notes/README.md)
   * [Accounts](technical-overview/account-and-notes/accounts.md)
   * [Notes](technical-overview/account-and-notes/notes.md)
