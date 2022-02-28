@@ -20,7 +20,7 @@ Alice also creates an account and provides her private address. You transfer fun
 
 If you and Alice are the only active users of the zkBob solution, any neutral observer can infer your funds movement with a high degree of accuracy.
 
-There are no time limits for funds withdrawal. It is recommended to keep funds inside the solution some extra time (the more the better) to increase the anonymity set. This approach can be useful to avoid the case described above. Moreover you will be rewarded for staying inside the solution with extra [energy](energy-token.md).
+There are no time limits for funds withdrawal. It is recommended to keep funds inside the solution some extra time (the more the better) to increase the anonymity set. This approach can be useful to avoid the case described above. Moreover you will be rewarded for staying inside the solution with extra [energy](energy.md).
 {% endhint %}
 
 ## Components&#x20;

@@ -22,7 +22,7 @@
 * [zkBob Keys](technical-overview/zkbob-keys/README.md)
   * [Address derivation](technical-overview/zkbob-keys/address-derivation.md)
   * [Ephemeral keys](technical-overview/zkbob-keys/ephemeral-keys.md)
-* [Energy Token](technical-overview/energy-token.md)
+* [Energy Token](technical-overview/energy.md)
 * [Transaction Overview](technical-overview/transaction-overview/README.md)
   * [Common Structure](technical-overview/transaction-overview/common-structure.md)
   * [Memo Block](technical-overview/transaction-overview/untitled-1/README.md)

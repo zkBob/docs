@@ -1,7 +1,7 @@
 # Roadmap
 
 {% hint style="info" %}
-in process
+In process. Time estimates and other functionality will be added as implementation details are clarified.
 {% endhint %}
 
 ## V1
