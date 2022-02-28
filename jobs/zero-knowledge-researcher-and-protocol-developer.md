@@ -27,5 +27,5 @@ We are looking for a zero-knowledge cryptographer and researcher with prior expe
 * Attendance opportunities at Ethereum and project-based conferences and events
 * Culture of learning and growth within the blockchain space
 * Flexibility and autonomy in a decentralized work environment
-* This is a full-time position that is 100% remote. Work from anywhere in the world. EU time zone is preferable.
+* This is a full-time position that is 100% remote. Work from anywhere in the world. EU time zone is preferable
 * Compensation in crypto or fiat
