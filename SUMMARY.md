@@ -7,7 +7,10 @@
 ## Getting Started <a href="#zkbob-getting-started" id="zkbob-getting-started"></a>
 
 * [zkBob App](zkbob-getting-started/zkbob-app/README.md)
-  * [zkBob App Overview](zkbob-getting-started/zkbob-app/zkbob-app-overview.md)
+  * [Account Creation](zkbob-getting-started/zkbob-app/account-creation.md)
+  * [Deposits](zkbob-getting-started/zkbob-app/deposits.md)
+  * [Transfers](zkbob-getting-started/zkbob-app/transfers.md)
+  * [Withdrawals](zkbob-getting-started/zkbob-app/withdrawals.md)
 * [Private Deposits via OmniBridge (v2)](zkbob-getting-started/private-deposits-via-omnibridge.md)
 
 ## Technical Overview
