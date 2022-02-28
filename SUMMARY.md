@@ -2,12 +2,13 @@
 
 * [Overview](README.md)
 * [Basic Concepts](basic-concepts.md)
+* [Roadmap](roadmap.md)
 
 ## Getting Started <a href="#zkbob-getting-started" id="zkbob-getting-started"></a>
 
 * [zkBob App](zkbob-getting-started/zkbob-app/README.md)
   * [zkBob App Overview](zkbob-getting-started/zkbob-app/zkbob-app-overview.md)
-* [Private Deposits via OmniBridge](zkbob-getting-started/private-deposits-via-omnibridge.md)
+* [Private Deposits via OmniBridge (v2)](zkbob-getting-started/private-deposits-via-omnibridge.md)
 
 ## Technical Overview
 
@@ -21,7 +22,7 @@
 * [zkBob Keys](technical-overview/zkbob-keys/README.md)
   * [Address derivation](technical-overview/zkbob-keys/address-derivation.md)
   * [Ephemeral keys](technical-overview/zkbob-keys/ephemeral-keys.md)
-* [Energy](technical-overview/energy.md)
+* [Energy Token](technical-overview/energy-token.md)
 * [Transaction Overview](technical-overview/transaction-overview/README.md)
   * [Common Structure](technical-overview/transaction-overview/common-structure.md)
   * [Memo Block](technical-overview/transaction-overview/untitled-1/README.md)

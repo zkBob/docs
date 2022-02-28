@@ -31,3 +31,7 @@ Similar to deposits, a user can send a direct transaction to the zkBob contract 
 ### **sxDai**
 
 sxDai is shielded xDai, a secure token used for transfers within the zero-knowledge pool.  xDai is automatically converted to sxDai when completing a deposit, and sxDai is converted back to xDai on withdrawal.
+
+### Relayer
+
+The relayer acts as an intermediary between the contracts and the user. It is a client interface that processes input transactions, calculates Merkle tree proofs then sends them to the contract. The relayer preserves anonymity by abstracting gas fees for operations, and provides encrypted transaction storage. Clients interact with the relayer via a [REST API](technical-overview/relayer-node/rest-api.md).

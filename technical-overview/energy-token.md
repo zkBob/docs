@@ -1,8 +1,14 @@
 ---
-description: The promotional token for your involvement
+description: Reward token - not in active use
 ---
 
-# Energy
+# Energy Token
+
+{% hint style="warning" %}
+**Non-production feature**
+
+The energy token mechanism is still under development. Please note the energy accumulates in your account as described below when you interact with the zkBob solution, but you cannot withdraw energy tokens currently.
+{% endhint %}
 
 Every time you put your money in the zkBob pool you earn additional energy tokens. The energy - is some kind of your contribution to the anonymity set. The more you invest funds and the longer you hold it inside the pool, the more your energy earns.
 
@@ -17,12 +23,6 @@ where
 * $$pos(Note_k)$$ is the note's position in the [Merkle tree](untitled/)
 
 When you make a withdrawal transaction, you can get some amount (from zero to overall) of your energy. The pool contract will mint [energy tokens](contracts-and-circuits/voucher-token-contract.md) for the address specified in such transaction.
-
-{% hint style="danger" %}
-**Non-production feature**
-
-The energy token mechanism is still under development. Please note the energy accumulates in your account as described above when you interacts with the zkBob solution, but you cannot withdraw energy tokens currently.
-{% endhint %}
 
 
 
