@@ -55,3 +55,7 @@
 ***
 
 * [FAQ](faq.md)
+
+## Jobs
+
+* [Zero-Knowledge Researcher & Protocol Developer](jobs/zero-knowledge-researcher-and-protocol-developer.md)
