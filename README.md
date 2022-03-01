@@ -18,19 +18,21 @@ Transactions are processed through a relayer that constructs zkproofs and submit
 
 Zero knowledge proofs ensure that transfers and withdrawals are decoupled from deposits, resulting in completely private transfers between parties.
 
-## **How zkBob works for Alice** 🐇
+## **zkBob + Alice** 🐇
+
+Alice is a well-known comic book collector. She does a lot of business on the blockchain, but prefers to keep the details of her purchases, sales, customers and clients private. Luckily, she finds zkBob!
 
 🐇 Alice creates a zkBob account using the private key from an existing Ethereum EOA. She could also create directly from a seed phrase, but chooses to create using MetaMask.
 
 🐇 Once the account is connected, Alice makes a deposit of 100 xDai into the pool. It is converted into zxDai.
 
-🐇 Alice wants to transfer some zxDai to her friend Carl.  He sends her a private address he has generated within the zkBob app. Alice transfers 50 zxDai to Carl.
+🐇 Alice wants to buy an original Marvel comic from Carl.  She messages him privately and he sends her a private address he has generated within the zkBob app. Alice transfers 50 zxDai to Carl, and he sends over the comics.
 
-🐇 She is also owed some funds from Dave, so sends him a generated address and receives 120 zxDai. These transfers are catalogued in the UI and linked to her zkBob address.
+🐇 She is also owed some funds from Dave for a Ghost Rider. She sends him a generated address and receives 120 zxDai. These transfers are catalogued in the UI and linked to her zkBob address.
 
-🐇 Alice is ready to withdraw, but waits a few days to make sure the anonymity set has time to grow sufficiently. She orders a withdrawal and sends to a newly generated Ethereum address on the Gnosis Chain.&#x20;
+🐇 Alice is ready to withdraw, but waits a few days to make sure the anonymity set has time to grow sufficiently. She orders a withdrawal to a newly generated Ethereum address on the Gnosis Chain.&#x20;
 
-🐇 Alice now has an account with 170 xDai. There is way to determine the origin of the funds, and Alice, Carl and Dave are able to preserve their anonymity!
+🐇 Alice now has an account with 170 xDai. There is way to determine the origin of the funds, and Alice, Carl and Dave are able to preserve their anonymity and grow their comic collections safely and securely, thanks to zkBob!
 
 _\<diagram here>_
 
