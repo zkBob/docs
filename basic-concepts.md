@@ -1,14 +1,18 @@
 # Basic Concepts
 
+The zkBob protocol facilitates private transactions between parties. Users can deposit arbitrary amounts into a zero-knowledge pool, privately transfer tokens within that pool, and withdraw arbitrary amounts from the pool. A shielded token is used within the pool to anonymize transfers, and relayers are used to process transactions and abstract gas costs between users and the pool smart contract.&#x20;
+
+The following are high-level concepts describing zkBob functionality. For more details, see the technical overview section.
+
 ### Zero-knowledge proofs
 
-zkBob uses zero-knowledge proofs to verify that an action has been completed (deposit, transfer, withdrawal) without providing any other identifying details about that action. In this application, zkproofs show that the chain state has changed without divulging information about amounts, initiators of transactions or receivers of transactions.
+zkBob uses zero-knowledge proofs to verify an action has been completed (deposit, transfer, withdrawal) without providing any other identifying details about that action. In this application, zkproofs show that the chain state has changed without divulging information about amounts, initiators or receivers of transactions.
 
 ### zkBob Account
 
-A zkBob account is linked to a user by way of a private key. The private key is used to identify the account balance, to generate proofs to transfer tokens, and to withdraw tokens from the pool.&#x20;
+A zkBob account is linked to a user via a private key. The private key is used to identify the account balance, generate proofs to transfer tokens, and withdraw tokens from the pool.&#x20;
 
-zkBob accounts are created either from the private key of an existing wallet or from a stand-alone seed phrase. Users can choose how they would like to create an account though the UI following a step-by-step process.
+zkBob accounts are created either from the private key of an existing wallet or from a stand-alone seed phrase. Users can decide how they would like to create an account following a step-by-step process.
 
 Accounts never appear unencrypted in a public field and can only be decyrpted by the account owner.
 
@@ -32,9 +36,9 @@ Transfers use specialized zkBob relayers to send private transactions. A user ca
 
 Similar to deposits, a user can send a direct transaction to the zkBob contract in the Gnosis Chain to withdraw tokens from the pool. The transaction contains a zero-knowledge proof of tokens ownership generated using the private key associated with the corresponding zkBob account.
 
-### **sxDai**
+### **zxDai**
 
-sxDai is shielded xDai, a secure token used for transfers within the zero-knowledge pool.  xDai is automatically converted to sxDai when completing a deposit, and sxDai is converted back to xDai on withdrawal.
+zxDai is shielded xDai, a secure token used for transfers within the zero-knowledge pool.  xDai is automatically converted to sxDai when completing a deposit, and zxDai is converted back to xDai on withdrawal.
 
 ### Relayer
 

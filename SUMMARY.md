@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Overview](README.md)
+* [zkBob Overview](README.md)
 * [Basic Concepts](basic-concepts.md)
 * [Roadmap](roadmap.md)
 
