@@ -1,5 +1,9 @@
 # Basic Concepts
 
+### Zero-knowledge proofs
+
+zkBob uses zero-knowledge proofs to verify that an action has been completed (deposit, transfer, withdrawal) without providing any other identifying details about that action. In this application, zkproofs show that the chain state has changed without divulging information about amounts, initiators of transactions or receivers of transactions.
+
 ### zkBob Account
 
 A zkBob account is linked to a user by way of a private key. The private key is used to identify the account balance, to generate proofs to transfer tokens, and to withdraw tokens from the pool.&#x20;
@@ -34,4 +38,4 @@ sxDai is shielded xDai, a secure token used for transfers within the zero-knowle
 
 ### Relayer
 
-The relayer acts as an intermediary between the contracts and the user. It is a client interface that processes input transactions, calculates Merkle tree proofs then sends them to the contract. The relayer preserves anonymity by abstracting gas fees for operations, and provides encrypted transaction storage. Clients interact with the relayer via a [REST API](technical-overview/relayer-node/rest-api.md).
+The relayer acts as an intermediary between the user and the smart contracts. Transactions are sent to the relayer which processes input transactions, calculates Merkle tree proofs, then sends this information to the contract. The relayer preserves anonymity by abstracting gas fees for operations, and provides encrypted transaction storage. Clients interact with the relayer via a [REST API](technical-overview/relayer-node/rest-api.md).
