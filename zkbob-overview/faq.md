@@ -6,9 +6,9 @@ It depends on how large the set is and how much activity has happened since your
 
 ## Is the code open-source?
 
-The underlying code is open-source and anyone can deploy contracts, relayer and a cli to perform basic operations. The UI is not currently open-source to avoid simple clones. Available at [https://github.com/zkbob](https://github.com/zkbob)
+The underlying code is open-source and anyone can deploy contracts, a relayer, and a cli to perform basic operations. The UI is not currently open-source to avoid simple clones. Code is available at [https://github.com/zkbob](https://github.com/zkbob)
 
-## Why are there multiple accounts?
+## Why are there several accounts?
 
 asdfadf
 
