@@ -18,27 +18,27 @@ Transactions are processed through a relayer that constructs zkproofs and submit
 
 Zero knowledge proofs ensure that transfers and withdrawals are decoupled from deposits, resulting in completely private transfers between parties.
 
-## **zkBob + Alice** 🐇
+## **zkBob and Alice** 🐇
 
 Alice is a well-known comic book collector. She does a lot of business on the blockchain, but prefers to keep the details of her purchases, sales, customers and clients private. Luckily, she finds zkBob!
 
-🐇 Alice creates a zkBob account using the private key from an existing Ethereum EOA. She could also create directly from a seed phrase, but chooses to create using MetaMask.
+🐇 Alice creates a zkBob account using the private key from an existing Ethereum Externally Owned Account (EOA). She could also create directly from a seed phrase, but chooses to create using MetaMask 🦊.
 
-🐇 Once the account is connected, Alice makes a deposit of 100 xDai into the pool. It is converted into zxDai.
+🐇 Once the account is connected, Alice makes a deposit of 100 xDai into the pool. It is converted into shielded xDai (sxDai).
 
-🐇 Alice wants to buy an original Marvel comic from Carl.  She messages him privately and he sends her a private address he has generated within the zkBob app. Alice transfers 50 zxDai to Carl, and he sends over the comics.
+🐇 Alice wants to buy an original Marvel comic from Carl.  She messages him privately and he sends her a private address he has generated in the zkBob app. Alice transfers 50 sxDai to Carl. He mails the comics.
 
-🐇 She is also owed some funds from Dave for a Ghost Rider. She sends him a generated address and receives 120 zxDai. These transfers are catalogued in the UI and linked to her zkBob address.
+🐇 She is also owed some funds from Dave for a Ghost Rider. She sends him a generated address and receives 120 zxDai. These transfers are catalogued in the UI and linked to her zkBob address, but not directly to her EOA.
 
-🐇 Alice is ready to withdraw, but waits a few days to make sure the anonymity set has time to grow sufficiently. She orders a withdrawal to a newly generated Ethereum address on the Gnosis Chain.&#x20;
+🐇 Alice is ready to withdraw, but waits a few days to make sure the anonymity set has time to grow sufficiently. She orders a withdrawal to a newly generated EOA on the Gnosis Chain.&#x20;
 
-🐇 Alice now has an account with 170 xDai. There is way to determine the origin of the funds, and Alice, Carl and Dave are able to preserve their anonymity and grow their comic collections safely and securely, thanks to zkBob!
+🐇 Alice now has an new account with 170 xDai. There is way to determine the origin of the funds, and Alice, Carl and Dave are able to preserve their anonymity and grow their comic collections safely and securely, thanks to zkBob!
 
 _\<diagram here>_
 
 ## Development & Deployment
 
-zkBob is developed by [ZeroPool ](https://zeropool.network)and the [Gnosis Chain](https://www.gnosischain.com) (GC) research teams. A production instance is planned for deployment via a [Trusted Setup Ceremony](technical-overview/zkbob-solution-deployment/trusted-setup-ceremony.md) on the Gnosis Chain, and a multi-chain deployment planned for deployment to an optimistic rollup.&#x20;
+zkBob is an application developed by [ZeroPool ](https://zeropool.network)and the [Gnosis Chain](https://www.gnosischain.com) (GC) research groups. A production instance is planned for deployment via a [Trusted Setup Ceremony](technical-overview/zkbob-solution-deployment/trusted-setup-ceremony.md) on the Gnosis Chain, and a multi-chain deployment is planned for an optimistic rollup in a future iteration.&#x20;
 
 More details on the distributed deployment process will be available soon.
 
