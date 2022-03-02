@@ -6,7 +6,7 @@ In process. Time estimates and other functionality will be added as implementati
 
 ## V1
 
-* MVP application for private deposits, transfers and withdrawals on a single chain of record (Gnosis Chain).
+* MVP zkBob application for private deposits, transfers and withdrawals on a single chain of record (Gnosis Chain).
 
 ## V2
 
