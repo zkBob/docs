@@ -2,7 +2,7 @@
 description: zkBob private transfers
 ---
 
-# zkBob Overview
+# Private Transactions
 
 ## 🔐 Private Transactions
 
@@ -38,7 +38,7 @@ _\<diagram here>_
 
 ## Development & Deployment
 
-zkBob is an application developed by [ZeroPool ](https://zeropool.network)and the [Gnosis Chain](https://www.gnosischain.com) (GC) research groups. A production instance is planned for deployment via a [Trusted Setup Ceremony](technical-overview/zkbob-solution-deployment/trusted-setup-ceremony.md) on the Gnosis Chain, and a multi-chain deployment is planned for an optimistic rollup in a future iteration.&#x20;
+zkBob is an application developed by [ZeroPool ](https://zeropool.network)and the [Gnosis Chain](https://www.gnosischain.com) (GC) research groups. A production instance is planned for deployment via a [Trusted Setup Ceremony](deploying-zkbob/zkbob-solution-deployment/trusted-setup-ceremony.md) on the Gnosis Chain, and a multi-chain deployment is planned for an optimistic rollup in a future iteration.&#x20;
 
 More details on the distributed deployment process will be available soon.
 

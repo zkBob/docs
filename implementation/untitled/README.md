@@ -8,7 +8,7 @@ description: The main data structure
 
 The merkle tree in the zkBob solution is used to link and store encrypted transaction data (accounts and notes) within a strict sequence. The accounts and note hashes are placed in the tree leaves.
 
-The Merkle tree leaves and nodes contain hashes. Each node is calculated as a hash of two child nodes. Each leaf depends on its type (account and note leaves). The [Poseidon](../the-poseidon-hash.md) function is used to calculate hashes with the appropriate parameters.
+The Merkle tree leaves and nodes contain hashes. Each node is calculated as a hash of two child nodes. Each leaf depends on its type (account and note leaves). The [Poseidon](the-poseidon-hash.md) function is used to calculate hashes with the appropriate parameters.
 
 The full Merkle tree can be divided into a transaction subtree and a commitment subtree (with transaction commitments as leaves).
 

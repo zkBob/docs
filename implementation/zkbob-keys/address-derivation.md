@@ -30,7 +30,7 @@ $$\eta = \mathrm{0x2dedcb9b32000d350bf1055d764302b9d4f4a3820015ea49aaf02438aaa72
 All big numbers on this page are presented in the hexadecimal form to reduce line width. If you want to convert them to the decimal form please use a third-party tool ([example](https://www.rapidtables.com/convert/number/hex-to-decimal.html))
 {% endhint %}
 
-To derive a private address we should generate a random diversifier $$d$$ and calculate the [Poseidon](../the-poseidon-hash.md) hash for it:
+To derive a private address we should generate a random diversifier $$d$$ and calculate the [Poseidon](../untitled/the-poseidon-hash.md) hash for it:
 
 $$d = \mathrm{0xc2767ac851b6b1e19eda}$$
 

@@ -1,6 +1,8 @@
 # Basic Concepts
 
+{% hint style="info" %}
 Below are descriptions of basic concepts underlying zkBob functionality. For more thorough details, see the technical overview section.
+{% endhint %}
 
 The zkBob protocol facilitates private transactions. Users can deposit arbitrary amounts into a zero-knowledge pool, privately transfer tokens within that pool, and withdraw arbitrary amounts from the pool. A shielded token is used within the pool to anonymize transfers, and relayers are used to process transactions and abstract gas costs between users and the pool smart contract.&#x20;
 
@@ -42,4 +44,4 @@ sxDai is shielded xDai, a secure token used for transfers within the zero-knowle
 
 ### Relayer
 
-The relayer acts as an intermediary between the user and the smart contracts. Transactions are sent to the relayer which processes the input transactions, calculates Merkle tree proofs, then sends this information to the contract. The relayer preserves anonymity by abstracting gas fees for operations, and provides encrypted transaction storage. Relayer interaction occurs via a [REST API](technical-overview/relayer-node/rest-api.md).
+The relayer acts as an intermediary between the user and the smart contracts. Transactions are sent to the relayer which collects transactions, calculates Merkle tree proofs, orders them in a queue, then sends this information to the contract. The relayer cannot see transaction amounts and preserves anonymity by abstracting gas fees for operations. Relayer interaction occurs via a [REST API](../implementation/relayer-node/rest-api.md).

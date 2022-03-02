@@ -14,7 +14,7 @@ $$H = Hash_{sponge}(Hash_{account}(Acc^\text{in}), Hash_{note}(Note_0^\text{in})
 
 where
 
-* $$Hash$$ is a [Poseidon multi-hash (sponged) routine](../the-poseidon-hash.md) in the different modes
+* $$Hash$$ is a [Poseidon multi-hash (sponged) routine](../untitled/the-poseidon-hash.md) in the different modes
 * $$Acc^\text{in}$$is an input account
 * $$Note_i^\text{in}$$is an input notes,
 * $$TxCommit$$ - is a transaction commitment hash (Merkle subtree root). It depends on transaction output account and notes
