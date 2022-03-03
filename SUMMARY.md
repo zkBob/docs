@@ -63,10 +63,10 @@
 
 ## 👷♂ In Development
 
-* [Energy Token](in-development/energy-token.md)
+* [Multi-chain Custom Rollup Deployment](in-development/optimistic-rollup.md)
 * [zkBob OmniBridge Interaction](in-development/zkbob-omnibridge-interaction/README.md)
   * [Private Deposits via OmniBridge (v2)](in-development/zkbob-omnibridge-interaction/private-deposits-via-omnibridge.md)
-* [Multi-chain Custom Rollup Deployment](in-development/multi-chain-custom-rollup-deployment.md)
+* [Energy Token](in-development/energy-token.md)
 
 ## 🧑💻 Jobs
 
