@@ -51,7 +51,7 @@
 * [zkSNARKs & Circuits](implementation/zksnarks-and-circuits/README.md)
   * [Transaction verifier circuit](implementation/zksnarks-and-circuits/transaction-verifier-circuit.md)
   * [Tree verifier circuit](implementation/zksnarks-and-circuits/tree-verifier-circuit.md)
-* [Elliptic curve cryptography](implementation/elliptic-curve-cryptography.md)
+* [Elliptic Curve Cryptography](implementation/elliptic-curve-cryptography.md)
 
 ## 👩🏫 Deploying zkBob
 
