@@ -5,7 +5,7 @@ description: Manages relayers access to the Pool
 # Operator Manager Contract
 
 {% hint style="info" %}
-The **operator** - is a native chain address which interact with the Pool contract. In general the relayer or standalone user can become operator. In most cases the operator is just a relayer.
+The **operator** - is a native chain address which interacts with the Pool contract. In general the relayer or standalone user can become operator. In most cases the operator is just a relayer.
 {% endhint %}
 
 The operator manager contract delimits access to the Pool. Transactions should be included in the Merkle tree strictly in a serial manner. The relayer node (or a user in case of direct Pool interaction) should calculate Merkle tree proof (zkSNARK) before transaction sending. But the transaction will revert if the Merkle tree has changed during this calculation. If several relayers send transactions simultaneously the collisions will appear and fee will become wasted.

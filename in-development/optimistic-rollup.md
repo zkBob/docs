@@ -1,3 +1,0 @@
-# Optimistic rollup
-
-In development
