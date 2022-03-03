@@ -14,4 +14,4 @@ v2 will be deployed within a custom optimistic rollup-based framework. Rollups w
 * zkBob contracts will be deployed on rollups as precompiles to increase tx/sec.
 * Fast exits enabled via state-channel bridges.
   * Bridged stable assets can also be leveraged in compounding protocols to earn additional yield.
-* Potential whitelisting abilities.
+* Potential whitelisting capabilities.
