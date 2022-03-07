@@ -4,7 +4,7 @@ description: To check transaction and tree proofs at the contract level
 
 # Creating the Verifier Contracts
 
-The parameters generated with the Ceremony are used to create verifier contracts. Before you start please create a new folder and copy verification keys (json files) produced during the Ceremony:
+The parameters generated with the Ceremony are used to create verifier contracts. Before starting create a new folder and copy verification keys (json files) produced during the Ceremony:
 
 ```
 mkdir verifiers
@@ -13,7 +13,7 @@ cp ./ceremony/tree_vk.json ./verifiers
 cd verifiers
 ```
 
-Install `libzeropool-setup` utility and use it to generate contracts code:
+Next, install `libzeropool-setup` utility and use it to generate contracts code:
 
 ```
 cargo install --git https://github.com/zeropoolnetwork/libzeropool
@@ -23,7 +23,7 @@ cd ..
 
 ```
 
-The result files for this step is:
+The resulting files are:
 
 * TransferVerifier.sol
 * TreeUpdateVerifier.sol

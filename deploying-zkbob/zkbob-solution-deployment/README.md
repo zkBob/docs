@@ -1,6 +1,6 @@
 # zkBob Solution Deployment
 
-There are several sequential actions required to deploy zkBob solution in production. First of all you should prepare and perform a trusted setup ceremony.
+There are several sequential actions required to deploy zkBob  in production. First a [trusted setup ceremony](trusted-setup-ceremony.md) should be prepared and performed.&#x20;
 
 
 
