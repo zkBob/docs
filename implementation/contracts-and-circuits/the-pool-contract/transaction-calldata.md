@@ -4,9 +4,9 @@ description: Reference tables with calldata structure for different transaction 
 
 # Transaction Calldata
 
-All transaction data are transferred to the Pool contract through the calldata. The following reference table will be useful If you want to analyse any transactions
+All transaction data are transferred to the Pool contract through the calldata. The following reference table is useful for transaction analysis.
 
-There are some difference for withdrawal transaction: it contains `memo.nativeamount` and __ `memo.receiver` extra fields. So the calldata table for withdrawal transactions is presented separately.
+Withdrawal transactions contain addition fields `memo.nativeamount` and __ `memo.receiver` . Due to this, the calldata table for withdrawal transactions is presented separately.
 
 {% tabs %}
 {% tab title="Deposit\Transfer" %}
