@@ -30,6 +30,7 @@
     * [Round-Robin Operator Manager](implementation/contracts-and-circuits/operator-manager-contract/round-robin-operator-manager.md)
   * [Voucher Token Contract](implementation/contracts-and-circuits/voucher-token-contract.md)
 * [Relayer Node](implementation/relayer-node/README.md)
+  * [Relayer Operations](implementation/relayer-node/relayer-operations.md)
   * [REST API](implementation/relayer-node/rest-api.md)
 * [Accounts and Notes](implementation/account-and-notes/README.md)
   * [Accounts](implementation/account-and-notes/accounts.md)
