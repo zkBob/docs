@@ -6,7 +6,7 @@ description: Used to encrypt accounts, notes and shared keys
 
 The main purpose of the memo block is to publish transaction details. Due to the secret nature of a transaction, the list of admitted users able to access data is strictly restricted. There are two critical data components encrypted in the memo block: an output account and output notes.
 
-The transaction sender can access the output account and notes. The output account is used by the sender to maintain the wallet state. Notes are used to retrieve the outgoing history of transactions. The output account should be unavailable to the transaction receiver. Shared secrets are used to implement this feature.
+Only the transaction sender can access output account and notes. The output account is used by the sender to maintain the wallet state, and notes are used to retrieve the outgoing history of transactions. The output account should be unavailable to the transaction receiver. Shared secrets are used to implement this feature.
 
 There are three encrypted entities in the memo block.
 
