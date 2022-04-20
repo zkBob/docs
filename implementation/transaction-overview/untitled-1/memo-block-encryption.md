@@ -4,11 +4,15 @@ description: Used to encrypt accounts, notes and shared keys
 
 # Memo Block Encryption
 
-The main purpose of the memo block is to publish transaction details. Due to transactions secure nature, the list of admitted users to access that data is strictly restricted. There are two critical data encrypted in the memo block: an output account and output notes.
+The main purpose of the memo block is to publish transaction details. Due to the secret nature of a transaction, the list of admitted users able to access data is strictly restricted. There are two critical data components encrypted in the memo block: an output account and output notes.
 
-The transaction sender should be admitted to the output account and notes. Output account is used by the sender to keep the wallet state. Notes are used to retrieve outgoing transactions history. Output account should be unavailable to the transaction receiver. Shared secrets are used to implement this feature.
+The transaction sender can access the output account and notes. The output account is used by the sender to maintain the wallet state. Notes are used to retrieve the outgoing history of transactions. The output account should be unavailable to the transaction receiver. Shared secrets are used to implement this feature.
 
-So there are three encrypted entities in the memo block.
+There are three encrypted entities in the memo block.
+
+* Account Encryption
+* Notes Encryption
+* Shared Secrets Encryption
 
 ### Account Encryption
 
@@ -33,7 +37,7 @@ Output notes are encrypted with the ephemeral keys. Steps to encrypt a $$Note_i$
 * Encrypt note: $$Note_i^{enc} = ChaCha20Poly1305_{key_i}^{nonce}(Note_i)$$
 * There are two public values for the each note in the memo block: $$A_i$$ and $$Note_i^{enc}$$
 
-To decrypt a note the user should obtain the corresponding $$key_i$$. There are two ways to get it:
+To decrypt a note the user obtains the corresponding $$key_i$$. There are two ways to get it:
 
 * to obtain $$key_i$$ from the shared secrets (a sender case)
 * to derive $$key_i$$ from the $$A_i$$ and account's key $$\eta$$ (a receiver case): $$key_i = keccak256(A_i \eta)$$
@@ -49,5 +53,5 @@ Shared secrets block contains symmetric keys for account and notes encryption: $
 * Put $$(A_p, keys^{enc})$$ in the shared secrets block
 
 {% hint style="info" %}
-$$keys^{enc}$$ could be decrypted with the $$\eta$$ key only
+$$keys^{enc}$$ could be decrypted with the $$\eta$$ key only.
 {% endhint %}

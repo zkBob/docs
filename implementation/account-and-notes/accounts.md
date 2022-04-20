@@ -21,5 +21,5 @@ Accounts take part into the transactions data never appear unencrypted in a publ
 {% hint style="info" %}
 #### Zero account
 
-If user creates the first transaction he still doesn't have an existing account in the Merkle tree. In this case he should use a zero account. In such account all the fields are zero except $$\eta$$​
+If user creates the first transaction he still doesn't have an existing account in the Merkle tree. In this case he should use a zero account. In such account all the fields are zero except $$\eta$$.​
 {% endhint %}

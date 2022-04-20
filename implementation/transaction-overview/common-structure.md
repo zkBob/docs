@@ -19,11 +19,11 @@ The transaction transferred to the zkBob contract contains the following fields:
 * Memo block which contain encrypted transaction details (accounts and notes)
 * Deposit signature - to retrieve source account (exist in the deposit transaction only)
 
-In general, a transaction sender must prepare all of these fields before submitting to the contract. In case of using relayer it should calculate proofs and send the transaction to the contract.
+In general, a transaction sender must prepare all of these fields before submitting a tx to the contract. When using the relayer it should calculate proofs and send the transaction to the contract.
 
-The sender forms two transaction parts when it's created. There are public and secret parts for the transaction. The public part contains encrypted transaction data and other fields which cannot disclosure sender, receiver, internal transfer amount, etc. The secret transaction's part contains unencrypted data such as input and output accounts and notes, proofs and EDDSA signature.
+There are two parts to a transaction created by a sender -  public and secret. The public input contains encrypted transaction data and other fields which cannot disclosure sender, receiver, internal transfer amount, etc. The secret portion contains unencrypted data such as input and output accounts and notes, proofs and EDDSA signature.
 
-#### The public transaction components
+#### Public transaction components
 
 * The current Merkle tree root (before transaction processing by the contract)
 * Input account nullifier
@@ -31,7 +31,7 @@ The sender forms two transaction parts when it's created. There are public and s
 * Delta value (a composition of the transaction index, token delta and energy delta)
 * Memo block
 
-#### The secret transaction components
+#### Secret transaction components
 
 * A set of unencrypted input\output account and notes for the transaction
 * Input account and notes proofs
