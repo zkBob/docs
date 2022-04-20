@@ -6,7 +6,7 @@ description: To interact with the relayer
 
 {% swagger method="post" path="/transaction" baseUrl="http://relayer" summary="Send a transaction to the contract" %}
 {% swagger-description %}
-This method checks an incoming transaction, builds zkSNARK Merkle tree proof, and send transaction to Pool contract. Transaction doesn’t process immediately, because contract interaction should be in the serial manner. Instead incoming transaction puts in the job queue. The method returns jobId on success
+This method checks an incoming transaction, builds the zkSNARK Merkle tree proof, and sends the transaction to the Pool contract. The transaction doesn’t process immediately because contract interaction is completed in a serial manner. Incoming transaction are put into the job queue. The method returns jobId on success
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="proof" type="Dictionary" required="true" %}
@@ -54,7 +54,7 @@ Account nullifier signature with the client's native chain private key (for with
 
 {% swagger method="get" path="/job/:id" baseUrl="http://relayer" summary="Get the job status" %}
 {% swagger-description %}
-Returns state of the incoming transaction processing. 
+Returns incoming transaction processing state. 
 
 `jobId`
 
@@ -74,7 +74,7 @@ Job identifier
 ```
 {% endswagger-response %}
 
-{% swagger-response status="404: Not Found" description="Job with specified ID doesn't found" %}
+{% swagger-response status="404: Not Found" description="Job with specified ID not found" %}
 ```javascript
 "Job 2 not found"
 ```
@@ -92,7 +92,7 @@ Job identifier
 
 {% swagger method="get" path="/transactions/:limit/:offset" baseUrl="http://relayer" summary="Query transactions" %}
 {% swagger-description %}
-Returns memo blocks and out commits for the transactions at specified offset. This method used by clients to synchronize account state
+Returns memo blocks and out commits for transactions at the specified offset. This method is used by clients to synchronize account state.
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="limit" type="Integer" required="true" %}
@@ -194,9 +194,9 @@ The Index of the first transaction (in the Merkle tree, should be  a multiple of
 
 {% swagger method="post" path="/proof_tx" baseUrl="http://relayer" summary="Calculate transaction proof" %}
 {% swagger-description %}
-Builds zkSNARK proof for the transaction based on public and secret transaction parts calculated by a client
+Builds zkSNARK proof for the transaction based on public and secret transaction input calculated by a client.
 
-**WARNING:** It's a debug method used to decrease client overhead. You shouldn't use it in production, because the client should pass the public and secret parts of the transaction. This is significantly decrease overall security level!
+**WARNING:** This is a debug method used to decrease client overhead. DO NOT use  in production, as the client should pass public and secret transactional data. This significantly decreases overall security!
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="pub" type="Dictionary" required="true" %}

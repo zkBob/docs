@@ -4,7 +4,7 @@ The zkBob application uses the Zero Pool library to prepare transactions and int
 
 * Processing transactions
 * Restoring local state
-* Building zkproofs from users input (ie amount, address)
+* Building zkproofs from user input (ie amount, address)
 * Interacting with the relayer
 
 Users can perform the following operations when interacting with the application UI.
