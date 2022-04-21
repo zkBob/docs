@@ -10,7 +10,8 @@
 ## 🦸♂ Using zkBob <a href="#zkbob-getting-started" id="zkbob-getting-started"></a>
 
 * [zkBob App](zkbob-getting-started/zkbob-app/README.md)
-  * [Account Creation](zkbob-getting-started/zkbob-app/account-creation.md)
+  * [Account Creation](zkbob-getting-started/zkbob-app/account-creation/README.md)
+    * [Using Metamask Warning](zkbob-getting-started/zkbob-app/account-creation/using-metamask-warning.md)
   * [Deposits](zkbob-getting-started/zkbob-app/deposits.md)
   * [Transfers](zkbob-getting-started/zkbob-app/transfers.md)
   * [Withdrawals](zkbob-getting-started/zkbob-app/withdrawals.md)
