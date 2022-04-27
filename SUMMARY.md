@@ -11,7 +11,7 @@
 
 * [zkBob App](zkbob-getting-started/zkbob-app/README.md)
   * [Account Creation](zkbob-getting-started/zkbob-app/account-creation/README.md)
-    * [Using Metamask Warning](zkbob-getting-started/zkbob-app/account-creation/using-metamask-warning.md)
+    * [Metamask / Web3 Wallet Warning](zkbob-getting-started/zkbob-app/account-creation/metamask-web3-wallet-warning.md)
   * [Deposits](zkbob-getting-started/zkbob-app/deposits.md)
   * [Transfers](zkbob-getting-started/zkbob-app/transfers.md)
   * [Withdrawals](zkbob-getting-started/zkbob-app/withdrawals.md)
