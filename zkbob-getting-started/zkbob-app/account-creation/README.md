@@ -3,7 +3,7 @@
 There are 2 ways to create a zkBob shielded account.&#x20;
 
 1. ****[**Use a seed phrase**](./#seed-phrase). The application derives a seed phrase for you to store securely. You will use this seed phrase to restore your account as needed.
-2. **Use a web3 wallet (MetMask/WalletConnect)**. The application collects a signature on your local browser and uses the private key from your web3 wallet to derive a zkBob account address.
+2. ****[**Use a web3 wallet**](./#web3-wallet) **(MetMask/WalletConnect)**. The application collects a signature on your local browser and uses the private key from your web3 wallet to derive a zkBob account address.
 
 ## Seed Phrase
 
