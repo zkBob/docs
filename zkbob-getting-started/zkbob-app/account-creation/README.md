@@ -3,7 +3,7 @@
 There are 2 ways to create a zkBob shielded account.&#x20;
 
 1. ****[**Use a seed phrase**](./#seed-phrase). The application derives a seed phrase for you to store securely. You will use this seed phrase to restore your account as needed.
-2. **Use a web3 wallet (MetMask/WalletConnect)**. The application collects a signature and uses the private key from your web3 wallet to derive a zkBob account address.
+2. **Use a web3 wallet (MetMask/WalletConnect)**. The application collects a signature on your local browser and uses the private key from your web3 wallet to derive a zkBob account address.
 
 ## Seed Phrase
 
@@ -41,7 +41,47 @@ When using the same computer/browser for future zkBob sessions, you can access y
 
 ## Web3 Wallet
 
-steps
+## Seed Phrase
 
+1\) Press the **Set up Account** button on the home screen.
 
+![](../../../.gitbook/assets/setup-acct.png)
+
+### Web 3 Wallet Not Connected
+
+{% hint style="info" %}
+If your MetaMask or other web3 wallet is not yet connected to the application, you will be prompted to connect. If your web3 wallet is already connected, skip to the next section.
+{% endhint %}
+
+2a) Click Connect
+
+![](../../../.gitbook/assets/connect-wallet.png)
+
+2b) Select Wallet type.
+
+![](../../../.gitbook/assets/wallet-type.png)
+
+2c) Follow prompts to connect and switch to Gnosis Chain network if needed. Once connected you be redirected to the home screen and your 🦊 wallet and balance displayed.  Click the **Set up account** button to continue.
+
+![](../../../.gitbook/assets/zk1.png)
+
+### Web 3 Wallet Connected
+
+2\) Select Wallet Key in the popup box.
+
+\<image>
+
+3\) Generate Key (sign no-cost message, key is stored locally)
+
+\<image>
+
+4\) Sign message in MetaMask _(update screenshot with correct URL once app is out of testing phase)_
+
+\<img>
+
+5\) Create and Re-enter Password
+
+\<image>
+
+6\)&#x20;
 
