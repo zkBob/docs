@@ -2,8 +2,8 @@
 
 There are 2 ways to create a zkBob shielded account.&#x20;
 
-1. ****[**Use a seed phrase**](./#seed-phrase). The application derives a seed phrase for you to store securely. You will use this seed phrase to restore your account as needed.
-2. ****[**Use a web3 wallet**](./#web3-wallet) **(MetMask/WalletConnect)**. The application collects a signature on your local browser and uses the private key from your web3 wallet to derive a zkBob account address.
+1. ****[**Use a seed phrase**](./#seed-phrase). The application generates a seed phrase for you to store securely. You can use this seed phrase to restore your account as needed from any computer.
+2. ****[**Use a web3 wallet**](./#web3-wallet) **(MetMask/WalletConnect)**. The application collects a signature locally on your browser - not on the blockchain. It uses the private key from your web3 wallet to derive a secure zkBob account address.
 
 ## Seed Phrase
 
@@ -41,8 +41,6 @@ When using the same computer/browser for future zkBob sessions, you can access y
 
 ## Web3 Wallet
 
-## Seed Phrase
-
 1\) Press the **Set up Account** button on the home screen.
 
 ![](../../../.gitbook/assets/setup-acct.png)
@@ -50,7 +48,7 @@ When using the same computer/browser for future zkBob sessions, you can access y
 ### Web 3 Wallet Not Connected
 
 {% hint style="info" %}
-If your MetaMask or other web3 wallet is not yet connected to the application, you will be prompted to connect. If your web3 wallet is already connected, skip to the next section.
+If your MetaMask or other web3 wallet is not yet connected to the application, you will be prompted to connect. If your web3 wallet is already connected, [skip to the next section](./#web-3-wallet-connected).
 {% endhint %}
 
 2a) Click Connect
