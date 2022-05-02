@@ -7,9 +7,9 @@ There are 2 ways to create a zkBob shielded account.&#x20;
 
 ## Seed Phrase
 
-1\) Press the **Set up Account** button on the home screen.
+1\) Press the **zkAccount** button on the home screen.
 
-![](../../../.gitbook/assets/setup-acct.png)
+![](../../../.gitbook/assets/zkbob-acct.png)
 
 2\) Select **Create from seed phrase** in the popup box.
 
@@ -41,9 +41,9 @@ When using the same computer/browser for future zkBob sessions, you can access y
 
 ## Web3 Wallet
 
-1\) Press the **Set up Account** button on the home screen.
+1\) Press the **zkAccount** button on the home screen.
 
-![](../../../.gitbook/assets/setup-acct.png)
+![](../../../.gitbook/assets/zkbob-acct.png)
 
 ### Web 3 Wallet Not Connected
 
@@ -51,7 +51,7 @@ When using the same computer/browser for future zkBob sessions, you can access y
 If your MetaMask or other web3 wallet is not yet connected to the application, you will be prompted to connect. If your web3 wallet is already connected, [skip to the next section](./#web-3-wallet-connected).
 {% endhint %}
 
-2a) Click Connect
+2a) Click **Connect wallet**.
 
 ![](../../../.gitbook/assets/connect-wallet.png)
 
@@ -59,7 +59,7 @@ If your MetaMask or other web3 wallet is not yet connected to the application, y
 
 ![](../../../.gitbook/assets/wallet-type.png)
 
-2c) Follow prompts to connect and switch to Gnosis Chain network if needed. Once connected you be redirected to the home screen and your 🦊 wallet and balance displayed.  Click the **Set up account** button to continue.
+2c) Follow prompts to connect and switch to Gnosis Chain network if needed. Once connected you be redirected to the home screen and your 🦊 wallet and balance displayed.  Click the **zkAccount** button to continue.
 
 ![](../../../.gitbook/assets/zk1.png)
 
@@ -67,19 +67,23 @@ If your MetaMask or other web3 wallet is not yet connected to the application, y
 
 2\) Select Wallet Key in the popup box.
 
-\<image>
+![](../../../.gitbook/assets/zk-walletkey.png)
 
-3\) Generate Key (sign no-cost message, key is stored locally)
+3\) Generate Key (this is a no-cost message, key is stored locally).&#x20;
 
-\<image>
+![](../../../.gitbook/assets/generate-key.png)
 
-4\) Sign message in MetaMask _(update screenshot with correct URL once app is out of testing phase)_
+4\) Sign message in MetaMask. __ Make sure to double check that Origin is the correct URL. [More info here](metamask-web3-wallet-warning.md). _(need updated screenshot with correct URL once app is out of testing phase)._
 
-\<img>
+![](../../../.gitbook/assets/connect5.5.png)
 
-5\) Create and Re-enter Password
+5\) Create and Re-enter password.
 
-\<image>
+![](../../../.gitbook/assets/connect-6.png)
 
-6\)&#x20;
+6\) You should now have 2 connected accounts, your web 3 wallet account 🦊 and a second zk account, which is auto-named beginning with zk...
+
+![](<../../../.gitbook/assets/connect-7 (1).png>)
+
+
 
