@@ -9,9 +9,9 @@ The zkBob application uses the Zero Pool library to prepare transactions and int
 
 Users can perform the following operations when interacting with the application UI.
 
-* Create an Account / Connect to an existing account
-* Make a Deposit
-* Transfer within a Pool
-* Withdraw Funds
-* Generate secure addresses for funds transfer
+* [Create an Account](account-creation/) / Connect to an existing account
+* [Make a Deposit](deposits.md)
+* [Transfer within a Pool](transfers.md)
+* [Withdraw Funds](withdrawals.md)
+* [Generate secure addresses](generate-a-secure-address.md) for funds transfer
 

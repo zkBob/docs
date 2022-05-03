@@ -5,7 +5,9 @@ description: Deployment scheme
 # Relayers Subsystem
 
 {% hint style="warning" %}
-The zkBob solution currently only supports a single relayer configuration. This section is in progress as we work to scale the relayers subsystem. If you deploy your own relayer it won't be able to interact with the pool contract due to restrictions with the operator manager contract.&#x20;
+The zkBob solution currently supports a single relayer configuration. This section is in progress as we work to scale the relayers subsystem to support multiple relayers. \
+\
+If you deploy your own relayer it will not be able to interact with the pool contract due to restrictions with the operator manager contract.&#x20;
 {% endhint %}
 
 Deploy at least one relayer to finalize the deployment process. This requires a full-time available server with a fast connection.

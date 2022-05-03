@@ -1,7 +1,7 @@
 # Basic Concepts
 
 {% hint style="info" %}
-Below are descriptions of basic concepts underlying zkBob functionality. For more thorough details, see the technical overview section.
+Below are descriptions of basic concepts underlying zkBob functionality. For more thorough details, see the [technical overview](broken-reference) section.
 {% endhint %}
 
 The zkBob protocol facilitates private transactions. Users can deposit arbitrary amounts into a zero-knowledge pool, privately transfer tokens within that pool, and withdraw arbitrary amounts from the pool. A shielded token is used within the pool to anonymize transfers, and relayers are used to process transactions and abstract gas costs between users and the pool smart contract.&#x20;

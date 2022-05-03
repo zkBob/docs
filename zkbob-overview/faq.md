@@ -12,7 +12,11 @@
 
 \->&#x20;
 
-## What is the different between an account and an address?
+## What is the difference between an account and an address?
+
+\->&#x20;
+
+## What if I lose my password?
 
 \->&#x20;
 
