@@ -1,5 +1,9 @@
 # Account Creation
 
+{% hint style="warning" %}
+All actions are performed on a test application running on Kovan testnet. Instructions will be updated when app is live in production.
+{% endhint %}
+
 There are 2 ways to create a zkBob shielded account.&#x20;
 
 1. ****[**Use a seed phrase**](./#seed-phrase). The application generates a seed phrase for you to store securely. You can use this seed phrase to restore your account as needed from any computer.
@@ -27,12 +31,12 @@ There are 2 ways to create a zkBob shielded account.&#x20;
 
 ![](../../../.gitbook/assets/zkbob-password.png)
 
-5\) Your zkBob account is created! The name of the account is auto-generated, beginning with zk.
+5\) Your zkBob account is created! The name of the account is auto-generated, beginning with zk. You can use this account to receive transfers and withdraw to another 0x address without ever connecting a web3 wallet.
 
 ![](../../../.gitbook/assets/zkbob-final.png)
 
 {% hint style="success" %}
-Next, connect your 0x wallet on Gnosis Chain to deposit funds to your zkAccount.
+If you want to [deposit funds](../deposits.md) to your zkAccount, [connect your 0x wallet on Gnosis Chain](./#web3-wallet).
 {% endhint %}
 
 {% hint style="warning" %}
@@ -80,5 +84,9 @@ When using the same computer/browser for future zkBob sessions, you can access y
 ![](<../../../.gitbook/assets/connect-7 (1).png>)
 
 {% hint style="success" %}
-\-> Next: [Make a Deposit](../deposits.md)
+Next:&#x20;
+
+* [Make a Deposit](../deposits.md)
+* [Receive a Transfer](../transfers.md)
+* [Withdraw Funds](../withdrawals.md)
 {% endhint %}

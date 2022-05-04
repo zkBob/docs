@@ -20,6 +20,10 @@
 
 \->&#x20;
 
+## I generated a new zkBob address, will my old one still work?
+
+\->&#x20;
+
 ## Can the protocol be compromised and my information made available?
 
 \->

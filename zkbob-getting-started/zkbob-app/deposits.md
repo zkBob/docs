@@ -6,7 +6,7 @@ All actions are performed on a test application running on Kovan testnet. Instru
 
 Deposits to the zkBob pool involve moving assets from a web3 wallet address into a zkAccount. You can use the UI to easily connect a wallet and deposit into a zkAccount.
 
-1\) Make sure your [accounts are connected](account-creation/).
+1\) Check your [accounts are connected](account-creation/).
 
 1. Web3 wallet address
 2. zkAccount
