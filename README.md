@@ -8,7 +8,7 @@ description: zkBob private transfers
 
 zkBob is an advanced blockchain privacy solution for safeguarding P2P financial transfers. With zkBob, it is easy to:
 
-1. [Setup](zkbob-getting-started/zkbob-app/account-creation/) a zk account using a seed phrase or existing web3 wallet.
+1. [Setup](zkbob-getting-started/zkbob-app/account-creation/) a zkAccount using a seed phrase or existing web3 wallet.
 2. [Deposit ](zkbob-getting-started/zkbob-app/deposits.md)arbitrary token amounts into the application.
 3. [Transfer](zkbob-getting-started/zkbob-app/transfers.md) deposits to other participants using zkSnarks technology (proof of transaction without disclosing details of the sender, recipient, and value).
 4. [Withdraw](zkbob-getting-started/zkbob-app/withdrawals.md) arbitrary token amounts securely and privately.

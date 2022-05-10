@@ -4,11 +4,13 @@
 All actions are performed on a test application running on Kovan testnet. Instructions will be updated when app is live in production.
 {% endhint %}
 
-If you are receiving funds from another zkBob user, you will want to send them a secure address. You can generate a new secure address for each transfer. **It is not possible to link different private addresses to one another or to the primary account.** Only the account owner can confirm ownership of a private address.
+If you are receiving funds from another zkBob user, you will want to send them a secure address. A new secure address is generated for each transfer.&#x20;
+
+**It is not possible to link different private addresses to one another or to the primary account.** Only the account owner can confirm ownership of a private address.
 
 Each  zkAddress is encoded in base58 format. For example `5fkW3dXTvA8Kizt1EbuRyjWofuqR4Ud1YTjGgY1r8nGosDeSaUreq6bwfF61jWL`
 
-Any previously generated address can be used indefinitely, so if you send an address to one party and then generate a new address to send to another party, both can be used to receive token transfers.
+Any previously generated address can be used indefinitely, so if you provide an address to one party and then generate a new address to provide to a second party, both can be used to receive token transfers.
 
 ## Generate a zkAddress
 
