@@ -36,7 +36,7 @@ There are 2 ways to create a zkBob shielded account.&#x20;
 ![](../../../.gitbook/assets/zkbob-final.png)
 
 {% hint style="success" %}
-If you want to [deposit funds](../deposits.md) to your zkAccount, [connect your 0x wallet on Gnosis Chain](./#web3-wallet).
+If you want to [deposit funds](../deposits.md) to your zkAccount, [connect your 0x wallet](./#web3-wallet).
 {% endhint %}
 
 {% hint style="warning" %}

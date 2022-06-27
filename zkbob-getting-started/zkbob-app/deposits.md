@@ -15,7 +15,7 @@ _If you have previously setup your zkBob account with the private key method fro
 
 ![](../../.gitbook/assets/zkconnected-2.png)
 
-2\) You should have some amount of tokens available to deposit and a small amount of xDai for gas. Select the amount and press **Deposit**.
+2\) You should have some amount of tokens available to deposit and a small amount of the native token (ie Kovan ETH) for gas. Select the amount and press **Deposit**.
 
 ![](../../.gitbook/assets/zkdep.png)
 
