@@ -4,6 +4,10 @@ description: Used to reward users for the account's energy
 
 # Voucher Token Contract
 
+{% hint style="info" %}
+This feature is optional and will not be activated for users in phase 1. More information is available for the [Energy Token here](../../in-development/energy-token.md).
+{% endhint %}
+
 ### Source and Deployment data
 
 1. The contract source code : [MintableToken.sol](https://github.com/zkBob/pool-evm-single-l1/blob/main/contracts/Pool.sol) \[testnet only, still in development]

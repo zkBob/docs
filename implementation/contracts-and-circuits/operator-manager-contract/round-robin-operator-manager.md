@@ -7,14 +7,14 @@ description: Round-robin relayer selection
 {% hint style="danger" %}
 **Non-production feature**
 
-The Round-Robin Operator Manager a possible case of future solution elaboration that has been drafted on this page. It has several disadvantages including high gas consumption for relayers even in an idle state and requires additional improvements. At the current stage we recommend using the simplified [Mutable Operator Manager scheme](mutable-operator-manager.md).
+The Round-Robin Operator Manager is a possible future case. It has several disadvantages including high gas consumption for relayers even in an idle state and requires additional improvements. At the current stage we recommend using the simplified [Mutable Operator Manager scheme](mutable-operator-manager.md).
 {% endhint %}
 
 {% hint style="info" %}
-An operator and relayer are equivalent entities in the contacts layer
+An operator and relayer are equivalent entities in the contacts layer.
 {% endhint %}
 
-The current zkBob implementation assumes a single relayer can interact with the pool contract at the same time. An approach is needed to select a single relayer for every time interval within a multiple-relayers configuration.
+The current zkBob implementation assumes a single relayer can interact with the pool contract at the same time. An approach is needed to select a single relayer for each time interval within a multiple-relayers configuration.
 
 The simplest way to do that is to select a relayer from the list in a round-robin manner. We implement this method in the RoundRobin contract.
 

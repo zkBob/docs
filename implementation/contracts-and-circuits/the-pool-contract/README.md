@@ -4,7 +4,7 @@ description: Main transaction processor
 
 # The Pool Contract
 
-The main purpose of the Pool contract is to process user transactions. It receives transactions from the operators (relayers) or users directly, checks the proofs and updates the current contract state.
+The main purpose of the Pool contract is to process user transactions. It receives transactions from the operators (relayers) or users directly, checks the proofs, and updates the current contract state.
 
 ### Pool Initialization
 
@@ -26,7 +26,7 @@ constructor(
         uint256 _first_root);
 ```
 
-There are three denominators used in the Pool. These are applied to the token (`denominator`_), energy (_`_energy_denominator`) and native coin (`_native_demominator`) amount in related actions. E.g. when user wants to withdraw 5 tokens from the pool, they specify '5' as the value in the corresponding transaction field. The pool will multiply this value by the token denominator and send the resulting token value to the receiver address (in wei).
+There are three denominators used in the Pool. These are applied to the token (`denominator`_), energy (_`_energy_denominator`) and native coin (`_native_denominator`) amount in related actions. E.g. when user wants to withdraw 5 tokens from the pool, they specify '5' as the value in the corresponding transaction field. The pool will multiply this value by the token denominator and send the resulting token value to the receiver address (in wei).
 
 The initial Merkle tree root value should also be provided in the `_first_root` parameter. For the Merkle tree with a desired total height 48 without any leaves (all leaves are zero) the root is a fixed value:
 
@@ -44,7 +44,7 @@ function transact() external payable onlyOperator;
 
 Before the transaction is processed the proofs are checked by the verifier contracts.
 
-Note the `onlyOperator` modifier. It checks the transaction sender address (`tx.origin` field) via the Operator Manager and reverts transaction when the origin sender is not currently allowed to interact with the Pool contract.
+Note the `onlyOperator` modifier. It checks the transaction sender address (`tx.origin` field) via the Operator Manager and reverts a transaction when the origin sender is not currently allowed to interact with the Pool contract.
 
 ### Source and deployment data
 

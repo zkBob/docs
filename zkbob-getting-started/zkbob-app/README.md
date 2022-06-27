@@ -1,6 +1,6 @@
 # zkBob App
 
-The zkBob application uses the Zero Pool library to prepare transactions and interact with the relayer. The application is responsible for:
+The zkBob application uses the [Zero Pool](https://zeropool.network/) library to prepare transactions and interact with the relayer. The application is responsible for:
 
 * Processing transactions
 * Restoring local state

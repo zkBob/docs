@@ -30,5 +30,5 @@ An advantages of using a relayer is increased anonymity due to abstracted gas pa
 {% hint style="warning" %}
 #### Relayer scalability
 
-zkBob  is developed to support a multi-relayer configuration, however the current implementation assumes a single relayer in the network. A multiple relayer scheme is planned for the near future.
+zkBob is developed to support a multi-relayer configuration, however the current implementation assumes a single relayer in the network. A multiple relayer scheme is planned for the future.
 {% endhint %}

@@ -33,13 +33,13 @@ Alice is a well-known comic book collector. She does a lot of business on the bl
 
 🐇 Alice is ready to withdraw, but waits a few days to make sure the anonymity set has time to grow sufficiently. She orders a withdrawal to a newly generated EOA on the Gnosis Chain.&#x20;
 
-🐇 Alice now has an new account with 170 xDai. There is way to determine the origin of the funds, and Alice, Carl and Dave are able to preserve their anonymity and grow their comic collections safely and securely, thanks to zkBob!
+🐇 Alice now has an new account with 170 xDai. There is no way to determine the origin of the funds, and Alice, Carl and Dave are able to preserve their anonymity and grow their comic collections safely and securely, thanks to zkBob!
 
 _\<diagram here>_
 
 ## Development & Deployment
 
-zkBob is an application developed by [ZeroPool ](https://zeropool.network)and the [Gnosis Chain](https://www.gnosischain.com) (GC) research groups. A production instance is planned for deployment via a [Trusted Setup Ceremony](deploying-zkbob/zkbob-solution-deployment/trusted-setup-ceremony.md) on the Gnosis Chain, and a multi-chain deployment is planned for an optimistic rollup in a future iteration.&#x20;
+zkBob is an application developed by [ZeroPool ](https://zeropool.network/)and the [Gnosis Chain](https://www.gnosischain.com/) (GC) research groups. A production instance is planned for deployment via a [Trusted Setup Ceremony](deploying-zkbob/zkbob-solution-deployment/trusted-setup-ceremony.md) on the Gnosis Chain, and a multi-chain deployment is planned for an optimistic rollup in a future iteration.&#x20;
 
 More details on the distributed deployment process will be available soon.
 

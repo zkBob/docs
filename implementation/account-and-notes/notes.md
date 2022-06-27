@@ -18,5 +18,5 @@ Due to the private nature of transactions, all notes are encrypted. They can be 
 {% hint style="info" %}
 #### Zero note
 
-There is one extra state for the note. When the user creates a transaction he can put one or more zero output notes. They will be ignored while transaction parsing. In such note **all** fields are zero.
+There is one extra state for the note. When the user creates a transaction one or more zero output notes may be created. They will be ignored during transaction parsing. In such a note **all** fields are zero.
 {% endhint %}
