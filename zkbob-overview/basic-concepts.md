@@ -38,9 +38,9 @@ Transfers also use relayers to send private transactions. A user can transfer fu
 
 Similar to deposits, a user can send a transaction to the zkBob contract in the Gnosis Chain to withdraw tokens from the pool. The transaction contains a zero-knowledge proof of tokens ownership generated using the private key associated with the corresponding zkBob account.
 
-### **sxDai**
+### **shDai**
 
-sxDai is shielded xDai, a secure token used for transfers within the zero-knowledge pool.  xDai is automatically converted to sxDai when completing a deposit, and sxDai is converted back to xDai on withdrawal.
+shDai is shielded Dai, a secure token used for transfers within the zero-knowledge pool.  Dai is automatically converted to shDai when completing a deposit, and shDai is converted back to Dai on withdrawal.
 
 ### Relayer
 
