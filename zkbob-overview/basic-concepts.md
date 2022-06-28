@@ -16,7 +16,7 @@ A zkBob account is linked to a user via a private key. The private key is used t
 
 zkBob accounts are created either from the private key of an existing wallet or from a stand-alone seed phrase. Users can decide how they would like to create an account following a step-by-step process.
 
-Accounts never appear unencrypted in a public field and can only be decyrpted by the account owner.
+Accounts never appear unencrypted in a public field and can only be decrypted by the account owner.
 
 ### zkBob Address
 
@@ -36,7 +36,7 @@ Transfers also use relayers to send private transactions. A user can transfer fu
 
 ### Withdrawals
 
-Similar to deposits, a user can send a transaction to the zkBob contract in the Gnosis Chain to withdraw tokens from the pool. The transaction contains a zero-knowledge proof of tokens ownership generated using the private key associated with the corresponding zkBob account.
+Similar to deposits, a user can send a transaction to the zkBob contract in the Gnosis Chain to withdraw tokens from the pool. The transaction contains a zero-knowledge proof of token ownership generated using the private key associated with the corresponding zkBob account.
 
 ### **shDai**
 

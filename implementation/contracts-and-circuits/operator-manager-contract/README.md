@@ -12,17 +12,21 @@ The operator manager contract delimits access to the Pool. Transactions should b
 
 To prevent this case we restrict Pool interactions using the Operator Manager contract. The Operator manager contract has two mandatory methods:
 
+#### 1) `is_operator`
+
 ```solidity
 function is_operator() external view returns(bool);
 ```
 
 This routine returns true when the transaction origin sender can interact with the Pool currently.
 
+#### 2) `operator`
+
 ```solidity
 function operator() external view returns(address);
 ```
 
-This function returns a current operator address (native chain). The are two extra cases for the `operator` function:
+This function returns a current operator address (native chain). The are two special cases for the `operator` function:
 
 * There are several operators allowed to interact with Pool at this time (e.g. primary and reserve operators). In this case the `operator` function should return any of these addresses.
 * The are no limits for Pool interaction (anybody can send transactions to the Pool). The `operator` function should returns `address(0)`

@@ -4,7 +4,7 @@ description: Private payment address
 
 # Address derivation
 
-The zkBob's account doesn't contain any fixed address. Instead if you want to receive funds you should generate and provide private addresses. In general a new private address can be generated for every incoming transaction. It is not possible to link different private addresses derived from the single account to one another or to the primary account. Only the account owner can confirm a private address belongs to him.
+The zkBob account doesn't contain any fixed address. Instead if you want to receive funds you should generate and provide private addresses. In general a new private address can be generated for every incoming transaction. It is not possible to link different private addresses derived from the single account to one another or to the primary account. Only the account owner can confirm a private address belongs to the account.
 
 To generate a new private payment address perform the following steps:
 
@@ -16,7 +16,7 @@ To generate a new private payment address perform the following steps:
 * Attach $$checksum$$ first 4 bytes to the $$buf$$
 * Encode $$buf$$ with Base58 to the string
 
-Thus the address string contains the diversifier public key $$(d, P_d)$$ protected with checksum to avoid typos. Checking any private addresses for ownership is very straightforward. You decode address string and extract $$d$$ and $$P_d$$ values. Next you derive $$P'_d$$​ with the your $$\eta$$ key. The private address belongs to your account only if $$P'_d = P_d$$.
+Thus the address string contains the diversifier public key $$(d, P_d)$$ protected with checksum to avoid typos. Checking any private addresses for ownership is very straightforward. You decode the address string and extract $$d$$ and $$P_d$$ values. Next you derive $$P'_d$$​ with the your $$\eta$$ key. The private address belongs to your account only if $$P'_d = P_d$$.
 
 ### Address derivation example
 

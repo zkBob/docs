@@ -16,7 +16,7 @@ description: Frequently asked questions
 
 \-> There are 2 different types of accounts displayed in the interface. One is for transferring funds **to and from zkBob (Wallet account)** and the second is for transferring funds **within zkBob (zkAccount)**.
 
-![Accounts: Wallet is not yet connected and user is not logged in to zkAccount](<../.gitbook/assets/not-yet-connected (1).png>)
+![Accounts: Wallet is not yet connected and user is not logged into their zkAccount](<../.gitbook/assets/not-yet-connected (1).png>)
 
 1. **Wallet Account**. This is a standard EOA (Externally owned address) you can connect to fund or withdraw from your zkAccount. It can also be used to generate a zkAccount using the private key from the EOA.&#x20;
 2. **zkAccount.** This is the shielded account where you can transact privately with other zkAccount holders. It is auto-named starting with zk (in the example below account name is zkGerti). [More on zkAccounts](../implementation/account-and-notes/accounts.md).
@@ -25,7 +25,7 @@ description: Frequently asked questions
 
 ## What is the difference between an account and an address?
 
-\-> **Accounts** are used to perform actions with zkBob. You may use an EOA wallet account to complete funding or withdraw, and your zkBob account to initiate deposits, withdrawals, transfers, or view your transaction history.&#x20;
+\-> **Accounts** are used to perform actions with zkBob. You may use an EOA wallet account to deposit or withdraw, and your zkBob account to initiate deposits, withdrawals, transfers, or view your transaction history.&#x20;
 
 \-> **Addresses** are used for shielded token transfers between users in zkBob. Ideally, a new address is generated for each transfer. It is not possible to link different private addresses to one another or to the primary account. Only the account owner can confirm ownership. Each created address is encoded in base58 format.
 
@@ -33,7 +33,7 @@ Learn more about [generating a receiving address here.](../zkbob-getting-started
 
 ## I generated a new zkBob address, will my old one still work?
 
-\-> Yes, it will still work. You can generate as many addresses as you would like. Each one is encrypted and cannot be connected to your zkAccount, and each one will work indefinitely.
+\-> Yes, it will still work. You can generate as many addresses as you would like. Each one is encrypted and cannot be connected to one another or to the primary account except by the account owner, and each one will work indefinitely.
 
 ## What if I lose my password?
 
@@ -41,7 +41,7 @@ Learn more about [generating a receiving address here.](../zkbob-getting-started
 
 ## Can the protocol be compromised and my information made available?
 
-\-> With zkproof transactions specific identifying information is never recorded (such as sender, receiver and amount sent) so it is not possible to reverse engineer a transaction or account to connect these bits of information within zkBob. However, there are other ways your information may be compromised. To maintain privacy, be aware of the following.
+\-> With zkproof transactions specific identifying information is never recorded (such as sender, receiver and amount sent) so it is not possible to connect these bits of information within zkBob. However, there are other ways your information may be compromised. To maintain privacy, be aware of the following.
 
 * **Seed phrase / private key discovery**: Never write a seed phrase on any internet-connected device. Do not take a screenshot of it. Do not copy and paste it anywhere. Write it on a physical piece of paper and keep somewhere secure.
 * **Ip-tracing**: Internet service providers collect logs that can show all ip addresses that connected to an application, including zkBob. VPNs, TOR, or proxy servers might be used to preserve your privacy.&#x20;

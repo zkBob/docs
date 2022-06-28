@@ -4,13 +4,13 @@ description: Main transaction processor
 
 # The Pool Contract
 
-The main purpose of the Pool contract is to process user transactions. It receives transactions from the operators (relayers) or users directly, checks the proofs, and updates the current contract state.
+The main purpose of the Pool contract is to process user transactions. It receives transactions from operators (relayers) or users directly, checks the proofs, and updates the current contract state.
 
 ### Pool Initialization
 
 Each pool serves a single token. To support multi-pool solutions every pool has it's own identifier (`pool_id`). Currently the pool\_id is an unsigned 24-bit arbitrary integer.
 
-All linked contracts (verifiers, operator manager, token and voucher token) should be provided prior to the Pool contract deployment. The Pool contract is initialized by the following constructor method:
+All linked contracts (verifiers, operator manager, token, and voucher token) should be provided prior to Pool contract deployment. The Pool contract is initialized by the following constructor method:
 
 ```solidity
 constructor(
@@ -26,9 +26,13 @@ constructor(
         uint256 _first_root);
 ```
 
-There are three denominators used in the Pool. These are applied to the token (`denominator`_), energy (_`_energy_denominator`) and native coin (`_native_denominator`) amount in related actions. E.g. when user wants to withdraw 5 tokens from the pool, they specify '5' as the value in the corresponding transaction field. The pool will multiply this value by the token denominator and send the resulting token value to the receiver address (in wei).
+There are three denominators used in the Pool. These are applied to the token (`denominator`_),_ energy _(_`_energy_denominator`) and native coin (`_native_denominator`) amount in related actions.&#x20;
 
-The initial Merkle tree root value should also be provided in the `_first_root` parameter. For the Merkle tree with a desired total height 48 without any leaves (all leaves are zero) the root is a fixed value:
+{% hint style="info" %}
+Example: When a user wants to withdraw 5 tokens from the pool, they specify '5' as the value in the corresponding transaction field. The pool will multiply this value by the token denominator and send the resulting token value to the receiver address (in wei).
+{% endhint %}
+
+The initial Merkle tree root value should also be provided in the `_first_root` parameter. For a Merkle tree with a desired total height 48 without any leaves (all leaves are zero) the root is a fixed value:
 
 ```
 11469701942666298368112882412133877458305516134926649826543144744382391691533
@@ -44,7 +48,9 @@ function transact() external payable onlyOperator;
 
 Before the transaction is processed the proofs are checked by the verifier contracts.
 
+{% hint style="info" %}
 Note the `onlyOperator` modifier. It checks the transaction sender address (`tx.origin` field) via the Operator Manager and reverts a transaction when the origin sender is not currently allowed to interact with the Pool contract.
+{% endhint %}
 
 ### Source and deployment data
 

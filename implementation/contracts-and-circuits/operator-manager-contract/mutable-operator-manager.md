@@ -18,7 +18,7 @@ The Mutable operator manager has the following functions (along with the [protoc
 function setOperator(address _addr, string memory _endpoint) external onlyOwner;
 ```
 
-It can only be invoked by the contract owner.To provide unlimited access to the Pool  set the `_addr` parameter to `address(0)` and any string (preference for an empty string `""`) for `_endpoint`.
+It can only be invoked by the contract owner. To provide unlimited access to the Pool set the `_addr` parameter to `address(0)` and any string (preference for an empty string `""`) for `_endpoint`.
 
 To get the current operator URL use the following function:
 

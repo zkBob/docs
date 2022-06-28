@@ -2,7 +2,11 @@
 description: Baby-JubJub curve
 ---
 
-# Elliptic curve cryptography
+# Elliptic Curve Cryptography
+
+{% hint style="info" %}
+The Baby-JubJub curve is explained in more detail in [_Ethereum Improvement Proposals_, no. 2494](https://eips.ethereum.org/EIPS/eip-2494).
+{% endhint %}
 
 The zkBob solution uses twisted Edwards elliptic curve Baby-JubJub with the following parameters:
 
