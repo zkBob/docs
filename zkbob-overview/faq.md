@@ -41,7 +41,7 @@ Learn more about [generating a receiving address here.](../zkbob-getting-started
 
 ## Can the protocol be compromised and my information made available?
 
-\-> With zkproofs specific identifying information is never recorded (such as sender, receiver and amount sent) so it is not possible to reverse engineer a transaction or account to connect these bits of information within zkBob. However, there are other ways your information may be compromised. To maintain privacy, be aware of the following.
+\-> With zkproof transactions specific identifying information is never recorded (such as sender, receiver and amount sent) so it is not possible to reverse engineer a transaction or account to connect these bits of information within zkBob. However, there are other ways your information may be compromised. To maintain privacy, be aware of the following.
 
 * **Seed phrase / private key discovery**: Never write a seed phrase on any internet-connected device. Do not take a screenshot of it. Do not copy and paste it anywhere. Write it on a physical piece of paper and keep somewhere secure.
 * **Ip-tracing**: Internet service providers collect logs that can show all ip addresses that connected to an application, including zkBob. VPNs, TOR, or proxy servers might be used to preserve your privacy.&#x20;

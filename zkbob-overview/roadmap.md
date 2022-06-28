@@ -7,7 +7,7 @@ In process. Date estimates and additional items will be added as implementation 
 ## V1
 
 * Testing application deployed to Kovan.
-* MVP zkBob production application for private deposits, transfers and withdrawals on a single chain of record.&#x20;
+* MVP zkBob production application for private deposits, transfers and withdrawals on a single TBD chain of record.&#x20;
 
 ## V1.5
 
