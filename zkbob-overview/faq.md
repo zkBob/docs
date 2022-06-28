@@ -1,3 +1,7 @@
+---
+description: Frequently asked questions
+---
+
 # FAQ
 
 ## How long should I keep my funds in the anonymity pool to ensure privacy?
@@ -37,12 +41,13 @@ Learn more about [generating a receiving address here.](../zkbob-getting-started
 
 ## Can the protocol be compromised and my information made available?
 
-\-> With zkproofs specific identifying information is never recorded (such as sender, receiver and amount sent) so it is not possible to reverse engineer a transaction or account to connect these bits of information. However, there are other ways your information may be compromised. To maintain privacy, be aware of the following.
+\-> With zkproofs specific identifying information is never recorded (such as sender, receiver and amount sent) so it is not possible to reverse engineer a transaction or account to connect these bits of information within zkBob. However, there are other ways your information may be compromised. To maintain privacy, be aware of the following.
 
 * **Seed phrase / private key discovery**: Never write a seed phrase on any internet-connected device. Do not take a screenshot of it. Do not copy and paste it anywhere. Write it on a physical piece of paper and keep somewhere secure.
 * **Ip-tracing**: Internet service providers collect logs that can show all ip addresses that connected to an application, including zkBob. VPNs, TOR, or proxy servers might be used to preserve your privacy.&#x20;
 * **Transaction inference:** Depositing a specific amount of tokens and then withdrawing that exact amount (especially unconventional amounts in a short timeframe) can create a compelling case for connection. It is recommended to withdraw different amounts that amounts deposited, and to ideally keep funds in the pool for longer periods of time to provide more privacy.&#x20;
-* **Address trail:** Sending the same generated address to many different parties can create a connection string which may compromise privacy. It is best to generate a new address for each transfer within the application.
+* **Address trail:** Sending the same generated address to many different parties can create a connection string which may compromise privacy. It is best to generate a new address for each transfer within the application.&#x20;
+* **Clean withdrawals**: When withdrawing from the application, sending to a newly generated address without a prior transaction history is the most private method.
 
 ## I can't connect to my account, what should I do?
 

@@ -6,11 +6,12 @@ In process. Date estimates and additional items will be added as implementation 
 
 ## V1
 
-* MVP zkBob application for private deposits, transfers and withdrawals on a single chain of record (Gnosis Chain).
+* Testing application deployed to Kovan.
+* MVP zkBob production application for private deposits, transfers and withdrawals on a single chain of record.&#x20;
 
 ## V1.5
 
-* OmniBridge application for private bridged transactions deposits from Ethereum to the Gnosis Chain and withdrawals from the GC to Ethereum.
+* OmniBridge application for private bridged transactions deposits from Ethereum to another EVM chain and withdrawals from the secondary chain to Ethereum.
 
 ## V2+
 
