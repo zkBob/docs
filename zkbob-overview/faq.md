@@ -39,6 +39,14 @@ Learn more about [generating a receiving address here.](../zkbob-getting-started
 
 \-> You can restore your account using your original seed phrase. Once restored, you will be asked to generate a new password.
 
+## Why do I keep having to enter my password?
+
+\-> Encrypted data is stored in local storage for safety purposes. When the app is refreshed from the browser, the password is needed to decrypt the locally-stored account data. A built in refresh function lets you update history and balance without needing to refresh the entire application. This is useful to view your current zkaccount state once a transaction has been processed on-chain.&#x20;
+
+The in-app refresh, located next to your zkaccount name, should be used rather than a 'hard refresh' to avoid password re-entry.
+
+![](../.gitbook/assets/refresh.png)
+
 ## Can the protocol be compromised and my information made available?
 
 \-> With zkproof transactions specific identifying information is never recorded (such as sender, receiver and amount sent) so it is not possible to connect these bits of information within zkBob. However, there are other ways your information may be compromised. To maintain privacy, be aware of the following.
@@ -46,7 +54,8 @@ Learn more about [generating a receiving address here.](../zkbob-getting-started
 * **Seed phrase / private key discovery**: Never write a seed phrase on any internet-connected device. Do not take a screenshot of it. Do not copy and paste it anywhere. Write it on a physical piece of paper and keep somewhere secure.
 * **Ip-tracing**: Internet service providers collect logs that can show all ip addresses that connected to an application, including zkBob. VPNs, TOR, or proxy servers might be used to preserve your privacy.&#x20;
 * **Transaction inference:** Depositing a specific amount of tokens and then withdrawing that exact amount (especially unconventional amounts in a short timeframe) can create a compelling case for connection. It is recommended to withdraw different amounts that amounts deposited, and to ideally keep funds in the pool for longer periods of time to provide more privacy.&#x20;
-* **Address trail:** Sending the same generated address to many different parties can create a connection string which may compromise privacy. It is best to generate a new address for each transfer within the application.&#x20;
+* **Address trail:** Sending the same generated address to many different parties can create a connection string which can compromise privacy. It is best to generate a new address for each transfer within the application.
+* **Secure address messaging**:  When sending a generated address to another party you can choose which application to use (ie Slack, telegram, etc).  It is best to choose a secure and private channel.
 * **Clean withdrawals**: When withdrawing from the application, sending to a newly generated address without a prior transaction history is the most private method.
 
 ## I can't connect to my account, what should I do?
