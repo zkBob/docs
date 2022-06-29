@@ -41,11 +41,19 @@ Learn more about [generating a receiving address here.](../zkbob-getting-started
 
 ## Why do I keep having to enter my password?
 
-\-> Encrypted data is stored in local storage for safety purposes. When the app is refreshed from the browser, the password is needed to decrypt the locally-stored account data. A built in refresh function lets you update history and balance without needing to refresh the entire application. This is useful to view your current zkaccount state once a transaction has been processed on-chain.&#x20;
+\-> Encrypted data is stored in local storage for safety purposes. When the app is refreshed from the browser, the password is needed to decrypt the locally-stored account data. A built-in refresh function lets you update history and balance without needing to refresh the entire application. This is useful to view your current zkaccount state once a transaction has been processed on-chain.&#x20;
 
 The in-app refresh, located next to your zkaccount name, should be used rather than a 'hard refresh' to avoid password re-entry.
 
 ![](../.gitbook/assets/refresh.png)
+
+## Why is my transaction taking almost a minute to process?
+
+Several processes are required for a successful transaction. Proof generation takes place on the client side and is typically a 10 second process. Transactions are then processed in parallel rather than sequentially through the relayer, which optimizes the zkBob application. However, once a transaction is submitted to the chain, timing can be variable based on blockchain congestion, resulting in some longer transaction times.
+
+### Related: I just sent a transaction on zkBob. Why do I have to wait to perform another deposit/transfer/withdrawal?
+
+For safety purposes and to prevent potential double-spend scenarios, the application waits until a transaction is confirmed before another transaction can be initiated.
 
 ## Can the protocol be compromised and my information made available?
 

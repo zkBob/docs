@@ -9,6 +9,7 @@ In process. Date estimates and additional items will be added as implementation 
 * :white\_check\_mark: Testing application (CLI and UI) deployed to Kovan
 * :white\_check\_mark: Parallel transaction processing through relayers
 * :white\_check\_mark: UI improvements (ongoing)
+* Automated retry for failed txs.
 * Eliminate password requirement for MetaMask zkaccount generation and usage.
 * MVP zkBob production application for private deposits, transfers, and withdrawals on a single TBD chain of record.&#x20;
 
