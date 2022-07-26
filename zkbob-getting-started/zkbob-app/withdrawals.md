@@ -1,7 +1,7 @@
 # Withdrawals
 
 {% hint style="warning" %}
-All actions are performed on a test application running on Kovan testnet. Instructions will be updated when app is live in production.
+All actions are performed on a test application running on Kovan testnet and using test Dai rather than Bob tokens. Instructions will be updated when app is live in production.
 {% endhint %}
 
 Withdrawals to move assets from the zkpool to a web3 0x address. You can specify any account to receive the funds, and do not need to connect your wallet to complete a withdrawal.

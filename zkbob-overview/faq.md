@@ -4,7 +4,7 @@ description: Frequently asked questions
 
 # FAQ
 
-## How long should I keep my funds in the anonymity pool to ensure privacy?
+## How long should I keep my tokens in the anonymity pool to ensure privacy?
 
 \-> It depends on how large the pool set is and how much activity has happened since your deposit. Looking at the number of deposits since your deposit can provide a rough estimation of safety (though not complete because it does not account for transfers within the protocol). In general, the longer you wait to withdraw (several days minimum), the better.&#x20;
 
@@ -68,7 +68,7 @@ For safety purposes and to prevent potential double-spend scenarios, the applica
 
 ## I can't connect to my account, what should I do?
 
-If you have entered the correct information but your account is not loading you can try clearing the cache and storage. Version updates can sometimes result in artifacts that must be cleared for the latest version to work.
+If you have entered the correct information but your account is not loading you can try clearing the cache and storage. Version updates can sometimes result in artifacts that must be cleared for the latest version to work.&#x20;
 
 Chrome / Firefox are the recommended browsers for the zkBob UI, the following are instructions for refreshing the zkBob app in Chrome.\
 \
@@ -84,8 +84,8 @@ or in the Chrome menu go to View -> Developer -> Developer Tools
 
 ![](<../.gitbook/assets/reload (1).png>)
 
-{% hint style="info" %}
-If this doesn't fix the issue, proceed to clear site data. Note this will remove all local data and you will need your seed phrase to reset your account.
+{% hint style="warning" %}
+If this doesn't fix the issue, proceed to clear site data. **Note this process will clear all local storage and require you to reenter your seed phrase. If you do not have it your account information will be unrecoverable.**
 {% endhint %}
 
 3\) Right click the lock🔒 icon and select **Site Settings**.

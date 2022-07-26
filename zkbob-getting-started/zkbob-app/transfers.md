@@ -1,7 +1,7 @@
 # Transfers
 
 {% hint style="warning" %}
-All actions are performed on a test application running on Kovan testnet. Instructions will be updated when app is live in production.
+All actions are performed on a test application running on Kovan testnet and using test Dai rather than Bob tokens. Instructions will be updated when app is live in production.
 {% endhint %}
 
 Transfers are made within the zkpool between zkAccounts. You do not transfer to an 0x account, but rather to another zkAccount holder's one-time address. Typically you receive a sending address from a friend via a private channel.&#x20;
@@ -58,7 +58,7 @@ Generate and send a zkAddress to the sender to receive a shielded transfer.
 
 2\) Press **Generate receiving address**.
 
-![](<../../.gitbook/assets/generate (1).png>)
+![](../../.gitbook/assets/generate.png)
 
 3\) Copy generated address and send to your friend via a private channel of your choice.
 

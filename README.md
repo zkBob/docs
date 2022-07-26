@@ -9,11 +9,11 @@ description: zkBob private transfers
 zkBob is an advanced blockchain privacy solution for safeguarding P2P financial transfers. With zkBob, it is easy to:
 
 1. [Setup](zkbob-getting-started/zkbob-app/account-creation/) a zkAccount using a seed phrase or existing web3 wallet.
-2. [Deposit ](zkbob-getting-started/zkbob-app/deposits.md)arbitrary token amounts into the application.
+2. [Deposit ](zkbob-getting-started/zkbob-app/deposits.md)arbitrary token amounts of a stablecoin into the application.
 3. [Transfer](zkbob-getting-started/zkbob-app/transfers.md) deposits to other participants using zkSnarks technology (proof of transaction without disclosing details of the sender, recipient, and value).
 4. [Withdraw](zkbob-getting-started/zkbob-app/withdrawals.md) arbitrary token amounts securely and privately.
 
-To ensure privacy, zkBob leverages a zero-knowledge pool to anonymize transactions. Deposits of any amount can be made to the pool. Funds in the pool are converted to shielded tokens, which can then be transferred to other participants within the pool and/or withdrawn from the pool.
+To ensure privacy, zkBob leverages a unique stablecoin called Bob and an associated zero-knowledge pool to anonymize transactions. Deposits of any amount of Bob can be made to the pool. Funds in the pool are converted to shielded Bob tokens, which can then be transferred to other participants within the pool and/or withdrawn from the pool.
 
 Transactions are processed through a relayer that constructs zkproofs and submits anonymous transactions to the pool contract.
 
@@ -23,17 +23,19 @@ Zero knowledge proofs ensure that transfers and withdrawals are decoupled from d
 
 Alice is a well-known comic book collector. She does a lot of business on the blockchain, but prefers to keep the details of her purchases, sales, customers and clients private. Luckily, she finds zkBob!
 
-🐇 Alice creates a zkBob account using the private key from an existing Ethereum Externally Owned Account (EOA). She could also create directly from a seed phrase, but chooses to create using MetaMask 🦊.
+🐇 Alice uses 100 USDC to purchase 100 Bob tokens on Uniswap v3.&#x20;
 
-🐇 Once the account is connected, Alice makes a deposit of 100 Dai into the pool. It is converted into shielded Dai (shDai).
+🐇 She creates a zkBob account using the private key from an existing Ethereum Externally Owned Account (EOA). She could also create directly from a seed phrase, but chooses to create using MetaMask 🦊.
 
-🐇 Alice wants to buy an original Marvel comic from Carl.  She messages him privately and he sends her a private address he has generated in the zkBob app. Alice transfers 50 shDai to Carl. He mails the comics.
+🐇 Once the account is connected, Alice deposits her 100 Bob into the pool. It is converted into shielded Dai (shBob).
 
-🐇 She is also owed some funds from Dave for a Ghost Rider. She sends him a generated address and receives 120 shDai. These transfers are catalogued in the UI and linked to her zkBob address, but not directly to her EOA.
+🐇 Alice wants to buy an original Marvel comic from Carl.  She messages him privately and he sends her a private address he has generated in the zkBob app. Alice transfers 50 shBob to Carl. He mails the comics.
+
+🐇 She is also owed some funds from Dave for a Ghost Rider. She sends him a generated address and receives 120 shBob. These transfers are catalogued in the UI and linked to her zkBob address, but not directly to her EOA.
 
 🐇 Alice is ready to withdraw, but waits a few days to make sure the anonymity set has time to grow sufficiently. She orders a withdrawal to a newly generated EOA.&#x20;
 
-🐇 Alice now has a new account with 170 Dai. There is no way to determine the origin of the funds, and Alice, Carl and Dave are able to preserve their anonymity and grow their comic collections safely and securely, thanks to zkBob!
+🐇 Alice now has a new account with 170 Bob. She converts them back to 170 USDC on Uniswap. There is no way to determine the origin of the funds, and Alice, Carl and Dave are able to preserve their anonymity and grow their comic collections safely and securely, thanks to zkBob!
 
 ## Development & Deployment
 

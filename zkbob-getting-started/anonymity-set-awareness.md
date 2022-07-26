@@ -1,6 +1,6 @@
 # Anonymity Set Awareness
 
-{% hint style="warning" %}
+{% hint style="info" %}
 To maintain privacy it is advisable to keep funds in the anonymity set for some time and consider transferring/withdrawing different arbitrary amounts than deposited when performing transactions. These measures allow for additional pool entropy and make it more difficult to infer any transaction details.&#x20;
 {% endhint %}
 

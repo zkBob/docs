@@ -1,7 +1,7 @@
 # Deposits
 
 {% hint style="warning" %}
-All actions are performed on a test application running on Kovan testnet. Instructions will be updated when app is live in production.
+All actions are performed on a test application running on Kovan testnet and using test Dai rather than Bob tokens. Instructions will be updated when app is live in production.
 {% endhint %}
 
 Deposits to the zkBob pool involve moving assets from a web3 wallet address into a zkAccount. You can use the UI to easily connect a wallet and deposit into a zkAccount.
@@ -17,7 +17,7 @@ _If you have previously setup your zkBob account with the private key method fro
 
 2\) You should have some amount of tokens available to deposit and a small amount of the native token (ie Kovan ETH) for gas. Select the amount and press **Deposit**.
 
-![](../../.gitbook/assets/zkdep.png)
+![](<../../.gitbook/assets/zkdep (1).png>)
 
 3\) Approve the contract to access the token and make a deposit in MetaMask.
 

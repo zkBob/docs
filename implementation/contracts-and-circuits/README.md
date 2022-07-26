@@ -16,7 +16,7 @@ The zkBob solution is based on several interrelated smart contracts. The main pu
 * [Token contract](token-contract.md) mints a shielded coin protected by the current zkBob solution. This token is deposited in the Pool contract and withdrawn from it.
 * [Verifier contracts](verifier-contracts.md) are used by the Pool contract to check transaction correctness / validate zkSNARK proofs.
 * [Operator contract](operator-manager-contract/) helps the Pool contract to determine whether transactions can be accepted from a sender. It is used in the multi-relayer configuration to serialize the transaction sequence from the different nodes and minimize transaction collisions.
-* [Voucher token contract](voucher-token-contract.md) mints a token ([energy](../../in-development/energy-token.md)) to reward users for their contribution in the anonymity set.
+* [Voucher token contract](voucher-token-contract.md) mints a token ([energy](../../in-development/energy-token/)) to reward users for their contribution in the anonymity set.
 
 **TODO:**
 

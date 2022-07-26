@@ -5,7 +5,7 @@ description: Used to reward users for the account's energy
 # Voucher Token Contract
 
 {% hint style="info" %}
-This feature is optional and will not be activated for users in phase 1. More information is available for the [Energy Token here](../../in-development/energy-token.md).
+This feature is optional and will not be activated for users in phase 1. More information is available for the [XP token  here](../../in-development/energy-token/).
 {% endhint %}
 
 ### Source and Deployment data

@@ -1,7 +1,7 @@
 # Generate a Secure Address
 
 {% hint style="warning" %}
-All actions are performed on a test application running on Kovan testnet. Instructions will be updated when app is live in production.
+All actions are performed on a test application running on Kovan testnet and using test Dai rather than Bob tokens. Instructions will be updated when app is live in production.
 {% endhint %}
 
 If you are receiving funds from another zkBob user, you will want to send them a secure address. A new secure address is generated for each transfer.&#x20;
@@ -20,7 +20,7 @@ Any previously generated address can be used indefinitely, so if you provide an 
 
 2\) Press **Generate receiving address**.
 
-![](<../../.gitbook/assets/generate (1).png>)
+![](../../.gitbook/assets/generate.png)
 
 3\) Copy generated address and send to your friend via a private channel of your choice.
 

@@ -1,7 +1,7 @@
 # Account Creation
 
 {% hint style="warning" %}
-All actions are performed on a test application running on Kovan testnet. Instructions will be updated when app is live in production.
+All actions are performed on a test application running on Kovan testnet and using test Dai rather than Bob tokens. Instructions will be updated when app is live in production.
 {% endhint %}
 
 There are 2 ways to create a zkBob shielded account.&#x20;
@@ -13,11 +13,11 @@ There are 2 ways to create a zkBob shielded account.&#x20;
 
 1\) Press the **zkAccount** button on the home screen.
 
-![](../../../.gitbook/assets/zkbob-acct.png)
+![](<../../../.gitbook/assets/zkbob-acct (1).png>)
 
 2\) Select **Create from seed phrase** in the popup box.
 
-![](../../../.gitbook/assets/seed-phrase-1.png)
+![](<../../../.gitbook/assets/seed-phrase-1 (1).png>)
 
 3\) View and write down your phrase somewhere safe (offline). It is not recommended to use the copy feature or keep your seed phrase on the computer.&#x20;
 
@@ -47,7 +47,7 @@ When using the same computer/browser for future zkBob sessions, you can access y
 
 1\) Press the **zkAccount** button on the home screen. If your MetaMask or other web3 wallet is not yet connected to the application, you will be prompted to connect. If your web3 wallet is already connected 🦊, [skip to the next section](./#web-3-wallet-connected).
 
-![](../../../.gitbook/assets/zkbob-acct.png)
+![](<../../../.gitbook/assets/zkbob-acct (1).png>)
 
 2a) Click **Connect wallet**.
 
@@ -73,15 +73,15 @@ When using the same computer/browser for future zkBob sessions, you can access y
 
 5\) Sign message in MetaMask. __ Make sure to double check that Origin is the correct URL. [More info here](metamask-web3-wallet-warning.md). _(need updated screenshot with correct URL once app is out of testing phase)._
 
-![](../../../.gitbook/assets/connect5.5.png)
+![](<../../../.gitbook/assets/connect5.5 (1).png>)
 
 6\) Create and Re-enter password.
 
-![](../../../.gitbook/assets/connect-6.png)
+![](<../../../.gitbook/assets/connect-6 (1).png>)
 
 6\) You should now have 2 connected accounts, your web 3 wallet address 🦊 and your zkAccount, which is auto-named beginning with zk...
 
-![](<../../../.gitbook/assets/connect-7 (1).png>)
+![](../../../.gitbook/assets/connect-7.png)
 
 {% hint style="success" %}
 Next:&#x20;
