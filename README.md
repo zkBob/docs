@@ -27,7 +27,7 @@ Alice is a well-known comic book collector. She does a lot of business on the bl
 
 🐇 She creates a zkBob account using the private key from an existing Ethereum Externally Owned Account (EOA). She could also create directly from a seed phrase, but chooses to create using MetaMask 🦊.
 
-🐇 Once the account is connected, Alice deposits her 100 Bob into the pool. It is converted into shielded Dai (shBob).
+🐇 Once the account is connected, Alice deposits her 100 Bob into the pool. It is converted into shielded Bob (shBob).
 
 🐇 Alice wants to buy an original Marvel comic from Carl.  She messages him privately and he sends her a private address he has generated in the zkBob app. Alice transfers 50 shBob to Carl. He mails the comics.
 
@@ -40,8 +40,6 @@ Alice is a well-known comic book collector. She does a lot of business on the bl
 ## Development & Deployment
 
 zkBob is an application developed by [ZeroPool ](https://zeropool.network/)and the [Gnosis Chain](https://www.gnosischain.com/) (GC) research groups. A production instance is planned for deployment via a [Trusted Setup Ceremony](deploying-zkbob/zkbob-solution-deployment/trusted-setup-ceremony.md) on a TBD chain, and a multi-chain deployment is planned for an optimistic rollup in a future iteration.&#x20;
-
-More details on the distributed deployment process will be available soon.
 
 
 
