@@ -4,7 +4,7 @@
 To maintain privacy it is advisable to keep funds in the anonymity set for some time and consider transferring/withdrawing different arbitrary amounts than deposited when performing transactions. These measures allow for additional pool entropy and make it more difficult to infer any transaction details.&#x20;
 {% endhint %}
 
-Although internal transaction details are hidden, users can be compromised when entering in or leaving the solution **in cases when there is a small anonymity set.**
+Although internal transaction details are hidden, user privacy can be compromised when entering in or leaving the solution **in cases when there is a small anonymity set.**
 
 Imagine you want to send money to Alice through zkBob. You decide to create a new account and deposit the exact necessary amount of tokens.&#x20;
 

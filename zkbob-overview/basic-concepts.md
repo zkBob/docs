@@ -28,7 +28,7 @@ Each created address is encoded in base58 format. For example `5fkW3dXTvA8Kizt1E
 
 ### **Deposits**
 
-Deposits can be made by sending a transaction (from a zkBob Account) to the zkBob pool contract. Depositors first approve the contract to access the funds, then create and send the deposit. Transactions are routed via a relayer to the pool contract, and can be initiated through the UI.
+Deposits can be made by sending Bob tokens (from a zkBob Account) to the zkBob pool contract. Depositors first approve the contract to access the funds, then create and send the deposit. Transactions are routed via a relayer to the pool contract, and can be initiated through the UI.
 
 ### **Transfers**
 
@@ -52,5 +52,5 @@ The relayer acts as an intermediary between the user and the smart contracts. Tr
 
 ### XP (Experience Points)
 
-XP will be introduced in an upcoming version of the protocol. They will be earned by pool participants and allow users to bid on additional rewards generated in the protocol through a unique auction mechanism. More details coming soon.
+XP will be introduced in an upcoming version of the protocol. They will be earned by pool participants and allow users to bid on additional tokens generated in the protocol through a unique auction mechanism. More details coming soon.
 
