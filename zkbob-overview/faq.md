@@ -98,7 +98,31 @@ If this doesn't fix the issue, proceed to clear site data. **Note this process w
 
 5\) Restore your previous account with your seed phrase and create a new password to re-enter the application.
 
+## Who should use zkBob?
 
+The blockchain provides a transparent ledger of all transactions that have occurred since the genesis of the chain. This transparency is an important feature and useful in many cases. Sometimes, however, you may want to keep your sensitive financial information more private. Digital wallets (accounts) are holding more information than ever thanks to the popularity of NFTs. This can make it easy to identify a lot of information about a particular wallet address and its owner, including net worth, conferences and meetups attended (POAPs), group involvement and other information. Just as in real-world interactions, you may not want to announce your net worth to everyone or let any stranger view the contents of your bank account or sort through the wallet in your pocket.&#x20;
+
+In the offline world, cash can be used to safeguard financial privacy. In the blockchain space, zk-based "digital cash" transactions can offer the same level of anonymity.
+
+Some users of zkBob may include:
+
+* Large cryptocurrency holders who want to protect their anonymity and reduce possible targeting by cyber criminals.
+* Business owners who do not want to divulge vendor addresses, prices they paid for items, or other business transactions that can put them at competitive risk.
+* Everyday users who want a "digital cash" option can transfer and trade with one another privately through a shielded pool.&#x20;
+
+## Who should not use zkBob?
+
+zkBob should not be used for any illegitimate or criminal activity. It should not be used in any way that violates any laws in the jurisdiction of the user, and should not be used by politically exposed individuals or associates of those individuals. Prior to using zkBob, you must acknowledge and accept these terms of usage:
+
+* If acting as an individual you are of legal age (as applicable in the jurisdiction where you live).
+* You are not a politically exposed person, that is, a person who is entrusted with any prominent public function, or a politically exposed person who has stepped down from that role.
+* You are not an immediate family member or close associate of a politically exposed person or a politically exposed person who has stepped down.
+* You are not engaged in money laundering or the financing of terrorism.
+* Your access to the application does not violate any rule, law, regulation or directive of the country of your residence and the jurisdiction in which you reside.
+* You have not been arrested or convicted for any offence or crime.
+* You are willing to provide and verify your identity upon request.
+
+&#x20;
 
 
 

@@ -17,7 +17,7 @@ To ensure privacy, zkBob leverages a unique stablecoin called Bob and an associa
 
 Transactions are processed through a relayer that constructs zkproofs and submits anonymous transactions to the pool contract.
 
-Zero knowledge proofs ensure that transfers and withdrawals are decoupled from deposits, resulting in completely private transfers between parties.
+Zero knowledge proofs ensure that transfers and withdrawals are decoupled from deposits, resulting in private transfers between parties.
 
 ## **zkBob and Alice** 🐇
 
