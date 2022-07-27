@@ -68,8 +68,8 @@
 * [Multi-chain Custom Rollup Deployment](in-development/multi-chain-custom-rollup-deployment.md)
 * [zkBob OmniBridge Interaction](in-development/zkbob-omnibridge-interaction/README.md)
   * [Private Deposits via OmniBridge (v2)](in-development/zkbob-omnibridge-interaction/private-deposits-via-omnibridge.md)
-* [XP (Experience Points)](in-development/energy-token/README.md)
-  * [XP-based Auctions](in-development/energy-token/xp-based-auctions.md)
+* [XP (Experience Points)](in-development/xp/README.md)
+  * [XP-based Auctions](in-development/xp/xp-based-auctions.md)
 
 ## 🧑💻 Jobs
 

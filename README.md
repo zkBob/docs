@@ -39,7 +39,5 @@ Alice is a well-known comic book collector. She does a lot of business on the bl
 
 ## Development & Deployment
 
-zkBob is an application developed by [ZeroPool ](https://zeropool.network/)and the [Gnosis Chain](https://www.gnosischain.com/) (GC) research groups. A production instance is planned for deployment via a [Trusted Setup Ceremony](deploying-zkbob/zkbob-solution-deployment/trusted-setup-ceremony.md) on a TBD chain, and a multi-chain deployment is planned for an optimistic rollup in a future iteration.&#x20;
-
-
+zkBob is an application developed by [ZeroPool ](https://zeropool.network/)and [Blockscout](https://blockscout.com/) research groups. A production instance is planned for deployment in a decentralized manner via a [Trusted Setup Ceremony](deploying-zkbob/zkbob-solution-deployment/trusted-setup-ceremony.md) on a TBD chain. A multi-chain deployment is planned for an optimistic rollup in a future iteration.&#x20;
 

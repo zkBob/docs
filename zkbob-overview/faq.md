@@ -6,15 +6,15 @@ description: Frequently asked questions
 
 ## How long should I keep my tokens in the anonymity pool to ensure privacy?
 
-\-> It depends on how large the pool set is and how much activity has happened since your deposit. Looking at the number of deposits since your deposit can provide a rough estimation of safety (though not complete because it does not account for transfers within the protocol). In general, the longer you wait to withdraw (several days minimum), the better.&#x20;
+It depends on how large the pool set is and how much activity has happened since your deposit. Looking at the number of deposits since your deposit can provide a rough estimation of safety (though not complete because it does not account for transfers within the protocol). In general, the longer you wait to withdraw (several days minimum), the better.&#x20;
 
 ## Is the code open-source?
 
-\-> The underlying code is open-source and anyone can deploy contracts, a relayer, and a cli to perform basic operations. The UI is not currently open-source to avoid simple clones. Code is available at [https://github.com/zkbob](https://github.com/zkbob)
+The underlying code is open-source and anyone can deploy contracts, a relayer, and a cli to perform basic operations. The UI is not currently open-source to avoid simple clones. Code is available at [https://github.com/zkbob](https://github.com/zkbob)
 
 ## Why are there multiple accounts?
 
-\-> There are 2 different types of accounts displayed in the interface. One is for transferring funds **to and from zkBob (Wallet account)** and the second is for transferring funds **within zkBob (zkAccount)**.
+There are 2 different types of accounts displayed in the interface. One is for transferring funds **to and from zkBob (Wallet account)** and the second is for transferring funds **within zkBob (zkAccount)**.
 
 ![Accounts: Wallet is not yet connected and user is not logged into their zkAccount](<../.gitbook/assets/not-yet-connected (1).png>)
 
@@ -33,15 +33,15 @@ Learn more about [generating a receiving address here.](../zkbob-getting-started
 
 ## I generated a new zkBob address, will my old one still work?
 
-\-> Yes, it will still work. You can generate as many addresses as you would like. Each one is encrypted and cannot be connected to one another or to the primary account except by the account owner, and each one will work indefinitely.
+Yes, it will still work. You can generate as many addresses as you would like. Each one is encrypted and cannot be connected to one another or to the primary account except by the account owner, and each one will work indefinitely.
 
 ## What if I lose my password?
 
-\-> You can restore your account using your original seed phrase. Once restored, you will be asked to generate a new password.
+You can restore your account using your original seed phrase. Once restored, you will be asked to generate a new password.
 
 ## Why do I keep having to enter my password?
 
-\-> Encrypted data is stored in local storage for safety purposes. When the app is refreshed from the browser, the password is needed to decrypt the locally-stored account data. A built-in refresh function lets you update history and balance without needing to refresh the entire application. This is useful to view your current zkaccount state once a transaction has been processed on-chain.&#x20;
+Encrypted data is stored in local storage for safety purposes. When the app is refreshed from the browser, the password is needed to decrypt the locally-stored account data. A built-in refresh function lets you update history and balance without needing to refresh the entire application. This is useful to view your current zkaccount state once a transaction has been processed on-chain.&#x20;
 
 The in-app refresh, located next to your zkaccount name, should be used rather than a 'hard refresh' to avoid password re-entry.
 
@@ -57,7 +57,7 @@ For safety purposes and to prevent potential double-spend scenarios, the applica
 
 ## Can the protocol be compromised and my information made available?
 
-\-> With zkproof transactions specific identifying information is never recorded (such as sender, receiver and amount sent) so it is not possible to connect these bits of information within zkBob. However, there are other ways your information may be compromised. To maintain privacy, be aware of the following.
+With zkproof transactions specific identifying information is never recorded (such as sender, receiver and amount sent) so it is not possible to connect these bits of information within zkBob. However, there are other ways your information may be compromised. To maintain privacy, be aware of the following.
 
 * **Seed phrase / private key discovery**: Never write a seed phrase on any internet-connected device. Do not take a screenshot of it. Do not copy and paste it anywhere. Write it on a physical piece of paper and keep somewhere secure.
 * **Ip-tracing**: Internet service providers collect logs that can show all ip addresses that connected to an application, including zkBob. VPNs, TOR, or proxy servers might be used to preserve your privacy.&#x20;
@@ -100,7 +100,9 @@ If this doesn't fix the issue, proceed to clear site data. **Note this process w
 
 ## Who should use zkBob?
 
-The blockchain provides a transparent ledger of all transactions that have occurred since the genesis of the chain. This transparency is an important feature and useful in many cases. Sometimes, however, you may want to keep your sensitive financial information more private. Digital wallets (accounts) are holding more information than ever thanks to the popularity of NFTs. This can make it easy to identify a lot of information about a particular wallet address and its owner, including net worth, conferences and meetups attended (POAPs), group involvement and other information. Just as in real-world interactions, you may not want to announce your net worth to everyone or let any stranger view the contents of your bank account or sort through the wallet in your pocket.&#x20;
+The blockchain provides a transparent ledger of all transactions that have occurred since the genesis of the chain. This transparency is an important feature and useful in many cases. Sometimes, however, you may want to keep sensitive financial information more private.&#x20;
+
+Digital wallets (accounts) are holding more information than ever thanks to the popularity of NFTs. This can make it easy to identify a lot of information about a particular wallet address and its owner, including net worth, conferences and meetups attended (POAPs), group involvement, and other information. Just as in real-world interactions, you may not want to announce your net worth to everyone within earshot or let any stranger view the contents of your bank account or rifle through the wallet in your back pocket.&#x20;
 
 In the offline world, cash can be used to safeguard financial privacy. In the blockchain space, zk-based "digital cash" transactions can offer the same level of anonymity.
 
@@ -108,7 +110,8 @@ Some users of zkBob may include:
 
 * Large cryptocurrency holders who want to protect their anonymity and reduce possible targeting by cyber criminals.
 * Business owners who do not want to divulge vendor addresses, prices they paid for items, or other business transactions that can put them at competitive risk.
-* Everyday users who want a "digital cash" option can transfer and trade with one another privately through a shielded pool.&#x20;
+* Everyday users who want a "digital cash" option to transfer and trade with one another privately through a shielded pool.&#x20;
+* Individuals interested in privacy, zksnarks, or novel auction mechanisms related to [XP functionality](../in-development/xp/).
 
 ## Who should not use zkBob?
 
@@ -119,7 +122,7 @@ zkBob should not be used for any illegitimate or criminal activity. It should no
 * You are not an immediate family member or close associate of a politically exposed person or a politically exposed person who has stepped down.
 * You are not engaged in money laundering or the financing of terrorism.
 * Your access to the application does not violate any rule, law, regulation or directive of the country of your residence and the jurisdiction in which you reside.
-* You have not been arrested or convicted for any offence or crime.
+* You have not been arrested or convicted of any offence or crime.
 * You are willing to provide and verify your identity upon request.
 
 &#x20;
