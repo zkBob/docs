@@ -29,7 +29,7 @@ There are 2 different types of accounts displayed in the interface. One is for t
 
 \-> **Addresses** are used for shielded token transfers between users in zkBob. Ideally, a new address is generated for each transfer. It is not possible to link different private addresses to one another or to the primary account. Only the account owner can confirm ownership. Each created address is encoded in base58 format.
 
-Learn more about [generating a receiving address here.](../zkbob-getting-started/zkbob-app/generate-a-secure-address.md)
+Learn more about [generating a receiving address here.](../using-zkbob/zkbob-app/generate-a-secure-address.md)
 
 ## I generated a new zkBob address, will my old one still work?
 

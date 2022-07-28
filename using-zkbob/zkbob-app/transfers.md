@@ -58,7 +58,7 @@ Generate and send a zkAddress to the sender to receive a shielded transfer.
 
 2\) Press **Generate receiving address**.
 
-![](../../.gitbook/assets/generate.png)
+![](<../../.gitbook/assets/generate (1).png>)
 
 3\) Copy generated address and send to your friend via a private channel of your choice.
 

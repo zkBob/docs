@@ -17,7 +17,7 @@ _If you have previously setup your zkBob account with the private key method fro
 
 2\) You should have some amount of tokens available to deposit and a small amount of the native token (ie Kovan ETH) for gas. Select the amount and press **Deposit**.
 
-![](<../../.gitbook/assets/zkdep (1).png>)
+![](../../.gitbook/assets/zkdep.png)
 
 3\) Approve the contract to access the token and make a deposit in MetaMask.
 
