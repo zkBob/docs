@@ -1,6 +1,8 @@
-# Optimistic State
+---
+description: Optimistic state description
+---
 
-## Optimistic state
+# Optimistic State
 
 ### The problem
 
