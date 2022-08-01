@@ -49,7 +49,7 @@ The transfer transaction emits an output account and output notes to push them i
 
 A withdrawal transaction move funds from the zkBob account to the external destination point. Destination address is specified in the `memo.receiver` field (a chain-specific address).
 
-Each withdrawal transaction must zero out the account energy value. This value is converted into a voucher token which will be minted to the destination address. So `energy_amount` should be less than or equal to zero.
+Each withdrawal transaction must zero out the account energy (XP) value. This value is converted into a voucher token which will be minted to the destination address. So `energy_amount` should be less than or equal to zero.
 
 The withdrawal amount is specified in the `token_amount` field. This amount is transferred to the destination address when the transaction is processed.
 

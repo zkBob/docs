@@ -26,7 +26,7 @@ constructor(
         uint256 _first_root);
 ```
 
-There are three denominators used in the Pool. These are applied to the token (`denominator`_),_ energy _(_`_energy_denominator`) and native coin (`_native_denominator`) amount in related actions.&#x20;
+There are three denominators used in the Pool. These are applied to the token (`denominator`_),_ XP _(_`_energy_denominator`) and native coin (`_native_denominator`) amount in related actions.&#x20;
 
 {% hint style="info" %}
 Example: When a user wants to withdraw 5 tokens from the pool, they specify '5' as the value in the corresponding transaction field. The pool will multiply this value by the token denominator and send the resulting token value to the receiver address (in wei).

@@ -9,7 +9,7 @@ The transaction transferred to the zkBob contract contains the following fields:
 * Account nullifier - helps protect from double-spending
 * Transaction commitment - transaction's subtree root hash
 * Transfer index
-* Energy amount - for withdrawal transaction
+* XP amount - for withdrawal transaction
 * Token amount - a positive value for deposit transaction, negative for withdrawal
 * Transaction proof
 * Merkle tree root after transaction inclusion
