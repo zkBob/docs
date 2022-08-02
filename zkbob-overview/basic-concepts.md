@@ -38,13 +38,13 @@ Transfers also use relayers to send private transactions. A user can transfer fu
 
 Similar to deposits, a user can send a transaction to the zkBob contract to withdraw tokens from the pool. The transaction contains a zero-knowledge proof of token ownership generated using the private key associated with the corresponding zkBob account.
 
-### **Bob Token**
+### **BOB Token**
 
-Bob tokens are stable tokens pegged 1-to-1 with USDC. They are designed to function specifically with the zkBob privacy pool. They can be purchased through Uniswap v3 using USDC, then transferred to the zkBob application through the user interface.
+BOB tokens are stable tokens paired with USDC on a Uniswap v3 pool. Due to range settings in Uniswap v3 slippage can be minimized so that BOB remains stable. BOB is designed to function specifically with the zkBob privacy pool. They can be acquired through Uniswap v3 with USDC, then transferred to the zkBob application through the user interface.
 
-### **shBob Token**
+### **shBOB Token**
 
-shBob is shielded Bob, a secure token used for transfers within the zero-knowledge pool.  Bob is automatically converted to shBob when completing a deposit, and shBob is converted back to Bob on withdrawal.
+shBOB is shielded BOB, a secure token used for transfers within the zero-knowledge pool.  BOB is automatically converted to shBOB when completing a deposit, and shBOB is converted back to BOB on withdrawal.
 
 ### Relayer
 
@@ -52,5 +52,5 @@ The relayer acts as an intermediary between the user and the smart contracts. Tr
 
 ### XP (Experience Points)
 
-XP will be introduced in an upcoming version of the protocol. They will be earned by pool participants and allow users to bid on additional tokens generated in the protocol through a unique auction mechanism. More details coming soon.
+XP will be introduced in an upcoming version of the protocol. XP are earned by pool participants and allow users to bid on additional tokens generated in the protocol through a unique auction mechanism. More details coming soon.
 

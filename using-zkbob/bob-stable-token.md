@@ -1,14 +1,18 @@
 # BOB Stable Token
 
-BOB tokens are stable tokens transferable 1-to-1 to USDC. They are designed to function specifically with the zkBob privacy pool. BOB can be swapped for USDC using Uniswap v3 on Gnosis Chain, then [deposited ](zkbob-app/deposits.md)to the zkBob application through the UI.
+BOB is a stable token designed to function specifically with the zkBob privacy pool. BOB can be swapped for USDC using Uniswap v3 on Gnosis Chain, then [deposited ](zkbob-app/deposits.md)to the zkBob application through the UI.
 
-On deposit, BOB are converted to shBOB, a shielded version of the token which can be transacted privately within the application. On withdrawal, shBOB are converted back to BOB.
+On deposit, BOB are converted to shBOB, a shielded version of the token which can be transacted privately within the application. On withdrawal, shBOB are converted back to BOB, and BOB can be swapped back to USDC through the Uniswap interface.
 
 <details>
 
 <summary>How do I get BOB tokens?</summary>
 
-With Uniswap v3 on Gnosis Chain (or through direct transfer from another user). Details coming son.
+Using Uniswap v3 on Gnosis Chain, users can swap _USDC on GC_ to _BOB_. As with other ERC-20 based tokens, _BOB_ can also be sent between chain users to any 0x address.&#x20;
+
+shBOB can only be transferred within the zkBOB protocol, and should not be sent to an 0x address.\
+\
+More details coming soon.
 
 </details>
 
@@ -24,22 +28,18 @@ BOB tokens are pre-minted and paired with an existing stable token (USDC) on Uni
 
 <summary>What are the BOB token contract details and implementation address?</summary>
 
-_More Info Coming Soon_
-
-BOB tokens are deployed with the same contract address across multiple networks.
+BOB tokens are deployed with the same contract address across multiple networks. _Address TBD_
 
 Basic BOB token attributes:
 
 * ERC20-based fungible tokens
-* Upgradeable & Mintable (note upgradeability account and minting account must not be the same account)
+* Upgradeable & Mintable (note upgradeability account and minting account must never be the same account)
 * Metatransaction support
 * EIP677 support for `transferAndCall` functionality
 * Address block list capability (similar to USDC)
 * Recovery function(s) for lost/mis-sent tokens
 
-
-
-
+_More Info Coming Soon_
 
 </details>
 
