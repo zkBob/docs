@@ -9,12 +9,14 @@
 
 ## 🦸♂ Using zkBob
 
+* [BOB Stable Token](using-zkbob/bob-stable-token.md)
 * [zkBob App](using-zkbob/zkbob-app/README.md)
   * [Account Creation](using-zkbob/zkbob-app/account-creation/README.md)
     * [Metamask / Web3 Wallet Warning](using-zkbob/zkbob-app/account-creation/metamask-web3-wallet-warning.md)
   * [Deposits](using-zkbob/zkbob-app/deposits.md)
   * [Transfers](using-zkbob/zkbob-app/transfers.md)
   * [Withdrawals](using-zkbob/zkbob-app/withdrawals.md)
+  * [XP Accumulation](using-zkbob/zkbob-app/xp-accumulation.md)
   * [Generate a Secure Address](using-zkbob/zkbob-app/generate-a-secure-address.md)
 * [Anonymity Set Awareness](using-zkbob/anonymity-set-awareness.md)
 
