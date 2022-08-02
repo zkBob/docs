@@ -1,6 +1,6 @@
 # BOB Stable Token
 
-BOB tokens are stable tokens pegged 1-to-1 with USDC. They are designed to function specifically with the zkBob privacy pool. BOB can be swapped for USDC using Uniswap v3 on Gnosis Chain, then [deposited ](zkbob-app/deposits.md)to the zkBob application through the UI.
+BOB tokens are stable tokens transferable 1-to-1 to USDC. They are designed to function specifically with the zkBob privacy pool. BOB can be swapped for USDC using Uniswap v3 on Gnosis Chain, then [deposited ](zkbob-app/deposits.md)to the zkBob application through the UI.
 
 On deposit, BOB are converted to shBOB, a shielded version of the token which can be transacted privately within the application. On withdrawal, shBOB are converted back to BOB.
 
@@ -16,7 +16,7 @@ With Uniswap v3 on Gnosis Chain (or through direct transfer from another user). 
 
 <summary>How do BOB tokens remain stable?</summary>
 
-BOB tokens are pre-minted and paired with an existing stable token (USDC) on Uniswap V3. Uniswap v3 features the ability to set a range for the exchange rate and provide concentrated liquidity for the pair, resulting in a stable price with lower fees for the swap.
+BOB tokens are pre-minted and paired with an existing stable token (USDC) on Uniswap V3. Uniswap v3 features the ability to set a range for the exchange rate and provide concentrated liquidity for the pair, resulting  in limited slippage to the USDC peg.
 
 </details>
 
@@ -47,6 +47,8 @@ Basic BOB token attributes:
 
 <summary>How can I earn additional BOB tokens through the protocol?</summary>
 
-This is not yet possible, but will be activated in the next version. Auction details coming soon
+This is not yet possible, but will be activated in the next version. A novel auction will be implemented where users who earn XP can bid on BOB rewards earned from LP positions and compounding.\
+\
+&#x20;_Auction details coming soon._
 
 </details>
