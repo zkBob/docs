@@ -8,11 +8,11 @@ On deposit, BOB are converted to shBOB, a shielded version of the token which ca
 
 <summary>How do I get BOB tokens?</summary>
 
-Using Uniswap v3 on Gnosis Chain, users can swap _USDC on GC_ to _BOB_. As with other ERC-20 based tokens, _BOB_ can also be sent between chain users to any 0x address.&#x20;
+Using Uniswap v3 on Gnosis Chain, users can swap USDC on GC to BOB. As with other ERC-20 based tokens, BOB can also be sent between chain users to any 0x address.&#x20;
 
 shBOB can only be transferred within the zkBOB protocol, and should not be sent to an 0x address.\
 \
-More details coming soon.
+_More details coming soon._
 
 </details>
 
@@ -34,7 +34,7 @@ Basic BOB token attributes:
 
 * ERC20-based fungible tokens
 * Upgradeable & Mintable (note upgradeability account and minting account must never be the same account)
-* Metatransaction support
+* Meta-transaction support
 * EIP677 support for `transferAndCall` functionality
 * Address block list capability (similar to USDC)
 * Recovery function(s) for lost/mis-sent tokens
@@ -47,7 +47,7 @@ _More Info Coming Soon_
 
 <summary>How can I earn additional BOB tokens through the protocol?</summary>
 
-This is not yet possible, but will be activated in the next version. A novel auction will be implemented where users who earn XP can bid on BOB rewards earned from LP positions and compounding.\
+This is not yet possible, but will be activated in the next version. A novel auction will be implemented where users who earn XP can bid on BOB rewards earned from LP positions, compounding and lost tokens.\
 \
 &#x20;_Auction details coming soon._
 
