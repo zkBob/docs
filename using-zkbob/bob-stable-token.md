@@ -1,4 +1,10 @@
+---
+description: zkBob token
+---
+
 # BOB Stable Token
+
+To use zkBob, you need BOB!&#x20;
 
 BOB is a stable token designed to function specifically with the zkBob privacy pool. BOB can be swapped for USDC using Uniswap v3 on Gnosis Chain, then [deposited ](zkbob-app/deposits.md)to the zkBob application through the UI.
 
