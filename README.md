@@ -1,33 +1,28 @@
 ---
-description: zkBob private transfers
+description: Optimistic on the outside with a creamy zk center!
 ---
 
-# Private Transactions
+# Bob Stable Rollup
 
-## 🔐 Private Transactions
+## 🧁 Stable Rollup Transactions
 
-zkBob is an advanced blockchain privacy solution for safeguarding P2P financial transfers. With zkBob, it is easy to:
+Bob is an optimistic rollup on Ethereum featuring a native, zk-based transactional application as a core primitive. This combination creates a scalable and secure L2 solution enhanced by privacy options.
 
-1. [Setup](using-zkbob/zkbob-app/account-creation/) a zkAccount using a seed phrase or existing web3 wallet.
-2. [Deposit ](using-zkbob/zkbob-app/deposits.md)arbitrary token amounts of a stablecoin into the application.
-3. [Transfer](using-zkbob/zkbob-app/transfers.md) deposits to other participants using zkSnarks technology (proof of transaction without disclosing details of the sender, recipient, and value).
-4. [Withdraw](using-zkbob/zkbob-app/withdrawals.md) arbitrary token amounts securely and privately.
+A stable token (BOB) is optimized for the protocol and used for gas fees and transactions.&#x20;
 
-To ensure privacy, zkBob leverages a unique stablecoin called Bob and an associated zero-knowledge pool to anonymize transactions. Deposits of any amount of Bob can be made to the pool. Funds in the pool are converted to shielded Bob tokens, which can then be transferred to other participants within the pool and/or withdrawn from the pool.
+Bob is designed for stability, security, and speed as L2s and rollups become the dominant scaling solution for Ethereum.&#x20;
 
-Transactions are processed through a relayer that constructs zkproofs and submits anonymous transactions to the pool contract.
+## **Bob and Alice** 🐇&#x20;
 
-Zero knowledge proofs ensure that transfers and withdrawals are decoupled from deposits, resulting in private transfers between parties.
+_A use case for the zkBob transactional app._
 
-## **zkBob and Alice** 🐇
+Alice is a well-known comic book collector. She does a lot of business on the blockchain, but prefers to keep the details of her purchases, sales, customers and clients private. Luckily, she finds Bob rollup and zkBob!
 
-Alice is a well-known comic book collector. She does a lot of business on the blockchain, but prefers to keep the details of her purchases, sales, customers and clients private. Luckily, she finds zkBob!
+🐇 Alice uses 100 USDC to purchase 100 Bob tokens on Uniswap v3 on Ethereum.&#x20;
 
-🐇 Alice uses 100 USDC to purchase 100 Bob tokens on Uniswap v3.&#x20;
+🐇 She moves the Bob to the Bob Rollup (via a bridge or state channel) and  creates a zkBob account using the private key from an existing Ethereum Externally Owned Account (EOA). She could also create directly from a seed phrase, but chooses to create using MetaMask 🦊.
 
-🐇 She creates a zkBob account using the private key from an existing Ethereum Externally Owned Account (EOA). She could also create directly from a seed phrase, but chooses to create using MetaMask 🦊.
-
-🐇 Once the account is connected, Alice deposits her 100 Bob into the pool. It is converted into shielded Bob (shBob).
+🐇 Once the account is connected, Alice deposits her 100 Bob into the zkBob pool. Here it is converted into shielded Bob (shBob).
 
 🐇 Alice wants to buy an original Marvel comic from Carl.  She messages him privately and he sends her a private address he has generated in the zkBob app. Alice transfers 50 shBob to Carl. He mails the comics.
 
@@ -39,5 +34,5 @@ Alice is a well-known comic book collector. She does a lot of business on the bl
 
 ## Development & Deployment
 
-zkBob is an application developed by [ZeroPool ](https://zeropool.network/)and [Blockscout](https://blockscout.com/) research groups. A production instance is planned for deployment in a decentralized manner via a [Trusted Setup Ceremony](deploying-zkbob/zkbob-solution-deployment/trusted-setup-ceremony.md) on a TBD chain. A multi-chain deployment is planned for an optimistic rollup in a future iteration.&#x20;
+Bob rollup is an is an application developed by the [Blockscout](https://blockscout.com/) research group with assistance from [ZeroPool ](https://zeropool.network/)for the zkBob application. A production instance is planned for deployment in a decentralized manner via a [Trusted Setup Ceremony](deploying-zkbob/zkbob-solution-deployment/trusted-setup-ceremony.md).&#x20;
 

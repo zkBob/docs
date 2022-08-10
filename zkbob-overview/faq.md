@@ -4,13 +4,45 @@ description: Frequently asked questions
 
 # FAQ
 
-## How long should I keep my tokens in the anonymity pool to ensure privacy?
+## Who should use zkBob?
 
-It depends on how large the pool set is and how much activity has happened since your deposit. Looking at the number of deposits since your deposit can provide a rough estimation of safety (though not complete because it does not account for transfers within the protocol). In general, the longer you wait to withdraw (several days minimum), the better.&#x20;
+Users should first check their jurisdiction and [make sure they are in compliance](compliance.md) - zkBob is not available to users in some countries.
+
+The blockchain provides a transparent ledger of all transactions that have occurred since the genesis of the chain. This transparency is an important feature and useful in many cases. Sometimes, however, you may want to safeguard sensitive financial information.
+
+Digital wallets (accounts) are holding more information than ever thanks to the popularity of NFTs. This can make it easy to identify a lot of information about a particular wallet address and its owner, including net worth, conferences and meetups attended (POAPs), group involvement, and other information. Just as in real-world interactions, you may not want to announce your net worth to everyone within earshot or let any stranger view the contents of your bank account or rifle through the wallet in your back pocket.&#x20;
+
+In the offline world, cash can be used for financial privacy. In the blockchain space, zk-based "digital cash" transactions can offer similar anonymity.
+
+Some users of zkBob may include:
+
+* Large cryptocurrency holders who want to protect their identity and reduce possible targeting by cyber criminals.
+* Business owners who do not want to divulge vendor addresses, prices they paid for items, or other business transactions that can put them at competitive risk.
+* Everyday users who want a "digital cash" option to transfer and trade with one another privately through a shielded pool.&#x20;
+* Philanthropists who want to donate to causes anonymously.
+* Individuals interested in privacy, zksnarks, or novel auction mechanisms related to [XP functionality](../in-development/xp/).
+
+## Who should not use zkBob?
+
+Users is countries where zkBob is prohibited should not use zkBob. Please check the [Compliance section](compliance.md).
+
+zkBob should not be used for any illegitimate or criminal activity. It should not be used in any way that violates any laws in the jurisdiction of the user, and should not be used by politically exposed individuals or associates of those individuals. Prior to using zkBob, you must acknowledge and accept these terms of usage:
+
+* If acting as an individual you are of legal age (as applicable in the jurisdiction where you live).
+* You are not a politically exposed person, that is, a person who is entrusted with any prominent public function, or a politically exposed person who has stepped down from that role.
+* You are not an immediate family member or close associate of a politically exposed person or a politically exposed person who has stepped down.
+* You are not engaged in money laundering or the financing of terrorism.
+* Your access to the application does not violate any rule, law, regulation or directive of the country of your residence and the jurisdiction in which you reside.
+* You have not been arrested or convicted of any offence or crime.
+* You are willing to provide and verify your identity upon request.
 
 ## Is the code open-source?
 
 The underlying code is open-source and anyone can deploy contracts, a relayer, and a cli to perform basic operations. The UI is not currently open-source to avoid simple clones. Code is available at [https://github.com/zkbob](https://github.com/zkbob)
+
+## How long should I keep my tokens in a zkBob anonymity pool to ensure privacy?
+
+It depends on how large the pool set is and how much activity has happened since your deposit. Looking at the number of deposits since your deposit can provide a rough estimation of safety (though not complete because it does not account for transfers within the protocol). In general, the longer you wait to withdraw (several days minimum), the better.&#x20;
 
 ## Why are there multiple accounts?
 
@@ -55,16 +87,16 @@ Several processes are required for a successful transaction. Proof generation ta
 
 For safety purposes and to prevent potential double-spend scenarios, the application waits until a transaction is confirmed before another transaction can be initiated.
 
-## Can the protocol be compromised and my information made available?
+## Can the zkBob protocol be compromised and my information made available?
 
 With zkproof transactions specific identifying information is never recorded (such as sender, receiver and amount sent) so it is not possible to connect these bits of information within zkBob. However, there are other ways your information may be compromised. To maintain privacy, be aware of the following.
 
 * **Seed phrase / private key discovery**: Never write a seed phrase on any internet-connected device. Do not take a screenshot of it. Do not copy and paste it anywhere. Write it on a physical piece of paper and keep somewhere secure.
-* **Ip-tracing**: Internet service providers collect logs that can show all ip addresses that connected to an application, including zkBob. VPNs, TOR, or proxy servers might be used to preserve your privacy.&#x20;
+* **Ip-tracing**: Internet service providers collect logs that can show all ip addresses that connected to an application, including zkBob.&#x20;
 * **Transaction inference:** Depositing a specific amount of tokens and then withdrawing that exact amount (especially unconventional amounts in a short timeframe) can create a compelling case for connection. It is recommended to withdraw different amounts that amounts deposited, and to ideally keep funds in the pool for longer periods of time to provide more privacy.&#x20;
-* **Address trail:** Sending the same generated address to many different parties can create a connection string which can compromise privacy. It is best to generate a new address for each transfer within the application.
-* **Secure address messaging**:  When sending a generated address to another party you can choose which application to use (ie Slack, telegram, etc).  It is best to choose a secure and private channel.
-* **Clean withdrawals**: When withdrawing from the application, sending to a newly generated address without a prior transaction history is the most private method.
+* **Address trail:** Using same generated address for transactions with many different parties creates a connection string which can compromise privacy. It is best to generate a new address for each transfer within the application.
+* **Secure address messaging**:  When sending a generated address to another party, carefully choose the application you use (ie Slack, telegram, etc).  It is best to choose a secure and private channel.
+* **Withdrawals**: When withdrawing from the application, sending to a newly generated address without a prior transaction history is the most private method.
 
 ## I can't connect to my account, what should I do?
 
@@ -97,42 +129,4 @@ If this doesn't fix the issue, proceed to clear site data. **Note this process w
 ![](../.gitbook/assets/settings-2.png)
 
 5\) Restore your previous account with your seed phrase and create a new password to re-enter the application.
-
-## Who should use zkBob?
-
-Users should first check their jurisdiction and [make sure they are in compliance](compliance.md) - zkBob is not available to users in some countries.
-
-The blockchain provides a transparent ledger of all transactions that have occurred since the genesis of the chain. This transparency is an important feature and useful in many cases. Sometimes, however, you may want to keep sensitive financial information more private.&#x20;
-
-Digital wallets (accounts) are holding more information than ever thanks to the popularity of NFTs. This can make it easy to identify a lot of information about a particular wallet address and its owner, including net worth, conferences and meetups attended (POAPs), group involvement, and other information. Just as in real-world interactions, you may not want to announce your net worth to everyone within earshot or let any stranger view the contents of your bank account or rifle through the wallet in your back pocket.&#x20;
-
-In the offline world, cash can be used to safeguard financial privacy. In the blockchain space, zk-based "digital cash" transactions can offer the same level of anonymity.
-
-Some users of zkBob may include:
-
-* Large cryptocurrency holders who want to protect their anonymity and reduce possible targeting by cyber criminals.
-* Business owners who do not want to divulge vendor addresses, prices they paid for items, or other business transactions that can put them at competitive risk.
-* Everyday users who want a "digital cash" option to transfer and trade with one another privately through a shielded pool.&#x20;
-* Philanthropists who want to donate to causes anonymously.
-* Individuals interested in privacy, zksnarks, or novel auction mechanisms related to [XP functionality](../in-development/xp/).
-
-## Who should not use zkBob?
-
-Users is countries where zkBob is prohibited should not use zkBob. Please check the [Compliance section](compliance.md).
-
-zkBob should not be used for any illegitimate or criminal activity. It should not be used in any way that violates any laws in the jurisdiction of the user, and should not be used by politically exposed individuals or associates of those individuals. Prior to using zkBob, you must acknowledge and accept these terms of usage:
-
-* If acting as an individual you are of legal age (as applicable in the jurisdiction where you live).
-* You are not a politically exposed person, that is, a person who is entrusted with any prominent public function, or a politically exposed person who has stepped down from that role.
-* You are not an immediate family member or close associate of a politically exposed person or a politically exposed person who has stepped down.
-* You are not engaged in money laundering or the financing of terrorism.
-* Your access to the application does not violate any rule, law, regulation or directive of the country of your residence and the jurisdiction in which you reside.
-* You have not been arrested or convicted of any offence or crime.
-* You are willing to provide and verify your identity upon request.
-
-&#x20;
-
-
-
-
 

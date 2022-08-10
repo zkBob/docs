@@ -2,7 +2,7 @@
 
 ## 🦹 zkBob Overview
 
-* [Private Transactions](README.md)
+* [Bob Stable Rollup](README.md)
 * [Basic Concepts](zkbob-overview/basic-concepts.md)
 * [FAQ](zkbob-overview/faq.md)
 * [Roadmap](zkbob-overview/roadmap.md)
@@ -11,7 +11,7 @@
 ## 🦸♂ Using zkBob
 
 * [BOB Stable Token](using-zkbob/bob-stable-token.md)
-* [zkBob App](using-zkbob/zkbob-app/README.md)
+* [zkBob Tx App](using-zkbob/zkbob-app/README.md)
   * [Account Creation](using-zkbob/zkbob-app/account-creation/README.md)
     * [Metamask / Web3 Wallet Warning](using-zkbob/zkbob-app/account-creation/metamask-web3-wallet-warning.md)
   * [Deposits](using-zkbob/zkbob-app/deposits.md)
@@ -23,7 +23,8 @@
 
 ## 👩⚕ Technical Implementation <a href="#implementation" id="implementation"></a>
 
-* [High-level Overview](implementation/high-level-overview.md)
+* [Bob Rollup Overview](implementation/bob-rollup-overview.md)
+* [zkBob Overview](implementation/high-level-overview.md)
 * [Smart Contracts](implementation/contracts-and-circuits/README.md)
   * [The Pool Contract](implementation/contracts-and-circuits/the-pool-contract/README.md)
     * [Transaction Calldata](implementation/contracts-and-circuits/the-pool-contract/transaction-calldata.md)

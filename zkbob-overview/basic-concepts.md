@@ -1,10 +1,12 @@
 # Basic Concepts
 
 {% hint style="info" %}
-Below are descriptions of basic concepts underlying zkBob functionality. For more thorough details, see the [technical overview](broken-reference) section.
+Below are descriptions of basic concepts underlying Bob and zkBob functionality. For more thorough details, see the [technical overview](broken-reference) section.
 {% endhint %}
 
-The zkBob protocol facilitates private transactions. Users can deposit arbitrary amounts into a zero-knowledge pool, privately transfer tokens within that pool, and withdraw arbitrary amounts from the pool. A shielded token is used within the pool to anonymize transfers, and relayers are used to process transactions and abstract gas costs between users and the pool smart contract.&#x20;
+### Optimistic Rollup
+
+
 
 ### Zero-Knowledge Proofs
 
@@ -38,9 +40,9 @@ Transfers also use relayers to send private transactions. A user can transfer fu
 
 Similar to deposits, a user can send a transaction to the zkBob contract to withdraw tokens from the pool. The transaction contains a zero-knowledge proof of token ownership generated using the private key associated with the corresponding zkBob account.
 
-### **BOB Token**
+### **BOB Stable Token**
 
-BOB tokens are stable tokens paired with USDC on a Uniswap v3 pool. Due to range settings in Uniswap v3 slippage can be minimized so that BOB remains stable. BOB is designed to function specifically with the zkBob privacy pool. They can be acquired through Uniswap v3 with USDC, then transferred to the zkBob application through the user interface.
+BOB tokens are stable tokens paired with USDC on a Uniswap v3 pool. Due to range settings in Uniswap v3 slippage can be minimized so that BOB remains stable. BOB is designed to function specifically with the zkBob privacy pool. They can be acquired through Uniswap v3 with USDC, then transferred to the Bob rollup and zkBob application through the user interface.
 
 ### **shBOB Token**
 
