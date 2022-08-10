@@ -100,6 +100,8 @@ If this doesn't fix the issue, proceed to clear site data. **Note this process w
 
 ## Who should use zkBob?
 
+Users should first check their jurisdiction and [make sure they are in compliance](compliance.md) - zkBob is not available to users in some countries.
+
 The blockchain provides a transparent ledger of all transactions that have occurred since the genesis of the chain. This transparency is an important feature and useful in many cases. Sometimes, however, you may want to keep sensitive financial information more private.&#x20;
 
 Digital wallets (accounts) are holding more information than ever thanks to the popularity of NFTs. This can make it easy to identify a lot of information about a particular wallet address and its owner, including net worth, conferences and meetups attended (POAPs), group involvement, and other information. Just as in real-world interactions, you may not want to announce your net worth to everyone within earshot or let any stranger view the contents of your bank account or rifle through the wallet in your back pocket.&#x20;
@@ -111,9 +113,12 @@ Some users of zkBob may include:
 * Large cryptocurrency holders who want to protect their anonymity and reduce possible targeting by cyber criminals.
 * Business owners who do not want to divulge vendor addresses, prices they paid for items, or other business transactions that can put them at competitive risk.
 * Everyday users who want a "digital cash" option to transfer and trade with one another privately through a shielded pool.&#x20;
+* Philanthropists who want to donate to causes anonymously.
 * Individuals interested in privacy, zksnarks, or novel auction mechanisms related to [XP functionality](../in-development/xp/).
 
 ## Who should not use zkBob?
+
+Users is countries where zkBob is prohibited should not use zkBob. Please check the [Compliance section](compliance.md).
 
 zkBob should not be used for any illegitimate or criminal activity. It should not be used in any way that violates any laws in the jurisdiction of the user, and should not be used by politically exposed individuals or associates of those individuals. Prior to using zkBob, you must acknowledge and accept these terms of usage:
 

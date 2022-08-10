@@ -6,6 +6,7 @@
 * [Basic Concepts](zkbob-overview/basic-concepts.md)
 * [FAQ](zkbob-overview/faq.md)
 * [Roadmap](zkbob-overview/roadmap.md)
+* [Compliance](zkbob-overview/compliance.md)
 
 ## 🦸♂ Using zkBob
 
