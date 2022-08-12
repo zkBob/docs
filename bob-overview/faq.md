@@ -4,7 +4,15 @@ description: Frequently asked questions
 
 # FAQ
 
-## Who should use zkBob?
+## General Bob Questions
+
+### Is the code open-source?
+
+The underlying code is open-source and anyone can deploy contracts, a relayer, and a cli to perform basic operations. The UI is not currently open-source to avoid simple clones. Code is available at [https://github.com/zkbob](https://github.com/zkbob)
+
+## zkBob Questions
+
+### Who should use zkBob?
 
 Users should first check their jurisdiction and [make sure they are in compliance](compliance.md) - zkBob is not available to users in some countries.
 
@@ -22,7 +30,7 @@ Some users of zkBob may include:
 * Philanthropists who want to donate to causes anonymously.
 * Individuals interested in privacy, zksnarks, or novel auction mechanisms related to [XP functionality](../in-development/xp/).
 
-## Who should not use zkBob?
+### Who should not use zkBob?
 
 Users is countries where zkBob is prohibited should not use zkBob. Please check the [Compliance section](compliance.md).
 
@@ -36,42 +44,38 @@ zkBob should not be used for any illegitimate or criminal activity. It should no
 * You have not been arrested or convicted of any offence or crime.
 * You are willing to provide and verify your identity upon request.
 
-## Is the code open-source?
-
-The underlying code is open-source and anyone can deploy contracts, a relayer, and a cli to perform basic operations. The UI is not currently open-source to avoid simple clones. Code is available at [https://github.com/zkbob](https://github.com/zkbob)
-
-## How long should I keep my tokens in a zkBob anonymity pool to ensure privacy?
+### How long should I keep my tokens in a zkBob anonymity pool to ensure privacy?
 
 It depends on how large the pool set is and how much activity has happened since your deposit. Looking at the number of deposits since your deposit can provide a rough estimation of safety (though not complete because it does not account for transfers within the protocol). In general, the longer you wait to withdraw (several days minimum), the better.&#x20;
 
-## Why are there multiple accounts?
+### Why are there multiple accounts?
 
 There are 2 different types of accounts displayed in the interface. One is for transferring funds **to and from zkBob (Wallet account)** and the second is for transferring funds **within zkBob (zkAccount)**.
 
 ![Accounts: Wallet is not yet connected and user is not logged into their zkAccount](<../.gitbook/assets/not-yet-connected (1).png>)
 
 1. **Wallet Account**. This is a standard EOA (Externally owned address) you can connect to fund or withdraw from your zkAccount. It can also be used to generate a zkAccount using the private key from the EOA.&#x20;
-2. **zkAccount.** This is the shielded account where you can transact privately with other zkAccount holders. It is auto-named starting with zk (in the example below account name is zkGerti). [More on zkAccounts](../implementation/account-and-notes/accounts.md).
+2. **zkAccount.** This is the shielded account where you can transact privately with other zkAccount holders. It is auto-named starting with zk (in the example below account name is zkGerti). [More on zkAccounts](../implementation/high-level-overview/account-and-notes/accounts.md).
 
 ![MM wallet is connected and user has logged into zkAccount which is auto-named zkGerti](../.gitbook/assets/connected.png)
 
-## What is the difference between an account and an address?
+### What is the difference between an account and an address?
 
 \-> **Accounts** are used to perform actions with zkBob. You may use an EOA wallet account to deposit or withdraw, and your zkBob account to initiate deposits, withdrawals, transfers, or view your transaction history.&#x20;
 
 \-> **Addresses** are used for shielded token transfers between users in zkBob. Ideally, a new address is generated for each transfer. It is not possible to link different private addresses to one another or to the primary account. Only the account owner can confirm ownership. Each created address is encoded in base58 format.
 
-Learn more about [generating a receiving address here.](../using-zkbob/zkbob-app/generate-a-secure-address.md)
+Learn more about [generating a receiving address here.](../applications/zkbob-app/generate-a-secure-address.md)
 
-## I generated a new zkBob address, will my old one still work?
+### I generated a new zkBob address, will my old one still work?
 
 Yes, it will still work. You can generate as many addresses as you would like. Each one is encrypted and cannot be connected to one another or to the primary account except by the account owner, and each one will work indefinitely.
 
-## What if I lose my password?
+### What if I lose my password?
 
 You can restore your account using your original seed phrase. Once restored, you will be asked to generate a new password.
 
-## Why do I keep having to enter my password?
+### Why do I keep having to enter my password?
 
 Encrypted data is stored in local storage for safety purposes. When the app is refreshed from the browser, the password is needed to decrypt the locally-stored account data. A built-in refresh function lets you update history and balance without needing to refresh the entire application. This is useful to view your current zkaccount state once a transaction has been processed on-chain.&#x20;
 
@@ -79,7 +83,7 @@ The in-app refresh, located next to your zkaccount name, should be used rather t
 
 ![](../.gitbook/assets/refresh.png)
 
-## Why is my transaction taking almost a minute to process?
+### Why is my zkBob transaction taking almost a minute to process?
 
 Several processes are required for a successful transaction. Proof generation takes place on the client side and is typically a 10 second process. Transactions are then processed in parallel rather than sequentially through the relayer, which optimizes the zkBob application. However, once a transaction is submitted to the chain, timing can be variable based on blockchain congestion, resulting in some longer transaction times.
 
@@ -87,7 +91,7 @@ Several processes are required for a successful transaction. Proof generation ta
 
 For safety purposes and to prevent potential double-spend scenarios, the application waits until a transaction is confirmed before another transaction can be initiated.
 
-## Can the zkBob protocol be compromised and my information made available?
+### Can the zkBob application be compromised and my information made available?
 
 With zkproof transactions specific identifying information is never recorded (such as sender, receiver and amount sent) so it is not possible to connect these bits of information within zkBob. However, there are other ways your information may be compromised. To maintain privacy, be aware of the following.
 
@@ -98,7 +102,7 @@ With zkproof transactions specific identifying information is never recorded (su
 * **Secure address messaging**:  When sending a generated address to another party, carefully choose the application you use (ie Slack, telegram, etc).  It is best to choose a secure and private channel.
 * **Withdrawals**: When withdrawing from the application, sending to a newly generated address without a prior transaction history is the most private method.
 
-## I can't connect to my account, what should I do?
+### I can't connect to my zkBob account, what should I do?
 
 If you have entered the correct information but your account is not loading you can try clearing the cache and storage. Version updates can sometimes result in artifacts that must be cleared for the latest version to work.&#x20;
 

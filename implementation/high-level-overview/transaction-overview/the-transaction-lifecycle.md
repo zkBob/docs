@@ -6,7 +6,7 @@ description: From the user to the contract
 
 A transaction proceeds through several stages before being accepted by the contract.
 
-![Transaction lifecycle](<../../.gitbook/assets/tx\_flow (1).png>)
+![Transaction lifecycle](<../../../.gitbook/assets/tx\_flow (1).png>)
 
 First the initiator (zkBob client) forms the desired transaction type. Output account and notes are calculated, encrypted, and packed into the memo block. The zkSNARK proof is also calculated. The client sends the public portion of the transaction along with the proof to the relayer node.
 

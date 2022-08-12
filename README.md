@@ -1,16 +1,18 @@
 ---
-description: Optimistic on the outside with a creamy zk center!
+description: A stable rollup designed for simplicity and stable utility
 ---
 
 # Bob Stable Rollup
 
-## 🧁 Stable Rollup Transactions
+![](<.gitbook/assets/Copy of zkBob Tbilisi (1).png>)
 
-Bob is an optimistic rollup on Ethereum featuring a native, zk-based transactional application as a core primitive. This combination creates a scalable and secure L2 solution enhanced by privacy options.
+Bob is an optimistic rollup deployed on Ethereum featuring a native, L3 application environment.&#x20;
 
 A stable token (BOB) is optimized for the protocol and used for gas fees and transactions.&#x20;
 
-Bob is designed for stability, security, and speed as L2s and rollups become the dominant scaling solution for Ethereum.&#x20;
+A primitive within the application environment is a zk-based transactional application called zkBob.  zkBob enables secure, private stablecoin transfers between users.
+
+The Bob rollup is designed for stability, security, and speed as rollups become the dominant scaling solution for Ethereum.&#x20;
 
 ## **Bob and Alice** 🐇&#x20;
 
@@ -20,7 +22,7 @@ Alice is a well-known comic book collector. She does a lot of business on the bl
 
 🐇 Alice uses 100 USDC to purchase 100 Bob tokens on Uniswap v3 on Ethereum.&#x20;
 
-🐇 She moves the Bob to the Bob Rollup (via a bridge or state channel) and  creates a zkBob account using the private key from an existing Ethereum Externally Owned Account (EOA). She could also create directly from a seed phrase, but chooses to create using MetaMask 🦊.
+🐇 She moves the Bob to the Bob Rollup (via a bridge or state channel) and creates a zkBob account using the private key from an existing Ethereum Externally Owned Account (EOA). She could also create directly from a seed phrase, but chooses to create using MetaMask 🦊.
 
 🐇 Once the account is connected, Alice deposits her 100 Bob into the zkBob pool. Here it is converted into shielded Bob (shBob).
 
@@ -34,5 +36,5 @@ Alice is a well-known comic book collector. She does a lot of business on the bl
 
 ## Development & Deployment
 
-Bob rollup is an is an application developed by the [Blockscout](https://blockscout.com/) research group with assistance from [ZeroPool ](https://zeropool.network/)for the zkBob application. A production instance is planned for deployment in a decentralized manner via a [Trusted Setup Ceremony](deploying-zkbob/zkbob-solution-deployment/trusted-setup-ceremony.md).&#x20;
+Bob rollup is an is an application developed by the [Blockscout](https://blockscout.com/) research group with assistance from [ZeroPool ](https://zeropool.network/)for the zkBob application. A production instance is planned for deployment in a decentralized manner via a [Trusted Setup Ceremony](deployment/zkbob-solution-deployment/trusted-setup-ceremony.md).&#x20;
 

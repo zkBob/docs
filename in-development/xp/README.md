@@ -18,11 +18,11 @@ $$e = Acc_{in}.b (Acc_{out}.i - Acc_{in}.i) + \sum_k Note_k.b (Acc_{out}.i - pos
 
 where
 
-* $$Acc_{in}$$ and $$Acc_{out}$$ is the transaction's input and output [accounts](../../implementation/account-and-notes/accounts.md) respectively,
-* $$Note_k$$ is the transaction's input [note](../../implementation/account-and-notes/notes.md)
-* $$pos(Note_k)$$ is the note's position in the [Merkle tree](../../implementation/untitled/)
+* $$Acc_{in}$$ and $$Acc_{out}$$ is the transaction's input and output [accounts](../../implementation/high-level-overview/account-and-notes/accounts.md) respectively,
+* $$Note_k$$ is the transaction's input [note](../../implementation/high-level-overview/account-and-notes/notes.md)
+* $$pos(Note_k)$$ is the note's position in the [Merkle tree](../../implementation/high-level-overview/untitled/)
 
-When you make a withdrawal transaction, you can get some amount (from zero to overall) of XP. The pool contract will mint [XP ](../../implementation/contracts-and-circuits/voucher-token-contract.md)for the address specified in such a transaction.
+When you make a withdrawal transaction, you can get some amount (from zero to overall) of XP. The pool contract will mint [XP ](../../implementation/high-level-overview/contracts-and-circuits/voucher-token-contract.md)for the address specified in such a transaction.
 
 
 

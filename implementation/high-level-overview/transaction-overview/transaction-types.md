@@ -8,7 +8,7 @@ The current protocol implementation supports three transaction types: deposit, t
 
 {% tabs %}
 {% tab title="Deposit" %}
-![The deposit flow](../../.gitbook/assets/deposit.png)
+![The deposit flow](../../../.gitbook/assets/deposit.png)
 
 A deposit transaction delivers external funds to the user's account. It is assumed the user initiating the deposit transaction has made a prior token approval to the zkBob contract.
 
@@ -29,7 +29,7 @@ The user must include a deposit signature field to the transaction. This field c
 {% endtab %}
 
 {% tab title="Transfer" %}
-![The internal transfer flow](../../.gitbook/assets/transfer.png)
+![The internal transfer flow](../../../.gitbook/assets/transfer.png)
 
 This transaction moves an amount of funds to one or more internal (zkBob) receivers. The transfer transaction does not change the receiver's account balance immediately. Instead one or more payment notes are generated and sent inside the transaction's memo block.
 
@@ -45,7 +45,7 @@ The transfer transaction emits an output account and output notes to push them i
 {% endtab %}
 
 {% tab title="Withdrawal" %}
-![The withdrawal flow](../../.gitbook/assets/withdrawal.png)
+![The withdrawal flow](../../../.gitbook/assets/withdrawal.png)
 
 A withdrawal transaction move funds from the zkBob account to the external destination point. Destination address is specified in the `memo.receiver` field (a chain-specific address).
 

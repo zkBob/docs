@@ -50,7 +50,7 @@ shBOB is shielded BOB, a secure token used for transfers within the zero-knowled
 
 ### Relayer
 
-The relayer acts as an intermediary between the user and the smart contracts. Transactions are sent to the relayer which collects transactions, calculates Merkle tree proofs, orders them in a queue, then sends this information to the contract. The relayer cannot see transaction amounts and preserves anonymity by abstracting gas fees for operations. Relayer interaction occurs via a [REST API](../implementation/relayer-node/rest-api.md).
+The relayer acts as an intermediary between the user and the smart contracts. Transactions are sent to the relayer which collects transactions, calculates Merkle tree proofs, orders them in a queue, then sends this information to the contract. The relayer cannot see transaction amounts and preserves anonymity by abstracting gas fees for operations. Relayer interaction occurs via a [REST API](../implementation/high-level-overview/relayer-node/rest-api.md).
 
 ### XP (Experience Points)
 

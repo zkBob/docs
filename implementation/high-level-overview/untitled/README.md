@@ -4,7 +4,7 @@ description: The main data structure
 
 # zkBob Merkle Tree
 
-![Full Merkle tree](../../.gitbook/assets/Merkle\_200dpi\_b.png)
+![Full Merkle tree](../../../.gitbook/assets/Merkle\_200dpi\_b.png)
 
 The merkle tree in the zkBob solution is used to link and store encrypted transaction data (accounts and notes) within a strict sequence. The accounts and note hashes are placed in the tree leaves.
 
