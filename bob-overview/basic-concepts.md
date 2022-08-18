@@ -6,7 +6,7 @@ Below are descriptions of basic concepts underlying Bob and zkBob functionality.
 
 ### Optimistic Rollup
 
-
+A layer-2 protocol which processes transactions off-chain then publishes results on-chain in large batches as `calldata`, resulting in improvements to scalability and reducing costs for users. Optimistic rollups use a challenge system which protects the protocol but introduces delays to transaction finality. [Learn more](https://ethereum.org/en/developers/docs/scaling/optimistic-rollups/)
 
 ### Zero-Knowledge Proofs
 

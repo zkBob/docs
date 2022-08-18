@@ -32,3 +32,11 @@ You agree not to access zkBob using any technology for the purposes of circumven
 
 You are responsible for reporting and paying any applicable taxes associated with your usage.
 
+## Deposit Limits
+
+Limits are imposed to protect against large illicit deposits (for example a hack where attackers need to quickly move a large amount of funds). Individual deposits, accounts, and the protocol itself adhere to the following deposit limits. X amounts are still in active consideration.
+
+1. A single deposit cannot exceed X1.
+2. A single address cannot deposit more than X2 during a single 24 hour period.
+3. All deposits from all addresses cannot exceed X3 during a single 24 hour period.
+
