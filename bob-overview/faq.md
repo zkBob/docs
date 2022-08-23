@@ -28,7 +28,7 @@ Some users of zkBob may include:
 * Business owners who do not want to divulge vendor addresses, prices they paid for items, or other business transactions that can put them at competitive risk.
 * Everyday users who want a "digital cash" option to transfer and trade with one another privately through a shielded pool.&#x20;
 * Philanthropists who want to donate to causes anonymously.
-* Individuals interested in privacy, zksnarks, or novel auction mechanisms related to [XP functionality](../in-development/xp/).
+* Individuals interested in privacy, zksnarks, or novel auction mechanisms related to [XP functionality](../roadmap/xp/).
 
 ### Who should not use zkBob?
 
@@ -55,7 +55,7 @@ There are 2 different types of accounts displayed in the interface. One is for t
 ![Accounts: Wallet is not yet connected and user is not logged into their zkAccount](<../.gitbook/assets/not-yet-connected (1).png>)
 
 1. **Wallet Account**. This is a standard EOA (Externally owned address) you can connect to fund or withdraw from your zkAccount. It can also be used to generate a zkAccount using the private key from the EOA.&#x20;
-2. **zkAccount.** This is the shielded account where you can transact privately with other zkAccount holders. It is auto-named starting with zk (in the example below account name is zkGerti). [More on zkAccounts](../implementation/high-level-overview/account-and-notes/accounts.md).
+2. **zkAccount.** This is the shielded account where you can transact privately with other zkAccount holders. It is auto-named starting with zk (in the example below account name is zkGerti). [More on zkAccounts](../implementation/account-and-notes/accounts.md).
 
 ![MM wallet is connected and user has logged into zkAccount which is auto-named zkGerti](../.gitbook/assets/connected.png)
 
@@ -65,7 +65,7 @@ There are 2 different types of accounts displayed in the interface. One is for t
 
 \-> **Addresses** are used for shielded token transfers between users in zkBob. Ideally, a new address is generated for each transfer. It is not possible to link different private addresses to one another or to the primary account. Only the account owner can confirm ownership. Each created address is encoded in base58 format.
 
-Learn more about [generating a receiving address here.](../applications/zkbob-app/generate-a-secure-address.md)
+Learn more about [generating a receiving address here.](../zkbob-app/generate-a-secure-address.md)
 
 ### I generated a new zkBob address, will my old one still work?
 

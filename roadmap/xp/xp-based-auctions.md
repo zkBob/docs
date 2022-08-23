@@ -5,7 +5,7 @@ description: Novel auction mechanism to distribute protocol revenue
 # XP-based Auctions
 
 {% hint style="info" %}
-Feature in development and will not be active for the first iteration of the zkBob application.
+Feature in research and development and will not be active for the first iteration of the zkBob application.
 {% endhint %}
 
 zkBob will earn some revenue for the protocol through funds compounding and fees. In order to distribute these funds, weekly auctions will be held to distribute them to the highest XP bidder.&#x20;

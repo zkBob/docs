@@ -10,13 +10,13 @@ The zkBob solution is based on several interrelated smart contracts. The main pu
 [Contracts Github repo](https://github.com/zkBob/pool-evm-single-l1). Contract code is also linked in the contract pages referenced below.
 {% endhint %}
 
-![The zkBob Smart Contracts Subsystem](../../../.gitbook/assets/contracts\_240dpi.png)
+![The zkBob Smart Contracts Subsystem](../../.gitbook/assets/contracts\_240dpi.png)
 
 * [Pool contract ](the-pool-contract/)is the main contract which holds the current Merkle tree state. It process all transactions and holds a current Merkle tree root.
 * [Token contract](token-contract.md) mints a shielded coin protected by the current zkBob solution. This token is deposited in the Pool contract and withdrawn from it.
 * [Verifier contracts](verifier-contracts.md) are used by the Pool contract to check transaction correctness / validate zkSNARK proofs.
 * [Operator contract](operator-manager-contract/) helps the Pool contract to determine whether transactions can be accepted from a sender. It is used in the multi-relayer configuration to serialize the transaction sequence from the different nodes and minimize transaction collisions.
-* [Voucher token contract](voucher-token-contract.md) mints a token ([XP](../../../in-development/xp/)) to reward users for their contribution in the anonymity set.
+* [Voucher token contract](voucher-token-contract.md) mints a token ([XP](../../roadmap/xp/)) to reward users for their contribution in the anonymity set.
 
 **TODO:**
 

@@ -1,8 +1,8 @@
 ---
-description: A built-in application for zk-based transactions
+description: An application for zk-based transactions
 ---
 
-# zkBob Tx App
+# UI Overview
 
 Users can perform the following operations when interacting with the zkBob application UI.
 

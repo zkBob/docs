@@ -1,16 +1,12 @@
 # Basic Concepts
 
 {% hint style="info" %}
-Below are descriptions of basic concepts underlying Bob and zkBob functionality. For more thorough details, see the [technical overview](broken-reference) section.
+Below are descriptions of basic concepts underlying BOB and zkBob functionality. For more thorough details, see the [technical overview](broken-reference) section.
 {% endhint %}
-
-### Optimistic Rollup
-
-A layer-2 protocol which processes transactions off-chain then publishes results on-chain in large batches as `calldata`, resulting in improvements to scalability and reducing costs for users. Optimistic rollups use a challenge system which protects the protocol but introduces delays to transaction finality. [Learn more](https://ethereum.org/en/developers/docs/scaling/optimistic-rollups/)
 
 ### Zero-Knowledge Proofs
 
-zkBob uses zero-knowledge proofs to verify an action has been completed (deposit, transfer, withdrawal) without providing any other identifying details about that action. Zkproofs confirm that the chain state has changed without divulging information about amounts, initiators or receivers of transactions. [Learn more about zero-knowledge proofs](https://en.wikipedia.org/wiki/Zero-knowledge\_proof).
+zkBob uses zero-knowledge proofs to verify an action has been completed (deposit, transfer, withdrawal) without providing any other identifying details about that action. Zkproofs confirm that the chain state has changed without divulging information about amounts, initiators, or receivers of transactions. [Learn more about zero-knowledge proofs](https://en.wikipedia.org/wiki/Zero-knowledge\_proof).
 
 ### zkBob Account
 
@@ -42,7 +38,7 @@ Similar to deposits, a user can send a transaction to the zkBob contract to with
 
 ### **BOB Stable Token**
 
-BOB tokens are stable tokens paired with USDC on a Uniswap v3 pool. Due to range settings in Uniswap v3 slippage can be minimized so that BOB remains stable. BOB is designed to function specifically with the zkBob privacy pool. They can be acquired through Uniswap v3 with USDC, then transferred to the Bob rollup and zkBob application through the user interface.
+BOB tokens are stable tokens paired with USDC on a Uniswap v3 pool. Using range settings in Uniswap v3 slippage can be minimized so that BOB remains stable. BOB is designed to function specifically with the zkBob privacy pool. They can be acquired through Uniswap v3 with USDC, then transferred to the Bob rollup and zkBob application through the user interface.
 
 ### **shBOB Token**
 
@@ -50,9 +46,5 @@ shBOB is shielded BOB, a secure token used for transfers within the zero-knowled
 
 ### Relayer
 
-The relayer acts as an intermediary between the user and the smart contracts. Transactions are sent to the relayer which collects transactions, calculates Merkle tree proofs, orders them in a queue, then sends this information to the contract. The relayer cannot see transaction amounts and preserves anonymity by abstracting gas fees for operations. Relayer interaction occurs via a [REST API](../implementation/high-level-overview/relayer-node/rest-api.md).
-
-### XP (Experience Points)
-
-XP will be introduced in an upcoming version of the protocol. XP are earned by pool participants and allow users to bid on additional tokens generated in the protocol through a unique auction mechanism. More details coming soon.
+The relayer acts as an intermediary between the user and the smart contracts. Transactions are sent to the relayer which collects transactions, calculates Merkle tree proofs, orders them in a queue, then sends this information to the contract. The relayer cannot see transaction amounts and preserves anonymity by abstracting gas fees for operations. Relayer interaction occurs via a [REST API](../implementation/relayer-node/rest-api.md).
 

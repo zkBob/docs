@@ -4,9 +4,7 @@ description: zkBob token
 
 # BOB Stable Token
 
-To use the Bob rollup, you need some BOB!&#x20;
-
-BOB is a stable token designed to function specifically within the Bob rollup environment. BOB can be swapped for USDC using Uniswap v3 on Gnosis Chain, then [deposited ](../applications/zkbob-app/deposits.md)to the zkBob application through the UI.
+BOB is a stable token designed to function specifically within the Bob rollup environment. BOB can be swapped for USDC using Uniswap v3 on Gnosis Chain, then [deposited ](../zkbob-app/deposits.md)to the zkBob application through the UI.
 
 On deposit, BOB is converted to shBOB, a shielded version of the token which can be transacted privately within the application. On withdrawal, shBOB are converted back to BOB, and BOB can be swapped back to USDC through the Uniswap interface.
 
@@ -26,7 +24,7 @@ _More details coming soon._
 
 <summary>How do BOB tokens remain stable?</summary>
 
-BOB tokens are pre-minted and paired with an existing stable token (USDC) on Uniswap V3. Uniswap v3 features the ability to set a range for the exchange rate and provide concentrated liquidity for the pair, resulting  in limited slippage to the USDC peg.
+BOB tokens are pre-minted and paired with an existing stable token (USDC) on Uniswap V3. Uniswap v3 features the ability to set a range for the exchange rate and provide concentrated liquidity for the pair, resulting in very limited slippage to the USDC peg.
 
 </details>
 
@@ -34,7 +32,7 @@ BOB tokens are pre-minted and paired with an existing stable token (USDC) on Uni
 
 <summary>What are the BOB token contract details and implementation address?</summary>
 
-BOB tokens are deployed with the same contract address across multiple networks. _Address TBD_
+BOB tokens are initially deployed on Polygon.  _Address TBD_
 
 Basic BOB token attributes:
 
@@ -53,7 +51,7 @@ _More Info Coming Soon_
 
 <summary>How can I earn additional BOB tokens through the protocol?</summary>
 
-This is not yet possible, but will be activated in the next version. A novel auction will be implemented where users who earn XP can bid on BOB rewards earned from LP positions, compounding and lost tokens.\
+This is not yet possible, but will be activated in the next version. An auction mechanism is in development where users can bid on BOB rewards earned from LP positions, compounding, and lost tokens.\
 \
 &#x20;_Auction details coming soon._
 
