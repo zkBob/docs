@@ -4,7 +4,7 @@ description: zkBob token
 
 # BOB Stable Token
 
-BOB is a stable token designed to function specifically within the Bob rollup environment. BOB can be swapped for USDC using Uniswap v3 on Gnosis Chain, then [deposited ](../zkbob-app/deposits.md)to the zkBob application through the UI.
+BOB is a stable token designed to function specifically within the Bob protocol. BOB can be swapped for USDC using Uniswap v3 on Gnosis Chain, then [deposited ](../zkbob-app/deposits.md)to the zkBob application through the UI.
 
 On deposit, BOB is converted to shBOB, a shielded version of the token which can be transacted privately within the application. On withdrawal, shBOB are converted back to BOB, and BOB can be swapped back to USDC through the Uniswap interface.
 
