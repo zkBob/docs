@@ -10,7 +10,7 @@ zkBob should not be used for any illegitimate or criminal activity nor supported
 
 Politically exposed individuals or associates of those individuals are not permitted to use the application under existing laws.&#x20;
 
-**Prior to using zkBob, a user must acknowledge and accept the following terms:**
+Prior to using zkBob, a user must acknowledge and accept the following terms:
 
 * If acting as an individual you are of legal age (as applicable in the jurisdiction where you live).
 * You are not a politically exposed person, that is, a person who is entrusted with any prominent public function, or a politically exposed person who has stepped down from that role.
@@ -22,12 +22,15 @@ Politically exposed individuals or associates of those individuals are not permi
 
 ## User Responsibility
 
-* Use of zkBob is at the sole risk of the user.
-* The code repository, decentralized and autonomous protocol and environment, and associated decentralized networks are open-source and not controlled by any team.&#x20;
-* zkBob contributors are not responsible for any losses or damages associated with inherent risks associated with cryptography, blockchain, or digital wallet usage.
-* The user agrees not to access zkBob using any technology for the purposes of circumventing geo restrictions (ie VPN).
-* Users are responsible for reporting and paying any applicable taxes associated with usage.
-* Users acknowledge that addresses may be blocked from using the protocol if they are sanctioned or added to a block list.
+Use of zkBob is at the sole risk of the user.
+
+The GitHub repository, decentralized and autonomous protocol and environment, and associated decentralized networks are open-source and not controlled by any team.&#x20;
+
+&#x20;zkBob is not responsible for any losses or damages associated with inherent risks associated with cryptography, blockchain, or digital wallet usage.
+
+You agree not to access zkBob using any technology for the purposes of circumventing geo restrictions.
+
+You are responsible for reporting and paying any applicable taxes associated with your usage.
 
 ## Daily limits
 
