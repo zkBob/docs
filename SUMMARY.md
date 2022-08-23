@@ -7,6 +7,7 @@
 * [FAQ](bob-overview/faq.md)
 * [Roadmap](bob-overview/roadmap.md)
 * [Compliance](bob-overview/compliance.md)
+* [Deposit Limits](bob-overview/deposit-limits.md)
 * [BOB Stable Token](bob-overview/bob-stable-token.md)
 
 ## 🦸♂ Applications
