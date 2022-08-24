@@ -1,16 +1,18 @@
 ---
-description: A stablecoin-based protocol designed for simplicity, privacy and utility.
+description: >-
+  A stablecoin-based protocol and application designed for simplicity, privacy
+  and utility.
 ---
 
-# Meet Bob
+# Bob and zkBob
 
-Bob is an easy-to-use protocol designed to give regular crypto users new stablecoin-based utility. Users swap USDC for BOB tokens to get started. BOB can then be used in conjunction with the zkBob application to conduct small, discreet transactions between protocol users.
+**Bob is an easy-to-use protocol** designed to give regular crypto users new stablecoin-based utility. Users swap USDC for BOB tokens to get started. BOB can then be used in conjunction with the zkBob application to conduct small, discreet transactions between protocol users.
 
-zkBob is a zk-based application which introduces a private transaction pool.  zkBob enables secure, limited-value, anonymous stablecoin transfers between users. [Deposit limits](bob-overview/deposit-and-withdrawal-limits.md) and [compliance features](bob-overview/compliance.md) provide a safe transactional environment for everyday users.
+**zkBob is a zk-based application** which introduces a private transaction pool.  zkBob enables secure, limited-value, anonymous stablecoin transfers between users. [Deposit limits](bob-protocol/deposit-and-withdrawal-limits.md) and [compliance features](bob-protocol/compliance.md) provide a safe transactional environment for everyday users.
 
-zkBob is a free application to use. Transaction fees (USDC to BOB swap fees and zkBob transactions) are subsidized at project launch, and future iterations will incorporate compounding, lost token recovery, and other mechanisms to create an evergreen platform.
+**zkBob is free for users**. Transaction fees within the application are subsidized at project launch, and future iterations will incorporate [compounding](roadmap/compounding.md), lost token recovery, and other mechanisms to create an evergreen platform.
 
-Bob protocol will be deployed on Polygon to take advantage of existing infrastructure (Uniswap v3, Aave, and native USDC) and to support their commitment to zk-based solutions. [Learn More](bob-overview/bob-on-polygon.md).
+**Bob and zkBob will be deployed on Polygon** to take advantage of existing infrastructure (Uniswap v3, Aave, and native USDC), scalability, and to support their commitment to zk-based solutions. [Learn More](bob-protocol/bob-on-polygon.md).
 
 ## **Bob and Alice** 🐇&#x20;
 
@@ -32,7 +34,7 @@ Alice is a well-known comic book collector. She does a lot of business on the bl
 
 🐇 Alice now has a new account with 170 BOB. She converts them back to 170 USDC on Uniswap. There is no way to determine the origin of the funds, and Alice, Carl and Dave are able to preserve their anonymity and grow their comic collections safely and securely, thanks to zkBob!
 
-## Development & Deployment
+## Development and Deployment
 
 Bob protocol is an is an application originally developed by the xDai research group with assistance from [ZeroPool ](https://zeropool.network/)for the zkBob application. A production instance is planned for deployment in a decentralized manner via a [Trusted Setup Ceremony](deployment/trusted-setup-ceremony.md).&#x20;
 

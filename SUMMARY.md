@@ -1,15 +1,15 @@
 # Table of contents
 
-## 🦹 Bob Overview
+## 🦹 Bob Protocol
 
-* [Meet Bob](README.md)
-* [Basic Concepts](bob-overview/basic-concepts.md)
-* [BOB Stable Token](bob-overview/bob-stable-token.md)
-* [Bob on Polygon](bob-overview/bob-on-polygon.md)
-* [Deposit & Withdrawal Limits](bob-overview/deposit-and-withdrawal-limits.md)
-* [Security](bob-overview/security.md)
-* [Compliance](bob-overview/compliance.md)
-* [FAQ](bob-overview/faq.md)
+* [Bob and zkBob](README.md)
+* [Basic Concepts](bob-protocol/basic-concepts.md)
+* [BOB Stable Token](bob-protocol/bob-stable-token.md)
+* [Bob on Polygon](bob-protocol/bob-on-polygon.md)
+* [Deposit & Withdrawal Limits](bob-protocol/deposit-and-withdrawal-limits.md)
+* [Security](bob-protocol/security.md)
+* [Compliance](bob-protocol/compliance.md)
+* [FAQ](bob-protocol/faq.md)
 
 ## 🦸♂ zkBob Application <a href="#zkbob-app" id="zkbob-app"></a>
 
