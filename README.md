@@ -1,16 +1,16 @@
 ---
-description: A stablecoin-based protocol designed for simplicity, privacy and utility.
+description: A stablecoin-based protocol designed for simplicity and utility
 ---
 
 # Meet Bob
 
-Bob protocol is an easy-to-use protocol designed to give regular crypto users new stablecoin-based utility. Users swap USDC 1-to-1 for BOB tokens to get started. BOB can then be used in conjunction with the zkBob app to conduct small, discreet transactions between protocol users.
 
-zkBob is a zk-based application which introduces a shielded transaction pool.  zkBob enables secure, limited-value, private stablecoin transfers between users. [Deposit limits](bob-overview/deposit-limits.md) and [compliance features](bob-overview/compliance.md) provide a safe transactional environment for everyday users.
 
-zkBob is a free application to use. Transaction fees (USDC to BOB swap fees and zkBob transactions) are subsidized at project launch, and future iterations will incorporate compounding, lost token recovery, and other mechanisms to create an evergreen platform.
+A stable token (BOB) is optimized for the protocol.
 
-Bob protocol will initially be deployed on Polygon to take advantage of existing infrastructure (Uniswap v3, Aave, and native USDC) and to support their commitment to zk-based solutions. [Learn More](bob-overview/bob-on-polygon.md).
+A zk-based transactional application called zkBob introduces private transactions.  zkBob enables secure and discreet limited-value stablecoin transfers between users. [Deposit limits](bob-overview/deposit-limits.md) and [compliance features](bob-overview/compliance.md) provide a safe transactional environment for everyday users.
+
+The Bob protocol will initially be deployed on Polygon to take advantage of existing infrastructure (Uniswap v3, Aave, and native USDC) and their commitment to zk-based solutions. [Learn More](bob-overview/bob-on-polygon.md).
 
 ## **Bob and Alice** 🐇&#x20;
 

@@ -4,6 +4,14 @@
 Below are descriptions of basic concepts underlying BOB and zkBob functionality. For more thorough details, see the [technical overview](broken-reference) section.
 {% endhint %}
 
+### Bob
+
+Bob is a stablecoin protocol, and BOB is the stablecoin optimized for the protocol. BOB can be swapped 1-to-1 with USDC. BOB can be used in conjunction with the zkBob application to enable small, anonymous transactions between users.
+
+### zkBob
+
+zkBob is an application within the Bob protocol. It accepts BOB stablecoins for deposit, and transforms these into shBOB, which can be transferred anonymously between participants. On exit from the application, shBOB is converted back to BOB.&#x20;
+
 ### Zero-Knowledge Proofs
 
 zkBob uses zero-knowledge proofs to verify an action has been completed (deposit, transfer, withdrawal) without providing any other identifying details about that action. Zkproofs confirm that the chain state has changed without divulging information about amounts, initiators, or receivers of transactions. [Learn more about zero-knowledge proofs](https://en.wikipedia.org/wiki/Zero-knowledge\_proof).
@@ -26,11 +34,16 @@ Each created address is encoded in base58 format. For example `5fkW3dXTvA8Kizt1E
 
 ### **Deposits**
 
-Deposits can be made by sending Bob tokens (from a zkBob Account) to the zkBob pool contract. Depositors first approve the contract to access the funds, then create and send the deposit. Transactions are routed via a relayer to the pool contract, and can be initiated through the UI.
+Deposits can be made by sending Bob tokens (from a zkBob Account) to the zkBob pool contract. Depositors complete 2 steps to get started.&#x20;
+
+1. Approve the contract to access the funds
+2. Create and send the deposit.&#x20;
+
+Transactions are routed via a relayer to the pool contract.
 
 ### **Transfers**
 
-Transfers also use relayers to send private transactions. A user can transfer funds to another zkBob account by sending zk-proofs anonymously to one of relayers. The relayer publishes the transaction to the zkBob contract.
+Transfers also use relayers to send private transactions. A user can transfer funds to another zkBob account by sending zk-proofs anonymously to a relayer. The relayer then publishes the transaction to the zkBob contract.
 
 ### Withdrawals
 
