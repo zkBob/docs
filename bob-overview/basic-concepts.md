@@ -10,7 +10,7 @@ Bob is a stablecoin protocol, and BOB is the stablecoin optimized for the protoc
 
 ### zkBob
 
-zkBob is an application within the Bob protocol. It accepts BOB stablecoins for deposit, and transforms these into shBOB, which can be transferred anonymously between participants. On exit from the application, shBOB is converted back to BOB.&#x20;
+zkBob is an application within the Bob protocol. It accepts BOB stablecoins for deposit, and once deposited in the zkBob app, BOB can be transferred anonymously between participants. BOB can then be withdrawn from the application to an EOA (externally owned address) without a record of the transfer amounts or participants.
 
 ### Zero-Knowledge Proofs
 
@@ -51,11 +51,7 @@ Similar to deposits, a user can send a transaction to the zkBob contract to with
 
 ### **BOB Stable Token**
 
-BOB tokens are stable tokens paired with USDC on a Uniswap v3 pool. Using range settings in Uniswap v3 slippage can be minimized so that BOB remains stable. BOB is designed to function specifically with the zkBob privacy pool. They can be acquired through Uniswap v3 with USDC, then transferred to the Bob rollup and zkBob application through the user interface.
-
-### **shBOB Token**
-
-shBOB is shielded BOB, a secure token used for transfers within the zero-knowledge pool.  BOB is automatically converted to shBOB when completing a deposit, and shBOB is converted back to BOB on withdrawal.
+BOB tokens are stable tokens paired with USDC on a Uniswap v3 pool. Using range settings in Uniswap v3 slippage can be minimized so that BOB remains stable. BOB is designed to function specifically with the zkBob privacy pool. They can be acquired through Uniswap v3 with USDC, then transferred to the  zkBob application through the user interface.
 
 ### Relayer
 

@@ -5,7 +5,7 @@
 * [Meet Bob](README.md)
 * [Basic Concepts](bob-overview/basic-concepts.md)
 * [BOB Stable Token](bob-overview/bob-stable-token.md)
-* [Deposit Limits](bob-overview/deposit-limits.md)
+* [Deposit & Withdrawal Limits](bob-overview/deposit-and-withdrawal-limits.md)
 * [Compliance](bob-overview/compliance.md)
 * [Bob on Polygon](bob-overview/bob-on-polygon.md)
 * [FAQ](bob-overview/faq.md)

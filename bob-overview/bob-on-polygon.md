@@ -8,8 +8,8 @@ Bob has been in research and development since December 2020. The original conce
 
 ## Bob Timeline
 
-* December 2020: R\&D initiated
-* June 2021: Prototyping and ongoing contract development on xDai
+* December 2020: R\&D initiated.
+* June 2021: Prototyping and ongoing contract development on xDai.
 * December 2021: New contributors improve contracts, implement applications, prepare Kovan deployment.
 * March 2022: Testing, bug fixing, protocol updates and enhancements.
 * August 2022:  Prep for beta launch and trusted ceremony, select Polygon for deployment.
@@ -22,7 +22,7 @@ Polygon infrastructure is mature and robust, completely supporting the needs of 
 * Aave
 * Native USDC implementation
 
-In addition, Polygon has shown their belief in the power of zk-based solutions with Polygon zkEVM, Polygon Nightfall, Polygon Miden, Polygon Zero and others. They are leaders in zero knowledge development and research.&#x20;
+In addition, Polygon has shown their belief in advancing zk-based solutions with Polygon zkEVM, Polygon Nightfall, Polygon Miden, Polygon Zero and others. They are leaders in zero knowledge development and research.&#x20;
 
 Finally, Bob values are aligned with those of the Polygon founders, and we appreciate their continued commitment to protecting privacy and neutrality for the Ethereum ecosystem.
 

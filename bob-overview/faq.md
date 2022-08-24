@@ -14,7 +14,7 @@ The underlying code is open-source and anyone can deploy contracts, a relayer, a
 
 ### Who should use zkBob?
 
-Users should first check their jurisdiction and [make sure they are in compliance](compliance.md) - zkBob is not available to users in some countries.
+Users should first check their jurisdiction and [make sure they are in compliance](compliance.md). zkBob is not available to users in some countries.
 
 The blockchain provides a transparent ledger of all transactions that have occurred since the genesis of the chain. This transparency is an important feature and useful in many cases. Sometimes, however, you may want to safeguard sensitive financial information.
 
@@ -98,7 +98,7 @@ With zkproof transactions specific identifying information is never recorded (su
 * **Seed phrase / private key discovery**: Never write a seed phrase on any internet-connected device. Do not take a screenshot of it. Do not copy and paste it anywhere. Write it on a physical piece of paper and keep somewhere secure.
 * **Ip-tracing**: Internet service providers collect logs that can show all ip addresses that connected to an application, including zkBob.&#x20;
 * **Transaction inference:** Depositing a specific amount of tokens and then withdrawing that exact amount (especially unconventional amounts in a short timeframe) can create a compelling case for connection. It is recommended to withdraw different amounts that amounts deposited, and to ideally keep funds in the pool for longer periods of time to provide more privacy.&#x20;
-* **Address trail:** Using same generated address for transactions with many different parties creates a connection string which can compromise privacy. It is best to generate a new address for each transfer within the application.
+* **Address trail:** Using the same generated address for transactions with many different parties creates a connection string which can compromise privacy. It is best to generate a new address for each transfer within the application.
 * **Secure address messaging**:  When sending a generated address to another party, carefully choose the application you use (ie Slack, telegram, etc).  It is best to choose a secure and private channel.
 * **Withdrawals**: When withdrawing from the application, sending to a newly generated address without a prior transaction history is the most private method.
 
