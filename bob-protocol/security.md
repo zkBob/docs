@@ -2,7 +2,7 @@
 
 ### Beta Release
 
-Bob and zkBob will be released in a beta version. The contracts have not yet been audited and users should use at their own discretion. During beta we are mitigating risks to users by [limiting deposits and withdrawals](deposit-and-withdrawal-limits.md). In addition, the overall size of a pool cannot exceed 1,000,000 BOB tokens.
+Bob and zkBob will be released in a beta version. The contracts have not yet been audited and users should use at their own discretion. Risks to users are mitigated through [limits on deposits and withdrawals](deposit-and-withdrawal-limits.md). In addition, the overall size of a pool cannot exceed 1,000,000 BOB tokens.
 
 ### Bug Bounty
 
