@@ -6,7 +6,7 @@ description: From the user to the contract
 
 A transaction proceeds through several stages before being accepted by the contract.
 
-![Transaction lifecycle](<../../../.gitbook/assets/tx\_flow (1).png>)
+![Transaction lifecycle](<../../.gitbook/assets/tx\_flow (1).png>)
 
 First the initiator (zkBob client) forms the desired transaction type. Output account and notes are calculated, encrypted, and packed into the memo block. The zkSNARK proof is also calculated. The client sends the public portion of the transaction along with the proof to the relayer node.
 
@@ -23,12 +23,12 @@ First the initiator (zkBob client) forms the desired transaction type. Output ac
 * Deposit signature (for deposit transactions only)
 {% endhint %}
 
-Relayer calculates the Merkle tree proof for the received transaction and composes a transaction sent to the zkBob Pool contract.
+The relayer calculates the Merkle tree proof for the received transaction and composes a transaction sent to the zkBob Pool contract.
 
 On transaction receipt the pool contract checks proofs with the verifier contracts and approves the transaction.
 
 {% hint style="info" %}
-#### Sending a transaction without Relayer
+#### Sending a transaction without a Relayer
 
 If a relayer node is down or compromised, a user can create a transaction without the relayer. To do this the user should build an actual zkBob Merkle tree to calculate the proof.
 
