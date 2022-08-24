@@ -5,9 +5,10 @@
 * [Meet Bob](README.md)
 * [Basic Concepts](bob-overview/basic-concepts.md)
 * [BOB Stable Token](bob-overview/bob-stable-token.md)
-* [Deposit & Withdrawal Limits](bob-overview/deposit-and-withdrawal-limits.md)
-* [Compliance](bob-overview/compliance.md)
 * [Bob on Polygon](bob-overview/bob-on-polygon.md)
+* [Deposit & Withdrawal Limits](bob-overview/deposit-and-withdrawal-limits.md)
+* [Security](bob-overview/security.md)
+* [Compliance](bob-overview/compliance.md)
 * [FAQ](bob-overview/faq.md)
 
 ## 🦸♂ zkBob Application <a href="#zkbob-app" id="zkbob-app"></a>
