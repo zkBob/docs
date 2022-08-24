@@ -10,7 +10,7 @@ zkBob is a zk-based application which introduces a private transaction pool.  zk
 
 zkBob is a free application to use. Transaction fees (USDC to BOB swap fees and zkBob transactions) are subsidized at project launch, and future iterations will incorporate compounding, lost token recovery, and other mechanisms to create an evergreen platform.
 
-Bob protocol will initially be deployed on Polygon to take advantage of existing infrastructure (Uniswap v3, Aave, and native USDC) and to support their commitment to zk-based solutions. [Learn More](bob-overview/bob-on-polygon.md).
+Bob protocol will be deployed on Polygon to take advantage of existing infrastructure (Uniswap v3, Aave, and native USDC) and to support their commitment to zk-based solutions. [Learn More](bob-overview/bob-on-polygon.md).
 
 ## **Bob and Alice** 🐇&#x20;
 
