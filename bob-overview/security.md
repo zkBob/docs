@@ -6,4 +6,4 @@ Bob and zkBob will be released in a beta version. The contracts have not yet bee
 
 ### Bug Bounty
 
-Bounties are one of the most important tools for testing and enhancing application and contract security. We are in the planning phases to implement a bug bounty through Immunefi to help protect users and their funds.
+Bounties are one of the most important tools for testing and enhancing application and contract security. We are in the planning phases to implement a bug bounty to help protect users and their funds.
