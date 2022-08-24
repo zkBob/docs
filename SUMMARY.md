@@ -68,6 +68,7 @@
 ## 👷♂ Roadmap
 
 * [Multi-chain Custom Rollup Deployment](roadmap/multi-chain-custom-rollup-deployment.md)
+* [Compounding](roadmap/compounding.md)
 * [XP (Experience Points)](roadmap/xp/README.md)
   * [XP-based Auctions](roadmap/xp/xp-based-auctions.md)
 
