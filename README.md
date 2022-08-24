@@ -4,9 +4,9 @@ description: A stablecoin-based protocol designed for simplicity, privacy and ut
 
 # Meet Bob
 
-Bob protocol is an easy-to-use protocol designed to give regular crypto users new stablecoin-based utility. Users swap USDC for BOB tokens to get started. BOB can then be used in conjunction with the zkBob application to conduct small, discreet transactions between protocol users.
+Bob is an easy-to-use protocol designed to give regular crypto users new stablecoin-based utility. Users swap USDC for BOB tokens to get started. BOB can then be used in conjunction with the zkBob application to conduct small, discreet transactions between protocol users.
 
-zkBob is a zk-based application which introduces a shielded transaction pool.  zkBob enables secure, limited-value, private stablecoin transfers between users. [Deposit limits](bob-overview/deposit-and-withdrawal-limits.md) and [compliance features](bob-overview/compliance.md) provide a safe transactional environment for everyday users.
+zkBob is a zk-based application which introduces a private transaction pool.  zkBob enables secure, limited-value, anonymous stablecoin transfers between users. [Deposit limits](bob-overview/deposit-and-withdrawal-limits.md) and [compliance features](bob-overview/compliance.md) provide a safe transactional environment for everyday users.
 
 zkBob is a free application to use. Transaction fees (USDC to BOB swap fees and zkBob transactions) are subsidized at project launch, and future iterations will incorporate compounding, lost token recovery, and other mechanisms to create an evergreen platform.
 
