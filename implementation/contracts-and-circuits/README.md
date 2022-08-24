@@ -18,11 +18,3 @@ The zkBob solution is based on several interrelated smart contracts. The main pu
 * [Operator contract](operator-manager-contract/) helps the Pool contract to determine whether transactions can be accepted from a sender. It is used in the multi-relayer configuration to serialize the transaction sequence from the different nodes and minimize transaction collisions.
 * [Voucher token contract](voucher-token-contract.md) mints a token ([XP](../../roadmap/xp/)) to reward users for their contribution in the anonymity set.
 
-**TODO:**
-
-* [x] Contracts overview
-* [ ] Pool contract
-* [ ] Tree and Tx verifiers
-* [ ] Direct withdrawal requests
-* [ ] Offset table (used on contract side)
-

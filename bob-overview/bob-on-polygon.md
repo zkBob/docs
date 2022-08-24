@@ -4,7 +4,7 @@ description: Bob will deploy on Polygon for several reasons.
 
 # Bob on Polygon
 
-Bob has been in research and development since December 2020. The original concept was initiated by members of the now defunct xDai research group and the zeropool team. Initially, Bob was slated for deployment to the xDai chain, however Polygon's robust infrastructure and commitment to zk-based solutions led contributors to select Polygon for deployment.
+Bob has been in research and development since December 2020. The original concept was initiated by members of the now defunct xDai research group and the [ZeroPool](https://zeropool.network/) team. Initially, Bob was slated for deployment to the xDai chain, however Polygon's robust infrastructure and commitment to zk-based solutions led contributors to select Polygon for deployment.
 
 ## Bob Timeline
 
