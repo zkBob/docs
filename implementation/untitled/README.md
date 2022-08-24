@@ -4,7 +4,7 @@ description: The main data structure
 
 # zkBob Merkle Tree
 
-![Full Merkle tree](../../../.gitbook/assets/Merkle\_200dpi\_b.png)
+![Full Merkle tree](../../.gitbook/assets/Merkle\_200dpi\_b.png)
 
 The merkle tree in the zkBob solution is used to link and store encrypted transaction data (accounts and notes) within a strict sequence. The accounts and note hashes are placed in the tree leaves.
 
@@ -19,7 +19,7 @@ The transaction subtree links underlying data (accounts and notes) within a sing
 {% hint style="warning" %}
 #### Merkle tree height
 
-Please keep in mind that the tree in the picture above is not on its actual height. It's just a simple representation.
+Keep in mind that the tree in the picture above is not on its actual height. It's just a simple representation.
 
 The zkBob solution uses a Merkle tree with a total height of 48 (transaction subtree with the height of 7 and commitment subtree with the height of 41).
 

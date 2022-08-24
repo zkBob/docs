@@ -16,7 +16,7 @@ With optimistic state the relayer always assumes that a transaction will be even
 It is essential that whatever happens with the client application or the relayer, all funds are protected by the on-chain smart contract, which acts as the ultimate backstop. You can always make a clean boot of the relayer and client applications.
 {% endhint %}
 
-### A little too technical description
+### Technical overview
 
 * The client sends a transaction
 * The relayer
@@ -37,4 +37,4 @@ It is essential that whatever happens with the client application or the relayer
   * If ok, the updates cooresponding status in the Tx Db, otherwise it launches rollback mode and marks all the later transactions ( already processed by Worker 1 ) as failed
 * The client eventually loads the updated transaction status. If the transaction was successful, then the balance is updated, otherwise the transaction is shown as failed.
 
-![](<../../../.gitbook/assets/optimistic state.png>)
+![](<../../.gitbook/assets/optimistic state.png>)

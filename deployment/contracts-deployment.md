@@ -24,12 +24,8 @@ echo -e MOCK_TX_VERIFIER=false >> .env
 echo -e MNEMONIC=\'insert seed phrase for your native account\' >> .env
 ```
 
-Deploy all contracts. This example uses the Gnosis Chain network (named xdai).
+Deploy all contracts. This example uses the Polygon network.
 
 ```
-npx hardhat run --network xdai scripts/deploy-task.js
+npx hardhat run --network matic scripts/deploy-task.js
 ```
-
-{% hint style="danger" %}
-**TODO:** need to add xdai network to the hardhat.config.js
-{% endhint %}

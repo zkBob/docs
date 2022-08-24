@@ -25,7 +25,7 @@ The relayer list is managed by the contract owner which can add or remove the re
 
 Only strictly approved relayers are accepted to avoid malfunction operations. The relayer should be stable and available through public networks and it should have a quality communication link. The relayer should have a maintainer who is available to fix operating issues.
 
-<mark style="color:red;">**TODO:**</mark> <mark style="color:red;"></mark><mark style="color:red;">need to develop and describe the relayer approval procedure</mark>
+<mark style="color:red;">**TODO:**</mark> <mark style="color:red;"></mark><mark style="color:red;">Develop / describe relayer approval procedure</mark>
 {% endhint %}
 
 ### The operator manager life-cycle
@@ -54,7 +54,7 @@ The Genesis slot has the index 0 so the operator selection during that slot is u
 
 
 
-![Relayer selection scheme](../../../../.gitbook/assets/auction\_240ppi.png)
+![Relayer selection scheme](../../../.gitbook/assets/auction\_240ppi.png)
 
 In the picture above you can explore the selection mechanism. After contract deployment the owner adds three approved relayers (named RL-1, RL-2 and RL-3). The first and the second relayer claimed for the slot 1 during Genesis slot, so the first one will be selected as an active operator.
 

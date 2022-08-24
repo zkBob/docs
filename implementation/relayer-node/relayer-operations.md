@@ -14,7 +14,5 @@ The relayer keeps the actual pool transaction set, synchronizes it continuously,
 
 ### Sending transactions
 
-When sending a transaction, a user must create its body (memo block), calculate the corresponding tx proof and send it to the relayer. In this case there is no need to worry about the Merkle tree root, only the  actual state (balance and notes) is needed as all tree-related work is performed by the relayer.
-
-**TBD**&#x20;
+When sending a transaction, a user must create its body (memo block), calculate the corresponding tx proof and send it to the relayer. In this case there is no need to worry about the Merkle tree root, only the actual state (balance and notes) is needed as all tree-related work is performed by the relayer.
 
