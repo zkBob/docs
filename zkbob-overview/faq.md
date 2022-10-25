@@ -22,7 +22,7 @@ Some users of zkBob may include:
 
 ### Who should not use zkBob?
 
-Users is countries where zkBob is prohibited should not use zkBob. Please check the [compliance section](compliance-and-security.md).
+Users is countries where zkBob is prohibited should not use zkBob. Please check the [compliance section](compliance-and-security.md) for more information.
 
 zkBob should not be used for any illegitimate or criminal activity. It should not be used in any way that violates any laws in the jurisdiction of the user, and should not be used by politically exposed individuals or associates of those individuals. Prior to using zkBob, you must acknowledge and accept these terms of usage:
 
