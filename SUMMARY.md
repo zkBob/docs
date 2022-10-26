@@ -18,7 +18,7 @@
 * [Add BOB to Metamask](bob-stablecoin/add-bob-to-metamask.md)
 * [Swap BOB with Metamask Swap](bob-stablecoin/swap-bob-with-metamask-swap.md)
 * [Get BOB on Uniswap v3](bob-stablecoin/get-bob-on-uniswap-v3.md)
-* [BOB Minting](bob-stablecoin/bob-minting.md)
+* [BOB Inventory](bob-stablecoin/bob-inventory.md)
 
 ## 🦸♂ zkBob Application <a href="#zkbob-app" id="zkbob-app"></a>
 

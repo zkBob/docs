@@ -10,7 +10,7 @@ description: zkBob stablecoin with privacy options
 
 :heavy\_check\_mark:  BOB is optimized for zkBob. Once deposited, BOB can be sent privately between participants in the zkpool. Transfers are done completely within the application - there is no need to use or connect MetaMask, WalletConnect, or any other web3 wallet to conduct private transfers and you only need BOB, there is no additional fee token.
 
-:heavy\_check\_mark: BOB is currently available on Polygon, Optimism, and Ethereum. Additional chains may be added in the future to support multi-chain deposits and withdrawals.
+:heavy\_check\_mark: BOB inventory is currently available on Polygon, Optimism, and Ethereum. Additional chains may be added in the future to support multi-chain deposits and withdrawals.
 
 :heavy\_check\_mark: BOB will be used to explore new mechanics for privacy, governance, and value capture for stablecoin users, such as redistribution of lost funds, compounding yield refunds, and other features.&#x20;
 
@@ -85,9 +85,9 @@ __
 
 <details>
 
-<summary>How is BOB minted?</summary>
+<summary>How is BOB inventory regulated?</summary>
 
-BOB is minted via a multisig BOB Safe with a distributed reserve board. All mints are described and [catalogued here](bob-minting.md).
+BOB inventory is increased via a multisig BOB Safe with a distributed reserve board. Inventory increases are described and [catalogued here](bob-inventory.md).
 
 </details>
 
