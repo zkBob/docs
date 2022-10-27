@@ -21,6 +21,7 @@ We will continue improving the speed, usability, and efficiency of the applicati
 * Research a PLONK implementation to replace the current Groth'16 zkSNARK. PLONK can reduce proof computation size and creation/execution time. [More on PLONK](https://vitalik.ca/general/2019/09/22/plonk.html).
 * Mnemonic account import/export. This will increase usability and transportability of accounts.
 * UTXO withdrawal details. Multiple UTXOs may need to be processed during a withdrawal. Updates will provide users with more details about withdrawals which can incur higher fees (ie a multi-UTXO withdrawal with 5 individual txs will include a fee of $0.50 rather than $0.10).
+* Multi-sender functionality. Ability to add multiple transfer addresses (input or from a csv file) and send in batches.&#x20;
 * Error reporting enhancements: When a transaction reverts there is currently not enough information for the user. Errors should be clearly displayed for debugging purposes.
 
 ## Compliance Improvements
@@ -29,6 +30,7 @@ We will continue to implement best practices in regards to regulation and compli
 
 * Large transaction transparency: Future versions may increase overall deposit, withdrawal, and pool limits, however deposits and withdrawals that exceed the 10K soft limit may be subject to "on-demand" reveals. This means 3rd parties (regulators, paid service) can request access to specific transactions and those details will be provided if the criteria are met. _Note this will not be possible for transactions under the soft limit._
 * KYC for large-tx/power users:  We are researching ways to combine on-chain reputation and off-chain KYC to assign non-transferable NFTs to users who pass checks. These users can then access additional features in the application such as increased limits and incentives.
+* TRM integration: Screen deposit/withdrawal addresses for AML and sanctions compliance.&#x20;
 
 ## Exploratory Features
 
