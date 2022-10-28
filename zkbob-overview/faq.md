@@ -68,7 +68,7 @@ Not completely, there is some information which is recorded on chain. It is tran
 
 ### I made deposits to 1 zkAccount from multiple `0x` addresses on Polygon. Is information tying these deposits to a single zkAccount available in the on-chain data?    &#x20;
 
-No. The only available information available is that the `0x` addresses made a deposit into zkBob. There is no knowledge, and thus no public record, of which zkAccount the funds were deposited to within the application.&#x20;
+**No.** The only available information available is that the `0x` addresses made a deposit for specific amounts of BOB into the zkBob app. Due to the zk proving mechanisms, zkAccount details are not revealed (only confirmation that the amount was deposited), and thus there is no public record of which zkAccount the funds were deposited to within the application.&#x20;
 
 ### How long should I keep my tokens in a zkBob anonymity pool to increase privacy?
 
