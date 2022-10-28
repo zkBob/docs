@@ -44,7 +44,7 @@ zkBob is a decentralized, open-source application with a distributed & decentral
 
 ### Does zkBob work on mobile devices?
 
-Proof generation is resource intensive and can be problematic on many mobile devices. **zkBob does not currently work on iPhones and is limited on Android devices**. We recommend using a desktop/laptop environment for zkBob. We are exploring library updates in the next version which will support parallel processing and other optimizations for mobile.
+&#x20;**zkBob DOES NOT currently work on iPhones and is limited on Android devices.** Proof generation is resource intensive and can be problematic on many mobile devices. We recommend using a desktop/laptop environment for zkBob. We are exploring library updates in the next version which will support parallel processing and other optimizations for mobile.
 
 ### Do I need MATIC to pay for transactions?
 
@@ -58,13 +58,17 @@ If you want to purchase BOB in other ways ([Uniswap](../bob-stablecoin/get-bob-o
 
 Not completely, there is some information which is recorded on chain. It is transparent that an address interacted with the zkBOB application and how much BOB was deposited or withdrawn.
 
-**Deposits:** When you deposit into zkBob, the 0x address on Polygon you deposited from and how much BOB you deposited into the protocol can be viewed in a block explorer. [Example Transaction](https://polygonscan.com/tx/0xe5269af7e735c45976f0c627cd138dfd000d99b160ae5c5868abcdf3c540f0cb).
+**Deposits:** When you deposit into zkBob, the 0x address on Polygon you deposited from and how much BOB you deposited into the zkBob protocol can be viewed in a block explorer. [Example Transaction](https://polygonscan.com/tx/0xe5269af7e735c45976f0c627cd138dfd000d99b160ae5c5868abcdf3c540f0cb).
 
 <figure><img src="../.gitbook/assets/deposit (1).png" alt=""><figcaption><p>Deposit transaction from an EOA to the zkBob Pool</p></figcaption></figure>
 
 **Withdrawals:** When withdrawing to a regular 0x address on Polygon, the address you withdrew to and amount withdrawn from the protocol can be viewed in a block explorer. [Example Transaction](https://polygonscan.com/tx/0x232df7f7a8b8051950323cb9a19450f1cfd1e19fd6618500b081e515e16fe3a4).
 
 <figure><img src="../.gitbook/assets/withdraw.png" alt=""><figcaption><p>Withdrawal transaction from the zkBob pool to an EOA. </p></figcaption></figure>
+
+### I made deposits to 1 zkAccount from multiple `0x` addresses on Polygon. Is information tying these deposits to a single zkAccount available in the on-chain data?    &#x20;
+
+No. The only available information available is that the `0x` addresses made a deposit into zkBob. There is no knowledge, and thus no public record, of which zkAccount the funds were deposited to within the application.&#x20;
 
 ### How long should I keep my tokens in a zkBob anonymity pool to increase privacy?
 
