@@ -34,5 +34,11 @@ BOB stability is maintained through the [Uniswap v3 AMM concentrated liquidity a
    Oct-06-2022 07:59:04 PM +UTC\
    [0x57039c5a011c6a41f5e89e8928adafe2e964d20c005b2114eb73687a0cff09af](https://optimistic.etherscan.io/tx/0x57039c5a011c6a41f5e89e8928adafe2e964d20c005b2114eb73687a0cff09af)
 
+### BSC: Binance Smart Chain
+
+1. 100 BOB to substantiate BOB contract on BSC and facilitate token list inclusion.\
+   Nov-02-2022 01:48:41 PM +UTC\
+   [0x8f6e4a59cdeffbb2a13cbc5d59b40aeb441c63906bd544fa986438cef2fe207b](https://bscscan.com/tx/0x8f6e4a59cdeffbb2a13cbc5d59b40aeb441c63906bd544fa986438cef2fe207b)
+
 
 
