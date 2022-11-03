@@ -23,9 +23,9 @@ BOB is currently available on Polygon, Optimism and Ethereum. BOB can be acquire
 * Sent between users to any 0x address on Polygon, Optimism or Ethereum.
 * Swap tokens for BOB using Metamask.&#x20;
   * [Instructions](swap-bob-with-metamask-swap.md)
-* Swap using Uniswap v3.
+* Swap using Uniswap v3 or 1inch exchange.
   * [Instructions for new users](get-bob-on-uniswap-v3.md)
-  * [Get BOB ](https://zkbob.page.link/getBOB)on Uniswap v3
+  * [Get BOB ](https://zkbob.page.link/getBOB)on 1inch exchange.
 
 </details>
 
@@ -33,7 +33,11 @@ BOB is currently available on Polygon, Optimism and Ethereum. BOB can be acquire
 
 <summary>How do BOB tokens remain stable?</summary>
 
-BOB tokens are pre-minted and paired with an existing stable token (multi-collateral, for example USDC and BUSD) on Uniswap V3. Uniswap v3 features the ability to set a range for the exchange rate and provide concentrated liquidity for the pair, resulting in very limited slippage to the stablecoin peg. [Learn More](https://docs.uniswap.org/protocol/concepts/V3-overview/concentrated-liquidity).
+BOB token inventory is pre-minted and paired with an existing stable token (multi-collateral, for example USDC and BUSD) on Uniswap V3. Uniswap v3 features the ability to set a range for the exchange rate and provide concentrated liquidity for the pair, resulting in very limited slippage to the stablecoin peg. [Learn More](https://docs.uniswap.org/protocol/concepts/V3-overview/concentrated-liquidity).
+
+Called an inventory LP position, this mechanism maintains BOB stability while providing the option for users to purchase BOB inventory.
+
+To enter the circulating supply, BOB must be purchased from the inventory. Users can then create their own LP positions from this purchased BOB, resulting in additional non-inventory LP positions (BOB/WETH, BOB/GNO etc) within the ecosystem.&#x20;
 
 </details>
 
