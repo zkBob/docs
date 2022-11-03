@@ -15,11 +15,12 @@
 
 ## 🧙♂ BOB Stablecoin
 
-* [BOB Details](bob-stablecoin/bob-details.md)
+* [BOB Highlights](bob-stablecoin/bob-highlights.md)
 * [Add BOB to Metamask](bob-stablecoin/add-bob-to-metamask.md)
 * [Swap BOB with Metamask Swap](bob-stablecoin/swap-bob-with-metamask-swap.md)
 * [Get BOB on Uniswap v3](bob-stablecoin/get-bob-on-uniswap-v3.md)
 * [BOB Inventory](bob-stablecoin/bob-inventory.md)
+* [BOB stablecoin FAQ](bob-stablecoin/bob-stablecoin-faq.md)
 
 ## 🦸♂ zkBob Application <a href="#zkbob-app" id="zkbob-app"></a>
 

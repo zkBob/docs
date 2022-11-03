@@ -6,7 +6,7 @@ description: An application for zk-based transactions
 
 Users can perform the following operations when interacting with the zkBob application UI. The app UI is available at [https://app.zkbob.com/](https://app.zkbob.com/).
 
-[BOB tokens](../bob-stablecoin/bob-details.md) are needed to use the application for deposits, transfers or withdrawals.
+[BOB tokens](../bob-stablecoin/bob-highlights.md) are needed to use the application for deposits, transfers or withdrawals.
 
 {% hint style="warning" %}
 zkBob is currently optimized for the desktop/laptop environment. It does not work on iPhones and is limited on Android devices.

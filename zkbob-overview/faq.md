@@ -57,7 +57,7 @@ If you want to purchase BOB in other ways ([Uniswap](../bob-stablecoin/get-bob-o
 
 ### Why does zkBob use the BOB stablecoin?
 
-zkBob is designed to use BOB for several reasons. BOB is stable, flexible (multi-chain, multi-collateral), and can be optimized so that users receive additional benefits. For questions related to BOB, please see the [BOB details](../bob-stablecoin/bob-details.md) page.
+zkBob is designed to use BOB for several reasons. BOB is stable, flexible (multi-chain, multi-collateral), and can be optimized so that users receive additional benefits. For questions related to BOB, please see the [BOB details](../bob-stablecoin/bob-highlights.md) page.
 
 ### Are deposits into zkBob and withdrawals from zkBob private?
 

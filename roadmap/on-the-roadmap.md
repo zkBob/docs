@@ -10,7 +10,7 @@ These items are ongoing or planned for near-term execution.
 
 * Multi-chain expansion: BOB stablecoin will be minted on additional chains. This has already occurred with Polygon, Optimism and Ethereum. The next likely candidates are additional L2s on Ethereum.
 * Salary use case development: zkBob is already in use by projects looking to pay employees and contractors privately with a stablecoin while taking advantage of inherited KYC (employees and employers already know each other). Additional projects will be onboarded to the platform to expand and promote this use case.
-* DeFi use case development. [BOB](../bob-stablecoin/bob-details.md) is a novel stablecoin and new use cases such as lending, an expanded collateralization model, compounded interest distributions, and other ideas will be explored within a multi-chain context.
+* DeFi use case development. [BOB](../bob-stablecoin/bob-highlights.md) is a novel stablecoin and new use cases such as lending, an expanded collateralization model, compounded interest distributions, and other ideas will be explored within a multi-chain context.
 * Governance and decentralization: zkBob is an open-source platform still in beta. Additional measures will be taken to decentralize the workflow and engage the community in making future decisions about platform directions. This is also true for the BOB stablecoin where community members will ultimately make decisions about usage, supply etc. though a tbd governance process. &#x20;
 * Hackathon participation: The community should be engaged with BOB and zkBob to explore and develop new use cases where privacy and stability are preferred.
 
