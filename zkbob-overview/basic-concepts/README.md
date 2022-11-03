@@ -10,7 +10,7 @@ zkBob is a zk-based application for limited-value stablecoin transfers. It accep
 
 ### BOB
 
-BOB is the name of the multi-chain, multi-collateral stable token optimized for the zkBob protocol. It provides optional privacy features for users when paired with the zkBob application. BOB can be swapped for the equivalent amount of other stablecoins (minus standard swap fees) or other available tokens on Ethereum and Polygon. [More details here](../../bob-stablecoin/bob-highlights.md).
+BOB is the name of the multi-chain, multi-collateral stable token optimized for the zkBob protocol. It provides optional privacy features for users when paired with the zkBob application. BOB can be swapped for the equivalent amount of other stablecoins (minus standard swap fees) or other available tokens on Ethereum and Polygon. [More details here](../../bob-stablecoin/bob-details.md).
 
 ### Zero-Knowledge Proofs (zkSNARKs)
 
