@@ -8,7 +8,7 @@ Limits are imposed to protect against large deposits which may result from illeg
 
 1. A single deposit cannot exceed 10,000 BOB.
 2. A single address cannot deposit more than 10,000 BOB during a single 24 hour period.
-3. All deposits from all addresses cannot exceed 100,000 BOB during a single 24 hour period.
+3. All deposits from all addresses (see tiers below for more info) cannot exceed 300,000 BOB during a single 24 hour period.
 4. The overall size of a pool cannot exceed 1,000,000 BOB.
 
 **Withdrawals**
@@ -17,7 +17,7 @@ Limits are imposed to protect against large deposits which may result from illeg
 
 **Transfers**
 
-1. Transfers amongst users are in the pool are unlimited. The minimum  transfer amount is $0.05 BOB.
+1. Transfers amongst users in the pool are unlimited. The minimum transfer amount is $0.05 BOB. All transfers incur a $0.10 BOB fee.
 
 {% hint style="info" %}
 The $10,000 default deposit limit is an established reporting standard relevant to travel, banking, and other industries.
@@ -27,7 +27,7 @@ The $10,000 default deposit limit is an established reporting standard relevant 
 
 Up to 255 limits can be set for established users and users meeting sufficient off-chain KYC requirements. These limits are configurable based on user and project needs (for projects with high payrolls for example).&#x20;
 
-Tiers increase deposit limits for individual accounts, but do not impact the overall pool size or total address deposit limits.
+Tiers increase deposit limits for individual accounts, but do not impact the overall pool size.
 
 ### Tier example
 
@@ -41,12 +41,12 @@ Tiers increase deposit limits for individual accounts, but do not impact the ove
 1. A single deposit cannot exceed 100,000 BOB.
 2. A single address cannot deposit more than 100,000 BOB during a single 24 hour period.
 
-\-> **Both tiers** still adhere to the following limits:
+\-> **Both tiers** adhere to the following limits:
 
-* **All deposits from all addresses** cannot exceed **100,000 BOB** during a single 24 hour period.
+* **All deposits from all addresses** cannot exceed **300,000 BOB** during a single 24 hour period.
 * The overall size of a pool cannot exceed 1,000,000 BOB.
 
-This means that if someone in Tier 1 deposits 100,000 BOB, no additional deposits can be made (Tier 0 or Tier 1 participants) during that same 24 hour period. This is because the **all deposits from all address** **criteria of 100,000 BOB** has been met.
+This means that if someone in Tier 1 deposits 300,000 BOB, no additional deposits can be made (Tier 0 or Tier 1 participants) during that same 24 hour period. This is because the **all deposits from all addresses** **criteria of 300,000 BOB** has been met.
 
 Deposits can resume the following day.&#x20;
 
