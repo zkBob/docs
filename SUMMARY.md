@@ -11,7 +11,7 @@
 * [Fees](zkbob-overview/fees.md)
 * [Deposit & Withdrawal Limits](zkbob-overview/deposit-and-withdrawal-limits.md)
 * [Compliance & Security](zkbob-overview/compliance-and-security.md)
-* [FAQ](zkbob-overview/faq.md)
+* [zkBob FAQ](zkbob-overview/faq.md)
 
 ## 🧙♂ BOB Stablecoin
 

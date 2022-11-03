@@ -2,18 +2,19 @@
 description: Frequently asked questions
 ---
 
-# FAQ
+# zkBob FAQ
 
 ### Who should use zkBob?
 
 Users should first check their jurisdiction and [make sure they are in compliance](compliance-and-security.md). zkBob is not available to users in some areas.
 
-Eligible users interested in private business transactions (salary payments, vendor payments etc) and people interested in cash-like transactions should consider zkBob. In the offline world, cash can be used for financial privacy. In the blockchain space, zk-based "digital cash" transactions can offer similar anonymity.
+Eligible users interested in private business transactions (salary payments, vendor payments etc) and people interested in cash-like transactions should consider zkBob. In the offline world, cash can be used for financial privacy. In the blockchain space, zk-based "digital cash" transactions can offer similar privacy.
 
 Some users of zkBob may include:
 
 * Large cryptocurrency holders who want to protect their identity and reduce possible targeting by cyber criminals.
 * Individuals or groups who hold many identifying NFTs in their wallets and may want to make a transaction without exposing all of those details (ie communities/DAO/meetup participation etc).
+* Business owners who want to pay salaries in stablecoins without displaying amounts and receivers.
 * Business owners who do not want to divulge vendor addresses, prices they paid for items, or other business transactions that can put them at competitive risk.
 * DAOs or small businesses who want to pay salaries in stable tokens without revealing amount paid to every employee or member.&#x20;
 * Everyday users who want a "digital cash" option to transfer and trade for goods and services with one another privately through a shielded pool.&#x20;
@@ -44,15 +45,19 @@ zkBob is a decentralized, open-source application with a distributed & decentral
 
 ### Does zkBob work on mobile devices?
 
-&#x20;**zkBob DOES NOT currently work on iPhones and is limited on Android devices.** Proof generation is resource intensive and can be problematic on many mobile devices. We recommend using a desktop/laptop environment for zkBob. We are exploring library updates in the next version which will support parallel processing and other optimizations for mobile.
+**zkBob DOES NOT currently work on iPhones and is limited on Android devices.** Proof generation is resource intensive and can be problematic on many mobile devices. We recommend using a desktop/laptop environment for zkBob. We are exploring library updates in the next version which will support parallel processing and other optimizations for mobile.
 
 ### Do I need MATIC to pay for transactions?
 
-No, all fees are paid in BOB with a stable $0.10 fee per tx. This includes **deposits** into the protocol, **transfers** within zkBob, and **withdrawals** from the application.
+**No**, all fees are paid in BOB with a stable $0.10 fee per tx! This includes deposits into the protocol, transfers within zkBob, and **withdrawals** from the application.
 
 Withdrawals from zkBob will also result in 0.10 MATIC sent to the receiving address if certain criteria are met. To receive, the address must have a 0 MATIC balance, and the withdrawal amount must be 10 or more BOB.
 
 If you want to purchase BOB in other ways ([Uniswap](../bob-stablecoin/get-bob-on-uniswap-v3.md) or [Metamask swap](../bob-stablecoin/swap-bob-with-metamask-swap.md)), you will need a small amount of MATIC to complete the transaction.
+
+### Why does zkBob use the BOB stablecoin?
+
+zkBob is designed to use BOB for several reasons. BOB is stable, flexible (multi-chain, multi-collateral), and can be optimized so that users receive additional benefits. For questions related to BOB, please see the [BOB details](../bob-stablecoin/bob-details.md) page.
 
 ### Are deposits into zkBob and withdrawals from zkBob private?
 
@@ -72,7 +77,7 @@ Not completely, there is some information which is recorded on chain. It is tran
 
 ### How long should I keep my tokens in a zkBob anonymity pool to increase privacy?
 
-It depends on how large the pool set is and how much activity has happened since your deposit. Looking at the number of deposits since your deposit can provide a rough estimation of safety (though not complete because it does not account for transfers within the protocol). In general, waiting longer to withdraw (several days minimum) increases privacy.
+It depends on how large the pool set is and how much activity has happened since your deposit. Looking at the number of deposits since your deposit can provide a rough estimation of safety (though not complete because it does not account for transfers within the protocol). In general, waiting longer to withdraw (several days minimum) increases privacy. It is also useful to withdraw a different amount than the amount deposited to increase privacy.
 
 ### Why are there multiple accounts?
 
