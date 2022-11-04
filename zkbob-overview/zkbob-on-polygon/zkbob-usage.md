@@ -13,7 +13,7 @@ Tracked statistics include:
 * Withdrawals: Total amount withdrawn, number of withdrawals, number of unique withdrawers
 * Daily Usage (deposits and withdrawals)
 
-<figure><img src="../../.gitbook/assets/bob1.png" alt=""><figcaption><p>Screenshot Oct 26, 2022</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bob-usage.png" alt=""><figcaption><p>Screenshot Nov 4, 2021 </p></figcaption></figure>
 
 &#x20;
 
