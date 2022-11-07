@@ -4,10 +4,12 @@
 
 * [zkBob](README.md)
 * [Basic Concepts](zkbob-overview/basic-concepts/README.md)
-  * [Use Case Examples](zkbob-overview/basic-concepts/use-case-examples.md)
   * [zk Privacy Solution Comparison](zkbob-overview/basic-concepts/zk-privacy-solution-comparison.md)
 * [zkBob on Polygon](zkbob-overview/zkbob-on-polygon/README.md)
   * [zkBob Usage](zkbob-overview/zkbob-on-polygon/zkbob-usage.md)
+* [Use Cases](zkbob-overview/use-cases/README.md)
+  * [Employee Salary](zkbob-overview/use-cases/employee-salary.md)
+  * [Vendor Purchasing](zkbob-overview/use-cases/vendor-purchasing.md)
 * [Fees](zkbob-overview/fees.md)
 * [Deposit & Withdrawal Limits](zkbob-overview/deposit-and-withdrawal-limits.md)
 * [Compliance & Security](zkbob-overview/compliance-and-security.md)

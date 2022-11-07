@@ -1,6 +1,6 @@
 # Deposit & Withdrawal Limits
 
-Limits are imposed to protect against large deposits which may result from illegal activity (for example a hack where attackers need to quickly move a large amount of funds). By default, new users are limited in the amount they can deposit and withdraw. Established users or businesses with inherent KYC can access higher limits through [tiered limits](deposit-and-withdrawal-limits.md#undefined).
+Limits are imposed to protect against large deposits which may result from illegal activity (for example a hack where attackers need to quickly move a large amount of funds). By default, new users are limited in the amount they can deposit and withdraw. Established users or businesses with inherent KYC can access higher limits through tiered limits.
 
 ### Default Limits
 
