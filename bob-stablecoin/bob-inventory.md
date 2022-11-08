@@ -1,6 +1,6 @@
 # BOB Inventory
 
-BOB inventory is handled via a [multi-sig Safe](https://gnosis-safe.io/app/matic:0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8/home) by a distributed reserve board. To facilitate inventory, BOB liquidity is deployed on Uniswap v3 and paired with a stable asset such as USDC or BUSD.  The range of inventory positions, maintained through the  [Uniswap v3 AMM concentrated liquidity algorithm](https://docs.uniswap.org/protocol/concepts/V3-overview/concentrated-liquidity), is very tight. This keeps BOB stable, and is known as an **inventory LP position**.
+BOB inventory is handled via a [multi-sig Safe](https://gnosis-safe.io/app/matic:0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8/home) by a distributed reserve board. To facilitate inventory, BOB liquidity is deployed on DEXs including Uniswap v3 & Kyberswap, and paired with a stable asset such as USDC or BUSD.  The range of inventory positions, maintained through the [AMM concentrated liquidity algorithm](https://docs.uniswap.org/protocol/concepts/V3-overview/concentrated-liquidity), is tuned to a very narrow range. This keeps BOB stable, and is known as an **inventory LP position**.
 
 Any circulating supply of BOB available for users is purchased from this inventory (at \~1:1 for USD stable assets). Users can then choose to create their own **non-inventory LP positions** using purchased BOB + another tokens of their choice (for example BOB/WETH, BOB/WMATIC, BOB/GNO etc).&#x20;
 
