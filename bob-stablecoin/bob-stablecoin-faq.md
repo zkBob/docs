@@ -17,7 +17,7 @@ BOB is currently available on Polygon, Optimism and Ethereum. BOB can be acquire
 
 ## How does BOB remain stable?
 
-BOB token inventory is pre-minted and paired with an existing stable token (multi-collateral, for example USDC and BUSD) on Uniswap V3. Uniswap v3 features the ability to set a range for the exchange rate and provide concentrated liquidity for the pair, resulting in very limited slippage to the stablecoin peg. [Learn More](https://docs.uniswap.org/protocol/concepts/V3-overview/concentrated-liquidity).
+BOB token inventory is pre-minted and paired with an existing stable token (multi-collateral, for example USDC and BUSD) on decentralized exchanges featuring concentrated liquidity mechanisms (Uniswap v3, Kyberswap). The ability to set a narrow exchange rate range and provide concentrated liquidity for the pair results in very limited slippage to the stablecoin peg. [Learn More](https://docs.uniswap.org/protocol/concepts/V3-overview/concentrated-liquidity).
 
 Called an **inventory LP position**, this mechanism maintains BOB stability while providing the option for users to purchase BOB inventory.
 
