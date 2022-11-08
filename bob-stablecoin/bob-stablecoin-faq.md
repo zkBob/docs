@@ -50,6 +50,11 @@ For an overview of deposits, transfer volume and withdrawals within zkBob, see t
 * BOB Token: [0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B](https://optimistic.etherscan.io/address/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B)
 * BOB Token Implementation: [0x98DB3A72BeF2145A8F8d8B94F81317341Af2b08C](https://optimistic.etherscan.io/address/0x98db3a72bef2145a8f8d8b94f81317341af2b08c)
 
+**BOB on BSC:**
+
+* BOB Token: [0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B](https://bscscan.com/token/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B)
+* BOB Token Implementation: [0xe0e184e850d24113ad512583b77621e35740befc](https://bscscan.com/address/0xe0e184e850d24113ad512583b77621e35740befc)&#x20;
+
 **BOB attributes:**
 
 * ERC20-based fungible tokens
