@@ -46,6 +46,6 @@ Below are inventory position increases that have occurred to date.
 1. 100 BOB to substantiate BOB contract on BSC and facilitate token list inclusion.\
    Nov-02-2022 01:48:41 PM +UTC\
    [0x8f6e4a59cdeffbb2a13cbc5d59b40aeb441c63906bd544fa986438cef2fe207b](https://bscscan.com/tx/0x8f6e4a59cdeffbb2a13cbc5d59b40aeb441c63906bd544fa986438cef2fe207b)
-
-
-
+2. 1,000,000 BOB for [Kyberswap inventory LP](https://kyberswap.com/swap/bnb/bob-to-usdc).\
+   Nov-07-2022 02:32:10 PM +UTC\
+   [0x27f833734e9b3f018ff6b903fe856bf2bbc3a853aa585b5836c6e22308975aa9](https://bscscan.com/tx/0x27f833734e9b3f018ff6b903fe856bf2bbc3a853aa585b5836c6e22308975aa9)
