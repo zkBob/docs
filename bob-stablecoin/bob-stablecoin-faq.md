@@ -6,7 +6,7 @@ description: What about $BOB
 
 ## How do I get BOB?
 
-BOB is currently available on Polygon, Optimism and Ethereum. BOB can be acquired in several ways outside of the zkBob application.
+BOB is currently available on Polygon, Optimism, BSC and Ethereum. BOB can be acquired in several ways outside of the zkBob application.
 
 * Sent between users to any 0x address on Polygon, Optimism or Ethereum.
 * Swap tokens for BOB using Metamask.&#x20;
