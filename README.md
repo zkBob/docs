@@ -12,7 +12,7 @@ Once BOB is deposited in the zkBob app, pool participants can transfer any amoun
 
 The shielded zkBob pool uses [zkSNARKs](implementation/zksnarks-and-circuits/) to limit public data exposure. When a transfer is initiated, the amount and recipient is never disclosed or published. Transactions are routed through a relayer, abstracting gas fees while providing an efficient transfer environment.&#x20;
 
-The [BOB stablecoin](bob-stablecoin/bob-details.md) is currently available on Polygon, Optimism, BSC and Ethereum mainnet with additional chains on the horizon. The zkBob application is deployed on Polygon to utilize existing infrastructure (Uniswap v3, Aave, and native USDC), prioritize scalability, and support their commitment to zk-based solutions.
+The [BOB stablecoin](bob-stablecoin/bob-details.md) is currently available on Polygon, Optimism, BNB Chain and Ethereum mainnet with additional chains on the horizon. The zkBob application is deployed on Polygon to utilize existing infrastructure (Uniswap v3, Aave, and native USDC), prioritize scalability, and support their commitment to zk-based solutions.
 
 _\*zkBob introduces_ [_deposit and withdrawal limits_](zkbob-overview/deposit-and-withdrawal-limits.md) _to deter bad actors and illegal usage of the application. Transfers are limited by these pool constraints._&#x20;
 

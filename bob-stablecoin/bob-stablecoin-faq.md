@@ -2,13 +2,13 @@
 description: What about $BOB
 ---
 
-# BOB stablecoin FAQ
+# BOB Stablecoin FAQ
 
 ## How do I get BOB?
 
-BOB is currently available on Polygon, Optimism, BSC and Ethereum. BOB can be acquired in several ways outside of the zkBob application.
+BOB is currently available on Polygon, Optimism, BNB Chain and Ethereum. BOB can be acquired in several ways outside of the zkBob application.
 
-* Sent between users to any 0x address on Polygon, Optimism or Ethereum.
+* Sent between users to any 0x address on Polygon, Optimism, BNB or Ethereum.
 * Swap tokens for BOB using Metamask.&#x20;
   * [Instructions](swap-bob-with-metamask-swap.md)
 * Swap using Uniswap v3 or 1inch exchange.
@@ -50,7 +50,7 @@ For an overview of deposits, transfer volume and withdrawals within zkBob, see t
 * BOB Token: [0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B](https://optimistic.etherscan.io/address/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B)
 * BOB Token Implementation: [0x98DB3A72BeF2145A8F8d8B94F81317341Af2b08C](https://optimistic.etherscan.io/address/0x98db3a72bef2145a8f8d8b94f81317341af2b08c)
 
-**BOB on BSC:**
+**BOB on BNB:**
 
 * BOB Token: [0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B](https://bscscan.com/token/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B)
 * BOB Token Implementation: [0xe0e184e850d24113ad512583b77621e35740befc](https://bscscan.com/address/0xe0e184e850d24113ad512583b77621e35740befc)&#x20;

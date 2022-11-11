@@ -41,7 +41,7 @@ Below are inventory position increases that have occurred to date.
    Oct-06-2022 07:59:04 PM +UTC\
    [0x57039c5a011c6a41f5e89e8928adafe2e964d20c005b2114eb73687a0cff09af](https://optimistic.etherscan.io/tx/0x57039c5a011c6a41f5e89e8928adafe2e964d20c005b2114eb73687a0cff09af)
 
-### BSC: Binance Smart Chain
+### Binance BNB Chain
 
 1. 100 BOB to substantiate BOB contract on BSC and facilitate token list inclusion.\
    Nov-02-2022 01:48:41 PM +UTC\
