@@ -14,7 +14,7 @@ These items are ongoing or planned for near-term execution.
 * Governance and decentralization: zkBob is an open-source platform still in beta. Additional measures will be taken to decentralize the workflow and engage the community in making future decisions about platform directions. This is also true for the BOB stablecoin where community members will ultimately make decisions about usage, supply etc. though a tbd governance process. &#x20;
 * Hackathon participation: The community should be engaged with BOB and zkBob to explore and develop new use cases where privacy and stability are preferred.
 * AML improvements: Account verification and tiered limits will be refined to keep the protocol secure and policy compliant.
-  * Restructure max daily and monthly limits for basic tier accounts.
+  * Restructure max transaction and monthly limits for basic tier accounts.
   * Introduce verified accounts with Polygon ID and high limits.
   * Verify corporate accounts on a case-by-case basis.
 * TRM integration: Screen deposit/withdrawal addresses for AML and sanctions compliance.&#x20;
