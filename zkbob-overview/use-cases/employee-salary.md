@@ -1,6 +1,6 @@
 # Employee Salary
 
-Businesses often prefer to keep salary information private. This creates issues for some businesses who want to use blockchain for payments but also want to keep salary information confidential.  With zkBob, employers can keep information private and use the blockchain to send salaries.&#x20;
+Businesses often prefer to keep salary information private. This creates issues for some businesses who want to use blockchain for payments but also want to keep salary information confidential. With zkBob, employers can keep information private and use the blockchain to send salaries.&#x20;
 
 Several prominent projects in the ecosystem are already using zkBob for salary payments. These [Tier 1](../deposit-and-withdrawal-limits.md#tiered-limits) projects are able to deposit higher amounts of BOB into the protocol for sending salary to known employees of the business. Since employees are KYC'd by their employers, this KYC is automatically inherited into the protocol.
 
@@ -21,3 +21,19 @@ Carl has 5 employees he pays monthly with crypto. Carl’s preference is to keep
 7. &#x20;Employees can convert their BOB to a coin/token of their choice, and use however they wish (ie send to an exchange, bank, pay with crypto etc). &#x20;
 8. The history tab within each account makes it easy for employees to track and report their own transfers and withdrawals.
 9. The process is repeated monthly, with employees DM’ing Carl a newly generated zkAddress at the beginning of each month.&#x20;
+
+## Testimonials: What zkBob payroll users are saying
+
+Employees and employers are anonymous, but here is some feedback we've received.
+
+> “I like getting my salary through zkBob. I can withdraw what I need to Polygon and swap for USDC. Every month I withdraw enough to pay the bills then save the rest in zkBob for whenever I need it.”&#x20;
+>
+> \-zkEmployee&#x20;
+
+> “I don’t want the whole world to know how much money I make. zkBob keeps my salary private.”&#x20;
+>
+> \-zkEmployee&#x20;
+
+> “We want to pay our employees with a stablecoin while keeping salary information confidential. Using BOB with zkBob checks all the boxes for fast payments, ease-of-use, low fees and protection for our valued employees.”&#x20;
+>
+> \-zkEmployer
