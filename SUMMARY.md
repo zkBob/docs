@@ -37,6 +37,16 @@
 * [Generate a Receiving Address](zkbob-app/generate-a-secure-address.md)
 * [Anonymity Set Awareness](zkbob-app/anonymity-set-awareness.md)
 
+## 👷♂ Roadmap
+
+* [On the Roadmap](roadmap/on-the-roadmap.md)
+* [Exploratory Features](roadmap/exploratory-features/README.md)
+  * [XP (Experience Points)](roadmap/exploratory-features/xp/README.md)
+    * [XP-based Auctions](roadmap/exploratory-features/xp/xp-based-auctions.md)
+  * [Multi-chain Custom Rollup Deployment](roadmap/exploratory-features/multi-chain-custom-rollup-deployment.md)
+  * [Round-robin Operator Manager](roadmap/exploratory-features/round-robin-operator-manager.md)
+  * [Compounding](roadmap/exploratory-features/compounding.md)
+
 ## 👩⚕ Technical Implementation <a href="#implementation" id="implementation"></a>
 
 * [zkBob Application Overview](implementation/high-level-overview.md)
@@ -78,16 +88,6 @@
 * [Trusted Setup Ceremony](deployment/trusted-setup-ceremony.md)
 * [Contract Deployment](deployment/contracts-deployment.md)
 * [Relayer Subsystem](deployment/relayers-subsystem.md)
-
-## 👷♂ Roadmap
-
-* [On the Roadmap](roadmap/on-the-roadmap.md)
-* [Exploratory Features](roadmap/exploratory-features/README.md)
-  * [XP (Experience Points)](roadmap/exploratory-features/xp/README.md)
-    * [XP-based Auctions](roadmap/exploratory-features/xp/xp-based-auctions.md)
-  * [Multi-chain Custom Rollup Deployment](roadmap/exploratory-features/multi-chain-custom-rollup-deployment.md)
-  * [Round-robin Operator Manager](roadmap/exploratory-features/round-robin-operator-manager.md)
-  * [Compounding](roadmap/exploratory-features/compounding.md)
 
 ## 🧑💻 Jobs
 
