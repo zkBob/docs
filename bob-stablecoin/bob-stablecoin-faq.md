@@ -11,9 +11,11 @@ BOB is currently available on Polygon, Optimism, BNB Chain and Ethereum. BOB can
 * Sent between users to any 0x address on Polygon, Optimism, BNB or Ethereum.
 * Swap tokens for BOB using Metamask.&#x20;
   * [Instructions](swap-bob-with-metamask-swap.md)
-* Swap using Uniswap v3 or 1inch exchange.
-  * [Instructions for new users](get-bob-on-uniswap-v3.md)
-  * [Get BOB ](https://zkbob.page.link/getBOB)on 1inch exchange.
+* Swap using a DEX or DEX aggregator
+  * [Uniswap Instructions](get-bob-on-uniswap-v3.md)
+  * [1inch exchange](https://app.1inch.io/#/137/unified/swap/USDC/BOB)
+  * [Kyberswap](https://kyberswap.com/swap/ethereum/bob-to-usdc)
+  * [Paraswap](https://app.paraswap.io/#/?network=ethereum)
 
 ## How does BOB remain stable?
 
@@ -66,7 +68,7 @@ For an overview of deposits, transfer volume and withdrawals within zkBob, see t
 
 ## How is BOB inventory regulated?
 
-BOB inventory is increased in LP positions via a multisig BOB Safe with a distributed reserve board. Inventory details are described and [catalogued here](bob-inventory.md).
+BOB inventory is increased in LP positions via a governance multisig Safe. Inventory details are described and [catalogued here](bob-inventory.md). Additional decentralization measures are in development to maintain and balance optimal BOB inventory based on usage and demand.
 
 ## Can I earn additional BOB through zkBob or in other ways?
 

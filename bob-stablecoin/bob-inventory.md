@@ -1,10 +1,10 @@
 # BOB Inventory
 
-BOB inventory is handled via a [multi-sig Safe](https://gnosis-safe.io/app/matic:0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8/home) by a distributed reserve board. To facilitate inventory, BOB liquidity is deployed on DEXs including Uniswap v3 & Kyberswap, and paired with a stable asset such as USDC or BUSD.  Inventory positions are tuned to a very narrow range and maintained through the [AMM concentrated liquidity algorithm](https://docs.uniswap.org/protocol/concepts/V3-overview/concentrated-liquidity). This keeps BOB stable, and is known as an **inventory LP position**.
+BOB inventory is currently handled via a governance [multi-sig Safe. ](https://gnosis-safe.io/app/matic:0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8/home)To facilitate inventory, BOB liquidity is deployed on DEXs including Uniswap v3 & Kyberswap, and paired with a stable asset such as USDC or BUSD.  Inventory positions are tuned to a very narrow range and maintained through the [AMM concentrated liquidity algorithm](https://docs.uniswap.org/protocol/concepts/V3-overview/concentrated-liquidity). This keeps BOB stable, and is known as an **inventory LP position**.
 
 Any circulating supply of BOB available for users is purchased from this inventory (at \~1:1 for USD stable assets). Users can then choose to create their own **non-inventory LP positions** using purchased BOB + another tokens of their choice (for example BOB/WETH, BOB/WMATIC, BOB/GNO etc).&#x20;
 
-The inventory safe does not have any administrative rights in regards to zkBOB; the only function for the safe is to oversee the inventory process. Additional decentralization measures are in development to maintain and balance optimal BOB inventory based on usage and demand.
+The inventory safe does not have any administrative rights in regards to zkBOB; the only function for the safe is to oversee the inventory process. Additional decentralization measures including broader community-driven governance and timelocks are in development to maintain and balance optimal BOB inventory based on usage and demand.
 
 Below are inventory position increases that have occurred to date.
 
