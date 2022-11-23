@@ -4,7 +4,7 @@ description: Frequently asked questions
 
 # zkBob FAQ
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **General Questions**
 
 * [Who should use zkBob?](faq.md#who-should-use-zkbob)
@@ -14,6 +14,10 @@ description: Frequently asked questions
 * [Does zkBob work on mobile?](faq.md#does-zkbob-work-on-mobile-devices)
 * [Why does zkBob use the BOB stablecoin?](faq.md#why-does-zkbob-use-the-bob-stablecoin)
 * [Do I need MATIC to use zkBob?](faq.md#do-i-need-matic-to-pay-for-transactions)
+* [Where can I see zkBob stats?](faq.md#where-can-i-see-zkbob-stats)
+
+**Privacy**
+
 * [How long should I keep my tokens in a zkBob anonymity pool to increase privacy?](faq.md#how-long-should-i-keep-my-tokens-in-a-zkbob-anonymity-pool-to-increase-privacy)
 * [Are deposits and withdrawals completely private?](faq.md#are-deposits-into-zkbob-and-withdrawals-from-zkbob-private)
 * [Can the zkBob application be compromised and my information made available?](faq.md#can-the-zkbob-application-be-compromised-and-my-information-made-available)
@@ -85,6 +89,12 @@ zkBob is designed to use BOB for several reasons. BOB is stable, flexible (multi
 Withdrawals from zkBob will also result in 0.10 MATIC sent to the receiving address if certain criteria are met. To receive, the address must have a 0 MATIC balance, and the withdrawal amount must be 10 or more BOB.
 
 If you want to purchase BOB in other ways ([Uniswap](../bob-stablecoin/get-bob-on-uniswap-v3.md) or [Metamask swap](../bob-stablecoin/swap-bob-with-metamask-swap.md)), you will need a small amount of MATIC to complete the transaction.
+
+## Where can I see zkBob stats?
+
+zkBob dune analytics dashboard [https://dune.com/maxaleks/zkbob ](https://dune.com/maxaleks/zkbob)is a good place to start. zkBob is also supported by Defillama [https://defillama.com/protocol/zkbob.](https://defillama.com/protocol/zkbob)
+
+## Privacy
 
 ## How long should I keep my tokens in a zkBob anonymity pool to increase privacy?
 

@@ -30,7 +30,7 @@ BOB is currently available on Polygon, Optimism, BNB Chain and Ethereum. BOB can
 
 ## How does BOB remain stable?
 
-BOB token inventory is pre-minted and paired with an existing stable token (multi-collateral, for example USDC and BUSD) on decentralized exchanges featuring concentrated liquidity mechanisms (Uniswap v3, Kyberswap). The ability to set a narrow exchange rate range and provide concentrated liquidity for the pair results in very limited slippage to the stablecoin peg. [Learn More](https://docs.uniswap.org/protocol/concepts/V3-overview/concentrated-liquidity).
+BOB token inventory is pre-minted and paired with an existing stable token (multi-collateral, for example USDC and BUSD) on decentralized exchanges featuring concentrated liquidity mechanisms (Uniswap v3, Kyberswap). The ability to set a narrow exchange rate range via ticks and provide concentrated liquidity for the pair results in very limited slippage to the stablecoin peg. [Learn More.](https://docs.uniswap.org/concepts/protocol/concentrated-liquidity)
 
 Called an **inventory LP position**, this mechanism maintains BOB stability while providing the option for users to purchase BOB inventory.
 
@@ -43,6 +43,8 @@ The easiest way to see stats by chain is through the Uniswap interface. Overview
 * [BOB on Polygon](https://app.uniswap.org/#/tokens/polygon/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b)
 * [BOB on Optimism](https://app.uniswap.org/#/tokens/optimism/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b)
 * [BOB on Ethereum](https://app.uniswap.org/#/tokens/ethereum/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b)
+
+Current inventory and circulating supply can be viewed here: [https://dune.com/maxaleks/bob-stable-token](https://dune.com/maxaleks/bob-stable-token)
 
 For an overview of deposits, transfer volume and withdrawals within zkBob, see the dune analytics dashboard at [https://dune.com/maxaleks/zkbob](https://dune.com/maxaleks/zkbob)
 
