@@ -14,7 +14,8 @@ The inventory safe does not have any administrative rights in regards to zkBob; 
 
 Inventory LP positions are as follows. See the [inventory management page ](inventory-management.md)for more information on BOB inventory updates.&#x20;
 
-* Polygon [https://polygonscan.com/address/0x0a63d3910ffc1529190e80e10855c4216407cc45](https://polygonscan.com/address/0x0a63d3910ffc1529190e80e10855c4216407cc45)
+* Polygon[\
+  https://polygonscan.com/address/0x0a63d3910ffc1529190e80e10855c4216407cc45](https://polygonscan.com/address/0x0a63d3910ffc1529190e80e10855c4216407cc45)
 * Ethereum\
   [https://etherscan.io/address/0xc0d19f4fae83eb51b2adb59eb649c7bc2b19b2f6](https://etherscan.io/address/0xc0d19f4fae83eb51b2adb59eb649c7bc2b19b2f6)\
   [https://etherscan.io/address/0x8fb60298c6bbafa428494fd2d63d116063ef32e2](https://etherscan.io/address/0x8fb60298c6bbafa428494fd2d63d116063ef32e2)
