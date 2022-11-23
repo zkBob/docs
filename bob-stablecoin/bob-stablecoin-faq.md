@@ -4,6 +4,17 @@ description: What about $BOB
 
 # BOB Stablecoin FAQ
 
+{% hint style="info" %}
+FAQs
+
+* [How do I get BOB?](bob-stablecoin-faq.md#how-do-i-get-bob)
+* [How does BOB remain stable?](bob-stablecoin-faq.md#how-does-bob-remain-stable)
+* [How can I view BOB basic stats (tvl, volume etc)?](bob-stablecoin-faq.md#how-can-i-view-bob-basic-stats-tvl-volume-etc)
+* [What are the BOB contract details?](bob-stablecoin-faq.md#what-are-the-bob-contract-details)
+* [How is BOB inventory regulated?](bob-stablecoin-faq.md#how-is-bob-inventory-regulated)
+* [Can I earn additional BOB through zkBob or in other ways?](bob-stablecoin-faq.md#can-i-earn-additional-bob-through-zkbob-or-in-other-ways)
+{% endhint %}
+
 ## How do I get BOB?
 
 BOB is currently available on Polygon, Optimism, BNB Chain and Ethereum. BOB can be acquired in several ways outside of the zkBob application.
@@ -36,6 +47,8 @@ The easiest way to see stats by chain is through the Uniswap interface. Overview
 For an overview of deposits, transfer volume and withdrawals within zkBob, see the dune analytics dashboard at [https://dune.com/maxaleks/zkbob](https://dune.com/maxaleks/zkbob)
 
 ## What are the BOB contract details?
+
+BOB token contracts start and end with B0B!
 
 **BOB contracts on Polygon:**
 
