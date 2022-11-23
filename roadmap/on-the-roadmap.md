@@ -14,7 +14,7 @@ These items are ongoing or planned for near-term execution.
 * Governance and decentralization: zkBob is an open-source platform still in beta. Additional measures will be taken to decentralize the workflow and engage the community in making future decisions about platform directions. This is also true for the BOB stablecoin where community members will ultimately make decisions about usage, supply etc. though a tbd governance process. &#x20;
 * Hackathon participation: The community should be engaged with BOB and zkBob to explore and develop new use cases where privacy and stability are preferred.
 * AML improvements: Account verification and tiered limits will be refined to keep the protocol secure and policy compliant.
-  * Restructure max daily and monthly limits for basic tier accounts.
+  * Restructure max transaction and monthly limits for basic tier accounts.
   * Introduce verified accounts with Polygon ID and high limits.
   * Verify corporate accounts on a case-by-case basis.
 * TRM integration: Screen deposit/withdrawal addresses for AML and sanctions compliance.&#x20;
@@ -27,7 +27,11 @@ We will continue improving the speed, usability, and efficiency of the applicati
 * Mnemonic account import/export. This will increase usability and transportability of accounts.
 * UTXO withdrawal details. Multiple UTXOs may need to be processed during a withdrawal. Updates will provide users with more details about withdrawals which can incur higher fees (ie a multi-UTXO withdrawal with 5 individual txs will include a fee of $0.50 rather than $0.10).
 * Multi-sender functionality. Ability to add multiple transfer addresses (input or from a csv file) and send in batches.&#x20;
-* Error reporting enhancements: When a transaction reverts there is currently not enough information for the user. Errors should be clearly displayed for debugging purposes.
+* Error reporting enhancements. When a transaction reverts there is currently not enough information for the user. Errors should be clearly displayed for debugging purposes.
+* Post-beta. Following beta protocol updates will include:
+  * Open-source UI
+  * Decentralized relayer infrastructure
+  * Community ceremony
 
 ## Exploratory Features
 
