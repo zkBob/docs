@@ -1,12 +1,6 @@
-# BOB Inventory
+# Inventory Management
 
-BOB inventory is currently handled via a governance [multi-sig Safe. ](https://gnosis-safe.io/app/matic:0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8/home)To facilitate inventory, BOB liquidity is deployed on DEXs including Uniswap v3 & Kyberswap, and paired with a stable asset such as USDC or BUSD.  Inventory positions are tuned to a very narrow range and maintained through the [AMM concentrated liquidity algorithm](https://docs.uniswap.org/protocol/concepts/V3-overview/concentrated-liquidity). This keeps BOB stable, and is known as an **inventory LP position**.
-
-Any circulating supply of BOB available for users is purchased from this inventory (at \~1:1 for USD stable assets). Users can then choose to create their own **non-inventory LP positions** using purchased BOB + another tokens of their choice (for example BOB/WETH, BOB/WMATIC, BOB/GNO etc).&#x20;
-
-The inventory safe does not have any administrative rights in regards to zkBOB; the only function for the safe is to oversee the inventory process. Additional decentralization measures including broader community-driven governance and timelocks are in development to maintain and balance optimal BOB inventory based on usage and demand.
-
-Below are inventory position increases that have occurred to date.
+BOB is added to inventory LP positions in tranches based on usage and anticipated demand. Increases are detailed below.
 
 ### Polygon
 
@@ -41,11 +35,8 @@ Below are inventory position increases that have occurred to date.
    Oct-06-2022 07:59:04 PM +UTC\
    [0x57039c5a011c6a41f5e89e8928adafe2e964d20c005b2114eb73687a0cff09af](https://optimistic.etherscan.io/tx/0x57039c5a011c6a41f5e89e8928adafe2e964d20c005b2114eb73687a0cff09af)
 
-### Binance BNB Chain
+### Binance BNB Smart Chain
 
-1. 100 BOB to substantiate BOB contract on BSC and facilitate token list inclusion.\
-   Nov-02-2022 01:48:41 PM +UTC\
-   [0x8f6e4a59cdeffbb2a13cbc5d59b40aeb441c63906bd544fa986438cef2fe207b](https://bscscan.com/tx/0x8f6e4a59cdeffbb2a13cbc5d59b40aeb441c63906bd544fa986438cef2fe207b)
-2. 1,000,000 BOB for [Kyberswap inventory LP](https://kyberswap.com/swap/bnb/bob-to-usdc).\
+1. 1,000,000 BOB for [Kyberswap inventory LP](https://kyberswap.com/swap/bnb/bob-to-usdc).\
    Nov-07-2022 02:32:10 PM +UTC\
    [0x27f833734e9b3f018ff6b903fe856bf2bbc3a853aa585b5836c6e22308975aa9](https://bscscan.com/tx/0x27f833734e9b3f018ff6b903fe856bf2bbc3a853aa585b5836c6e22308975aa9)

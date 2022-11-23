@@ -23,7 +23,7 @@ A quick tutorial on acquiring BOB using USDC on Polygon. You can swap with other
 These instructions provide an example using USDC to acquire BOB. You can choose to swap with other tokens as long as there is enough liquidity.  You can also swap from BOB back to USDC or another token of your choice.
 {% endhint %}
 
-1\) Go to the BOB/USDC [Uniswap v3 Pool](https://zkbob.page.link/getBOB).
+1\) Go to the BOB/USDC [Uniswap v3 Pool](https://app.uniswap.org/#/swap).
 
 2\) If you are connected to a different network, you will see Unknown in the token field.&#x20;
 
