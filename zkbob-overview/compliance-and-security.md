@@ -33,6 +33,10 @@ Politically exposed individuals or associates of those individuals are not permi
 
 Limits are imposed to prevent large-scale transactions which may be the result of illicit activity. [Deposit limits are detailed here](deposit-and-withdrawal-limits.md).
 
+## Wallet Compliance
+
+Upcoming integrations with TRM, VAF Compliance and PureFi will ensure 0x wallets interacting with the protocol do not contain funds obtained from illicit sources.&#x20;
+
 ## Security
 
 ### Beta Release

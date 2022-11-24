@@ -17,7 +17,7 @@ These items are ongoing or planned for near-term execution.
   * Restructure max transaction and monthly limits for basic tier accounts.
   * Introduce verified accounts with Polygon ID and high limits.
   * Verify corporate accounts on a case-by-case basis.
-* TRM integration: Screen deposit/withdrawal addresses for AML and sanctions compliance.&#x20;
+* Wallet screening: Integrations with TRM, VAF Compliance and PureFI will provide additional protections by screening deposit/withdrawal addresses for AML and sanctions compliance.&#x20;
 
 ## Application Improvements
 
