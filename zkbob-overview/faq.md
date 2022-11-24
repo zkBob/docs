@@ -4,7 +4,7 @@ description: Frequently asked questions
 
 # zkBob FAQ
 
-{% hint style="warning" %}
+{% hint style="info" %}
 **General Questions**
 
 * [Who should use zkBob?](faq.md#who-should-use-zkbob)
