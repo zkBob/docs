@@ -7,7 +7,7 @@ description: Incorporate privacy into everyday applications
 {% hint style="info" %}
 * [zkBob Intro](hackathon.md#intro)
 * [zkBob API & Cloud Wallet](hackathon.md#zkbob-api-and-cloud-wallet)
-  * [Use case examples](hackathon.md#use-case-examples)
+  * [Use case ideas](hackathon.md#use-case-examples)
   * [API key](hackathon.md#api-key)
   * [Receiving address](hackathon.md#receiving-address)
   * [Notes](hackathon.md#notes)
@@ -29,11 +29,11 @@ zkBob UI is developed as a client side application which generates zkproofs on a
 
 ## zkBob API and Cloud Wallet
 
-With the API, developers do not need to use a client SDK to manage crytpographic keys, client application state and other complexities. Users do not need to secure keys on their own or wait for cryptographic proof generation.&#x20;
+With the API, developers do not need to use a client SDK to manage crytpographic keys, client application state and other complexities. Users do not need to secure keys entirely on their own or wait for cryptographic proof generation.&#x20;
 
 The hosted version of the zkBob REST API and cloud wallet greatly expands the possibilities for interaction. For the hackathon, we want you to explore new use cases for private transactions using the zkBob API and BOB stablecoin.&#x20;
 
-### Use Case Examples
+### Use Case Ideas
 
 * Donation platform where donors maintain anonymity
 * Fundraising platform with internal KYC while maintaining public privacy
@@ -69,7 +69,7 @@ This is a typical payment process flow. Here you can see some dummy relationship
 <figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 * **Get an API Key & BOB:** Join the telegram at [https://t.me/+sMbZvmVzYmQ3ODlk](https://t.me/+sMbZvmVzYmQ3ODlk) to request your API key. The API key is used to generate and interact with the zkBob cloud wallet. You will receive 10 BOB into the account to use for testing and demonstration.
-* **HackMD:** Explore the HackMD with extended API documentation and usage examples.
+* **HackMD:** View the HackMD with extended API documentation and usage examples.
 * **Explore API Methods:** Use Swagger and Postman links to view available methods for shielded account interaction. Note that the current API does not include deposit and withdrawal functionality, only proving mechanisms related to transfers. Deposits and withdrawals may be performed manually.
 
 ## References Table
