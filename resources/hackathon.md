@@ -38,11 +38,12 @@ For the EthIndia hackathon, 5 prizes of $2000 BOB ($2000 USD equivalent) will be
 
 ## References Table
 
-|   |   |
-| - | - |
-|   |   |
-|   |   |
-|   |   |
+|                       |   |
+| --------------------- | - |
+| API structure         |   |
+| API description/calls |   |
+| Swagger               |   |
+| Postman               |   |
 
 ## API call sequence diagram
 
