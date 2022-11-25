@@ -15,6 +15,7 @@ Swap BOB, create non-inventory LP positions, and use BOB in a variety of DeFi co
 * [1inch](https://app.1inch.io/#/1/unified/swap/BOB/USDC) (Polygon, Ethereum, Optimism)
 * [Kyberswap](https://kyberswap.com/swap/ethereum/eth-to-bob) (Polygon, Ethereum, Optimism, BSC)
 * [Paraswap](https://app.paraswap.io/) (Polygon, Ethereum, Optimism, BSC)
+* [Pancake Swap](https://pancakeswap.finance/swap) (BSC)
 * [Curve](https://curve.fi/#/polygon/swap) (Polgyon)
 * [Quickswap](https://quickswap.exchange/#/) (Polygon)
 * [Arrakis Vaults](https://beta.arrakis.finance/vaults) (Polygon)
@@ -26,5 +27,6 @@ BOB for stable and secure payments.
 
 * [Request Finance](https://www.request.finance/): BOB can be selected for invoicing and payroll services.
 * [Suarmi](https://www.suarmi.com/index): Fiat on-ramp currently available for residents in Mexico, with more countries coming soon.
+* [tr3butor](https://app.tr3butor.io/organization/clawfr86w0002lh08gsixtkq0): Web3 talent platform for job listings, events and more.
 * [HYVE](https://hyve.works/): Job postings and freelancer payments with BOB.
 
