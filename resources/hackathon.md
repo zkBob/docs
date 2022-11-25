@@ -33,7 +33,7 @@ For the EthIndia hackathon, 5 prizes of $2000 BOB ($2000 USD equivalent) will be
 <figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 * **Get an API Key & BOB:** Join the telegram at [https://t.me/+sMbZvmVzYmQ3ODlk](https://t.me/+sMbZvmVzYmQ3ODlk) to request your API key. The API key is used to generate and interact with zkBob accounts. You will receive 10 BOB into the account to use for testing and demonstration.
-* **HackMD:** Explore the HackMD with API documentation and a sequence diagram of API calls.
+* **HackMD:** Explore the HackMD with extended API documentation and usage examples.
 * **Explore API Methods:** Use Swagger and Postman links to view available methods for shielded account interaction. Note that the current API does not include deposit and withdrawal functionality, only proving mechanisms related to transfers. Deposits and withdrawals may be performed manually.
 
 ## References Table
