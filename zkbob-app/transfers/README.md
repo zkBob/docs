@@ -16,6 +16,8 @@ Any previously generated address can be used indefinitely, so if you send an add
 
 See [Receiving a Transfer](./#receiving-a-transfer) for instructions on generating a zkAccount address.
 
+Interested in sending to multiple zkAddresses with 1 tx? Try the [Multitransfer feature](multitransfers.md).
+
 {% hint style="info" %}
 The minimum transfer amount is 0.05 BOB. A 0.10 fee is added to each transfer.
 {% endhint %}
