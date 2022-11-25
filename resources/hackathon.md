@@ -24,6 +24,10 @@ zkBob API has just been released in beta. For the hackathon, we want you to expl
 * \*Extra credit: Direct library integration, direct deposits
 * Your idea here!!!
 
+## Prizes
+
+For the EthIndia hackathon, 5 prizes of $2000 BOB ($2000 USD equivalent) will be awarded to the top 5 projects utilizing the zkBob API. Creativity, innovation, and implementation will be considered during judging.
+
 ## Get Started
 
 <figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
@@ -33,4 +37,18 @@ zkBob API has just been released in beta. For the hackathon, we want you to expl
 * **Explore API Methods:** Use Swagger and Postman links to view available methods for shielded account interaction. Note that the current API does not include deposit and withdrawal functionality, only proving mechanisms related to transfers. Deposits and withdrawals may be performed manually.
 
 ## References Table
+
+|   |   |
+| - | - |
+|   |   |
+|   |   |
+|   |   |
+
+## API call sequence diagram
+
+
+
+<figure><img src="../.gitbook/assets/zkBob-3.png" alt=""><figcaption></figcaption></figure>
+
+
 
