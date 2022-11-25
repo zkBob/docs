@@ -97,5 +97,6 @@
 ## 🧩 Resources
 
 * [Visual Assets](resources/visual-assets.md)
+* [Hackathon](resources/hackathon.md)
 * [Github](https://github.com/zkbob)
 * [Link tree](https://linktr.ee/zkbob)
