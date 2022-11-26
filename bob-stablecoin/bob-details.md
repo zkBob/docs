@@ -6,7 +6,7 @@ description: zkBob stablecoin with privacy options
 
 :heavy\_check\_mark: BOB is a multi-chain & multi-collateral stable token (stablecoin) enhanced with optional privacy features.
 
-:heavy\_check\_mark: BOB is acquired through swaps using apps like [1inch](https://app.1inch.io/#/137/unified/swap/USDC/BOB), [Uniswap v3,](get-bob-on-uniswap-v3.md) [Metamask,](swap-bob-with-metamask-swap.md) [Kyberswap](https://kyberswap.com/swap/bnb/bob-to-busd), [Paraswap](https://app.paraswap.io/) and others. BOB can also be transferred between users in a shielded form using the zkBOB application.
+:heavy\_check\_mark: BOB is acquired through swaps using apps like [Paraswap](https://app.paraswap.io/#/BOB-USDC/100?network=polygon\&ref=0x02BF3258D6024B2B34fD7D21F225Db6CDA939E76), [1inch](https://app.1inch.io/#/137/unified/swap/USDC/BOB), [Uniswap v3,](get-bob-on-uniswap-v3.md) [Metamask,](swap-bob-with-metamask-swap.md) [Kyberswap](https://kyberswap.com/swap/bnb/bob-to-busd), and others. BOB can also be transferred between users in a shielded form using the zkBOB application.
 
 :heavy\_check\_mark: BOB inventory is currently available on Polygon, Optimism, Ethereum, and Binance Smart Chain. Additional chains may be added in the future to support multi-chain deposits and withdrawals.
 

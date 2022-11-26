@@ -17,7 +17,7 @@ zkBob is currently optimized for the desktop/laptop environment. It does not wor
 * [Acknowledge terms](acknowledge-terms.md) to get started.
 * [Setup](account-creation/) a zkAccount using a seed phrase or existing web3 wallet.
 * [Deposit ](deposits.md)arbitrary token amounts of a stablecoin into the application.
-* [Transfer](transfers/) deposits to other participants using zkSnarks technology (proof of transaction without disclosing details of the sender, recipient, and value).
+* [Transfer](transfers.md) deposits to other participants using zkSnarks technology (proof of transaction without disclosing details of the sender, recipient, and value).
 * [Withdraw](withdrawals.md) arbitrary token amounts securely and privately.
 * [Generate secure addresses](generate-a-secure-address.md) for funds transfer within the application.
 

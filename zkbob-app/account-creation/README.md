@@ -111,6 +111,6 @@ If you change browsers/computers or clear local storage, re-enter your seed phra
 Next:&#x20;
 
 * [Make a Deposit](../deposits.md)
-* [Receive a Transfer](../transfers/)
+* [Receive a Transfer](../transfers.md)
 * [Withdraw Funds](../withdrawals.md)
 {% endhint %}
