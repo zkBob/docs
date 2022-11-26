@@ -52,15 +52,15 @@ In the ZkBob Cloud Wallet every developer has her own secret api key that is use
 
 ### **Receiving address**
 
-Since all payments are settled on a public blockchain privacy is a complicated thing. To avoid obvious correlations between different transactions we use special receiving addresses that can’t be linked in any way with the account. Using a new receiving address for every incoming transaction eliminates any possibility to deanonymize the recipient.
+Since all payments are settled on a public blockchain privacy can be complicated. To avoid obvious correlations between different transactions we use special receiving addresses that can’t be linked in any way with the account. Using a new receiving address for every incoming transaction eliminates any possibility of deanonymizing the recipient.
 
 ### **Notes**
 
-Balance management may seem complicated but actually it’s not. There are notes and accounts, the difference is similar to physical paper notes in your wallet and your bank account. Most of the time this doesn’t matter neither to the user or developer, but there is one edge case when it’s important. **Due to technical restrictions the user cannot spend more than 3 notes in one operation.** If the user needs to do this there will be an one or more additional technical transactions to accumulate the balance on the account prior to the transfer itself.
+Balance management may seem complex but it is actually straightforward. There are notes and accounts — the difference is similar to physical paper notes in your wallet and your bank account. Most of the time this doesn’t matter to users or devs, but there is one edge case when it’s important. **Due to technical restrictions the user cannot spend more than 3 notes in one operation.** If the user needs to do this there will be one or more additional technical transactions to accumulate the balance to the account prior to the transfer itself.
 
 ### Payment Flow
 
-This is a typical payment process flow. Here you can see some dummy relationships between Alice and Charlie, but anything can be created here. Charlie can use a self-custodial ZkBob wallet, or they both can share a single ZkBob cloud account.
+This is a typical payment process flow. Here you see example relationships between Alice and Charlie, but any transactional process can be created here. Charlie can use a self-custodial ZkBob wallet, or they both can share a single ZkBob cloud account.
 
 <figure><img src="https://lh4.googleusercontent.com/Ui2B8RryXkWAd467o90_hq7AgXYKb30yml5KHnQjm2BUmZ8RDGHCDXjp6ddEckiGHyclnD2Tu4gnIoe_5rA7S8d19I1ImQ4hvTyntuVudDy58OX16sC8t0_G5Tb9HUMg2UQbr6BA_9czusxSvrRkDUmmzNRSFAHyJ77ne12ILjTKjUM1CJMS0uI-vC5L" alt=""><figcaption></figcaption></figure>
 
@@ -68,7 +68,7 @@ This is a typical payment process flow. Here you can see some dummy relationship
 
 <figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
-* **Get an API Key & BOB:** Join the telegram at [https://t.me/+sMbZvmVzYmQ3ODlk](https://t.me/+sMbZvmVzYmQ3ODlk) to request your API key. The API key is used to generate and interact with the zkBob cloud wallet. You will receive 10 BOB into the account to use for testing and demonstration.
+* **Get an API Key & BOB:** Join the telegram at [https://t.me/+sMbZvmVzYmQ3ODlk](https://t.me/+sMbZvmVzYmQ3ODlk) to request your API key. The API key is used to generate and interact with the zkBob cloud wallet. You will receive 10 BOB into the account to use for testing, functionality and demonstration purposes.
 * **HackMD:** View the HackMD with extended API documentation and usage examples.
 * **Explore API Methods:** Use Swagger and Postman links to view available methods for shielded account interaction. Note that the current API does not include deposit and withdrawal functionality, only proving mechanisms related to transfers. Deposits and withdrawals may be performed manually.
 
@@ -87,9 +87,4 @@ This is a typical payment process flow. Here you can see some dummy relationship
 
 For the EthIndia hackathon, 5 prizes of $2000 BOB ($2000 USD equivalent) will be awarded to the top 5 projects utilizing the zkBob API. Creativity, innovation, and implementation will be considered during judging.
 
-
-
 <figure><img src="../.gitbook/assets/zkBob-3.png" alt=""><figcaption></figcaption></figure>
-
-
-
