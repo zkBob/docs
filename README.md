@@ -6,7 +6,7 @@ description: A stablecoin-based zkprotocol designed for everyday users
 
 <figure><img src=".gitbook/assets/readme2.jpg" alt=""><figcaption></figcaption></figure>
 
-[zkBob](https://app.zkbob.com) is a stablecoin-based privacy application deployed on Polygon and designed for everyday users and common [use cases](zkbob-overview/use-cases/). zkBob uses [zkSNARKS](implementation/zksnarks-and-circuits/) to anonymize senders, receivers, and transfer amounts. [Compliance features](zkbob-overview/compliance-and-security.md) deter bad actors and illicit usage, giving privacy back to the ordinary blockchain user.&#x20;
+[zkBob](https://app.zkbob.com) is a stablecoin-based privacy application deployed on Polygon and designed for everyday users and [common use cases](zkbob-overview/use-cases/). zkBob uses [zkSNARKS](implementation/zksnarks-and-circuits/) to anonymize senders, receivers, and transfer amounts. [Compliance features](zkbob-overview/compliance-and-security.md) deter bad actors and illicit usage, giving privacy and safety back to the ordinary blockchain user.&#x20;
 
 zkBob is optimized to work with the [BOB token](broken-reference), a multi-chain stable token (stablecoin) enhanced with optional privacy features. Once BOB is deposited into the zkBob pool, participants can transfer any amount\* of BOB amongst themselves in a private, secure manner without needing to connect MetaMask, WalletConnect or any web3 wallet.
 
