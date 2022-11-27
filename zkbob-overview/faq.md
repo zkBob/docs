@@ -154,7 +154,13 @@ Yes, it will still work. You can generate as many addresses as you would like. E
 
 ## What if I lose my password?
 
-You can restore your account using your original secret seed phrase. Once restored, you will be asked to generate a new password.
+It's ok - you can restore your account using your original secret seed phrase or by reconnecting your original Metamask (MM) account. If you created using MM or Wallet connect, you can restore by going through the create account process and signing to generate a key for the same wallet address.
+
+Once restored, you will be asked to create a new password. The password is kept in local storage. &#x20;
+
+<figure><img src="../.gitbook/assets/restore-1.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/restore-2.png" alt=""><figcaption></figcaption></figure>
 
 ## Why do I keep having to enter my password?
 
