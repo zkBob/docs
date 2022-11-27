@@ -48,11 +48,11 @@ The hosted version of the zkBob REST API and cloud wallet greatly expands the po
 
 ### API Key
 
-In the ZkBob Cloud Wallet every developer has her own secret api key that is used to manage funds. The key is usually kept on the server and is given individually to each team. [See below](hackathon.md#get-started) for more info on receiving an API key.
+In the ZkBob Cloud Wallet every developer has their own secret api key used to manage funds. The key is usually kept on the server and given individually to each team. [See below](hackathon.md#get-started) for more info on receiving an API key.
 
 ### **Receiving address**
 
-Since all payments are settled on a public blockchain privacy can be complicated. To avoid obvious correlations between different transactions we use special receiving addresses that can’t be linked in any way with the account. Using a new receiving address for every incoming transaction eliminates any possibility of deanonymizing the recipient.
+Since all payments are settled on a public blockchain privacy can be complicated. To avoid obvious correlations between txs we use special receiving addresses that can’t be linked in any way to the account. Using a new receiving address for every incoming transaction eliminates any possibility of deanonymizing the recipient.
 
 ### **Notes**
 
@@ -60,7 +60,7 @@ Balance management may seem complex but it is actually straightforward. There ar
 
 ### Payment Flow
 
-This is a typical payment process flow. Here you see example relationships between Alice and Charlie, but any transactional process can be created here. Charlie can use a self-custodial ZkBob wallet, or they both can share a single ZkBob cloud account.
+This is a typical payment process flow. Here you see example relationships between Alice and Charlie, but any transactional relationship can be created here. Charlie can use a self-custodial ZkBob wallet, or they both can share a single ZkBob cloud account.
 
 <figure><img src="https://lh4.googleusercontent.com/Ui2B8RryXkWAd467o90_hq7AgXYKb30yml5KHnQjm2BUmZ8RDGHCDXjp6ddEckiGHyclnD2Tu4gnIoe_5rA7S8d19I1ImQ4hvTyntuVudDy58OX16sC8t0_G5Tb9HUMg2UQbr6BA_9czusxSvrRkDUmmzNRSFAHyJ77ne12ILjTKjUM1CJMS0uI-vC5L" alt=""><figcaption></figcaption></figure>
 
