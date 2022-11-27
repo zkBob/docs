@@ -1,5 +1,5 @@
 ---
-description: A stablecoin-based zkprotocol designed for everyday users
+description: A stablecoin-based privacy solution for everyday users
 ---
 
 # zkBob
