@@ -1,20 +1,21 @@
 ---
-description: A stablecoin-based zkprotocol designed for simplicity, privacy and utility.
+description: A stablecoin-based zkprotocol designed for everyday users
 ---
 
 # zkBob
 
 <figure><img src=".gitbook/assets/readme2.jpg" alt=""><figcaption></figcaption></figure>
 
-zkBob simplifies secure, limited-value, and anonymous stablecoin transfers for everyday users. The application accepts [BOB](broken-reference), a multi-chain stable token (stablecoin) enhanced with optional privacy features.&#x20;
+[zkBob](https://app.zkbob.com) is a stablecoin-based privacy application deployed on Polygon and designed for everyday users and common [use cases](zkbob-overview/use-cases/). zkBob uses [zkSNARKS](implementation/zksnarks-and-circuits/) to maintain privacy for senders, receivers, and transfer amounts.
 
-Once BOB is deposited in the zkBob app, pool participants can transfer any amount\* of BOB amongst themselves in a private, secure manner without needing to connect MetaMask, WalletConnect or any web3 wallet.
+zkBob is optimized to work with the [BOB token](broken-reference), a multi-chain stable token (stablecoin) enhanced with optional privacy features. Once BOB is deposited into the zkBob pool, participants can transfer any amount\* of BOB amongst themselves in a private, secure manner without needing to connect MetaMask, WalletConnect or any web3 wallet.
 
-The shielded zkBob pool uses [zkSNARKs](implementation/zksnarks-and-circuits/) to limit public data exposure. When a transfer is initiated, the amount and recipient is never disclosed or published. Transactions are routed through a relayer, abstracting gas fees while providing an efficient transfer environment.&#x20;
+When a transfer is initiated, the amount and recipient is never disclosed or published. Transactions are routed through a [relayer](implementation/relayer-node/), abstracting gas fees while providing an efficient transfer environment.&#x20;
 
-The [BOB stablecoin](bob-stablecoin/bob-details.md) is currently available on Polygon, Optimism, BNB Chain and Ethereum mainnet with additional chains on the horizon. The zkBob application is deployed on Polygon to utilize existing infrastructure (Uniswap v3, Aave, and native USDC), prioritize scalability, and support their commitment to zk-based solutions.
+* The [zkBob application](https://app.zkbob.com/) is deployed on Polygon to utilize existing infrastructure (Uniswap v3, Aave, and native USDC), prioritize scalability, and support their commitment to zk-based solutions.
+* The [BOB stablecoin](bob-stablecoin/bob-details.md) is currently available on Polygon, Optimism, BNB Chain and Ethereum mainnet with additional chains on the horizon.&#x20;
 
-_\*zkBob introduces_ [_deposit and withdrawal limits_](zkbob-overview/deposit-and-withdrawal-limits.md) _to deter bad actors and illegal usage of the application. Transfers are limited by these pool constraints._&#x20;
+_\*zkBob introduces_ [_deposit and withdrawal limits_](zkbob-overview/deposit-and-withdrawal-limits.md) _and other_ [_compliance features_](zkbob-overview/compliance-and-security.md) _to deter bad actors and illegal usage of the application. Transfers are limited by these pool constraints._&#x20;
 
 ### Get Started!
 
