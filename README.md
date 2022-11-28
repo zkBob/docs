@@ -1,5 +1,5 @@
 ---
-description: A stablecoin-based privacy solution for everyday users
+description: A stablecoin-based privacy solution for everyday users powered by BOB
 ---
 
 # zkBob
@@ -9,6 +9,8 @@ description: A stablecoin-based privacy solution for everyday users
 [zkBob](https://app.zkbob.com) is a stablecoin-based privacy application deployed on Polygon and designed for everyday users and [common use cases](zkbob-overview/use-cases/). zkBob uses [zkSNARKS](implementation/zksnarks-and-circuits/) to anonymize senders, receivers, and amounts when transferring stable funds. [Compliance features](zkbob-overview/compliance-and-security.md) deter bad actors and illicit usage, giving privacy and safety back to ordinary blockchain users.&#x20;
 
 zkBob is optimized to work with the [BOB token](broken-reference), a multi-chain stable token (stablecoin) enhanced with optional privacy features. Once BOB is deposited into the zkBob pool, participants can transfer any amount\* of BOB amongst themselves in a private, secure manner without needing to connect MetaMask, WalletConnect or any web3 wallet.
+
+<figure><img src=".gitbook/assets/zkBob-interface.png" alt=""><figcaption><p>zkBob interface</p></figcaption></figure>
 
 When a transfer is initiated, the amount and recipient is never disclosed or published. Transactions are routed through a [relayer](implementation/relayer-node/), abstracting gas fees while providing an efficient transfer environment. Deposits, transfers and withdrawals are all processed on Polygon, with standardized gas fees ($0.10 per tx) paid using BOB tokens. MATIC is not needed for any of these actions, simplifying usage.
 
