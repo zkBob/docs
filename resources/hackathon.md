@@ -29,9 +29,11 @@ zkBob UI is developed as a client side application which generates zkproofs on a
 
 ## zkBob API and Cloud Wallet
 
-With the API, developers do not need to use a client SDK to manage crytpographic keys, client application state and other complexities. Users do not need to secure keys entirely on their own or wait for cryptographic proof generation.&#x20;
+With the API, developers do not need to use a client SDK to manage crytpographic keys, client application state, and other complexities. Users do not need to secure keys entirely on their own or wait for cryptographic proof generation.&#x20;
 
-The hosted version of the zkBob REST API and cloud wallet greatly expands the possibilities for interaction. For the hackathon, we want you to explore new use cases for private transactions using the zkBob API and BOB stablecoin.&#x20;
+The hosted version of the zkBob REST API and cloud wallet greatly expands the possibilities for interaction. The cloud wallet is currently in an experimental and custodial state, this first iteration is developed specifically for hackathons to give devs an opportunity to experience and build zk-enhanced use cases. We welcome your feedback as you hack!
+
+For the hackathon, we want you to explore new use cases for private transactions using the zkBob API and BOB stablecoin.&#x20;
 
 ### Use Case Ideas
 
@@ -48,15 +50,15 @@ The hosted version of the zkBob REST API and cloud wallet greatly expands the po
 
 ### API Key
 
-In the ZkBob Cloud Wallet every developer has their own secret api key used to manage funds. The key is usually kept on the server and given individually to each team. [See below](hackathon.md#get-started) for more info on receiving an API key.
+In the ZkBob Cloud Wallet every developer has their own secret api key used to manage funds. The key is usually kept on the server and given individually to each team, either requested through discord or in-person at our booth. [See below](hackathon.md#get-started) for more info on receiving an API key.
 
 ### **Receiving address**
 
-Since all payments are settled on a public blockchain privacy can be complicated. To avoid obvious correlations between txs we use special receiving addresses that can’t be linked in any way to the account. Using a new receiving address for every incoming transaction eliminates any possibility of deanonymizing the recipient.
+Since all payments are settled on a public blockchain privacy can be complicated. To avoid obvious correlations between txs we use special receiving addresses that can’t be linked in any way to the account. Using a new receiving address for every incoming transaction is recommended to eliminate any possibility of deanonymizing the recipient.
 
 ### **Notes**
 
-Balance management may seem complex but it is actually straightforward. There are notes and accounts — the difference is similar to physical paper notes in your wallet and your bank account. Most of the time this doesn’t matter to users or devs, but there is one edge case when it’s important. **Due to technical restrictions the user cannot spend more than 3 notes in one operation.** If the user needs to do this there will be one or more additional technical transactions to accumulate the balance to the account prior to the transfer itself.
+Balance management is not as complex as it seems. There are notes and accounts — the difference is similar to physical paper notes in your wallet and your accounts at the bank. Most of the time this doesn’t matter to users or devs, but there is one edge case when it’s important. **Due to technical restrictions the user cannot spend more than 3 notes in one operation.** If the user needs to do this there will be one or more additional technical transactions to accumulate the balance to the account prior to the transfer itself.
 
 ### Payment Flow
 
