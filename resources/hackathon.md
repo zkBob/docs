@@ -68,7 +68,7 @@ This is a typical payment process flow. Here you see example relationships betwe
 
 <figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
-* **Get an API Key & BOB:** Join the telegram at [https://t.me/+sMbZvmVzYmQ3ODlk](https://t.me/+sMbZvmVzYmQ3ODlk) to request your API key. The API key is used to generate and interact with the zkBob cloud wallet. You will receive 10 BOB into the account to use for testing, functionality and demonstration purposes.
+* **Get an API Key & BOB:** Request your API key either through the _#sponsor-zkbob_ channel on EthGlobal discord [https://discord.gg/ethglobal](https://discord.gg/ethglobal) or come see us in person at the zkBob booth!  Then join the telegram at [https://t.me/+sMbZvmVzYmQ3ODlk](https://t.me/+sMbZvmVzYmQ3ODlk) to ask any questions. The API key is used to generate and interact with the zkBob cloud wallet. You will receive 10 BOB into the account to use for testing, functionality and demonstration purposes.
 * **HackMD:** View the HackMD with extended API documentation and usage examples.
 * **Explore API Methods:** Use Swagger and Postman links to view available methods for shielded account interaction. Note that the current API does not include deposit and withdrawal functionality, only proving mechanisms related to transfers. Deposits and withdrawals may be performed manually.
 
