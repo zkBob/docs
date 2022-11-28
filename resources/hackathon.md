@@ -50,7 +50,7 @@ For the hackathon, we want you to explore new use cases for private transactions
 
 ### API Key
 
-In the ZkBob Cloud Wallet every developer has their own secret api key used to manage funds. The key is usually kept on the server and given individually to each team, either requested through discord or in-person at our booth. [See below](hackathon.md#get-started) for more info on receiving an API key.
+In the ZkBob Cloud Wallet every developer has their own secret api key used to manage funds. The key is kept on the server and given individually to each team, either requested through discord or in-person at our booth. [See below](hackathon.md#get-started) for more info on receiving an API key.
 
 ### **Receiving address**
 
@@ -58,7 +58,7 @@ Since all payments are settled on a public blockchain privacy can be complicated
 
 ### **Notes**
 
-Balance management is not as complex as it seems. There are notes and accounts — the difference is similar to physical paper notes in your wallet and your accounts at the bank. Most of the time this doesn’t matter to users or devs, but there is one edge case when it’s important. **Due to technical restrictions the user cannot spend more than 3 notes in one operation.** If the user needs to do this there will be one or more additional technical transactions to accumulate the balance to the account prior to the transfer itself.
+Balance management is not as complex as it seems. There are notes and accounts — the difference is similar to physical paper notes in your wallet and your accounts at the bank. Most of the time this doesn’t matter, but there is one edge case when it’s important. **Due to technical restrictions the user cannot spend more than 3 notes in one operation.** If the user needs to do this there will be one or more additional technical transactions to accumulate the balance to the account prior to the transfer itself.
 
 ### Payment Flow
 
