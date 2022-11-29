@@ -50,7 +50,7 @@ For the hackathon, we want you to explore new use cases for private transactions
 
 ### API Key
 
-In the ZkBob Cloud Wallet every developer has their own secret api key used to manage funds. The key is kept on the server and given individually to each team, either requested through discord or in-person at our booth. [See below](hackathon.md#get-started) for more info on receiving an API key.
+In the ZkBob Cloud Wallet every developer has their own secret api key used to manage funds. The key is kept on the server and given individually to each team, either requested through discord or in-person at our booth. Each key will also contain a BOB balance. [See below](hackathon.md#get-started) for more info on receiving an API key.
 
 ### **Receiving address**
 
@@ -71,19 +71,31 @@ This is a typical payment process flow. Here you see example relationships betwe
 <figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 * **Get an API Key & BOB:** Request your API key either through the _#sponsor-zkbob_ channel on EthGlobal discord [https://discord.gg/ethglobal](https://discord.gg/ethglobal) or come see us in person at the zkBob booth!  Then join the telegram at [https://t.me/+sMbZvmVzYmQ3ODlk](https://t.me/+sMbZvmVzYmQ3ODlk) to ask any questions. The API key is used to generate and interact with the zkBob cloud wallet. You will receive 10 BOB into the account to use for testing, functionality and demonstration purposes.
-* **HackMD:** View the HackMD with extended API documentation and usage examples.
-* **Explore API Methods:** Use Swagger and Postman links to view available methods for shielded account interaction. Note that the current API does not include deposit and withdrawal functionality, only proving mechanisms related to transfers. Deposits and withdrawals may be performed manually.
+* **Explore API Methods:** Use the Insomnia collection learn how to use zkBOB Cloud API.&#x20;
+  * Download Insomnia ([https://insomnia.rest/download](https://insomnia.rest/download))&#x20;
+  * Import collection
+    * Click New Document ->Import/Export\
+      \<img>
+    * click Import Data -> From url\
+      \<img>&#x20;
+    * Enter url \<tbd>\
+      \<img>
+* View common scenarios below.
+* _Note that the current API does not include deposit and withdrawal functionality, only proving mechanisms related to transfers._
 
-## References Table
+## References&#x20;
 
-|                       |   |
-| --------------------- | - |
-| API structure         |   |
-| API description/calls |   |
-| Swagger               |   |
-| Postman               |   |
+Staging Insomnia JSON (not for hackathon usage, only for exploring available methods)
 
-## API call sequence diagram / Other additional info
+{% file src="../.gitbook/assets/zkBOB-staging-ETHIndia-hackathon-v0.2.json" %}
+
+Production Insomnia JSON
+
+\<link to be added>
+
+## Common scenarios
+
+
 
 ## Prizes
 
