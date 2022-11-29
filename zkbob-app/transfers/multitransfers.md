@@ -1,3 +1,9 @@
+---
+description: >-
+  Now Bob can transfer to the whole crew....Alice, Carlos, Dave, Erin,
+  Frank....with a single transaction!
+---
+
 # Multitransfers
 
 Multitransfer allows multiple transfers to be processed in a single transaction. There are no limits to the number of transfers, and the entire process can be completed with a single proof and a single 0.10 relayer fee.  Each transfer adds an additional note to the zkproof, which can slightly increase proof generation time. Other than that, multi transfer is as smooth and seamless as an ordinary zkBob transfer!

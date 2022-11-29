@@ -4,13 +4,13 @@
 Below are descriptions of basic concepts underlying zkBob functionality. For more thorough details, see the [technical implementation ](broken-reference) section.
 {% endhint %}
 
-### zkBob
-
-zkBob is a zk-based application for limited-value stablecoin transfers. It accepts BOB stablecoins for deposit, and once deposited in the zkBob app, BOB can be transferred anonymously between participants. BOB can then be withdrawn from the application to an EOA (externally owned address) preserving anonymity of the transfer amounts and participants.
-
 ### BOB
 
-BOB is the name of the multi-chain, multi-collateral stable token optimized for the zkBob protocol. It provides optional privacy features for users when paired with the zkBob application. BOB can be swapped for the equivalent amount of other stablecoins (minus standard swap fees) or other available tokens on Ethereum and Polygon. [More details here](../../bob-stablecoin/bob-details.md).
+BOB is the name of the multi-chain, multi-collateral stablecoin optimized for the zkBob protocol. It provides optional privacy features for users when paired with the zkBob application. BOB can be swapped for the equivalent amount of other stablecoins (minus standard swap fees) or other available tokens on Ethereum, Polygon, Optimism and BSC. [More details here](../../bob-stablecoin/bob-details.md).
+
+### zkBob
+
+zkBob is a zk-based privacy application built for stablecoin transfers. It accepts BOB stablecoins for deposit, and once deposited in the zkBob app, BOB can be transferred anonymously between participants. BOB can then be withdrawn from the application to an EOA (externally owned address) preserving anonymity of the transfer amounts and participants.
 
 ### Zero-Knowledge Proofs (zkSNARKs)
 
