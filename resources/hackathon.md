@@ -11,9 +11,9 @@ description: Incorporate privacy into everyday applications
   * [API key](hackathon.md#api-key)
   * [Receiving address](hackathon.md#receiving-address)
   * [Notes](hackathon.md#notes)
-  * [Payment flow](hackathon.md#payment-flow)
 * [Get Started](hackathon.md#get-started)
-* [References Table](hackathon.md#references-table)
+* [References](hackathon.md#references-table)
+* [Payment Flow and Scenarios](hackathon.md#common-payment-flow-and-scenarios)
 * [Prizes](hackathon.md#prizes)
 {% endhint %}
 
@@ -52,19 +52,13 @@ For the hackathon, we want you to explore new use cases for private transactions
 
 In the ZkBob Cloud Wallet every developer has their own secret api key (account-id) used to manage funds. The key is kept on the server and given individually to each team, either requested through discord or in-person at our booth. Each key will also contain a BOB balance. [See below](hackathon.md#get-started) for more info on receiving an API key.
 
-### **Receiving address**
+### **Receiving Address**
 
-Since all payments are settled on a public blockchain privacy can be complicated. To avoid obvious correlations between txs we use special receiving addresses that can’t be linked in any way to the account. Using a new receiving address for every incoming transaction is recommended to eliminate any possibility of deanonymizing the recipient.
+Since all payments are settled on a public blockchain privacy can be complicated. To avoid obvious correlations between txs we use special generated receiving addresses that can’t be linked in any way to the account. Using a new receiving address for every incoming transaction is recommended to eliminate any possibility of deanonymizing the recipient.
 
 ### **Notes**
 
 Balance management is not as complex as it seems. There are notes and accounts — the difference is similar to physical paper notes in your wallet and your accounts at the bank. Most of the time this doesn’t matter, but there is one edge case when it’s important. **Due to technical restrictions the user cannot spend more than 3 notes in one operation.** If the user needs to do this there will be one or more additional technical transactions to accumulate the balance to the account prior to the transfer itself.
-
-### Payment Flow
-
-This is a typical payment process flow. Here you see example relationships between Alice and Charlie, but any transactional relationship can be created here. Charlie can use a self-custodial ZkBob wallet, or they both can share a single ZkBob cloud account.
-
-<figure><img src="https://lh4.googleusercontent.com/Ui2B8RryXkWAd467o90_hq7AgXYKb30yml5KHnQjm2BUmZ8RDGHCDXjp6ddEckiGHyclnD2Tu4gnIoe_5rA7S8d19I1ImQ4hvTyntuVudDy58OX16sC8t0_G5Tb9HUMg2UQbr6BA_9czusxSvrRkDUmmzNRSFAHyJ77ne12ILjTKjUM1CJMS0uI-vC5L" alt=""><figcaption></figcaption></figure>
 
 ## Get Started
 
@@ -86,33 +80,37 @@ This is a typical payment process flow. Here you see example relationships betwe
 
 ## References&#x20;
 
-|                                     |                                                                                                                                                                                                                                                                     |   |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |
-| Staging Insomnia collection JSON    | [explore methods on Sepolia testnet](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MjSwkv4zokqCUebt-98%2Fuploads%2FSjKsJ3D42Y8hyypLhZWa%2FzkBOB-staging-ETHIndia-hackathon-v0.2.json?alt=media\&token=a494d980-ed8c-451b-9abf-435f48e71202) |   |
-| Production Insomnia collection JSON | to be added shortly                                                                                                                                                                                                                                                 |   |
+|                                     |                                                                                                                                                                                                                                                                     |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Staging Insomnia collection JSON    | [explore methods on Sepolia testnet](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MjSwkv4zokqCUebt-98%2Fuploads%2FSjKsJ3D42Y8hyypLhZWa%2FzkBOB-staging-ETHIndia-hackathon-v0.2.json?alt=media\&token=a494d980-ed8c-451b-9abf-435f48e71202) |
+| Production Insomnia collection JSON | to be added shortly                                                                                                                                                                                                                                                 |
 
-## Common scenarios
+## Common Payment Flow and Scenarios
 
-### Scenario #1 shielded transfer from Carol (zkBob Cloud) to Alice (zkBob UI)
+This is a typical payment process flow. Here you see example relationships between Alice and Charlie, but any transactional relationship can be created here. Charlie can use a self-custodial ZkBob wallet (through the zkBob UI at [https://app.zkbob.com/)](https://app.zkbob.com/), or they both can share a single ZkBob cloud account.
+
+<figure><img src="https://lh4.googleusercontent.com/Ui2B8RryXkWAd467o90_hq7AgXYKb30yml5KHnQjm2BUmZ8RDGHCDXjp6ddEckiGHyclnD2Tu4gnIoe_5rA7S8d19I1ImQ4hvTyntuVudDy58OX16sC8t0_G5Tb9HUMg2UQbr6BA_9czusxSvrRkDUmmzNRSFAHyJ77ne12ILjTKjUM1CJMS0uI-vC5L" alt=""><figcaption></figcaption></figure>
+
+### Scenario #1 shielded transfer from Charlie (zkBob Cloud) to Alice (zkBob UI)
 
 _Alice has not yet created a zkBob account through the UI._
 
 1. Alice creates an account using the zkBob UI at [https://app.zkbob.com/](https://app.zkbob.com/)
 2. Alice [generates a new receiving address](../zkbob-app/generate-a-secure-address.md) through the UI.
-3. Carol gets an API account-id key for zkBob Cloud. She checks her account by sending a GET request to `zkbob-cloud-rpc-url/account?id=<account-id>.`
-4. Alice DMs her receiving address to Carol. Carol makes a transfer to Alice's shielded address by sending a POST request to `zkbob-cloud-rpc-url/transfer` . It responds with the transfer id.
-5. Carol monitors the transaction status by sending a GET request to  `zkbob-cloud-rpc-url/transactionStatus?requestId=<transfer id>`
-6. Carol views  the outgoing transfer details by sending a GET request to  `zkbob-cloud-rpc-url/history?id=<account id>`
+3. Charlie gets an API account-id key for zkBob Cloud. He checks his account by sending a GET request to `zkbob-cloud-rpc-url/account?id=<account-id>.`
+4. Alice DMs her receiving address to Charlie. Charlie makes a transfer to Alice's shielded address by sending a POST request to `zkbob-cloud-rpc-url/transfer` . It responds with the transfer id.
+5. Charlie monitors the transaction status by sending a GET request to  `zkbob-cloud-rpc-url/transactionStatus?requestId=<transfer id>`
+6. Charlie views the outgoing transfer details by sending a GET request to  `zkbob-cloud-rpc-url/history?id=<account id>`
 7. Alice checks her account in the UI to see that her account balance has changed. She checks the history tab to see the incoming transfer.
 
-### Scenario #2 shielded transfer from Alice (zkBob UI) to Carol (zkBob Cloud)
+### Scenario #2 shielded transfer from Alice (zkBob UI) to Charlie (zkBob Cloud)
 
-_Alice has already created an account through the UI and has some shielded BOB in her account. Carol already has a zkBob Cloud api key (account-id)_
+_Alice has already created an account through the UI and has some shielded BOB in her account. Charlie already has a zkBob Cloud api key (account-id)_
 
-1. Carol generates a shielded address by sending a GET request to `zkbob-cloud-rpc-url/generateAddress?id=<account-id>`
-2. Carol DMs the shielded address to Alice. Alice [makes a transfer](../zkbob-app/transfers/) to Carol's shielded address using the UI. Alice waits for transfer execution and checks the history tab to see the status of the transfer.
-3. Carol checks the incoming transfer details by sending a GET request to  `zkbob-cloud-rpc-url/history?id=<account id>` . It may require some time before new details appear.
-4. Carol gets the new balance of her account by sending a GET request to `zkbob-cloud-rpc-url/account?id=<account id>`
+1. Charlie generates a shielded address by sending a GET request to `zkbob-cloud-rpc-url/generateAddress?id=<account-id>`
+2. Charlie DMs the shielded address to Alice. Alice [makes a transfer](../zkbob-app/transfers/) to Charlie's shielded address using the UI. Alice waits for transfer execution and checks the history tab to see the status of the transfer.
+3. Charlie checks the incoming transfer details by sending a GET request to  `zkbob-cloud-rpc-url/history?id=<account id>` . It may require some time before new details appear.
+4. Charlie gets the new balance of her account by sending a GET request to `zkbob-cloud-rpc-url/account?id=<account id>`
 
 ## Prizes
 
