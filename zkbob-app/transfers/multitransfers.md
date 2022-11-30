@@ -8,17 +8,25 @@ description: >-
 
 Multitransfer allows multiple transfers to be processed in a single transaction. There are no limits to the number of transfers, and the entire process can be completed with a single proof and a single 0.10 relayer fee.  Each transfer adds an additional note to the zkproof, which can slightly increase proof generation time. Other than that, multi transfer is as smooth and seamless as an ordinary zkBob transfer!
 
-\
-1\) To start a multitransfer, go to the transfer tab and toggle the multitransfer switch.&#x20;
+{% hint style="info" %}
+💡 Learn more about how multitransfers sets zkBob apart as a privacy solution i[n this mirror post](https://mirror.xyz/0x6132eB883e88CD4E007552b871A6444Bfc34E837/mjYXeD7a005fdCu6dKdohfrSpcqpsuetW6djT46bDFk).
+{% endhint %}
+
+## Get Started
+
+1\) To start a multitransfer, go to the **Transfer tab** and toggle the multitransfer switch.&#x20;
 
 <figure><img src="https://lh5.googleusercontent.com/6kqw8dXidUF5PbSnyA4lG8hcKvUsE14PLyvZ3e0sZLOPpVPmHk30rEMnXWYRu1CZRqMpK420XRTI6jrM76O0lYtmNZvgDALDn6lFjEg1nQcM0lR9iXkAN7mk1J-w3lXmhjLcCn83-JQ9v0BQBCTqGNJoenkAsiqv0kfdGJEJUUv8Uc_yQEvNINgxJNWv3g" alt=""><figcaption></figcaption></figure>
 
-2\) The interface will change to allow for multiple zkAddresses and amounts. Copy in the zkAddress along with the amount to transfer, 1 per line. Press Proceed to continue.\
+2\) The interface will change to allow entry of multiple zkAddresses and amounts. You can either add manually or by uploading a csv.\
+\
+**Manually**: Add in the zkAddress along with the amount to transfer, 1 per line. The format should be ZKADDRESS, AMOUNT
 
+Press Proceed to continue.
 
 <figure><img src="https://lh5.googleusercontent.com/PxBlXi8rVqpzwHRqR_A4q6vV27g44mo6CSs7ei01UGTGin5LmFy3hK0yfxY6i0uNuP1B97HKqonRWn4F13FytFUIGogLnkQdXsPBZ3yppdH07zp1Ew46LXvu08tDf5Tkk25pS2frp3Ds8K5WoEILxGFc2ucRBRT5TlV0L7oi8dfMMezc-JHJjUKJ9ND3BA" alt=""><figcaption></figcaption></figure>
 
-If preferred, you can add directly from a CSV. Select a completed csv (zkAddress, amount on each line) from your computer and the information will automatically populate into the box.
+**CSV:** If preferred, you can add directly from a CSV. Click Upload CSV and select a completed csv file from your computer (ZKADDRESS, AMOUNT  one  per line). The information will automatically populate into the box on the app.
 
 <figure><img src="https://lh5.googleusercontent.com/2XZ2X-urfp79wscz8hwNLTaC-_0Qftk6srWxcjutvgnT8WBHHWhG4H54aCRFuJRF4v5Rmpf6Y4kN8IQdnL4Lt8fXhbEDxbBOW3eHIfxBnfM5wsFX6SC-uqVavwxjru7At6jvV_0Mv-CPBDJnSNPuk-BskE3w1FNIPwCiefjii3l9ysaOHgRTC_k8O8lLGA" alt=""><figcaption></figcaption></figure>
 
