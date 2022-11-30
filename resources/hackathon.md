@@ -97,20 +97,20 @@ _Alice has not yet created a zkBob account through the UI._
 
 1. Alice creates an account using the zkBob UI at [https://app.zkbob.com/](https://app.zkbob.com/)
 2. Alice [generates a new receiving address](../zkbob-app/generate-a-secure-address.md) through the UI.
-3. Charlie gets an API `accountId` key for zkBob Cloud. He checks his account by sending a GET request to `zkbob-cloud-rpc-url/account?id=<accountId>.`
-4. Alice DMs her receiving address to Charlie. Charlie makes a transfer to Alice's shielded address by sending a POST request to `zkbob-cloud-rpc-url/transfer` . It responds with the transfer id.
-5. Charlie monitors the transaction status by sending a GET request to  `zkbob-cloud-rpc-url/transactionStatus?requestId=<transferId>`
-6. Charlie views the outgoing transfer details by sending a GET request to  `zkbob-cloud-rpc-url/history?id=<accountId>`
+3. Charlie gets an API `accountId` key for zkBob Cloud. He checks his account by sending a GET request to `https://cloud-mvp.zkbob.com/account?id=<accountId>.`
+4. Alice DMs her receiving address to Charlie. Charlie makes a transfer to Alice's shielded address by sending a POST request to `https://cloud-mvp.zkbob.com/transfer` . It responds with the transfer id.
+5. Charlie monitors the transaction status by sending a GET request to  `https://cloud-mvp.zkbob.com/transactionStatus?requestId=<transferId>`
+6. Charlie views the outgoing transfer details by sending a GET request to  `https://cloud-mvp.zkbob.com/history?id=<accountId>`
 7. Alice checks her account in the UI to see that her account balance has changed. She checks the history tab to see the incoming transfer.
 
 ### Scenario #2 shielded transfer from Alice (zkBob UI) to Charlie (zkBob Cloud)
 
 _Alice has already created an account through the UI and has some shielded BOB in her account. Charlie already has a zkBob Cloud api key (_`accountId`_)_
 
-1. Charlie generates a shielded address by sending a GET request to `zkbob-cloud-rpc-url/generateAddress?id=<accountId>`
+1. Charlie generates a shielded address by sending a GET request to `https://cloud-mvp.zkbob.com/generateAddress?id=<accountId>`
 2. Charlie DMs the shielded address to Alice. Alice [makes a transfer](../zkbob-app/transfers/) to Charlie's shielded address using the UI. Alice waits for transfer execution and checks the history tab to see the status of the transfer.
-3. Charlie checks the incoming transfer details by sending a GET request to  `zkbob-cloud-rpc-url/history?id=<accountId>` . It may require some time before new details appear.
-4. Charlie gets the new balance of her account by sending a GET request to `zkbob-cloud-rpc-url/account?id=<accountId>`
+3. Charlie checks the incoming transfer details by sending a GET request to  `https://cloud-mvp.zkbob.com/history?id=<accountId>` . It may require some time before new details appear.
+4. Charlie gets the new balance of her account by sending a GET request to `https://cloud-mvp.zkbob.com/account?id=<accountId>`
 
 ## Prizes
 
