@@ -72,18 +72,27 @@ Balance management is not as complex as it seems. There are notes and accounts â
       ![](../.gitbook/assets/insomnia-1.png)
     * Click Import Data -> From url\
       ![](../.gitbook/assets/insomnia-2.png)
-    * Enter url \<production url tbd>
-    * Click Insomnia to view Collections and select the zkBob collection.\
-      ![](../.gitbook/assets/insom.png)
+    * Enter url: [https://tinyurl.com/zkBobIndia](https://tinyurl.com/zkBobIndia)&#x20;
+    * Click Insomnia to view Collections and select the zkBOB Cloud collection.\
+      ![](../.gitbook/assets/insom.png)\
+      ![](../.gitbook/assets/dash-2.png)
+  * Replace default `accountId` with your API `accountId` key&#x20;
+    * In the zkBOB Cloud Collection click on zkBOB Cloud -> Manage Environments.\
+      ![](../.gitbook/assets/manage-e.png)
+    * Replace the default `accountId` "`cafecafe-cafe-cafe-cafe-cafecafecafe`" with the `accountId` you receive from the zkBob team.\
+      ![](../.gitbook/assets/id-1.png)
+    * Click **Done** to save with your `accountId`.\
+      ![](../.gitbook/assets/done.png)
 * View [common scenarios below.](hackathon.md#common-payment-flow-and-scenarios)
 * _Note that the current API does not include deposit and withdrawal functionality, only proving mechanisms related to transfers._
 
 ## References&#x20;
 
-|                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Staging Insomnia collection JSON    | <p><a href="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MjSwkv4zokqCUebt-98%2Fuploads%2FSjKsJ3D42Y8hyypLhZWa%2FzkBOB-staging-ETHIndia-hackathon-v0.2.json?alt=media&#x26;token=a494d980-ed8c-451b-9abf-435f48e71202">explore methods</a><br>Note: This will not work with dummy <code>accountId</code>, but allows you to see available methods. If desired you can request a staging <code>accountId</code> through discord / telegram.</p> |
-| Production Insomnia collection JSON | to be added shortly                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| API url                             | [https://cloud-mvp.zkbob.com](https://cloud-mvp.zkbob.com)                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Production Insomnia collection JSON | <p><a href="https://tinyurl.com/zkBobIndia">https://tinyurl.com/zkBobIndia</a><br><br><a href="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MjSwkv4zokqCUebt-98%2Fuploads%2FMsEhCGgnigbhJyvkxAh2%2FzkBOB-prod-ETHIndia-hackathon-v1.0.json?alt=media&#x26;token=cc2e3a1f-8255-4fdf-a1ba-55c9194709e5">Alternate link </a></p>                                                                                                                                  |
+| Staging Insomnia collection JSON    | <p><a href="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MjSwkv4zokqCUebt-98%2Fuploads%2FSjKsJ3D42Y8hyypLhZWa%2FzkBOB-staging-ETHIndia-hackathon-v0.2.json?alt=media&#x26;token=a494d980-ed8c-451b-9abf-435f48e71202">explore methods</a><br>Note: This will not work with dummy <code>accountId</code>, but allows you to see available methods. <strong>If desired you can request a staging <code>accountId</code> through discord / telegram.</strong></p> |
 
 ## Common Payment Flow & Scenarios
 
@@ -97,20 +106,20 @@ _Alice has not yet created a zkBob account through the UI._
 
 1. Alice creates an account using the zkBob UI at [https://app.zkbob.com/](https://app.zkbob.com/)
 2. Alice [generates a new receiving address](../zkbob-app/generate-a-secure-address.md) through the UI.
-3. Charlie gets an API `accountId` key for zkBob Cloud. He checks his account by sending a GET request to `https://cloud-mvp.zkbob.com/account?id=<accountId>.`
+3. Charlie gets an API `accountId` key for zkBob Cloud. He checks his account by sending a GET request to `https://cloud-mvp.zkbob.com/account?id=accountId` .
 4. Alice DMs her receiving address to Charlie. Charlie makes a transfer to Alice's shielded address by sending a POST request to `https://cloud-mvp.zkbob.com/transfer` . It responds with the transfer id.
-5. Charlie monitors the transaction status by sending a GET request to  `https://cloud-mvp.zkbob.com/transactionStatus?requestId=<transferId>`
-6. Charlie views the outgoing transfer details by sending a GET request to  `https://cloud-mvp.zkbob.com/history?id=<accountId>`
+5. Charlie monitors the transaction status by sending a GET request to  `https://cloud-mvp.zkbob.com/transactionStatus?requestId=transferId`
+6. Charlie views the outgoing transfer details by sending a GET request to  `https://cloud-mvp.zkbob.com/history?id=accountId`
 7. Alice checks her account in the UI to see that her account balance has changed. She checks the history tab to see the incoming transfer.
 
 ### Scenario #2 shielded transfer from Alice (zkBob UI) to Charlie (zkBob Cloud)
 
 _Alice has already created an account through the UI and has some shielded BOB in her account. Charlie already has a zkBob Cloud api key (_`accountId`_)_
 
-1. Charlie generates a shielded address by sending a GET request to `https://cloud-mvp.zkbob.com/generateAddress?id=<accountId>`
+1. Charlie generates a shielded address by sending a GET request to `https://cloud-mvp.zkbob.com/generateAddress?id=accountId`
 2. Charlie DMs the shielded address to Alice. Alice [makes a transfer](../zkbob-app/transfers/) to Charlie's shielded address using the UI. Alice waits for transfer execution and checks the history tab to see the status of the transfer.
-3. Charlie checks the incoming transfer details by sending a GET request to  `https://cloud-mvp.zkbob.com/history?id=<accountId>` . It may require some time before new details appear.
-4. Charlie gets the new balance of her account by sending a GET request to `https://cloud-mvp.zkbob.com/account?id=<accountId>`
+3. Charlie checks the incoming transfer details by sending a GET request to  `https://cloud-mvp.zkbob.com/history?id=accountId` . It may require some time before new details appear.
+4. Charlie gets the new balance of her account by sending a GET request to `https://cloud-mvp.zkbob.com/account?id=accountId` .
 
 ## Prizes
 

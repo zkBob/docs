@@ -37,7 +37,7 @@ In this example we swap MATIC for BOB tokens. You can swap any supported tokens 
 
 8. BOB should appear automatically in the assets area of your Metamask wallet. You are now ready to interact with zkBob!\
    \
-   ![](../.gitbook/assets/done.png)
+   ![](<../.gitbook/assets/done (1).png>)
 
 
 
