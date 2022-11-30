@@ -15,7 +15,7 @@ Swap BOB, create non-inventory LP positions, and use BOB in a variety of DeFi co
 * [1inch](https://app.1inch.io/#/1/unified/swap/BOB/USDC) (Polygon, Ethereum, Optimism)
 * [Kyberswap](https://kyberswap.com/swap/ethereum/eth-to-bob) (Polygon, Ethereum, Optimism, BSC)
 * [Paraswap](https://app.paraswap.io/) (Polygon, Ethereum, Optimism, BSC)
-* [OKEX](https://www.okx.com/web3/dex?inputChain=1\&inputCurrency=0xb0b195aefa3650a6908f15cd\[%E2%80%A6]n=137\&outputCurrency=0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b) (Polygon, Ethereum, Optimism, BSC)
+* [OKEX](https://www.okx.com/web3/dex?inputChain=137\&inputCurrency=0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b\&outputCurrency=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48\&outputChain=1) (Polygon, Ethereum, Optimism, BSC)
 * [Pancake Swap](https://pancakeswap.finance/swap) (BSC)
 * [Curve](https://curve.fi/#/polygon/swap) (Polgyon)
 * [Quickswap](https://quickswap.exchange/#/) (Polygon)
