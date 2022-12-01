@@ -8,7 +8,7 @@ BOB stablecoin integrations in multi-chain ecosystem protocols and applications.
 
 ## DeFi Protocols
 
-Swap BOB, create non-inventory LP positions, and use BOB in a variety of DeFi contexts.
+Swap BOB, create non-inventory LP positions, and use BOB in a variety of DeFi contexts. Please see [BOB Markets on Coingecko](https://www.coingecko.com/en/coins/bob#markets) for specific pool details.
 
 * [Uniswap](https://app.uniswap.org/#/swap) (Ethereum, Polygon, Optimism)
 * [Sushiswap](https://www.sushi.com/swap) (Polygon, Ethereum, Optimism)
