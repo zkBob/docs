@@ -4,7 +4,7 @@ Businesses often prefer to keep salary information private. This creates issues 
 
 Several prominent projects in the ecosystem are already using zkBob for salary payments. These [Tier 1](../deposit-and-withdrawal-limits.md#tiered-limits) projects are able to deposit higher amounts of BOB into the protocol for sending salary to known employees of the business. Since employees are KYC'd by their employers, this KYC is automatically inherited into the protocol.
 
-Multi-sender functionality and integrations with projects like [Request Finance](https://request.network/en/) will make salary processing even easier as more users onboard to zkBob.
+Multi-sender functionality and integrations with projects like [Request Finance](https://request.network/en/) make salary processing even easier as more users onboard to zkBob.
 
 ## Generic Use Case: Bob :man\_office\_worker: the Business Employer
 
