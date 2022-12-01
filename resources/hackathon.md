@@ -64,7 +64,7 @@ Balance management is not as complex as it seems. There are notes and accounts â
 
 <figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
-* **Get an API Key & BOB:** Request your API key (`accountId`) either through the _#sponsor-zkbob_ channel on EthGlobal discord [https://discord.gg/ethglobal](https://discord.gg/ethglobal) or come see us in person at the zkBob booth!  Then join the telegram at [https://t.me/+sMbZvmVzYmQ3ODlk](https://t.me/+sMbZvmVzYmQ3ODlk) to ask any questions. The API `accountId` key is used to interact with the zkBob cloud wallet. You will receive 10 BOB into your account to use for testing, functionality and demonstration purposes. It can be transferred to other accounts you may create using the [zkBob UI.](https://app.zkbob.com/)
+* **Get an API Key & BOB:** Request your API key (`accountId`) either through the _#sponsor-zkbob_ channel on EthGlobal discord [https://discord.gg/ethglobal](https://discord.gg/ethglobal) or come see us in person at the zkBob booth!  Then join the telegram at [https://t.me/+sMbZvmVzYmQ3ODlk](https://t.me/+sMbZvmVzYmQ3ODlk) to ask any questions. The API key `accountId` is used to interact with the zkBob cloud wallet. You will receive 10 BOB into your account to use for testing, functionality and demonstration purposes. It can be transferred to other accounts you may create using the [zkBob UI.](https://app.zkbob.com/)
 * **Explore API Methods:** Use the Insomnia collection to explore zkBOB Cloud API methods.
   * Download Insomnia ([https://insomnia.rest/download](https://insomnia.rest/download))&#x20;
   * Import collection
@@ -76,7 +76,7 @@ Balance management is not as complex as it seems. There are notes and accounts â
     * Click Insomnia to view Collections and select the zkBOB Cloud collection.\
       ![](../.gitbook/assets/insom.png)\
       ![](../.gitbook/assets/dash-2.png)
-  * Replace default `accountId` with your API `accountId` key&#x20;
+  * Replace default `accountId` with your API key`accountId` &#x20;
     * In the zkBOB Cloud Collection click on zkBOB Cloud -> Manage Environments.\
       ![](../.gitbook/assets/manage-e.png)
     * Replace the default `accountId` "`cafecafe-cafe-cafe-cafe-cafecafecafe`" with the `accountId` you receive from the zkBob team.\
@@ -90,7 +90,7 @@ Balance management is not as complex as it seems. There are notes and accounts â
 
 |                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| API url                             | [https://cloud-mvp.zkbob.com](https://cloud-mvp.zkbob.com)                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| REST API url                        | [https://cloud-mvp.zkbob.com](https://cloud-mvp.zkbob.com)                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Production Insomnia collection JSON | <p><a href="https://tinyurl.com/zkBobIndia">https://tinyurl.com/zkBobIndia</a><br><br><a href="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MjSwkv4zokqCUebt-98%2Fuploads%2FMsEhCGgnigbhJyvkxAh2%2FzkBOB-prod-ETHIndia-hackathon-v1.0.json?alt=media&#x26;token=cc2e3a1f-8255-4fdf-a1ba-55c9194709e5">Alternate link </a></p>                                                                                                                                  |
 | Staging Insomnia collection JSON    | <p><a href="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MjSwkv4zokqCUebt-98%2Fuploads%2FSjKsJ3D42Y8hyypLhZWa%2FzkBOB-staging-ETHIndia-hackathon-v0.2.json?alt=media&#x26;token=a494d980-ed8c-451b-9abf-435f48e71202">explore methods</a><br>Note: This will not work with dummy <code>accountId</code>, but allows you to see available methods. <strong>If desired you can request a staging <code>accountId</code> through discord / telegram.</strong></p> |
 
@@ -106,7 +106,7 @@ _Alice has not yet created a zkBob account through the UI._
 
 1. Alice creates an account using the zkBob UI at [https://app.zkbob.com/](https://app.zkbob.com/)
 2. Alice [generates a new receiving address](../zkbob-app/generate-a-secure-address.md) through the UI.
-3. Charlie gets an API `accountId` key for zkBob Cloud. He checks his account by sending a GET request to `https://cloud-mvp.zkbob.com/account?id=accountId` .
+3. Charlie gets an API key `accountId` for zkBob Cloud. He checks his account by sending a GET request to `https://cloud-mvp.zkbob.com/account?id=accountId` .
 4. Alice DMs her receiving address to Charlie. Charlie makes a transfer to Alice's shielded address by sending a POST request to `https://cloud-mvp.zkbob.com/transfer` . It responds with the transfer id.
 5. Charlie monitors the transaction status by sending a GET request to  `https://cloud-mvp.zkbob.com/transactionStatus?requestId=transferId`
 6. Charlie views the outgoing transfer details by sending a GET request to  `https://cloud-mvp.zkbob.com/history?id=accountId`
@@ -126,3 +126,7 @@ _Alice has already created an account through the UI and has some shielded BOB i
 For the EthIndia hackathon, 5 prizes of $2000 BOB ($2000 USD equivalent) will be awarded to the top 5 projects utilizing the zkBob API. Creativity, innovation, and implementation will be considered during judging.
 
 <figure><img src="../.gitbook/assets/zkBob-3.png" alt=""><figcaption></figcaption></figure>
+
+{% file src="../.gitbook/assets/ZkBOB_ your friend and guide to transact in private (1).pdf" %}
+Learn more about how zkBob works in this conversation about privacy between zkBob and Alice.
+{% endfile %}
