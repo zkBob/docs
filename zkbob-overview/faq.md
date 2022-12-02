@@ -35,7 +35,7 @@ description: Frequently asked questions
 * [Why do I need to keep entering my password?](faq.md#why-do-i-keep-having-to-enter-my-password)
 * [Why is my zkBob transaction taking almost a minute to process?](faq.md#why-is-my-zkbob-transaction-taking-almost-a-minute-to-process)
 * [I just sent a transactions on zkBob which has not processed yet. Do I need to wait to perform another action (deposit/transfer/withdrawal)?](faq.md#related-i-just-sent-a-transaction-on-zkbob.-why-do-i-have-to-wait-to-perform-another-deposit-transfe)
-* [I received a "Transaction was Rejected" error.](faq.md#i-received-transaction-was-rejected-error.)
+* [I received a "Transaction was Rejected" error.](faq.md#i-received-a-transaction-was-rejected-error.)
 * [I can't connect to my zkBob account or I am stuck at "Updating Zero Pool State" or "Loading zkAccount."](faq.md#i-cant-connect-to-my-zkbob-account-or-i-am-stuck-at-updating-zero-pool-state-or-loading-zkaccount.)
 {% endhint %}
 
