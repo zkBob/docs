@@ -28,6 +28,9 @@ description: Frequently asked questions
 * [Why are there multiple accounts?](faq.md#why-are-there-multiple-accounts)
 * [What is the difference between an account and an address?](faq.md#what-is-the-difference-between-an-account-and-an-address)
 * [I generated a new zkBob address, will my old one still work?](faq.md#i-generated-a-new-zkbob-address-will-my-old-one-still-work)
+
+**Troubleshooting**
+
 * [What if I lose my password?](faq.md#what-if-i-lose-my-password)
 * [Why do I need to keep entering my password?](faq.md#why-do-i-keep-having-to-enter-my-password)
 * [Why is my zkBob transaction taking almost a minute to process?](faq.md#why-is-my-zkbob-transaction-taking-almost-a-minute-to-process)
@@ -152,6 +155,8 @@ Learn more about [generating a receiving address here.](../zkbob-app/generate-a-
 
 Yes, it will still work. You can generate as many addresses as you would like. Each one is encrypted and cannot be connected to one another or to the primary account except by the account owner, and each one will work indefinitely.
 
+## Troubleshooting
+
 ## What if I lose my password?
 
 It's ok - you can restore your account using your original secret seed phrase or by reconnecting your original Metamask (MM) account. If you created using MM or Wallet connect, you can restore by going through the create account process and signing to generate a key for the same wallet address.
@@ -178,6 +183,20 @@ Several processes are required for a successful transaction. Proof generation ta
 
 For safety purposes and to prevent potential double-spend scenarios, the application waits until a transaction is confirmed before another transaction can be initiated.
 
+## I received "Transaction was Rejected" error.
+
+Likely your local state has been corrupted and you can either:&#x20;
+
+a) clear your current browser storage\
+b) switch to a different browser, or \
+c) connect to zkBob using incognito mode.&#x20;
+
+After choosing from the options above, reconnect to zkBob using your active MetaMask or WalletConnect account or your seed phrase and create a new password. Your old account should populate, and you can try the transaction again.&#x20;
+
+\-> Instructions on [clearing browser storage](faq.md#clear-browser-storage).
+
+If the problem persists, [contact the team via Telegram](https://t.me/zkbobcommunity).
+
 ## I can't connect to my zkBob account or I am stuck at "Updating Zero Pool State" or "Loading zkAccount."
 
 {% hint style="info" %}
@@ -203,6 +222,8 @@ or in the Chrome menu go to View -> Developer -> Developer Tools
 {% hint style="warning" %}
 If this doesn't fix the issue, proceed to clear site data. **Note this process will clear all local storage and require you to reenter your seed phrase. If you do not have it your account information will be unrecoverable.**
 {% endhint %}
+
+#### Clear Browser Storage
 
 3\) Right click the lock🔒 icon and select **Site Settings**.
 
