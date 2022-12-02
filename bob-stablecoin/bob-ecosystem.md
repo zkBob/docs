@@ -17,7 +17,8 @@ Swap BOB, create non-inventory LP positions, and use BOB in a variety of DeFi co
 * [Paraswap](https://app.paraswap.io/) (Polygon, Ethereum, Optimism, BSC)
 * [OKX](https://www.okx.com/web3/dex?inputChain=137\&inputCurrency=0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b\&outputCurrency=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48\&outputChain=1) (Polygon, Ethereum, Optimism, BSC)
 * [Pancake Swap](https://pancakeswap.finance/swap) (BSC)
-* [Curve](https://curve.fi/#/polygon/swap) (Polgyon)
+* [Rhino Defi gateway](https://rhino.fi/) (Polygon, Ethereum, BSC)&#x20;
+* [Curve](https://curve.fi/#/polygon/swap) (Polygon)
 * [Quickswap](https://quickswap.exchange/#/) (Polygon)
 * [Arrakis Vaults](https://beta.arrakis.finance/vaults) (Polygon)
 * [Plasma Finance](https://apy.plasma.finance/#/hyper-dex/market) (Polygon) [Quadrat Strategy](https://apy.plasma.finance/#/quadrat/0xFd1Da9cC77f04A1E1B22a314a53D201A39373719)
