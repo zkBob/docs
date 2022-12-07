@@ -8,7 +8,7 @@ BOB can be purchased from inventory at \~1:1 for USD stable assets. Any BOB in c
 
 Inventory and collateralized supply are [tracked here](https://dune.com/maxaleks/bob-stable-token).
 
-Users may choose to create their own **non-inventory LP positions** using purchased BOB + another tokens of their choice (for example BOB/WETH, BOB/WMATIC, BOB/GNO etc).&#x20;
+Users may choose to create their own **non-inventory LP positions** using purchased BOB + another tokens of their choice (for example BOB/WETH, BOB/WMATIC, BOB/OP, BOB/USDT etc).&#x20;
 
 The inventory safe does not have any administrative rights in regards to zkBob; the only function for the safe is to oversee the inventory process. Additional decentralization measures including broader community-driven governance and timelocks are in development to maintain and balance optimal BOB inventory based on usage and demand.
 
