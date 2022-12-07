@@ -1,9 +1,5 @@
 # Compliance & Security
 
-## Geo Restrictions
-
-The zkBob interface is NOT available to unapproved persons or entities who reside in, are citizens of, are incorporated in, or have a registered office in the following countries: **Belarus, Cuba, Iran, Iraq, Côte d’Ivoire, Liberia, North Korea, Sudan, Syria, Zimbabwe and the USA.** Use of a virtual private network (e.g., a VPN) or other means to access zkBob by non-approved users from these regions is prohibited.  **** &#x20;
-
 ## User Restrictions
 
 zkBob should not be used for any illegitimate or criminal activity nor supported by the direct or indirect proceeds of criminal or fraudulent activity. It should not be used in any way that violates any laws in the jurisdiction of the user.&#x20;
@@ -25,13 +21,17 @@ Politically exposed individuals or associates of those individuals are not permi
 * Use of zkBob is at the sole risk of the user.
 * The code repository, decentralized and autonomous protocol and environment, and associated decentralized networks are open-source and not controlled by any team.&#x20;
 * zkBob contributors are not responsible for any losses or damages associated with inherent risks associated with cryptography, blockchain, or digital wallet usage.
-* The user agrees not to access zkBob using any technology for the purposes of circumventing geo restrictions (ie VPN).
+* The user agrees not to access zkBob using any technology for the purposes of circumventing location-based restrictions.
 * Users are responsible for reporting and paying any applicable taxes associated with usage.
 * Users acknowledge that addresses may be blocked from using the protocol if they are sanctioned or added to a block list.
 
 ## Daily limits
 
 Limits are imposed to prevent large-scale transactions which may be the result of illicit activity. [Deposit limits are detailed here](deposit-and-withdrawal-limits.md).
+
+## Geo Restrictions
+
+The zkBob application is currently in beta and usage is not programmatically restricted nor regulated for users in any locale. However, users must abide by local, state and federal laws, please check prior to usage. Post-beta, restrictions may be enabled for certain countries based on legal considerations.
 
 ## Wallet Compliance
 

@@ -41,8 +41,6 @@ description: Frequently asked questions
 
 ## Who should use zkBob?
 
-Users should first check their jurisdiction and [make sure they are in compliance](compliance-and-security.md). zkBob is not available to users in some areas.
-
 Eligible users interested in private business transactions (salary payments, vendor payments etc) and people interested in cash-like transactions should consider zkBob. In the offline world, cash can be used for financial privacy. In the blockchain space, zk-based "digital cash" transactions can offer similar privacy.
 
 Some users of zkBob may include:
@@ -56,9 +54,9 @@ Some users of zkBob may include:
 * Philanthropists who want to donate to causes anonymously.
 * Individuals interested in privacy, zksnarks, or novel auction mechanisms related to [XP functionality](../roadmap/exploratory-features/xp/).
 
-## Who should not use zkBob?
+_Please refence the_ [_Compliance and Security_](compliance-and-security.md) _page for additional information regarding zkBob usage._
 
-Users is countries where zkBob is prohibited should not use zkBob. Please check the [compliance section](compliance-and-security.md) for more information.
+## Who should not use zkBob?
 
 zkBob should not be used for any illegitimate or criminal activity. It should not be used in any way that violates any laws in the jurisdiction of the user, and should not be used by politically exposed individuals or associates of those individuals. Prior to using zkBob, you must acknowledge and accept these terms of usage:
 
