@@ -1,5 +1,5 @@
 ---
-description: DAO formation in-process
+description: DAO formation process
 ---
 
 # BOB DAO
