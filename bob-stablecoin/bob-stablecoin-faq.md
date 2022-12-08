@@ -83,7 +83,7 @@ BOB token contracts start and end with B0B!
 
 ## How is BOB inventory regulated?
 
-BOB inventory is increased in LP positions currently via a small governance multisig Safe. The goal is to balance inventory supply with demand and usage. Inventory details are described and [catalogued here](bob-inventory/). A larger [DAO formation](bob-inventory/bob-dao.md) is in the early stages to govern BOB minting, upgradeability and other critical operations moving forward.
+BOB inventory is increased in LP positions via a governance multisig Safe. Inventory details are described and [catalogued here](bob-inventory/). Additional decentralization measures are in development to maintain and balance optimal BOB inventory based on usage and demand.
 
 ## Can I earn additional BOB through zkBob or in other ways?
 
