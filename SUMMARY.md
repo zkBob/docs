@@ -24,6 +24,7 @@
 * [Get BOB on Uniswap v3](bob-stablecoin/get-bob-on-uniswap-v3.md)
 * [BOB Inventory](bob-stablecoin/bob-inventory/README.md)
   * [Inventory Management](bob-stablecoin/bob-inventory/inventory-management.md)
+  * [BOB DAO](bob-stablecoin/bob-inventory/bob-dao.md)
 * [BOB Stablecoin FAQ](bob-stablecoin/bob-stablecoin-faq.md)
 
 ## 🦸♂ zkBob Application <a href="#zkbob-app" id="zkbob-app"></a>
