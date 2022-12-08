@@ -1,6 +1,12 @@
+---
+description: Processes for BOB inventory positions
+---
+
 # BOB Inventory
 
-BOB inventory is currently handled via a governance [multi-sig Safe. ](https://gnosis-safe.io/app/matic:0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8/home)To facilitate inventory, BOB liquidity is deployed on DEXs including Uniswap v3 & Kyberswap, and paired with a stable asset such as USDC or BUSD. &#x20;
+BOB inventory is currently handled via a governance [multi-sig Safe. ](https://gnosis-safe.io/app/matic:0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8/home)This process will be governed by a [larger governing DAO](bob-dao.md) in the future.
+
+To facilitate inventory, BOB liquidity is deployed on DEXs including Uniswap v3 & Kyberswap, and paired with a stable asset such as USDC or BUSD. &#x20;
 
 Inventory positions are tuned to a very narrow range and maintained through the [AMM concentrated liquidity algorithm](https://docs.uniswap.org/concepts/protocol/concentrated-liquidity). This keeps BOB stable, and is known as an **inventory LP position**.
 
