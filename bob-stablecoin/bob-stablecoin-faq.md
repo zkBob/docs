@@ -24,7 +24,7 @@ BOB is currently available on Polygon, Optimism, BNB Chain and Ethereum. BOB can
   * [Instructions](swap-bob-with-metamask-swap.md)
 * Swap using a DEX or DEX aggregator
   * [Uniswap Instructions](get-bob-on-uniswap-v3.md)
-  * [1inch exchange](https://app.1inch.io/#/137/unified/swap/USDC/BOB)
+  * [1inch](https://app.1inch.io/#/137/unified/swap/USDC/BOB)
   * [Kyberswap](https://kyberswap.com/swap/ethereum/bob-to-usdc)
   * [Paraswap](https://app.paraswap.io/#/?network=ethereum)
 * Swap shielded BOB using [zkBob](../) and withdraw to an address on Polygon.
