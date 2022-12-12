@@ -40,4 +40,5 @@ BOB for stable and secure payments.
 * [Suarmi](https://www.suarmi.com/index): Fiat on-ramp currently available for residents in Mexico, with more countries coming soon.
 * [tr3butor](https://app.tr3butor.io/organization/clawfr86w0002lh08gsixtkq0): Web3 talent platform for job listings, events and more.
 * [HYVE](https://hyve.works/): Job postings and freelancer payments with BOB.
+* [Rabby Wallet](https://rabby.io/): BOB support for swaps
 
