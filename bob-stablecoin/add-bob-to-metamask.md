@@ -8,9 +8,9 @@ You can add BOB to Metamask through a 3rd party resource like Polygonscan or Coi
 
 ## **Add with Polygonscan**
 
-{% hint style="info" %}
-The same instructions can be followed on [Optimism](https://optimistic.etherscan.io/) or [Ethereum ](https://etherscan.io/)using the Etherscan interface.&#x20;
-{% endhint %}
+Go to the BOB token page to get started: [https://polygonscan.com/token/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B](https://polygonscan.com/token/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B)
+
+{% @arcade/embed flowId="csJ3ZIsXaGdhaWHmkxCM" url="https://app.arcade.software/share/csJ3ZIsXaGdhaWHmkxCM" %}
 
 1. Go to the BOB token page at [https://polygonscan.com/token/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B](https://polygonscan.com/token/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B)
 2.  Press the 3 dot drop down menu and select **Add Token to Web3 Wallet**.
