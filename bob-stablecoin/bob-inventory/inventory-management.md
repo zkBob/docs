@@ -1,6 +1,6 @@
 # Inventory Management
 
-BOB is added to inventory LP positions in tranches based on usage and anticipated demand. Increases are detailed below.
+BOB is added/removed from inventory LP positions in tranches based on usage and anticipated demand. Increases/decreases are detailed below.
 
 ### Polygon
 
@@ -16,6 +16,9 @@ BOB is added to inventory LP positions in tranches based on usage and anticipate
 4. 5,000,000 BOB to increase inventory for the USDC/BOB pool.\
    Nov-03-2022 02:39:26 PM +UTC\
    [0x3e168dc82de33894c85f5f1f4e68afb0e25f43cc6685d8f9307fd4c9a12787de](https://polygonscan.com/tx/0x3e168dc82de33894c85f5f1f4e68afb0e25f43cc6685d8f9307fd4c9a12787de)
+5. Terminated non-performant BOB/BUSD inventory pool. 500,000 BOB removed from inventory. \
+   Dec-19-2022 02:28:48 PM +UTC\
+   [0xc16f02ff1a29be8db6a076d94d0593abf880542eea6e8a75eb93c9228e5ef7e0](https://polygonscan.com/tx/0xc16f02ff1a29be8db6a076d94d0593abf880542eea6e8a75eb93c9228e5ef7e0)
 
 ### Ethereum&#x20;
 
