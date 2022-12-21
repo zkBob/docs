@@ -12,7 +12,8 @@
   * [Vendor Purchasing](zkbob-overview/use-cases/vendor-purchasing.md)
 * [Fees](zkbob-overview/fees.md)
 * [Deposit & Withdrawal Limits](zkbob-overview/deposit-and-withdrawal-limits.md)
-* [Compliance & Security](zkbob-overview/compliance-and-security.md)
+* [Compliance & Security](zkbob-overview/compliance-and-security/README.md)
+  * [TRM Labs Integration](zkbob-overview/compliance-and-security/trm-labs-integration.md)
 * [zkBob FAQ](zkbob-overview/faq.md)
 
 ## 🧙♂ BOB Stablecoin

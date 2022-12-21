@@ -27,7 +27,7 @@ Politically exposed individuals or associates of those individuals are not permi
 
 ## Daily limits
 
-Limits are imposed to prevent large-scale transactions which may be the result of illicit activity. [Deposit limits are detailed here](deposit-and-withdrawal-limits.md).
+Limits are imposed to prevent large-scale transactions which may be the result of illicit activity. [Deposit limits are detailed here](../deposit-and-withdrawal-limits.md).
 
 ## Geo Restrictions
 
@@ -41,7 +41,7 @@ Upcoming integrations with TRM, VAF Compliance and PureFi will ensure 0x wallets
 
 ### Beta Release
 
-zkBob is now released in a beta version. Not all contracts have been audited (zkpool contracts have been audited) and users should use at their own discretion. Risks to users are mitigated through [limits on deposits and withdrawals](deposit-and-withdrawal-limits.md). In addition, the overall size of a pool cannot exceed 1,000,000 BOB tokens.
+zkBob is now released in a beta version. Not all contracts have been audited (zkpool contracts have been audited) and users should use at their own discretion. Risks to users are mitigated through [limits on deposits and withdrawals](../deposit-and-withdrawal-limits.md). In addition, the overall size of a pool cannot exceed 1,000,000 BOB tokens.
 
 ### Bug Bounty
 

@@ -54,7 +54,7 @@ Some users of zkBob may include:
 * Philanthropists who want to donate to causes anonymously.
 * Individuals interested in privacy, zksnarks, or novel auction mechanisms related to [XP functionality](../roadmap/exploratory-features/xp/).
 
-_Please refence the_ [_Compliance and Security_](compliance-and-security.md) _page for additional information regarding zkBob usage._
+_Please refence the_ [_Compliance and Security_](compliance-and-security/) _page for additional information regarding zkBob usage._
 
 ## Who should not use zkBob?
 
