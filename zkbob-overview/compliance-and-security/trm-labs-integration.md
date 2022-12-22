@@ -9,5 +9,5 @@ The zkBob integration with TRM is a proactive solution to prevent criminal funds
 * The address participated in dark web transactions.
 * Other suspicious behavior as determined by TRM labs screening software.
 
-If an address has engaged in past suspect activities it is prevented from connecting or depositing into zkBob. This maintains a safe, secure and untainted environment for private transfers.
+If an address has engaged in past suspect activities it cannot connect or be used to deposit into zkBob. Withdrawals to a suspicious address are also prevented. These restrictions maintain a safe, secure and untainted environment for private transfers.
 
