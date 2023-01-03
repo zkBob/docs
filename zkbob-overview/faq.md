@@ -90,7 +90,7 @@ zkBob is designed to use BOB for several reasons. BOB is stable, flexible (multi
 
 Withdrawals from zkBob will also result in 0.10 MATIC sent to the receiving address if certain criteria are met. To receive, the address must have a 0 MATIC balance, and the withdrawal amount must be 10 or more BOB.
 
-If you want to purchase BOB in other ways ([Uniswap](../bob-stablecoin/get-bob-on-uniswap-v3.md) or [Metamask swap](../bob-stablecoin/swap-bob-with-metamask-swap.md)), you will need a small amount of MATIC to complete the transaction.
+If you want to purchase BOB in other ways ([Uniswap](../bob-stablecoin/bob-on-uniswap-v3.md) or [Metamask swap](../bob-stablecoin/swap-bob-with-metamask-swap.md)), you will need a small amount of MATIC to complete the transaction.
 
 ## Where can I see zkBob stats?
 
