@@ -4,15 +4,13 @@
 
 ### [Li.Fi](http://li.fi) widget integration
 
-The new [Li.Fi](http://li.fi) integration lets you swap assets on different chains to BOB on Polygon directly from the zkBob application. The widget shows the best routes and automates the swapping and bridging processes.
+The new [Li.Fi](http://li.fi) integration lets you swap assets on different chains to BOB on Polygon directly from the zkBob application. The widget shows the best routes and automates the swapping and bridging processes. The example below walks through using the Li.Fi widget to swap MATIC for BOB.
 
 {% embed url="https://scribehow.com/shared/Swap_from_MATIC_to_BOB_using_LiFi__2x0w-_wPT4a-od4yZSYxNw" %}
-Example using Li.Fi widget to swap MATIC for BOB
-{% endembed %}
 
 ### Support improvements with Support ID
 
-We’ve made it easier to get help even when there are no on-chain traces remaining. A unique support ID is now displayed in app footer. If you encounter issues, share this ID along with your request [sent to canny](https://bobstablecoin.canny.io/) to help us troubleshoot any problems.
+We’ve made it easier to get help even when there are no on-chain traces remaining. A unique support ID is now displayed in app footer or if you receive an error when submitting a transaction. If you encounter problems, [report your issue in canny](https://bobstablecoin.canny.io/report-issue) and share the Support ID to help us troubleshoot.
 
 <figure><img src="../../.gitbook/assets/support-ID.png" alt=""><figcaption><p>Support ID can be used for troubleshooting</p></figcaption></figure>
 
@@ -27,8 +25,8 @@ The client application now automatically determines if something went wrong with
 
 ## Minor technical updates
 
-* Add Safari support. Mobile will be optimized in a future release.
-* Rejected transactions are now also shown in the history tab
+* Safari support added. The UI for mobile will be optimized in a future release.
+* Rejected transactions are now also shown in the history tab.
 
 ## Component Update Details
 
