@@ -1,6 +1,6 @@
 # January 2, 2023
 
-## Primary Updates
+## Cross-component updates
 
 ### [Li.Fi](http://li.fi) widget integration
 
@@ -23,7 +23,7 @@ We’ve made it easier to get help even when there are no on-chain traces remain
 
 The client application now automatically determines if something went wrong with local state and tries to fix it, resulting in fewer manual resets.
 
-## Minor technical updates
+### Minor technical updates
 
 * Safari support added. The UI for mobile will be optimized in a future release.
 * Rejected transactions are now also shown in the history tab.
