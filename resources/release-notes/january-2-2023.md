@@ -12,9 +12,9 @@ Example using Li.Fi widget to swap MATIC for BOB
 
 ### Support improvements with Support ID
 
-We’ve made it easier to get help even when there are no on-chain traces remaining. A unique support ID is now displayed in app footer. If you encounter issues, share this ID along with your request to help us troubleshoot any problems.
+We’ve made it easier to get help even when there are no on-chain traces remaining. A unique support ID is now displayed in app footer. If you encounter issues, share this ID along with your request [sent to canny](https://bobstablecoin.canny.io/) to help us troubleshoot any problems.
 
-<figure><img src="../../.gitbook/assets/support-ID.png" alt=""><figcaption><p>Support ID can be used for troubleshooting purposes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/support-ID.png" alt=""><figcaption><p>Support ID can be used for troubleshooting</p></figcaption></figure>
 
 ### Faster sync for all clients
 
