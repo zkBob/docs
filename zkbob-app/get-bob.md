@@ -10,16 +10,7 @@ description: There are several ways to Get BOB directly from the zkBob applicati
 
 ## 2) Follow the linktree links to get BOB.
 
-1.  Click Get BOB
-
-    <figure><img src="../.gitbook/assets/get-bob-1.png" alt=""><figcaption></figcaption></figure>
-2.  Select **Other options**.
-
-    <figure><img src="../.gitbook/assets/other-options.png" alt=""><figcaption></figcaption></figure>
-3.  A new tab will open at [https://linktr.ee/getbob](https://linktr.ee/getbob).
-
-    <figure><img src="../.gitbook/assets/bob-list.png" alt=""><figcaption></figcaption></figure>
-4. Select your preferred option to get BOB. Once you have BOB in your wallet, return to the zkBob app to deposit and use.
+{% embed url="https://scribehow.com/shared/Follow_links_to_get_BOB__2uwNJWz_Qmi4tzSaKjPybw" %}
 
 \
 
