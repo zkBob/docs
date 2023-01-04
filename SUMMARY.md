@@ -102,5 +102,7 @@
 
 * [Visual Assets](resources/visual-assets.md)
 * [Hackathon](resources/hackathon.md)
+* [Release Notes](resources/release-notes/README.md)
+  * [January 2, 2023](resources/release-notes/january-2-2023.md)
 * [Github](https://github.com/zkbob)
 * [Link tree](https://linktr.ee/zkbob)
