@@ -21,6 +21,7 @@ description: Frequently asked questions
 * [How long should I keep my tokens in a zkBob anonymity pool to increase privacy?](faq.md#how-long-should-i-keep-my-tokens-in-a-zkbob-anonymity-pool-to-increase-privacy)
 * [Are deposits and withdrawals completely private?](faq.md#are-deposits-into-zkbob-and-withdrawals-from-zkbob-private)
 * [Can the zkBob application be compromised and my information made available?](faq.md#can-the-zkbob-application-be-compromised-and-my-information-made-available)
+* [What is Anonymity Set Awareness?](faq.md#what-is-anonymity-set-awareness)
 
 **Accounts and Addresses**
 
@@ -124,6 +125,22 @@ With zkproof transactions specific identifying information is never recorded (su
 * **Address trail:** Using the same generated zkAddress for transactions with many different parties creates a connection string which can compromise privacy. It is best to generate a new address for each transfer within the application.
 * **Secure address messaging**:  When sending a generated address to another party, carefully choose the application you use (ie telegram, discord etc).  It is best to choose a secure and private channel.
 * **Withdrawals**: When withdrawing from the application, sending to a newly generated address without a prior transaction history is the most private method.
+
+## What is Anonymity Set Awareness?
+
+{% hint style="info" %}
+To maintain privacy it is advisable to keep funds in the anonymity set for some time and consider transferring/withdrawing different arbitrary amounts than deposited when performing transactions. These measures allow for additional pool entropy and make it more difficult to infer any transaction details.&#x20;
+{% endhint %}
+
+Although internal transaction details are hidden, user privacy can be compromised when entering in or leaving the solution **in cases when there is a small anonymity set.**
+
+Imagine you want to send money to Alice through zkBob. You decide to create a new account and deposit the exact necessary amount of tokens.&#x20;
+
+Alice also creates an account and provides her private address. You transfer funds to Alice and she makes a withdrawal transaction for all received tokens.&#x20;
+
+If you and Alice are the only active users of the zkBob solution, any neutral observer can infer your funds movement with a high degree of accuracy.
+
+**There are no time limits for funds withdrawal.** It is recommended to keep funds inside the solution some extra time to increase the anonymity set and safeguard your privacy.
 
 ## Accounts and Addresses
 

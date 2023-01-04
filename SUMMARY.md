@@ -38,9 +38,9 @@
 * [Transfers](zkbob-app/transfers/README.md)
   * [Multitransfers](zkbob-app/transfers/multitransfers.md)
 * [Withdrawals](zkbob-app/withdrawals.md)
-* [Get BOB](zkbob-app/get-bob.md)
 * [Generate a Receiving Address](zkbob-app/generate-a-secure-address.md)
-* [Anonymity Set Awareness](zkbob-app/anonymity-set-awareness.md)
+* [Get BOB](zkbob-app/get-bob.md)
+* [Support ID](zkbob-app/support-id.md)
 
 ## 👷♂ Roadmap
 
