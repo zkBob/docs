@@ -6,6 +6,16 @@ description: A stablecoin-based privacy solution for everyday users powered by B
 
 <figure><img src=".gitbook/assets/readme2.jpg" alt=""><figcaption></figcaption></figure>
 
+## Get Started
+
+> :man: [zkBob App](https://app.zkbob.com/)\
+> :man\_mage: [BOB Stablecoin](broken-reference)\
+> :man\_swimming: [Info and Instructions](zkbob-app/zkbob-app.md)\
+> :person\_running:[Technical Details and Contracts](broken-reference)\
+> 🔐 [Security Audit](resources/security-audit.md)
+
+## About
+
 [zkBob](https://app.zkbob.com) is a stablecoin-based privacy application deployed on Polygon and designed for everyday users and [common use cases](zkbob-overview/use-cases/). zkBob uses [zkSNARKS](implementation/zksnarks-and-circuits/) to anonymize senders, receivers, and amounts when transferring stable funds. [Compliance features](zkbob-overview/compliance-and-security/) deter bad actors and illicit usage, giving privacy and safety back to ordinary blockchain users.&#x20;
 
 zkBob is optimized to work with the [BOB token](broken-reference), a multi-chain stable token (stablecoin) enhanced with optional privacy. Once BOB is deposited into the zkBob pool, participants can transfer any amount\* of BOB amongst themselves in a private, secure manner without needing to connect MetaMask, WalletConnect or any web3 wallet.
@@ -19,11 +29,5 @@ When a transfer is initiated, the amount and recipient is never disclosed or pub
 
 _\*zkBob introduces_ [_deposit and withdrawal limits_](zkbob-overview/deposit-and-withdrawal-limits.md) _and other_ [_compliance features_](zkbob-overview/compliance-and-security/) _to keep the application and its users safe. Transfers are limited by these pool constraints._&#x20;
 
-### Get Started!
-
-> :man: [zkBob App](https://app.zkbob.com/)\
-> :man\_mage: [Learn about the BOB Stablecoin](broken-reference)\
-> :man\_swimming: [Info and UI Instructions](zkbob-app/zkbob-app.md)\
-> :woman\_shrugging: [FAQs](zkbob-overview/faq.md)\
-> :person\_running:[Technical Details and Contracts](broken-reference)
+###
 
