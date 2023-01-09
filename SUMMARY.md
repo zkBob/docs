@@ -105,5 +105,6 @@
 * [Release Notes](resources/release-notes/README.md)
   * [January 2, 2023](resources/release-notes/january-2-2023.md)
   * [Releases 2022](resources/release-notes/releases-2022.md)
+* [Security Audit](resources/security-audit.md)
 * [Github](https://github.com/zkbob)
 * [Link tree](https://linktr.ee/zkbob)
