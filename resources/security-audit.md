@@ -1,7 +1,7 @@
 # Security Audit
 
 \
-[ChainSecurity](https://chainsecurity.com/) delivered their [final audit report](https://github.com/zkBob/zkbob-contracts/blob/master/audit/chainsecurity/BOB\_Protocol-contracts-1.0.0-rc2-security-audit-report.pdf) on January 5, 2023 covering the [zkBobPool](https://github.com/zkBob/zkbob-contracts/blob/master/src/zkbob/ZkBobPool.sol), [BOBToken](https://github.com/zkBob/zkbob-contracts/blob/master/src/BobToken.sol), and [BobVault](https://github.com/zkBob/zkbob-contracts/blob/master/src/BobVault.sol) contracts along with relevant dependecies. We worked closely with the Chain Security team to address potential issues and are happy to report we’ve corrected or accepted risks for all findings from the report.&#x20;
+[ChainSecurity](https://chainsecurity.com/) delivered their [final audit report ](https://chainsecurity.com/security-audit/zkbob-smart-contracts/)on January 5, 2023 covering the [zkBobPool](https://github.com/zkBob/zkbob-contracts/blob/master/src/zkbob/ZkBobPool.sol), [BOBToken](https://github.com/zkBob/zkbob-contracts/blob/master/src/BobToken.sol), and [BobVault](https://github.com/zkBob/zkbob-contracts/blob/master/src/BobVault.sol) contracts along with relevant dependencies. We worked closely with the Chain Security team to address potential issues and are happy to report we’ve corrected or accepted risks for all findings from the report.&#x20;
 
 ### Issue Assessment
 
@@ -14,7 +14,7 @@
 
 ### Report
 
-The full pdf report is available on Github
+The full pdf report is available on the [ChainSecurity](https://chainsecurity.com/security-audit/zkbob-smart-contracts/) site as well as the zkBob Github ⬇️
 
 {% embed url="https://github.com/zkBob/zkbob-contracts/blob/master/audit/chainsecurity/BOB_Protocol-contracts-1.0.0-rc2-security-audit-report.pdf" %}
 
