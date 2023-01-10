@@ -1,4 +1,4 @@
-# Inventory Management
+# Inventory Actions
 
 BOB is added/removed from inventory LP positions in tranches based on usage and anticipated demand. Increases/decreases are detailed below.
 
