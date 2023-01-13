@@ -4,6 +4,8 @@ Withdrawals to move assets from the zkpool to an 0x address on Polygon. You can 
 
 {% hint style="success" %}
 When you withdraw 10.0 or more BOB to a receiving address on Polygon with a 0 MATIC balance, 0.1 MATIC will be automatically deposited to that address. This allows you to use an address immediately to swap or send BOB without needing to get MATIC.
+
+**Typically this will work quickly, however faucet requests for 0.1 MATIC can be delayed in case of high network activity and gas price spikes.**
 {% endhint %}
 
 1\) Connect your zkAccount.
