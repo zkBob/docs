@@ -14,7 +14,7 @@ As the BOB stablecoin continues to gain traction a larger DAO is in early-stage 
 
 ### **Beta Phase 1**
 
-During phase 1 of beta, a 3-of-6 multisignature smart contract, known as the governance SAFE, is responsible for managing the protocol. This [governance SAFE](https://app.safe.global/matic:0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8/home) is comprised of members from the zkBob and [Blockscout](https://docs.blockscout.com/) teams. These teams have experience and an excellent track record with the xDai chain (now [Gnosis Chain](https://docs.gnosischain.com/)) and TokenBridge managing 200M+ in assets. A small multisig provides the ability to iterate quickly and immediately fix time-sensitive problems that arise during beta.&#x20;
+During phase 1 of beta, a 3-of-6 multisignature smart contract, known as the governance SAFE, is responsible for risk assessment and protocol management. This [governance SAFE](https://app.safe.global/matic:0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8/home) is comprised of members from the zkBob and [Blockscout](https://docs.blockscout.com/) teams. These teams have experience and an excellent track record with the xDai chain (now [Gnosis Chain](https://docs.gnosischain.com/)) and TokenBridge managing 200M+ in assets. A small multisig provides the ability to iterate quickly and immediately fix time-sensitive problems that arise during beta.&#x20;
 
 ### **Post-Beta Phase 2**&#x20;
 
