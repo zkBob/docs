@@ -19,7 +19,7 @@ BOB is added/removed from inventory LP positions in tranches based on usage and 
 5. Terminated non-performant BOB/BUSD inventory pool. 500,000 BOB removed from inventory. \
    Dec-19-2022 02:28:48 PM +UTC\
    [0xc16f02ff1a29be8db6a076d94d0593abf880542eea6e8a75eb93c9228e5ef7e0](https://polygonscan.com/tx/0xc16f02ff1a29be8db6a076d94d0593abf880542eea6e8a75eb93c9228e5ef7e0)
-6. 1,000,000 BOB allotment to BOBVault. Transaction includes inventory increase to governance safe, 999,000 BOB transfer to BOBVault contract ([0x25E6505297b44f4817538fB2d91b88e1cF841B54](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54)) and 1,000 BOB refund to team to reimburse testing funds. More info on this tx is available here.\
+6. 1,000,000 BOB allotment to the BobVault. Transaction includes the inventory increase to the governance SAFE, a 999,000 BOB transfer from the SAFE to the BobVault contract ([0x25E6505297b44f4817538fB2d91b88e1cF841B54](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54)), and a 1,000 BOB refund to the team to reimburse testing funds. [More info on this tx is available here](../protocol-governance/jan-11-2023-enable-bobvault-for-public-use.md).\
    Jan-11-2023 06:30:54 PM +UTC\
    [0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc](https://polygonscan.com/tx/0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc)
 

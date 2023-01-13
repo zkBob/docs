@@ -2,7 +2,7 @@
 description: Update Verification
 ---
 
-# Upgrade Contracts to v1.0.0
+# Jan 5, 2023: Upgrade Contracts to v1.0.0
 
 The following changes were made as a result of the [Security Audit conducted by ChainSecurity](https://chainsecurity.com/security-audit/zkbob-smart-contracts/) and published on January 5, 2023.
 
