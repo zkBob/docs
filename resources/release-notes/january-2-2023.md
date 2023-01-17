@@ -1,5 +1,14 @@
 # January 2, 2023
 
+## Updates
+
+* [Li.Fi widget integration](january-2-2023.md#li.fi-widget-integration)
+* [Add SupportID](january-2-2023.md#support-improvements-with-support-id)
+* [Faster sync](january-2-2023.md#faster-sync-for-all-clients)
+* [Self-healing](january-2-2023.md#self-healing-feature)
+* [Minor technical updates](january-2-2023.md#minor-technical-updates)
+* [Component updates overview](january-2-2023.md#component-update-details)
+
 ## Cross-component updates
 
 ### [Li.Fi](http://li.fi) widget integration

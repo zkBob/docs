@@ -107,6 +107,7 @@
 * [Visual Assets](resources/visual-assets.md)
 * [Hackathon](resources/hackathon.md)
 * [Release Notes](resources/release-notes/README.md)
+  * [January 16, 2023](resources/release-notes/january-16-2023.md)
   * [January 2, 2023](resources/release-notes/january-2-2023.md)
   * [Releases 2022](resources/release-notes/releases-2022.md)
 * [Security Audit](resources/security-audit.md)
