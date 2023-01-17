@@ -31,7 +31,7 @@ For safety you should write down your phrase on paper and keep in a safe physica
 
 ## Support Improvements
 
-Support ID was introduced in the previous update. Now the Support ID is forward to the relayer, allowing for additional troubleshooting. The relayer version is also displayed in the footer alongside other components and Support ID.
+Support ID was introduced in the previous update. Support ID is now forwarded to the relayer, allowing for additional troubleshooting. The relayer version is also displayed in the footer of the zkBob app alongside other components and Support ID.
 
 <figure><img src="../../.gitbook/assets/relayer.png" alt=""><figcaption></figcaption></figure>
 
