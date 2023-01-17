@@ -15,7 +15,7 @@
 
 ## Secret recovery phrase view and backup
 
-The secret recovery phrase (also known as a seed phrase) can be used to recover your zkAccount. This seed phrase is created when you create your account, and is unique to your zkAccount. If you [create your account using MetaMask or WalletConnect](../../zkbob-app/account-creation/#metamask-walletconnect), the seed phrase for your zkBob zkAccount will be different than your MetaMask account seed phrase.
+The secret recovery phrase (also known as a seed phrase) can be used to recover your zkAccount. This 12 word seed phrase is created when you create your account, and is unique to your zkAccount. If you [create your account using MetaMask or WalletConnect](../../zkbob-app/account-creation/#metamask-walletconnect), the seed phrase for your zkBob zkAccount will be different than your MetaMask account seed phrase.
 
 To view and copy your secret phrase, click on zkAccount -> Show secret recovery phrase button.
 
