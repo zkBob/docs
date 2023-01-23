@@ -4,10 +4,10 @@ description: Update Verification
 
 # Jan 5, 2023: Upgrade Contracts to v1.0.0
 
-The following changes were made as a result of the [Security Audit conducted by ChainSecurity](https://chainsecurity.com/security-audit/zkbob-smart-contracts/) and published on January 5, 2023.
+The following changes were made as a result of the [Security Audit conducted by ChainSecurity](https://chainsecurity.com/security-audit/zkbob-smart-contracts/) and published on January 5, 2023.&#x20;
 
 {% hint style="success" %}
-* Governance Proposal #22
+* GP #22
 * Tx: [0x755e2e240563b151e96b9bb52721e8361e1782697b092f32bb9fc23a8797cfb2](https://polygonscan.com/tx/0x755e2e240563b151e96b9bb52721e8361e1782697b092f32bb9fc23a8797cfb2)
 {% endhint %}
 

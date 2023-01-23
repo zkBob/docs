@@ -3,7 +3,7 @@
 Changes were approved following the security audit and [contracts upgrade to v1.0.0](upgrade-contracts-to-v1.0.0.md).&#x20;
 
 {% hint style="success" %}
-* Governance Proposal #23
+* GP #23
 * Tx: [0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc](https://polygonscan.com/tx/0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc)&#x20;
 {% endhint %}
 
