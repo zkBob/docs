@@ -12,7 +12,7 @@ The transaction included 6 actions categorized in the [proposal breakdown sectio
 
 BobVault [`0x25E6505297b44f4817538fB2d91b88e1cF841B54`](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54) is a module for issuing BOB collateralised with other USD-pegged assets.
 
-BobVault has received substantial testing using **USDC** and **USDT** as collaterals along with their passive investments into **AAVE**. BobVault was initially funded for **1.000 BOB** for testing purposes. This governance proposal reimburses the testing team with that amount.
+BobVault has received substantial testing using **USDC** and **USDT** as collaterals along with their passive investments into **AAVE**. BobVault was initially funded for **1,000 BOB** for testing purposes. This governance proposal reimburses the testing team with that amount.
 
 Each collateral in BobVault includes the following dynamic parameters:
 
@@ -25,7 +25,7 @@ Each collateral in BobVault includes the following dynamic parameters:
 
 ## Proposal objective
 
-After the completion of the security audit and upgrade of all contracts in the prior governance proposal [Upgrade of BOB Protocol contracts to the release 1.0.0](upgrade-contracts-to-v1.0.0.md), the Bob protocol management team approved an increase of the **BOB** issuance limits through BobVault to **1.000.000 BOB**, along with the following collateral configuration:
+After the completion of the security audit and upgrade of all contracts in the prior governance proposal [Upgrade of BOB Protocol contracts to the release 1.0.0](upgrade-contracts-to-v1.0.0.md), the Bob protocol management team approved an increase of the **BOB** issuance limits through BobVault to **1,000,000 BOB**, along with the following collateral configuration:
 
 **USDC:**
 
@@ -66,14 +66,14 @@ Call `setCollateralFees` (selector `0xd2794f63`) to update fees for USDC [`0x279
 
 Call `updateCollateralYield` (selector `0x20d22739`) to update yield parameters for USDC [`0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174`](https://polygonscan.com/token/0x2791bca1f2de4661ed88a30c99a7a9449aa84174) collateral in BobVault, which is invested in AAVE:
 
-1. buffer: 100 USDC → **10.000 USDC** (6 decimals)
+1. buffer: 100 USDC → **10,000 USDC** (6 decimals)
 2. dust: 0.001 USDC → **1 USDC** (6 decimals)
 
 ### Action 3
 
 Call `updateCollateralYield` (selector `0x20d22739`) to update yield parameters for USDT [`0xc2132D05D31c914a87C6611C10748AEb04B58e8F`](https://polygonscan.com/token/0xc2132d05d31c914a87c6611c10748aeb04b58e8f) collateral in BobVault, which is invested in AAVE:
 
-1. buffer: 100 USDT → **10.000 USDT** (6 decimals)
+1. buffer: 100 USDT → **10,000 USDT** (6 decimals)
 2. dust: 0.001 USDT → **1 USDT** (6 decimals)
 
 ### Action 4
@@ -86,7 +86,7 @@ Allocate **999,000 BOB** (18 decimals) to the BobVault contract [`0x25E6505297b4
 
 ### Action 6
 
-Refund the BOB testing team with **1.000 BOB** (18 decimals) for [initial test funding](https://polygonscan.com/tx/0x63641a42799c242f1c323a9759667825f50df724c7ee6d8c267fc257e8def97e) of the BobVault contract [`0x25E6505297b44f4817538fB2d91b88e1cF841B54`](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54).
+Refund the BOB testing team with **1,000 BOB** (18 decimals) for [initial test funding](https://polygonscan.com/tx/0x63641a42799c242f1c323a9759667825f50df724c7ee6d8c267fc257e8def97e) of the BobVault contract [`0x25E6505297b44f4817538fB2d91b88e1cF841B54`](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54).
 
 Refund is made by executing a BOB ERC20 `transfer` from the governance safe to the Bob protocol team EOA address: [`0x02BF3258D6024B2B34fD7D21F225Db6CDA939E76`](https://polygonscan.com/address/0x02bf3258d6024b2b34fd7d21f225db6cda939e76). The action is executed on the BOB token contract [`0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B`](https://polygonscan.com/address/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b#code).
 
