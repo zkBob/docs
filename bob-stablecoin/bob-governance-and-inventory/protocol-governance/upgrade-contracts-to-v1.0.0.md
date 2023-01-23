@@ -7,7 +7,8 @@ description: Update Verification
 The following changes were made as a result of the [Security Audit conducted by ChainSecurity](https://chainsecurity.com/security-audit/zkbob-smart-contracts/) and published on January 5, 2023.
 
 {% hint style="success" %}
-Tx: [0x755e2e240563b151e96b9bb52721e8361e1782697b092f32bb9fc23a8797cfb2](https://polygonscan.com/tx/0x755e2e240563b151e96b9bb52721e8361e1782697b092f32bb9fc23a8797cfb2)
+* Governance Proposal #22
+* Tx: [0x755e2e240563b151e96b9bb52721e8361e1782697b092f32bb9fc23a8797cfb2](https://polygonscan.com/tx/0x755e2e240563b151e96b9bb52721e8361e1782697b092f32bb9fc23a8797cfb2)
 {% endhint %}
 
 The transaction contained 6 actions described below.

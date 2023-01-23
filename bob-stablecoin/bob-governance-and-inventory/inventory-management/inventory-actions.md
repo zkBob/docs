@@ -1,6 +1,8 @@
 # Inventory Actions
 
-BOB is added/removed from inventory LP positions in tranches based on usage and anticipated demand via phase 1 governance. Increases/decreases are detailed below.
+BOB is added/removed from inventory LP positions in tranches based on usage and anticipated demand via phase 1 governance proposals (GP is the number of the governance proposal and SAFE transaction).&#x20;
+
+Increases/decreases are detailed below.
 
 ### Polygon
 
@@ -23,6 +25,7 @@ BOB is added/removed from inventory LP positions in tranches based on usage and 
    * Jan-11-2023 06:30:54 PM +UTC\
      [0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc](https://polygonscan.com/tx/0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc)
 7. Additional 1,000,000 BOB (18 decimals) allocated to the BobVault contract ([0x25E6505297b44f4817538fB2d91b88e1cF841B54](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54)).&#x20;
+   * GP #24
    * Jan-21-2023 06:03:19 PM +UTC\
      [0xb04ad6ad2e2a050e0130ee7cba8722eb2472b6bd19beb499d77e8fde81ea22a3](https://polygonscan.com/tx/0xb04ad6ad2e2a050e0130ee7cba8722eb2472b6bd19beb499d77e8fde81ea22a3)
 
