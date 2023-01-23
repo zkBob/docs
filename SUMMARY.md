@@ -28,6 +28,7 @@
   * [Inventory Management](bob-stablecoin/bob-governance-and-inventory/inventory-management/README.md)
     * [Inventory Actions](bob-stablecoin/bob-governance-and-inventory/inventory-management/inventory-actions.md)
   * [Protocol Governance](bob-stablecoin/bob-governance-and-inventory/protocol-governance/README.md)
+    * [December 23, 2022. BobVault beta testing infrastructure.](bob-stablecoin/bob-governance-and-inventory/protocol-governance/december-23-2022.-bobvault-beta-testing-infrastructure..md)
     * [Jan 5, 2023: Upgrade Contracts to v1.0.0](bob-stablecoin/bob-governance-and-inventory/protocol-governance/upgrade-contracts-to-v1.0.0.md)
     * [Jan 11, 2023: Enable BobVault for Public Use](bob-stablecoin/bob-governance-and-inventory/protocol-governance/jan-11-2023-enable-bobvault-for-public-use.md)
 * [BOB Stablecoin FAQ](bob-stablecoin/bob-stablecoin-faq.md)

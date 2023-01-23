@@ -1,3 +1,7 @@
+---
+description: GP 23
+---
+
 # Jan 11, 2023: Enable BobVault for Public Use
 
 Changes were approved following the security audit and [contracts upgrade to v1.0.0](upgrade-contracts-to-v1.0.0.md).&#x20;

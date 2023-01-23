@@ -1,5 +1,5 @@
 ---
-description: Update Verification
+description: GP 22
 ---
 
 # Jan 5, 2023: Upgrade Contracts to v1.0.0
