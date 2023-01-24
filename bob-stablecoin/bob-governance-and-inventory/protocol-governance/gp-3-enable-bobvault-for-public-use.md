@@ -1,17 +1,18 @@
 ---
-description: GP 23
+description: GP 3
 ---
 
-# Jan 11, 2023: Enable BobVault for Public Use
+# GP 3: Enable BobVault for Public Use
 
-Changes were approved following the security audit and [contracts upgrade to v1.0.0](upgrade-contracts-to-v1.0.0.md).&#x20;
+Changes were approved following the security audit and [contracts upgrade to v1.0.0](gp-2-upgrade-contracts-to-v1.0.0.md).&#x20;
 
 {% hint style="success" %}
-* GP #23
+* GP #3
+* Timestamp: Jan-11-2023 06:30:54 PM +UTC
 * Tx: [0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc](https://polygonscan.com/tx/0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc)&#x20;
 {% endhint %}
 
-The transaction included 6 actions categorized in the [proposal breakdown section](jan-11-2023-enable-bobvault-for-public-use.md#proposal-breakdown).
+The transaction included 6 actions categorized in the [proposal breakdown section](gp-3-enable-bobvault-for-public-use.md#proposal-breakdown).
 
 ## Introduction to BobVault
 
@@ -30,7 +31,7 @@ Each collateral in BobVault includes the following dynamic parameters:
 
 ## Proposal objective
 
-After the completion of the security audit and upgrade of all contracts in the prior governance proposal [Upgrade of BOB Protocol contracts to the release 1.0.0](upgrade-contracts-to-v1.0.0.md), the Bob protocol management team approved an increase of the **BOB** issuance limits through BobVault to **1,000,000 BOB**, along with the following collateral configuration:
+After the completion of the security audit and upgrade of all contracts in the prior governance proposal [Upgrade of BOB Protocol contracts to the release 1.0.0](gp-2-upgrade-contracts-to-v1.0.0.md), the Bob protocol management team approved an increase of the **BOB** issuance limits through BobVault to **1,000,000 BOB**, along with the following collateral configuration:
 
 **USDC:**
 

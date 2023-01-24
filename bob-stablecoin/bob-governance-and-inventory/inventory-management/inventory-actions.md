@@ -2,8 +2,9 @@
 
 BOB is added/removed from inventory LP positions in tranches based on usage and anticipated demand via [phase 1 governance](../bob-dao.md#beta-phase-1) proposals. Increases/decreases are detailed below.
 
-* The Governance SAFE address is [0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8](https://app.safe.global/matic:0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8/home)
-* GP stands for Governance Proposal, and matches the transaction number in the SAFE.
+{% hint style="info" %}
+The Governance SAFE address is [0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8](https://app.safe.global/matic:0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8/home)
+{% endhint %}
 
 ### Polygon
 
@@ -19,16 +20,13 @@ BOB is added/removed from inventory LP positions in tranches based on usage and 
 4. 5,000,000 BOB to increase inventory for the USDC/BOB pool.
    * Nov-03-2022 02:39:26 PM +UTC\
      [0x3e168dc82de33894c85f5f1f4e68afb0e25f43cc6685d8f9307fd4c9a12787de](https://polygonscan.com/tx/0x3e168dc82de33894c85f5f1f4e68afb0e25f43cc6685d8f9307fd4c9a12787de)
-5. Terminated non-performant BOB/BUSD inventory pool. 500,000 BOB removed from inventory.&#x20;
-   * GP #20
+5. Terminate non-performant BOB/BUSD inventory pool. 500,000 BOB removed from inventory.&#x20;
    * Dec-19-2022 02:28:48 PM +UTC\
      [0xc16f02ff1a29be8db6a076d94d0593abf880542eea6e8a75eb93c9228e5ef7e0](https://polygonscan.com/tx/0xc16f02ff1a29be8db6a076d94d0593abf880542eea6e8a75eb93c9228e5ef7e0)
-6. 1,000,000 BOB allotment to the BobVault. Transaction includes the inventory increase to the governance SAFE, a 999,000 BOB transfer from the SAFE to the BobVault contract ([0x25E6505297b44f4817538fB2d91b88e1cF841B54](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54)), and a 1,000 BOB refund to the team to reimburse testing funds. [More info on this tx is available here](../protocol-governance/jan-11-2023-enable-bobvault-for-public-use.md).
-   * GP #23
+6. 1,000,000 BOB allotment to the BobVault. Transaction includes the inventory increase to the governance SAFE, a 999,000 BOB transfer from the SAFE to the BobVault contract ([0x25E6505297b44f4817538fB2d91b88e1cF841B54](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54)), and a 1,000 BOB refund to the team to reimburse testing funds. [More info on this tx is available here](../protocol-governance/gp-3-enable-bobvault-for-public-use.md).
    * Jan-11-2023 06:30:54 PM +UTC\
      [0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc](https://polygonscan.com/tx/0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc)
 7. Additional 1,000,000 BOB (18 decimals) allocated to the BobVault contract ([0x25E6505297b44f4817538fB2d91b88e1cF841B54](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54)).&#x20;
-   * GP #24
    * Jan-21-2023 06:03:19 PM +UTC\
      [0xb04ad6ad2e2a050e0130ee7cba8722eb2472b6bd19beb499d77e8fde81ea22a3](https://polygonscan.com/tx/0xb04ad6ad2e2a050e0130ee7cba8722eb2472b6bd19beb499d77e8fde81ea22a3)
 

@@ -28,9 +28,10 @@
   * [Inventory Management](bob-stablecoin/bob-governance-and-inventory/inventory-management/README.md)
     * [Inventory Actions](bob-stablecoin/bob-governance-and-inventory/inventory-management/inventory-actions.md)
   * [Protocol Governance](bob-stablecoin/bob-governance-and-inventory/protocol-governance/README.md)
-    * [December 23, 2022. BobVault beta testing infrastructure.](bob-stablecoin/bob-governance-and-inventory/protocol-governance/december-23-2022.-bobvault-beta-testing-infrastructure..md)
-    * [Jan 5, 2023: Upgrade Contracts to v1.0.0](bob-stablecoin/bob-governance-and-inventory/protocol-governance/upgrade-contracts-to-v1.0.0.md)
-    * [Jan 11, 2023: Enable BobVault for Public Use](bob-stablecoin/bob-governance-and-inventory/protocol-governance/jan-11-2023-enable-bobvault-for-public-use.md)
+    * [GP 0: Increase SAFE membership](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-0-increase-safe-membership.md)
+    * [GP 1: BobVault beta testing infrastructure](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-1-bobvault-beta-testing-infrastructure.md)
+    * [GP 2: Upgrade Contracts to v1.0.0](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-2-upgrade-contracts-to-v1.0.0.md)
+    * [GP 3: Enable BobVault for Public Use](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-3-enable-bobvault-for-public-use.md)
 * [BOB Stablecoin FAQ](bob-stablecoin/bob-stablecoin-faq.md)
 
 ## 🦸♂ zkBob Application <a href="#zkbob-app" id="zkbob-app"></a>
