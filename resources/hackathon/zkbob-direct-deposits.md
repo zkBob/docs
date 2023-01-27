@@ -1,8 +1,9 @@
 ---
 description: >-
-  A decentralised way of making deposits to an zkBOB account without dealing
-  with zk core
+  A decentralised way of making deposits to a zkBOB account without using zk
+  core
 ---
 
 # zkBOB Direct Deposits
 
+Coming Soon
