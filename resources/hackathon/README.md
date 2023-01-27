@@ -5,19 +5,19 @@ description: Incorporate privacy into everyday applications
 # Hackathon
 
 {% hint style="info" %}
-* [zkBob Intro](hackathon.md#intro)
-* [zkBob API & Cloud Wallet](hackathon.md#zkbob-api-and-cloud-wallet)
-  * [Use case ideas](hackathon.md#use-case-examples)
-  * [API key](hackathon.md#api-key)
-  * [Receiving address](hackathon.md#receiving-address)
-  * [Notes](hackathon.md#notes)
-* [Get Started](hackathon.md#get-started)
-* [References](hackathon.md#references-table)
-* [Payment Flow and Scenarios](hackathon.md#common-payment-flow-and-scenarios)
-* [Prizes](hackathon.md#prizes)
+* [zkBob Intro](./#intro)
+* [zkBob API & Cloud Wallet](./#zkbob-api-and-cloud-wallet)
+  * [Use case ideas](./#use-case-examples)
+  * [API key](./#api-key)
+  * [Receiving address](./#receiving-address)
+  * [Notes](./#notes)
+* [Get Started](./#get-started)
+* [References](./#references-table)
+* [Payment Flow and Scenarios](./#common-payment-flow-and-scenarios)
+* [Prizes](./#prizes)
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/bob-privacy.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bob-privacy.png" alt=""><figcaption></figcaption></figure>
 
 ## Intro
 
@@ -50,7 +50,7 @@ For the hackathon, we want you to explore new use cases for private transactions
 
 ### API Account Key
 
-In the ZkBob Cloud Wallet every developer has their own secret api key (`accountId`) used to manage funds. The key is kept on the server and given individually to each team, either requested through discord or in-person at our booth. Each key will also contain a BOB balance. [See below](hackathon.md#get-started) for more info on receiving an API key.
+In the ZkBob Cloud Wallet every developer has their own secret api key (`accountId`) used to manage funds. The key is kept on the server and given individually to each team, either requested through discord or in-person at our booth. Each key will also contain a BOB balance. [See below](./#get-started) for more info on receiving an API key.
 
 ### **Receiving Address**
 
@@ -62,28 +62,28 @@ Balance management is not as complex as it seems. There are notes and accounts â
 
 ## Get Started
 
-<figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 * **Get an API Key & BOB:** Request your API key (`accountId`) either through the _#sponsor-zkbob_ channel on EthGlobal discord [https://discord.gg/ethglobal](https://discord.gg/ethglobal) or come see us in person at the zkBob booth!  Then join the telegram at [https://t.me/+sMbZvmVzYmQ3ODlk](https://t.me/+sMbZvmVzYmQ3ODlk) to ask any questions. The API key `accountId` is used to interact with the zkBob cloud wallet. You will receive 10 BOB into your account to use for testing, functionality and demonstration purposes. It can be transferred to other accounts you may create using the [zkBob UI.](https://app.zkbob.com/)
 * **Explore API Methods:** Use the Insomnia collection to explore zkBOB Cloud API methods.
   * Download Insomnia ([https://insomnia.rest/download](https://insomnia.rest/download))&#x20;
   * Import collection
     * Click New Document ->Import/Export\
-      ![](../.gitbook/assets/insomnia-1.png)
+      ![](../../.gitbook/assets/insomnia-1.png)
     * Click Import Data -> From url\
-      ![](../.gitbook/assets/insomnia-2.png)
+      ![](../../.gitbook/assets/insomnia-2.png)
     * Enter url: [https://tinyurl.com/zkBobIndia](https://tinyurl.com/zkBobIndia)&#x20;
     * Click Insomnia to view Collections and select the zkBOB Cloud collection.\
-      ![](../.gitbook/assets/insom.png)\
-      ![](../.gitbook/assets/dash-2.png)
+      ![](../../.gitbook/assets/insom.png)\
+      ![](../../.gitbook/assets/dash-2.png)
   * Replace default `accountId` with your API key`accountId` &#x20;
     * In the zkBOB Cloud Collection click on zkBOB Cloud -> Manage Environments.\
-      ![](../.gitbook/assets/manage-e.png)
+      ![](../../.gitbook/assets/manage-e.png)
     * Replace the default `accountId` "`cafecafe-cafe-cafe-cafe-cafecafecafe`" with the `accountId` you receive from the zkBob team.\
-      ![](../.gitbook/assets/id-1.png)
+      ![](../../.gitbook/assets/id-1.png)
     * Click **Done** to save with your `accountId`.\
-      ![](../.gitbook/assets/done.png)
-* View [common scenarios below.](hackathon.md#common-payment-flow-and-scenarios)
+      ![](../../.gitbook/assets/done.png)
+* View [common scenarios below.](./#common-payment-flow-and-scenarios)
 * _Note that the current API does not include deposit and withdrawal functionality, only proving mechanisms related to transfers._
 
 ## References&#x20;
@@ -105,7 +105,7 @@ This is a typical payment process flow. Here you see example relationships betwe
 _Alice has not yet created a zkBob account through the UI._
 
 1. Alice creates an account using the zkBob UI at [https://app.zkbob.com/](https://app.zkbob.com/)
-2. Alice [generates a new receiving address](../zkbob-app/generate-a-secure-address.md) through the UI.
+2. Alice [generates a new receiving address](../../zkbob-app/generate-a-secure-address.md) through the UI.
 3. Charlie gets an API key `accountId` for zkBob Cloud. He checks his account by sending a GET request to `https://cloud-mvp.zkbob.com/account?id=accountId` .
 4. Alice DMs her receiving address to Charlie. Charlie makes a transfer to Alice's shielded address by sending a POST request to `https://cloud-mvp.zkbob.com/transfer` . It responds with the transfer id.
 5. Charlie monitors the transaction status by sending a GET request to  `https://cloud-mvp.zkbob.com/transactionStatus?requestId=transferId`
@@ -117,7 +117,7 @@ _Alice has not yet created a zkBob account through the UI._
 _Alice has already created an account through the UI and has some shielded BOB in her account. Charlie already has a zkBob Cloud api key (_`accountId`_)_
 
 1. Charlie generates a shielded address by sending a GET request to `https://cloud-mvp.zkbob.com/generateAddress?id=accountId`
-2. Charlie DMs the shielded address to Alice. Alice [makes a transfer](../zkbob-app/transfers/) to Charlie's shielded address using the UI. Alice waits for transfer execution and checks the history tab to see the status of the transfer.
+2. Charlie DMs the shielded address to Alice. Alice [makes a transfer](../../zkbob-app/transfers/) to Charlie's shielded address using the UI. Alice waits for transfer execution and checks the history tab to see the status of the transfer.
 3. Charlie checks the incoming transfer details by sending a GET request to  `https://cloud-mvp.zkbob.com/history?id=accountId` . It may require some time before new details appear.
 4. Charlie gets the new balance of her account by sending a GET request to `https://cloud-mvp.zkbob.com/account?id=accountId` .
 
@@ -125,8 +125,8 @@ _Alice has already created an account through the UI and has some shielded BOB i
 
 For the EthIndia hackathon, 5 prizes of $2000 BOB ($2000 USD equivalent) will be awarded to the top 5 projects utilizing the zkBob API. Creativity, innovation, and implementation will be considered during judging.
 
-<figure><img src="../.gitbook/assets/zkBob-3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/zkBob-3.png" alt=""><figcaption></figcaption></figure>
 
-{% file src="../.gitbook/assets/zkBobandAlice.pdf" %}
+{% file src="../../.gitbook/assets/zkBobandAlice.pdf" %}
 Learn more about how zkBob works in this conversation about privacy between zkBob and Alice.
 {% endfile %}
