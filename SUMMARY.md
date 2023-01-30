@@ -110,6 +110,7 @@
 * [Hackathon](resources/hackathon/README.md)
   * [zkBob Direct Deposits](resources/hackathon/zkbob-direct-deposits.md)
 * [Release Notes](resources/release-notes/README.md)
+  * [January 30, 2023](resources/release-notes/january-30-2023.md)
   * [January 16, 2023](resources/release-notes/january-16-2023.md)
   * [January 2, 2023](resources/release-notes/january-2-2023.md)
   * [Releases 2022](resources/release-notes/releases-2022.md)
