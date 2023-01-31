@@ -10,13 +10,13 @@ The account holds the current balance value and `spent offset` which separates a
 
 An account is a tuple $$(d, P_d, i, b, e)$$ where:
 
-* $$d$$ (10 bytes) is a random diversifier which updated on every account updating. It acts like a salt
+* $$d$$ (10 bytes) is a random diversifier which is updated every time an account is updated. It acts like a salt.
 * $$P_d$$ (32 bytes) is diversified public key (a value derived from the $$d$$ and intermediate key $$\eta$$): $$P_d = \eta * \text{ToSubGroupHash}_{E(F_r)}(d)$$
-* $$i$$(6 bytes) is a spent offset. It separates used (spent) and unused notes in the [Merkle tree](../untitled/) . Notes that indexes below $$i$$ are considered to be spent
+* $$i$$(6 bytes) is the spent offset. It separates used (spent) and unused notes in the [Merkle tree](../untitled/) . Note that indexes below $$i$$ are considered to be spent.
 * $$b$$(8 bytes) is the current account balance
 * $$e$$(8 bytes) is an [energy](../../roadmap/exploratory-features/xp/)(XP) unit ("integral" account balance)
 
-The raw account size is 64 bytes
+The raw account size is 64 bytes.
 
 Account transaction data never appears unencrypted in a public field. Only the account owner can decrypt it.
 
