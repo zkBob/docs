@@ -8,13 +8,15 @@ The account contains complete information about a user's private wallet. It is l
 
 The account holds the current balance value and `spent offset` which separates all notes into spent and unspent. This is sufficient data to retrieve a wallet state.
 
-An account is a tuple $$(\eta, i, b, e, t)$$ where:
+An account is a tuple $$(d, P_d, i, b, e)$$ where:
 
-* $$\eta$$ (32 bytes) is an [intermediate key](../zkbob-keys/) derived from the spending key: $$\eta = Hash((\sigma*G).x)$$
+* $$d$$ (10 bytes) is a random diversifier which updated on every account updating. It acts like a salt
+* $$P_d$$ (32 bytes) is diversified public key (a value derived from the $$d$$ and intermediate key $$\eta$$): $$P_d = \eta * \text{ToSubGroupHash}_{E(F_r)}(d)$$
 * $$i$$(6 bytes) is a spent offset. It separates used (spent) and unused notes in the [Merkle tree](../untitled/) . Notes that indexes below $$i$$ are considered to be spent
 * $$b$$(8 bytes) is the current account balance
 * $$e$$(8 bytes) is an [energy](../../roadmap/exploratory-features/xp/)(XP) unit ("integral" account balance)
-* $$t$$(10 bytes) is a salt. Since a transaction contains the account hash we must use a random salt to hide the possible lack of account changes.
+
+The raw account size is 64 bytes
 
 Account transaction data never appears unencrypted in a public field. Only the account owner can decrypt it.
 
