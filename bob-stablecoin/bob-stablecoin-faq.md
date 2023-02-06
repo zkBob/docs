@@ -21,7 +21,7 @@ BOB is currently available on Polygon, Optimism, BNB Chain and Ethereum. BOB can
 
 * Sent between users to any 0x address on Polygon, Optimism, BNB or Ethereum.
 * Swap tokens for BOB using Metamask.&#x20;
-  * [Instructions](swap-bob-with-metamask-swap.md)
+  * [Instructions](add-bob-to-metamask/swap-bob-with-metamask-swap.md)
 * Swap using a DEX or DEX aggregator
   * [Uniswap Instructions](bob-on-uniswap-v3.md)
   * [DefiLama meta-aggregator](https://swap.defillama.com/?chain=polygon\&from=0x2791bca1f2de4661ed88a30c99a7a9449aa84174\&to=0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b)

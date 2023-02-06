@@ -4,7 +4,7 @@ description: Add the BOB token to your asset list in MetaMask.
 
 # Add BOB to Metamask
 
-You can add BOB to Metamask through a 3rd party resource like Polygonscan or Coingecko, or add manually through the MetaMask wallet. [Written instructions are available below](add-bob-to-metamask.md#polygonscan-written-instruction) the interactive tutorials.
+You can add BOB to Metamask through a 3rd party resource like Polygonscan or Coingecko, or add manually through the MetaMask wallet. [Written instructions are available below](./#polygonscan-written-instruction) the interactive tutorials.
 
 ## **Polygonscan**
 
@@ -35,18 +35,18 @@ BOB contract address on all chains: `0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B`
 1. Go to the BOB token page at [https://polygonscan.com/token/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B](https://polygonscan.com/token/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B)
 2.  Press the 3 dot drop down menu and select **Add Token to Web3 Wallet**.
 
-    <figure><img src="../.gitbook/assets/poly-scan.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/poly-scan.png" alt=""><figcaption></figcaption></figure>
 3. Click **Add Token** to confirm in Metamask. BOB should now be included in your asset list.\
-   ![](../.gitbook/assets/poly2.png)
+   ![](../../.gitbook/assets/poly2.png)
 
 ## CoinGecko (written instruction)
 
 1. Go to the BOB page on CoinGecko at [https://www.coingecko.com/en/coins/bob](https://www.coingecko.com/en/coins/bob).
 2.  Press the :fox: Add to Metamask icon.
 
-    <figure><img src="../.gitbook/assets/coingecko.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/coingecko.png" alt=""><figcaption></figcaption></figure>
 3. Click **Add Token** to confirm in Metamask. BOB should now be included in your asset list.\
-   ![](../.gitbook/assets/poly2.png)
+   ![](../../.gitbook/assets/poly2.png)
 
 ## Add Manually with MetaMask (written instruction)
 

@@ -19,9 +19,10 @@
 ## 🧙♂ BOB Stablecoin
 
 * [BOB Highlights](bob-stablecoin/bob-details.md)
-* [BOB Ecosystem](bob-stablecoin/bob-ecosystem.md)
-* [Add BOB to Metamask](bob-stablecoin/add-bob-to-metamask.md)
-* [Swap BOB with Metamask Swap](bob-stablecoin/swap-bob-with-metamask-swap.md)
+* [BOB Ecosystem](bob-stablecoin/bob-ecosystem/README.md)
+  * [Mellow Protocol Vaults](bob-stablecoin/bob-ecosystem/mellow-protocol-vaults.md)
+* [Add BOB to Metamask](bob-stablecoin/add-bob-to-metamask/README.md)
+  * [Swap BOB with Metamask Swap](bob-stablecoin/add-bob-to-metamask/swap-bob-with-metamask-swap.md)
 * [BOB on Uniswap v3](bob-stablecoin/bob-on-uniswap-v3.md)
 * [BOB Governance & Inventory](bob-stablecoin/bob-governance-and-inventory/README.md)
   * [BOB DAO](bob-stablecoin/bob-governance-and-inventory/bob-dao.md)
