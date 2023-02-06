@@ -10,7 +10,7 @@ BOB stablecoin integrations in multi-chain ecosystem protocols and applications.
 
 Swap BOB, create non-inventory LP positions, and use BOB in a variety of DeFi contexts. Please see [BOB Markets on Coingecko](https://www.coingecko.com/en/coins/bob#markets) for specific pool details.
 
-* [Uniswap](https://app.uniswap.org/#/swap)&#x20;
+* [Uniswap](https://app.uniswap.org/#/swap) (Polygon, Ethereum, Optimism, BSC)
   * [Ethereum Pools](https://info.uniswap.org/#/tokens/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b)
   * [Polygon Pools](https://info.uniswap.org/#/polygon/tokens/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b)
   * [Optimism Pools](https://info.uniswap.org/#/optimism/tokens/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b)
@@ -27,6 +27,7 @@ Swap BOB, create non-inventory LP positions, and use BOB in a variety of DeFi co
 * [OKX](https://www.okx.com/web3/dex?inputChain=137\&inputCurrency=0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b\&outputCurrency=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48\&outputChain=1) (Polygon, Ethereum, Optimism, BSC)
 * [Sushiswap](https://www.sushi.com/swap) (Polygon, Ethereum, Optimism)
 * [Pancake Swap](https://pancakeswap.finance/swap) (BSC)
+* [Mellow Protocol Vaults](https://app.mellow.finance/products) (Polygon)
 * [Rhino Defi gateway](https://rhino.fi/) (Polygon, Ethereum, BSC)&#x20;
 * [Curve](https://curve.fi/#/polygon/swap) (Polygon)
 * [Arrakis Vaults](https://beta.arrakis.finance/vaults) (Polygon)
