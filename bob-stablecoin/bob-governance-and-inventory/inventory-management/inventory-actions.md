@@ -26,9 +26,12 @@ The Governance SAFE address is [0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8](http
 6. 1,000,000 BOB allotment to the BobVault. Transaction includes the inventory increase to the governance SAFE, a 999,000 BOB transfer from the SAFE to the BobVault contract ([0x25E6505297b44f4817538fB2d91b88e1cF841B54](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54)), and a 1,000 BOB refund to the team to reimburse testing funds. [More info on this tx is available here](../protocol-governance/gp-3-enable-bobvault-for-public-use.md).
    * Jan-11-2023 06:30:54 PM +UTC\
      [0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc](https://polygonscan.com/tx/0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc)
-7. Additional 1,000,000 BOB (18 decimals) allocated to the BobVault contract ([0x25E6505297b44f4817538fB2d91b88e1cF841B54](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54)).&#x20;
+7. 1,000,000 BOB (18 decimals) allocated to the BobVault contract ([0x25E6505297b44f4817538fB2d91b88e1cF841B54](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54)).&#x20;
    * Jan-21-2023 06:03:19 PM +UTC\
      [0xb04ad6ad2e2a050e0130ee7cba8722eb2472b6bd19beb499d77e8fde81ea22a3](https://polygonscan.com/tx/0xb04ad6ad2e2a050e0130ee7cba8722eb2472b6bd19beb499d77e8fde81ea22a3)
+8. 1,000,000 BOB (18 decimals) allocated to the BobVault contract ([0x25E6505297b44f4817538fB2d91b88e1cF841B54](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54)). This tx also extended the BOB multisig. More info here
+   * Feb-07-2023 05:51:53 PM +UTC\
+     [0xd3ded6606bf47934d1fadb7e3c9561139b65c5cfed9ca8a1ad3ca2386f1935c3](https://polygonscan.com/tx/0xd3ded6606bf47934d1fadb7e3c9561139b65c5cfed9ca8a1ad3ca2386f1935c3)
 
 ### Ethereum&#x20;
 

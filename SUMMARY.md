@@ -33,6 +33,7 @@
     * [GP 1: BobVault beta testing infrastructure](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-1-bobvault-beta-testing-infrastructure.md)
     * [GP 2: Upgrade Contracts to v1.0.0](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-2-upgrade-contracts-to-v1.0.0.md)
     * [GP 3: Enable BobVault for Public Use](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-3-enable-bobvault-for-public-use.md)
+    * [GP 4: Increase Multisig & Upgrade BOB contract on all networks](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-4-increase-multisig-and-upgrade-bob-contract-on-all-networks.md)
 * [BOB Stablecoin FAQ](bob-stablecoin/bob-stablecoin-faq.md)
 
 ## 🦸♂ zkBob Application <a href="#zkbob-app" id="zkbob-app"></a>
