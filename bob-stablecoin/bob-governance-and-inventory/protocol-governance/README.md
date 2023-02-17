@@ -17,6 +17,8 @@ In addition to [inventory management](../inventory-management/), the beta govern
   ✅ Tx: [0x755e2e240563b151e96b9bb52721e8361e1782697b092f32bb9fc23a8797cfb2](https://polygonscan.com/tx/0x755e2e240563b151e96b9bb52721e8361e1782697b092f32bb9fc23a8797cfb2)
 * GP #3: [Enable BobVault](gp-2-upgrade-contracts-to-v1.0.0.md) for public use. \
   ✅ Tx: [0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc](https://polygonscan.com/tx/0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc)&#x20;
+* GP #4: [Increase Multisig and upgrade BOB](gp-4-increase-multisig-and-upgrade-bob-contract-on-all-networks.md) on all networks\
+  ✅ Txs: See GP #4 as there were txs on each network.
 
 
 

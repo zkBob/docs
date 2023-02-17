@@ -4,7 +4,7 @@ description: DAO formation process
 
 # BOB DAO
 
-As the BOB stablecoin continues to gain traction a larger DAO is in early-stage formation. This DAO will be tasked with operations management and overseeing processes that require thoughtful deliberation. Since the protocol is upgradeable, there is a need for an overarching and distributed governing body. All protocol management entities (Phase 1 and Phase 2) agree to uphold the following duties:
+As the BOB stablecoin continues to gain traction a larger DAO is in early-stage formation. This DAO will be tasked with operations management and overseeing processes that require thoughtful deliberation. Since the protocol is upgradeable, there is an eventual need for an overarching and distributed governing body. All protocol management entities (Phase 1 and Phase 2) agree to uphold the following duties:
 
 ### **BOB Governance Fiduciary Duties**&#x20;
 

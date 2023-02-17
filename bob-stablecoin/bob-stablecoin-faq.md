@@ -90,7 +90,6 @@ BOB inventory is increased in LP positions currently via a small governance mult
 
 ## Can I earn additional BOB through zkBob or in other ways?
 
-Not yet, but future functionality is planned to distribute funds earned from BOB activity. An auction mechanism is in development where users can bid on BOB rewards earned from LP positions, compounding, and lost tokens.\
-\
-_Details coming soon._
+No, not through the protocol itself. BOB stablecoin is designed for utility and low fees. The protocol is able to collect revenue through fee collection and idle-capital compounding. These fees can then create a self-sustaining protocol which subsidizes low cost transactions for users. BOB holders can earn fees in other ways such as providing liquidity to non-inventory LP positions on DEXs like Uniswap, Quickswap and Kyberswap.\
+
 
