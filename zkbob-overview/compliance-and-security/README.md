@@ -41,13 +41,13 @@ Post-beta, restrictions may be enabled for additional countries based on legal c
 
 ## Wallet Compliance
 
-Upcoming integrations with TRM, VAF Compliance and PureFi will ensure 0x wallets interacting with the protocol do not contain funds obtained from illicit sources.&#x20;
+An ntegration with TRM and potential future integrations with VAF Compliance and PureFi ensure 0x wallets interacting with the protocol do not contain funds obtained from illicit sources. Suspicious wallets cannot deposit into the protocol, and funds cannont be withdrawn to suspicious wallets.
 
 ## Security
 
 ### Beta Release
 
-zkBob is now released in a beta version. Not all contracts have been audited (zkpool contracts have been audited) and users should use at their own discretion. Risks to users are mitigated through [limits on deposits and withdrawals](../deposit-and-withdrawal-limits.md). In addition, the overall size of a pool cannot exceed 1,000,000 BOB tokens.
+zkBob is now released in a beta version. Contracts [have been audited](../../resources/security-audit.md), and users should use at their own discretion. Risks to users are mitigated through [limits on deposits and withdrawals](../deposit-and-withdrawal-limits.md). In addition, the overall size of a pool cannot exceed 1,000,000 BOB tokens.
 
 ### Bug Bounty
 

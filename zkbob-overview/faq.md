@@ -79,11 +79,11 @@ zkBob is a decentralized, open-source application with a distributed & decentral
 
 ## Does zkBob work on mobile devices?
 
-**zkBob DOES NOT currently work on iPhones and is limited on Android devices.** Proof generation is resource intensive and can be problematic on many mobile devices. We recommend using a desktop/laptop environment for zkBob. We are exploring library updates in the next version which will support parallel processing and other optimizations for mobile.
+Yes! **** However, operations can take longer as **** Proof generation is resource intensive on many mobile devices. Ideally, we recommend using a desktop/laptop environment for zkBob, however we continue to optimize mobile for faster processing.&#x20;
 
 ## Why does zkBob use the BOB stablecoin?
 
-zkBob is designed to use BOB for several reasons. BOB is stable, flexible (multi-chain, multi-collateral), and can be optimized so that users receive additional benefits. For questions related to BOB, please see the [BOB details](../bob-stablecoin/bob-details.md) page.
+zkBob is designed to use BOB for several reasons. BOB is stable, flexible (multi-chain, multi-collateral), and easy to use. For questions related to BOB, please see the [BOB details](../bob-stablecoin/bob-details.md) page.
 
 ## Do I need MATIC to pay for transactions?
 
@@ -124,7 +124,7 @@ With zkproof transactions specific identifying information is never recorded (su
 * **Transaction inference:** Depositing a specific amount of tokens and then withdrawing that exact amount (especially unconventional amounts in a short timeframe) can create a compelling case for connection. Withdrawing different amounts than deposit amounts, and maintaining funds in the pool for longer periods of time, increases privacy.&#x20;
 * **Address trail:** Using the same generated zkAddress for transactions with many different parties creates a connection string which can compromise privacy. It is best to generate a new address for each transfer within the application.
 * **Secure address messaging**:  When sending a generated address to another party, carefully choose the application you use (ie telegram, discord etc).  It is best to choose a secure and private channel.
-* **Withdrawals**: When withdrawing from the application, sending to a newly generated address without a prior transaction history is the most private method.
+* **Withdrawals**: When withdrawing from the application, sending to a newly generated address without a prior transaction history increases privacy.
 
 ## What is Anonymity Set Awareness?
 

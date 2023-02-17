@@ -15,9 +15,9 @@ These items are ongoing or planned for near-term execution.
 * Hackathon participation: The community should be engaged with BOB and zkBob to explore and develop new use cases where privacy and stability are preferred.
 * AML improvements: Account verification and tiered limits will be refined to keep the protocol secure and policy compliant.
   * Restructure max transaction and monthly limits for basic tier accounts.
-  * Introduce verified accounts with Polygon ID and high limits.
+  * Introduce verified accounts with KYC-based NFTs and high limits.
   * Verify corporate accounts on a case-by-case basis.
-* Wallet screening: Integrations with TRM, VAF Compliance and PureFI will provide additional protections by screening deposit/withdrawal addresses for AML and sanctions compliance.&#x20;
+* Wallet screening: VAF Compliance and PureFI integrations will bolster TRM integration to provide additional protections by screening deposit/withdrawal addresses for AML and sanctions compliance.&#x20;
 
 ## Application Improvements
 
@@ -26,8 +26,8 @@ We will continue improving the speed, usability, and efficiency of the applicati
 * Research a PLONK implementation to replace the current Groth'16 zkSNARK. PLONK can reduce proof computation size and creation/execution time. [More on PLONK](https://vitalik.ca/general/2019/09/22/plonk.html).
 * Mnemonic account import/export. This will increase usability and transportability of accounts.
 * UTXO withdrawal details. Multiple UTXOs may need to be processed during a withdrawal. Updates will provide users with more details about withdrawals which can incur higher fees (ie a multi-UTXO withdrawal with 5 individual txs will include a fee of $0.50 rather than $0.10).
-* Multi-sender functionality. Ability to add multiple transfer addresses (input or from a csv file) and send in batches.&#x20;
-* Error reporting enhancements. When a transaction reverts there is currently not enough information for the user. Errors should be clearly displayed for debugging purposes.
+* Multi-sender functionality. Ability to add multiple transfer addresses (input or from a csv file) and send in batches _(✅ done)_
+* Error reporting enhancements. When a transaction reverts there is currently not enough information for the user. Errors should be clearly displayed for debugging purposes.&#x20;
 * Post-beta. Following beta protocol updates will include:
   * Open-source UI
   * Decentralized relayer infrastructure
