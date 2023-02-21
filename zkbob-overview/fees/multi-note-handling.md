@@ -18,7 +18,7 @@ zkBob uses an Unspent Transaction Output (UTXO) model with strict ordering. Inco
 
 When an account has many incoming and outgoing transactions, notes are aggregated regularly (collected and spent) and do not build up.
 
-However, in certain scenarios there may be a large number of unspent notes which are requested for processing in a single operation. In this case there will be multiple transactions performed by the application for a single operation, with each transaction requiring a 0.10 BOB fee.&#x20;
+However, in certain scenarios there may be a large number of unspent notes which are requested for processing in a single operation. In this case, multiple transactions are performed by the application for a single operation, with each transaction requiring a 0.10 BOB fee.&#x20;
 
 ## Example: Carl withdraws 20 BOB
 
