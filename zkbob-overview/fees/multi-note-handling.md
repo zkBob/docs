@@ -24,14 +24,14 @@ However, in certain scenarios there may be a large number of unspent notes which
 
 Carl starts with a zkBob account funded with 10 BOB. He then receives 10 separate transfers through zkBob of 1 BOB each (ie 10 notes) from his friends. Now, Carl's total account balance displays 20 BOB. He decides to withdraw the entire 20 BOB.&#x20;
 
-In this scenario there are 10 notes that need to be processed to complete the entire operation. They are automatically processed in a series of 4 transactions.
+In this scenario there are 10 unspent notes that need to be processed to complete the entire operation. They are automatically processed in a series of 4 transactions.
 
 1. **Tx #1**: Aggregates the first 3 notes of 1 BOB each and increases the account balance. The account balance becomes: `10 + 3x1 - 0.1(fee) = 12.9 BOB`
 2. **Tx #2:** Aggregates next 3 notes -> acc = `12.9 + 3x1 - 0.1(fee) = 15.8 BOB`
 3. **Tx #3**: Aggregates next 3 notes -> acc = `15.8 + 3x1 - 0.1(fee) = 18.7 BOB`
 4. **Tx #4**: Aggregates the last note -> acc = `18.7 + 1 - 0.1(fee) = 19.6 BOB` and simultaneously makes an outgoing withdrawal for the full account balance, i.e. `19.6 BOB`
 
-When the operation is complete, Carl receives 19.6 BOB, and 0.4 BOB is used to pay for the 4 transactions.
+When the operation is complete, Carl receives 19.6 BOB, and 0.4 BOB is spent as fees for the 4 transactions.
 
 ## Example: Carl withdraws 15 BOB
 
