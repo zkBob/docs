@@ -11,7 +11,7 @@
   * [Employee Salary](zkbob-overview/use-cases/employee-salary.md)
   * [Vendor Purchasing](zkbob-overview/use-cases/vendor-purchasing.md)
 * [Fees](zkbob-overview/fees/README.md)
-  * [Multi-note handling](zkbob-overview/fees/multi-note-handling.md)
+  * [Unspent note handling](zkbob-overview/fees/unspent-note-handling.md)
 * [Deposit & Withdrawal Limits](zkbob-overview/deposit-and-withdrawal-limits.md)
 * [Compliance & Security](zkbob-overview/compliance-and-security/README.md)
   * [TRM Labs Integration](zkbob-overview/compliance-and-security/trm-labs-integration.md)

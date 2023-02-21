@@ -4,7 +4,7 @@ A $0.10 stable fee is added to each transaction\* and paid with BOB tokens. You 
 
 Fees cover the cost of transactions in most situations (_see below_) and can result in a surplus depending on gas and token prices. BOB accumulates with the fee receiver and is periodically withdrawn, swapped for native tokens, and sent to the relayer to subsidize future transaction costs. Relayers do not keep any profits from extra fees - all collected fees are used to support the protocol.&#x20;
 
-\*_In special cases, transactions may incur additional fees when many notes need to be processed at the same time._ [_Learn more_](multi-note-handling.md)_._
+\*_In special cases, transactions may incur additional fees when many notes need to be processed at the same time._ [_Learn more_](unspent-note-handling.md)_._
 
 ### Transaction costs
 

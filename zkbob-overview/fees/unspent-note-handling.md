@@ -1,10 +1,10 @@
 ---
 description: >-
-  Processing of multiple notes for a single outgoing operation can result in
-  additional fees
+  Processing of multiple unspent notes in a single outgoing operation can result
+  in additional fees
 ---
 
-# Multi-note handling
+# Unspent note handling
 
 {% hint style="info" %}
 Multiple transactions are sometimes required when there are many unspent notes in an account.
