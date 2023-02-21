@@ -1,8 +1,10 @@
 # Fees
 
-A $0.10 stable fee is added to each transaction and paid with BOB tokens. You DO NOT need any native (MATIC) tokens to deposit, transfer, or withdraw from zkBob. All tx fees are $0.10 and paid using BOB.
+A $0.10 stable fee is added to each transaction\* and paid with BOB tokens. You DO NOT need any native (MATIC) tokens to deposit, transfer, or withdraw from zkBob. All tx fees are $0.10 and paid using BOB.
 
 Fees cover the cost of transactions in most situations (_see below_) and can result in a surplus depending on gas and token prices. BOB accumulates with the fee receiver and is periodically withdrawn, swapped for native tokens, and sent to the relayer to subsidize future transaction costs. Relayers do not keep any profits from extra fees - all collected fees are used to support the protocol.&#x20;
+
+\*_In special cases, transactions may incur additional fees when many notes need to be processed at the same time._ [_Learn more_](multi-note-handling.md)_._
 
 ### Transaction costs
 
@@ -36,12 +38,12 @@ Anyone can view current fees accumulated by the protocol. This does not represen
 
 1\) Go to the [pool proxy contract on Polyscan](https://polygonscan.com/address/0x72e6b59d4a90ab232e55d4bb7ed2dd17494d62fb#readProxyContract) and click the **Read as Proxy** tab.
 
-<figure><img src="../.gitbook/assets/1-contract.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1-contract.png" alt=""><figcaption></figcaption></figure>
 
 2\) Query the `accumulatedFee` method using the Relayer (Operator) Address [0xc2c4ad59b78f4a0afd0cdb8133e640db08fa5b90](https://polygonscan.com/address/0xc2c4ad59b78f4a0afd0cdb8133e640db08fa5b90).
 
-<figure><img src="../.gitbook/assets/2-fee-accumulated.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2-fee-accumulated.png" alt=""><figcaption></figcaption></figure>
 
 3\) Convert the result (in gwei) to USD using [Ethereum Unit Converter](https://eth-converter.com/). Since BOB is a stable token, the Ether amount will be USD equivalent (in the case below $13.70 BOB is currently accumulated in the contract).
 
-<figure><img src="../.gitbook/assets/3-converter (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3-converter (1).png" alt=""><figcaption></figcaption></figure>
