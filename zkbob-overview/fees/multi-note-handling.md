@@ -31,14 +31,14 @@ In this scenario there are 10 unspent notes that need to be processed to complet
 3. **Tx #3**: Aggregates next 3 notes -> acc = `15.8 + 3x1 - 0.1(fee) = 18.7 BOB`
 4. **Tx #4**: Aggregates the last note -> acc = `18.7 + 1 - 0.1(fee) = 19.6 BOB` and simultaneously makes an outgoing withdrawal for the full account balance, i.e. `19.6 BOB`
 
-When the operation is complete, Carl receives 19.6 BOB, and 0.4 BOB is spent as fees for the 4 transactions.
+When the operation is complete, Carl receives 19.6 BOB, and 0.4 BOB is spent as fees for the 4 transactions. His new zkAccount balance is 0.
 
 ## Example: Carl withdraws 15 BOB
 
 If Carl wants to withdraw 15 BOB, the operation only requires 2 txs.&#x20;
 
 1. **Tx #1**: Aggregates first 3 notes ->  `acc = 10 + 3x1 - 0.1(fee) = 12.9 BOB`
-2. **Tx #2**: Aggregates next 3 notes -> `acc = 12.9 + 3x1 - 0.1(fee) = 15.8 BOB` and makes a simultaneous withdrawal of 15 BOB  `acc = 15.8 - 15 = 0.8 BOB` . In addition the account contains 4 unspent notes of 1 BOB each.
+2. **Tx #2**: Aggregates next 3 notes -> `acc = 12.9 + 3x1 - 0.1(fee) = 15.8 BOB` and makes a simultaneous withdrawal of 15 BOB  `acc = 15.8 - 15 = 0.8 BOB` . The account also contains 4 unspent notes of 1 BOB each.
 
 Carl receives 15 BOB, and 0.2 BOB is used to pay the transaction fees. His new zkAccount balance displays 4.8 BOB. His account consists of 4 unspent notes of 1 BOB each and 0.8 account balance, however this is abstracted for Carl so he only sees the total account balance of 4.8.
 
