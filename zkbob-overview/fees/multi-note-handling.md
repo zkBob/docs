@@ -1,10 +1,14 @@
 ---
 description: >-
-  In special circumstances, processing of multiple notes for a single outgoing
-  operation can result in additional fees
+  Processing of multiple notes for a single outgoing operation can result in
+  additional fees
 ---
 
 # Multi-note handling
+
+{% hint style="info" %}
+Multiple transactions are sometimes required when there are many unspent notes in an account.
+{% endhint %}
 
 zkBob uses an Unspent Transaction Output (UTXO) model with strict ordering. Incoming zkAccount transfers are ordered and referred to as '[notes](../../implementation/account-and-notes/notes.md)'. About notes:
 
