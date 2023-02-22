@@ -1,20 +1,20 @@
----
-description: Incorporate privacy into everyday applications
----
+# zkBob Cloud
 
-# Hackathon
+{% hint style="danger" %}
+The zkBob Cloud was used for the EthIndia hackathon, it is not currently available for EthDenver or other hackathons.
+{% endhint %}
 
 {% hint style="info" %}
-* [zkBob Intro](./#intro)
-* [zkBob API & Cloud Wallet](./#zkbob-api-and-cloud-wallet)
-  * [Use case ideas](./#use-case-examples)
-  * [API key](./#api-key)
-  * [Receiving address](./#receiving-address)
-  * [Notes](./#notes)
-* [Get Started](./#get-started)
-* [References](./#references-table)
-* [Payment Flow and Scenarios](./#common-payment-flow-and-scenarios)
-* [Prizes](./#prizes)
+* [zkBob Intro](zkbob-cloud.md#intro)
+* [zkBob API & Cloud Wallet](zkbob-cloud.md#zkbob-api-and-cloud-wallet)
+  * [Use case ideas](zkbob-cloud.md#use-case-examples)
+  * [API key](zkbob-cloud.md#api-key)
+  * [Receiving address](zkbob-cloud.md#receiving-address)
+  * [Notes](zkbob-cloud.md#notes)
+* [Get Started](zkbob-cloud.md#get-started)
+* [References](zkbob-cloud.md#references-table)
+* [Payment Flow and Scenarios](zkbob-cloud.md#common-payment-flow-and-scenarios)
+* [Prizes](zkbob-cloud.md#prizes)
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/bob-privacy.png" alt=""><figcaption></figcaption></figure>
@@ -50,7 +50,7 @@ For the hackathon, we want you to explore new use cases for private transactions
 
 ### API Account Key
 
-In the ZkBob Cloud Wallet every developer has their own secret api key (`accountId`) used to manage funds. The key is kept on the server and given individually to each team, either requested through discord or in-person at our booth. Each key will also contain a BOB balance. [See below](./#get-started) for more info on receiving an API key.
+In the ZkBob Cloud Wallet every developer has their own secret api key (`accountId`) used to manage funds. The key is kept on the server and given individually to each team, either requested through discord or in-person at our booth. Each key will also contain a BOB balance. [See below](zkbob-cloud.md#get-started) for more info on receiving an API key.
 
 ### **Receiving Address**
 
@@ -83,7 +83,7 @@ Balance management is not as complex as it seems. There are notes and accounts â
       ![](../../.gitbook/assets/id-1.png)
     * Click **Done** to save with your `accountId`.\
       ![](../../.gitbook/assets/done.png)
-* View [common scenarios below.](./#common-payment-flow-and-scenarios)
+* View [common scenarios below.](zkbob-cloud.md#common-payment-flow-and-scenarios)
 * _Note that the current API does not include deposit and withdrawal functionality, only proving mechanisms related to transfers._
 
 ## References&#x20;

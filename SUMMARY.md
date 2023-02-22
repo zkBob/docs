@@ -110,8 +110,9 @@
 ## 🧩 Resources
 
 * [Visual Assets](resources/visual-assets.md)
-* [Hackathon](resources/hackathon/README.md)
-  * [zkBob Direct Deposits](resources/hackathon/zkbob-direct-deposits.md)
+* [Hackathons](resources/hackathons/README.md)
+  * [zkBob Direct Deposits](resources/hackathons/zkbob-direct-deposits.md)
+  * [zkBob Cloud](resources/hackathons/zkbob-cloud.md)
 * [Release Notes](resources/release-notes/README.md)
   * [January 30, 2023](resources/release-notes/january-30-2023.md)
   * [January 16, 2023](resources/release-notes/january-16-2023.md)
