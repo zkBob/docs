@@ -53,6 +53,7 @@
 * [Generate a Receiving Address](zkbob-app/generate-a-secure-address.md)
 * [Get BOB](zkbob-app/get-bob.md)
 * [Support ID](zkbob-app/support-id.md)
+* [Integrations and Services](zkbob-app/integrations-and-services.md)
 
 ## 👷♂ Roadmap
 
