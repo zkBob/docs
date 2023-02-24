@@ -41,7 +41,7 @@ Post-beta, restrictions may be enabled for additional countries based on legal c
 
 ## Wallet Compliance
 
-An ntegration with TRM and potential future integrations with VAF Compliance and PureFi ensure 0x wallets interacting with the protocol do not contain funds obtained from illicit sources. Suspicious wallets cannot deposit into the protocol, and funds cannont be withdrawn to suspicious wallets.
+An integration with TRM and potential future integrations with VAF Compliance and PureFi ensure 0x wallets interacting with the protocol do not contain funds obtained from illicit sources. Suspicious wallets cannot deposit into the protocol, and funds cannont be withdrawn to suspicious wallets.
 
 ## Security
 
