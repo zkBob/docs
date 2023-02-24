@@ -1,6 +1,6 @@
 # Protocol Governance
 
-During beta phase 1 a 3/6 multisig SAFE manages protocol upgrades and risk assessment. This threshold was officially established with GP 0. Protocol updates are handled through the SAFE. For more info on governance see the [BOB DAO](../bob-dao.md) page.&#x20;
+During beta a multisig SAFE (currently composed of a 4/7 risk-assessment team) is used to manage protocol upgrades and risk assessment. This threshold was established with GP 0 and updated with GP 4. Protocol updates are handled through the SAFE. For more info on governance see the [BOB DAO](../bob-dao.md) page.&#x20;
 
 {% hint style="info" %}
 * The Governance SAFE address is [0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8](https://app.safe.global/matic:0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8/home)

@@ -4,7 +4,7 @@
 The proposal has been confirmed and executed by [https://etherscan.io/tx/0x1e33247389a04b8ffea082267821a9ccf2d79826812035d1256cb60b477bc270](https://etherscan.io/tx/0x1e33247389a04b8ffea082267821a9ccf2d79826812035d1256cb60b477bc270)
 {% endhint %}
 
-See [GP#3 ](gp-3-enable-bobvault-bobswap-for-public-use.md)for a description ofBobVault.
+See [GP#3 ](gp-3-enable-bobvault-bobswap-for-public-use.md)for a description of BobVault.
 
 ## Proposal objective
 
