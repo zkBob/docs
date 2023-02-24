@@ -2,7 +2,7 @@
 description: GP 3
 ---
 
-# GP 3: Enable BobVault for Public Use
+# GP 3: Enable BobVault (BobSwap) for Public Use
 
 Changes were approved following the security audit and [contracts upgrade to v1.0.0](gp-2-upgrade-contracts-to-v1.0.0.md).&#x20;
 
@@ -12,15 +12,15 @@ Changes were approved following the security audit and [contracts upgrade to v1.
 * Tx: [0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc](https://polygonscan.com/tx/0xb29d804f5d2324a458dbbaff2c5da7d5e73c286bf42891f5816b030dfac119bc)&#x20;
 {% endhint %}
 
-The transaction included 6 actions categorized in the [proposal breakdown section](gp-3-enable-bobvault-for-public-use.md#proposal-breakdown).
+The transaction included 6 actions categorized in the [proposal breakdown section](gp-3-enable-bobvault-bobswap-for-public-use.md#proposal-breakdown).
 
-## Introduction to BobVault
+## Introduction to BobVault (BobSwap)
 
-BobVault [`0x25E6505297b44f4817538fB2d91b88e1cF841B54`](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54) is a module for issuing BOB collateralised with other USD-pegged assets.
+BobVault [`0x25E6505297b44f4817538fB2d91b88e1cF841B54`](https://polygonscan.com/address/0x25e6505297b44f4817538fb2d91b88e1cf841b54) - also known as BobSwap - is a module for issuing BOB collateralised with other USD-pegged assets.
 
-BobVault has received substantial testing using **USDC** and **USDT** as collaterals along with their passive investments into **AAVE**. BobVault was initially funded for **1,000 BOB** for testing purposes. This governance proposal reimburses the testing team with that amount.
+BobSwap has received substantial testing using **USDC** and **USDT** as collaterals along with their passive investments into **AAVE**. BobSwap was initially funded for **1,000 BOB** for testing purposes. This governance proposal reimburses the testing team with that amount.
 
-Each collateral in BobVault includes the following dynamic parameters:
+Each collateral in BobSwap includes the following dynamic parameters:
 
 1. **price** - amount of collateral with value equal to **1 BOB** (18 decimals)
 2. **inFee** - proportional fee for buying BOB with given collateral (18 decimals, 1e18 = 100%)
@@ -31,7 +31,7 @@ Each collateral in BobVault includes the following dynamic parameters:
 
 ## Proposal objective
 
-After the completion of the security audit and upgrade of all contracts in the prior governance proposal [Upgrade of BOB Protocol contracts to the release 1.0.0](gp-2-upgrade-contracts-to-v1.0.0.md), the Bob protocol management team approved an increase of the **BOB** issuance limits through BobVault to **1,000,000 BOB**, along with the following collateral configuration:
+After the completion of the security audit and upgrade of all contracts in the prior governance proposal [Upgrade of BOB Protocol contracts to the release 1.0.0](gp-2-upgrade-contracts-to-v1.0.0.md), the Bob protocol management team approved an increase of the **BOB** issuance limits through BobSwap to **1,000,000 BOB**, along with the following collateral configuration:
 
 **USDC:**
 

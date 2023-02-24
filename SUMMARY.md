@@ -31,10 +31,12 @@
     * [Inventory Actions](bob-stablecoin/bob-governance-and-inventory/inventory-management/inventory-actions.md)
   * [Protocol Governance](bob-stablecoin/bob-governance-and-inventory/protocol-governance/README.md)
     * [GP 0: Increase SAFE membership](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-0-increase-safe-membership.md)
-    * [GP 1: BobVault beta testing infrastructure](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-1-bobvault-beta-testing-infrastructure.md)
+    * [GP 1: BobVault (BobSwap) beta testing infrastructure](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-1-bobvault-bobswap-beta-testing-infrastructure.md)
     * [GP 2: Upgrade Contracts to v1.0.0](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-2-upgrade-contracts-to-v1.0.0.md)
-    * [GP 3: Enable BobVault for Public Use](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-3-enable-bobvault-for-public-use.md)
+    * [GP 3: Enable BobVault (BobSwap) for Public Use](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-3-enable-bobvault-bobswap-for-public-use.md)
     * [GP 4: Increase Multisig & Upgrade BOB contract on all networks](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-4-increase-multisig-and-upgrade-bob-contract-on-all-networks.md)
+    * [GP 5: Enable BobVault (BobSwap) on Ethereum Mainnet](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-5-enable-bobvault-bobswap-on-ethereum-mainnet.md)
+    * [GP 6: Upgrade zkBob to support direct deposits](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-6-upgrade-zkbob-to-support-direct-deposits.md)
 * [BOB Stablecoin FAQ](bob-stablecoin/bob-stablecoin-faq.md)
 
 ## 🦸♂ zkBob Application <a href="#zkbob-app" id="zkbob-app"></a>
