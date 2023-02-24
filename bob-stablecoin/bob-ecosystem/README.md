@@ -4,9 +4,9 @@ description: Application Integrations
 
 # BOB Ecosystem
 
-BOB stablecoin integrations in multi-chain ecosystem protocols and applications.&#x20;
+<figure><img src="../../.gitbook/assets/ecosystem.png" alt=""><figcaption></figcaption></figure>
 
-## DeFi Protocols
+## &#x20;DeFi Protocols
 
 Swap BOB, create non-inventory LP positions, and use BOB in a variety of DeFi contexts. Please see [BOB Markets on Coingecko](https://www.coingecko.com/en/coins/bob#markets) for specific pool details.
 
