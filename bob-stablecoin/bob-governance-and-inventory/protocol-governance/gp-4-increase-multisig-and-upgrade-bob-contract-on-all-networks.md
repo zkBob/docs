@@ -11,7 +11,7 @@ On Polygon, 1,000,000 BOB was also allocated to the BobVault, extending the issu
 {% hint style="success" %}
 The proposal has been confirmed and executed on:&#x20;
 
-* [Polygon](https://polygonscan.com/tx/0xd3ded6606bf47934d1fadb7e3c9561139b65c5cfed9ca8a1ad3ca2386f1935c3) - [a transaction on ](https://etherscan.io/tx/0xe6daa3cb92b9b710c403c628ef871db70ea4bf41aa23f080222548feb6cee01d)
+* [Polygon](https://polygonscan.com/tx/0xd3ded6606bf47934d1fadb7e3c9561139b65c5cfed9ca8a1ad3ca2386f1935c3)
 * [Ethereum Mainnet](https://etherscan.io/tx/0xe6daa3cb92b9b710c403c628ef871db70ea4bf41aa23f080222548feb6cee01d)
 * [Optimism](https://optimistic.etherscan.io/tx/0x177ba2bda4ff8d1795755efe3cf0cf60773fa73a31cb73bbd249c9856349d749)
 * [BNB Smart Chain](https://bscscan.com/tx/0x74797fa21d43c57eb16531458d3fd1d37da85570a63d17dca5442548a594c1f1)

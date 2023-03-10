@@ -37,6 +37,7 @@
     * [GP 4: Increase Multisig & Upgrade BOB contract on all networks](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-4-increase-multisig-and-upgrade-bob-contract-on-all-networks.md)
     * [GP 5: Enable BobVault (BobSwap) on Ethereum Mainnet](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-5-enable-bobvault-bobswap-on-ethereum-mainnet.md)
     * [GP 6: Upgrade zkBob to support direct deposits](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-6-upgrade-zkbob-to-support-direct-deposits.md)
+    * [GP 7: Increase Multi-chain Inventory and Update BobSwap](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-7-increase-multi-chain-inventory-and-update-bobswap.md)
 * [Capital Efficiency](bob-stablecoin/capital-efficiency.md)
 * [BOB Stablecoin FAQ](bob-stablecoin/bob-stablecoin-faq.md)
 
