@@ -14,4 +14,6 @@ description: zkBob stablecoin with privacy options
 
 :heavy\_check\_mark: BOB will be used to explore new mechanics for privacy, governance, and self-sustaining value capture for the protocol, such as redistribution of lost funds, compounding yield, and other features.&#x20;
 
+{% hint style="success" %}
 Explore more about BOB at [https://bob.zkbob.com/](https://bob.zkbob.com/)
+{% endhint %}
