@@ -29,5 +29,12 @@ When a transfer is initiated, the amount and recipient is never disclosed or pub
 
 _\*zkBob introduces_ [_deposit and withdrawal limits_](zkbob-overview/deposit-and-withdrawal-limits.md) _and other_ [_compliance features_](zkbob-overview/compliance-and-security/) _to keep the application and its users safe. Transfers are limited by these pool constraints._&#x20;
 
+## Project Landing Pages
+
+* zkBob application: [https://zkbob.com/](https://zkbob.com/)
+* BOB stablecoin: [https://bob.zkbob.com/](https://bob.zkbob.com/)
+
+
+
 ###
 
