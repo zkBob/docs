@@ -5,7 +5,7 @@ description: What about $BOB
 # BOB Stablecoin FAQ
 
 {% hint style="info" %}
-FAQs
+**FAQs**
 
 * [How do I get BOB?](bob-stablecoin-faq.md#how-do-i-get-bob)
 * [How does BOB remain stable?](bob-stablecoin-faq.md#how-does-bob-remain-stable)
@@ -13,6 +13,7 @@ FAQs
 * [What are the BOB contract details?](bob-stablecoin-faq.md#what-are-the-bob-contract-details)
 * [How is BOB inventory regulated?](bob-stablecoin-faq.md#how-is-bob-inventory-regulated)
 * [Can I earn additional BOB through zkBob or in other ways?](bob-stablecoin-faq.md#can-i-earn-additional-bob-through-zkbob-or-in-other-ways)
+* [What is the BOB public-facing website?](bob-stablecoin-faq.md#what-is-the-bob-public-website)
 {% endhint %}
 
 ## How do I get BOB?
@@ -90,6 +91,10 @@ BOB inventory is increased in LP positions currently via a small governance mult
 
 ## Can I earn additional BOB through zkBob or in other ways?
 
-No, not through the protocol itself. BOB stablecoin is designed for utility and low fees. The protocol is able to collect revenue through fee collection and idle-capital compounding. These fees can then create a self-sustaining protocol which subsidizes low cost transactions for users. BOB holders can earn fees in other ways such as providing liquidity to non-inventory LP positions on DEXs like Uniswap, Quickswap and Kyberswap.\
+No, not through the protocol itself. BOB stablecoin is designed for utility and low fees. The protocol is able to collect revenue through fee collection and idle-capital compounding. These fees can then create a self-sustaining protocol which subsidizes low cost transactions for users. BOB holders can earn fees in other ways such as providing liquidity to non-inventory LP positions on DEXs like Uniswap, Quickswap and Kyberswap.
+
+## What is the BOB public website
+
+Explore more about BOB at [https://bob.zkbob.com/](https://bob.zkbob.com/)\
 
 
