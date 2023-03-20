@@ -18,9 +18,9 @@ description: What about $BOB
 
 ## How do I get BOB?
 
-BOB is currently available on Polygon, Optimism, BNB Chain and Ethereum. BOB can be acquired in several ways outside of the zkBob application.
+BOB is currently available on Polygon, Optimism, Arbitrum, BNB Chain and Ethereum. BOB can be acquired in several ways outside of the zkBob application.
 
-* Sent between users to any 0x address on Polygon, Optimism, BNB or Ethereum.
+* Sent between users to any 0x address on Polygon, Optimism, Arbitrum, BNB or Ethereum.
 * Swap tokens for BOB using Metamask.&#x20;
   * [Instructions](add-bob-to-metamask/swap-bob-with-metamask-swap.md)
 * Swap using a DEX or DEX aggregator
@@ -30,7 +30,7 @@ BOB is currently available on Polygon, Optimism, BNB Chain and Ethereum. BOB can
   * [Kyberswap](https://kyberswap.com/swap/ethereum/bob-to-usdc)
   * [Paraswap](https://app.paraswap.io/#/?network=ethereum)
 * Swap shielded BOB using [zkBob](../) and withdraw to an address on Polygon.
-* Swap and bridge with the [Li.Fi widget](../zkbob-app/get-bob.md) directly in zkBob
+* Swap and bridge with the [Li.Fi widget](../zkbob-app/get-bob.md) directly in zkBob or at [https://jumper.exchange/](https://jumper.exchange/)
 
 ## How does BOB remain stable?
 
@@ -47,6 +47,7 @@ The easiest way to see stats by chain is through the Uniswap interface. Overview
 * [BOB on Polygon](https://app.uniswap.org/#/tokens/polygon/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b)
 * [BOB on Optimism](https://app.uniswap.org/#/tokens/optimism/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b)
 * [BOB on Ethereum](https://app.uniswap.org/#/tokens/ethereum/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b)
+* [BOB on Arbitrum](https://app.uniswap.org/#/tokens/arbitrum/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b)
 
 Current inventory and circulating supply can be viewed here: [https://dune.com/maxaleks/bob-stable-token](https://dune.com/maxaleks/bob-stable-token)
 
