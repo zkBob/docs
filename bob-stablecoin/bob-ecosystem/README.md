@@ -21,6 +21,7 @@ Swap BOB, create non-inventory LP positions, and use BOB in a variety of DeFi co
   * [Quickswap Farms](https://quickswap.exchange/#/farm)
   * [WETH/BOB Pool](https://quickswap.exchange/#/add/0x7ceb23fd6bc0add59e62ac25578270cff1b9f619/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b/v3)
   * [USDC/BOB Pool](https://quickswap.exchange/#/add/0x2791bca1f2de4661ed88a30c99a7a9449aa84174/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b/v3)
+* [Jumper](https://jumper.exchange/) multichain bridge by Li.Fi
 * [DefiLama DEX Meta-aggregator](https://swap.defillama.com/?chain=polygon\&from=0x2791bca1f2de4661ed88a30c99a7a9449aa84174\&to=0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b) (Polygon, Ethereum, Optimism, BSC)
 * [1inch](https://app.1inch.io/#/1/unified/swap/BOB/USDC) (Polygon, Ethereum, Optimism)
 * [Paraswap](https://app.paraswap.io/#/USDC-BOB/100?network=Polygon) (Polygon, Ethereum, Optimism, BSC)
