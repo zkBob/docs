@@ -77,9 +77,15 @@ BOB token contracts start and end with B0B!
 * BOB Token: [0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B](https://bscscan.com/token/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B)
 * BOB Token Implementation: [0xe0e184e850d24113ad512583b77621e35740befc](https://bscscan.com/address/0xe0e184e850d24113ad512583b77621e35740befc)&#x20;
 
+**BOB on Arbitrum**
+
+* BOB Token: [0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B](https://arbiscan.io/address/0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B)
+* BOB Token Implementation:[0xe0e184e850d24113ad512583b77621e35740befc](https://arbiscan.io/address/0xe0e184e850d24113ad512583b77621e35740befc)\
+
+
 **BOB attributes:**
 
-* ERC20-based fungible tokens
+* ERC20-based fungible token
 * Upgradeable & Mintable (note upgradeability account and minting account must never be the same account)
 * Meta-transaction support
 * EIP677 support for `transferAndCall` functionality
