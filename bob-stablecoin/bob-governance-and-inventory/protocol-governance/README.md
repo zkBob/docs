@@ -20,6 +20,7 @@ In addition to [inventory management](../inventory-management/), the beta govern
 | [GP 5](gp-5-enable-bobvault-bobswap-on-ethereum-mainnet.md)                | Enable BobVault (BobSwap) on Ethereum mainnet.                | [0x1e3....c270](https://etherscan.io/tx/0x1e33247389a04b8ffea082267821a9ccf2d79826812035d1256cb60b477bc270)        |
 | [GP 6](gp-6-upgrade-zkbob-to-support-direct-deposits.md)                   | Upgrade zkBob to support direct deposits.                     | [0xf2c0....e90f](https://polygonscan.com/tx/0xf2c0a7e661691354fc9bf01ff4e00a3d1ab515afc4b0da3305c7d7e90f47519f)    |
 | [GP 7](gp-7-increase-multi-chain-inventory-and-update-bobswap.md)          | Increase multichain inventory and update BobSwap              | See [GP #7](gp-7-increase-multi-chain-inventory-and-update-bobswap.md) as there were txs on each network           |
+| [GP 8](gp-8-extend-pool-limits-for-kycd-users.md)                          | Extend pool limits for KYC'd users                            |                                                                                                                    |
 
 
 
