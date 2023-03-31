@@ -55,6 +55,7 @@
 * [Generate a Receiving Address](zkbob-app/generate-a-secure-address.md)
 * [Get BOB](zkbob-app/get-bob.md)
 * [Support ID](zkbob-app/support-id.md)
+* [Optional KYC](zkbob-app/optional-kyc.md)
 * [Integrated Services](zkbob-app/integrated-services.md)
 
 ## 👷♂ Roadmap
