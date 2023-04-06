@@ -7,26 +7,30 @@ description: >-
 # zkBob Direct Deposits
 
 {% hint style="success" %}
-Welcome! Below are instructions for using the Direct Deposit functionality with zkBob for the **EthDenver Hackathon**.&#x20;
+Welcome 👋 Below are instructions for using the **Direct Deposit** functionality with zkBob for the **EthTokyo Hackathon**.&#x20;
+{% endhint %}
+
+{% hint style="info" %}
+If you plan to use zkBob for the hackathon, you will integrate direct deposit functionality into your Dapp or project. While there is a test application on Sepolia, we strongly recommend using the application in production on Polygon. If you need BOB/MATIC to get started, please contact us through the hackathon supported channels (Discord or Telegram) and we will send BOB!&#x20;
 {% endhint %}
 
 ## Introduction
 
 zkBob supports 5 different operations:
 
-1. Deposit - Add funds to your zkAccount.
-2. Withdraw - Withdraw BOB tokens from your private account to a public 0x address.
-3. Private transfer - Make an anonymous transfer from one user to another with their zkAddress.
-4. Private multi-transfer - Make an anonymous atomic batch transfer to multiple zkAddresses
-5. **Direct deposit -** Send BOB directly **** to someone’s zkAddress from outside the zkBob application.
+1. **Deposit** - Add funds to your zkAccount.
+2. **Withdraw** - Withdraw BOB tokens from your private account to a public `0x` address.
+3. **Private transfer** - Make an anonymous transfer from one user to another with their zkAddress.
+4. **Private multi-transfer** - Make an anonymous atomic batch transfer to multiple zkAddresses
+5. **Direct deposit -** Send BOB directly to someone’s zkAddress from outside the zkBob application.
 
 The first 4 operations can only be performed by end users via zkBob clients, such as the zkBob UI.
 
-However, with direct deposits, private deposits can be performed while abstracting away zk complexity. Depositors only need to know the private zkAddress of the receiver. This makes it very easy to integrate it into various automated web3 workflows.
+However, with **direct deposits**, private deposits can be performed while abstracting away zk complexity. Depositors only need to know the private zkAddress of the receiver. This makes it very easy to integrate it into various automated web3 workflows.
 
 Direct deposits allow any user, smart contract, or third party protocol to deposit any amount\* ([within accepted limits](zkbob-direct-deposits.md#direct-deposit-limits)) of BOB into the queue, which is then processed by the zkBob relayer in a trustless manner. The only function of the relayer is to include deposits in the state tree, providing a safe mechanism for deposits.
 
-The relayer can process multiple direct deposits at once, however, users may need to wait some time - possibly up to a few hours - until the deposit is reflected in the zkBob account.
+The relayer can process multiple direct deposits at once, however, users may need to wait some time - possibly up to a few hours - until the deposit is reflected in the zkBob account. [More on transaction types here.](../../implementation/transaction-overview/transaction-types.md)
 
 {% hint style="warning" %}
 For now, pending or cancelled direct deposits are not shown in the zkBob UI. Users will only see already processed deposits.
@@ -164,17 +168,19 @@ interface IZkBobDirectDeposits {
 
 </details>
 
-### Getting a zkAddress to send a direct deposit to
+### Creating a zkAddress for receiving BOB
 
 {% hint style="info" %}
-The most convenient way for users to generate a receiving zkAddress is to use the zkBob UI to open an account and generate an address - [generate-a-secure-address.md](../../zkbob-app/generate-a-secure-address.md "mention")
+The most convenient way for users to generate a receiving zkAddress is to use the zkBob UI.  \
+\
+Open an account and generate an address: [generate-a-secure-address.md](../../zkbob-app/generate-a-secure-address.md "mention")
 
 zkAddresses can be [formatted in different ways](zkbob-direct-deposits.md#zkaddress-format) for direct deposit submission.&#x20;
 {% endhint %}
 
 ### Submitting a direct deposit
 
-Direct deposits can be submitted directly to the pool contract, using one of two approaches:
+Direct deposits are submitted directly to the pool contract (`0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289`), using one of two approaches:
 
 1. Common `approve` + `deposit` approach, suitable for a majority of use-cases.
 2. Shortcut approach using `transferAndCall`, suitable for simple workflows.
@@ -185,7 +191,7 @@ The  ERC677 `transferAndCall` approach is more gas efficient. However, it does n
 
 Calling either of these methods requires 3 input arguments:
 
-1. `fallbackReceiver` - regular user public 0x address, which will receive the funds in the unlikely scenario that the deposit is rejection by the system \
+1. `fallbackReceiver` - regular user public `0x` address, which will receive the funds in the unlikely scenario that the deposit is rejection by the system \
    (**DO NOT** **set this address to zero or address that does not belong to the intended receiver**)
 2. `amount` - deposit BOB amount, 18 decimals. A small fee (0.1 BOB) is subtracted from each amount.
 3. `zkAddress` - private zk address of the intended receiver, see info below for the supported address formats
@@ -216,12 +222,14 @@ Calls to either of the deposit methods can revert with corresponding revert reas
 5. Sum of daily direct deposits exceeding daily deposit limit for a particular user (10,000 BOB).
 6. Invalid zkAddress format/length/checksum.
 
-The most straightforward way to test direct deposit submission is through the Etherscan UI:
+The most straightforward way to test direct deposit submission is through the Polygonscan UI:\
+\
+[https://polygonscan.com/address/0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289#writeProxyContract](https://polygonscan.com/address/0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289#writeProxyContract)
 
 ![](<../../.gitbook/assets/Screenshot 2023-02-22 at 10.16.38 AM (1).png>)
 
 {% hint style="warning" %}
-Submitting a direct deposit in most scenarios will require the end user to pay transaction fees in Matic, which is not the same for regular zkBob operations.
+Submitting a direct deposit in most scenarios will require the end user to pay transaction fees in MATIC, which is not the same for regular zkBob operations.
 {% endhint %}
 
 ### Checking deposit status
@@ -314,6 +322,10 @@ The easiest way to integrate is to deploy directly on Polygon. However, we are e
 ### Does a direct deposit operation require MATIC?
 
 Yes, MATIC is required to pay the gas fees for a direct deposit transaction. In addition, a fee of 0.10 BOB will be charged for each direct deposit tx. For regular deposits, transfers or withdrawals within the zkBob application, MATIC is not required.
+
+### How do I get started?
+
+If you need BOB to get started, please send us a message in the hackathon supported channels and we will send you some. We are also available for any questions there.
 
 
 
