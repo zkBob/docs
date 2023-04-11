@@ -11,7 +11,7 @@ Welcome 👋 Below are instructions for using the **Direct Deposit** functionali
 {% endhint %}
 
 {% hint style="info" %}
-If you plan to use zkBob for the hackathon, you will integrate direct deposit functionality into your Dapp or project. While there is a test application on Sepolia, we strongly recommend using the application in production on Polygon. If you need BOB/MATIC to get started, please contact us through the hackathon supported channel ([Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
+If you plan to use zkBob for the hackathon, you will integrate direct deposit functionality into your Dapp or project. While there is a test application on Sepolia, **we strongly recommend** using the application in production on Polygon. If you need BOB/MATIC to get started, please contact us through the hackathon supported channel ([Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
 {% endhint %}
 
 ## Introduction
