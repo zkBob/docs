@@ -6,7 +6,7 @@ description: Reference tables with calldata structure for different transaction 
 
 All transaction data are transferred to the Pool contract through the calldata. The following reference table is useful for transaction analysis.
 
-Withdrawal transactions contain addition fields `memo.nativeamount` and __ `memo.receiver` . Due to this, the calldata table for withdrawal transactions is presented separately.
+Withdrawal transactions contain addition fields `memo.nativeamount` and `memo.receiver` . Due to this, the calldata table for withdrawal transactions is presented separately.
 
 {% tabs %}
 {% tab title="Deposit\Transfer" %}

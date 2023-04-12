@@ -53,8 +53,8 @@ BOB contract address on all chains: `0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B`
 1. Open Metamask, connect to the Polygon network, go to the Assets tab, and click Import tokens.\
    ![](https://lh3.googleusercontent.com/6uB\_H5tGiWDV2kfs\_OO7\_VMYzqCzOJEfqIYzDDgtUBfiIfDwPxwdtIzO1qhnR9d5rk66JdWGNVh45Vv53Y4pgUui\_PQy\_W1EsHc1L-ror18K7uXXZBJPPZT3Ube1FAgMDTB9FthlLYB31GU\_FD20JuJYN5NUkKiyT\_3syqt51-\_LvTWdoKiBR\_NsdA)
 2. Enter the token contract address for BOB: `0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B`\
-   ``\
-   ``The name and decimals should populate automatically. Click Add custom token.\
+   \
+   The name and decimals should populate automatically. Click Add custom token.\
    <img src="https://lh6.googleusercontent.com/kJL7LmMjewP6vGkkF1RSzZDi8xT1O8BHwgCrCxKPPMDLjyN2m4fhinUNFON89R9fkZwy1TCw9kRb69ZBXqqY9PpXqhkaXFT1MrSWIH8o4XtaFNbaPL88EiR4FiHw-jNM8dGBTIs7QvowbViU-PfF0FIqfv84bwG3Z_2Ft5yJwQCUaqccfRA_R2Fvjg" alt="" data-size="original">\
 
 3. Click Import tokens to confirm.\

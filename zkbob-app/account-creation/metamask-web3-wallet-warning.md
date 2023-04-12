@@ -21,7 +21,7 @@ Be vigilant when using Metamask or another web3 wallet, as an adversary can ask 
 
 If you provide a signature to the attacker your zkBob private key is leaked and the attacker can steal all funds from the zkBob account. To protect against this threat you must always **check the source URL** sending the signing request.&#x20;
 
-The genuine application is hosted on [**https://app.zkbob.com/**](https://app.zkbob.com/) **** only.
+The genuine application is hosted on [**https://app.zkbob.com/**](https://app.zkbob.com/) only.
 
 <img src="../../.gitbook/assets/sig-origin-request (1).png" alt="" data-size="original">
 {% endhint %}

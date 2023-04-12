@@ -57,7 +57,7 @@ The corresponding transaction in the governance safe is[ transaction #10](https:
 
 #### Action 1
 
-Allocate **2,000,000 BOB** (18 decimals) to the BobVault contract ([0x15729Ac1795Fa02448a55D206005dC1914144a9F](https://etherscan.io/address/0x15729Ac1795Fa02448a55D206005dC1914144a9F)) by generating **BOB** token inventory. The action is executed by calling `mint` on the **BOB** token contract [`0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B`](https://etherscan.io/address/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b#code)``
+Allocate **2,000,000 BOB** (18 decimals) to the BobVault contract ([0x15729Ac1795Fa02448a55D206005dC1914144a9F](https://etherscan.io/address/0x15729Ac1795Fa02448a55D206005dC1914144a9F)) by generating **BOB** token inventory. The action is executed by calling `mint` on the **BOB** token contract [`0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B`](https://etherscan.io/address/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b#code)
 
 ### Additional verification
 

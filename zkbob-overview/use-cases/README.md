@@ -9,4 +9,4 @@ zkBob can be used to protect transactional privacy for a variety of use cases. B
 
 
 
-## ****
+##

@@ -79,7 +79,7 @@ zkBob is a decentralized, open-source application with a distributed & decentral
 
 ## Does zkBob work on mobile devices?
 
-Yes! **** However, operations can take longer as **** Proof generation is resource intensive on many mobile devices. Ideally, we recommend using a desktop/laptop environment for zkBob, however we continue to optimize mobile for faster processing.&#x20;
+Yes! However, operations can take longer as Proof generation is resource intensive on many mobile devices. Ideally, we recommend using a desktop/laptop environment for zkBob, however we continue to optimize mobile for faster processing.&#x20;
 
 ## Why does zkBob use the BOB stablecoin?
 

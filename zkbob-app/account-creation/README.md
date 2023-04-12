@@ -2,8 +2,8 @@
 
 There are 2 ways to create a zkBob shielded account.&#x20;
 
-1. ****[**MetMask/WalletConnect**](./#metamask-walletconnect). The application collects a signature locally on your browser - not on the blockchain. It uses the private key from your web3 wallet to derive a secure zkBob account address.
-2. ****[**Use a secret recovery phrase**](./#seed-phrase). The application generates a secret recovery phrase (also known as a seed phrase) for you to store securely. You can use this seed phrase to restore your account and/or password as needed from any computer.
+1. [**MetMask/WalletConnect**](./#metamask-walletconnect). The application collects a signature locally on your browser - not on the blockchain. It uses the private key from your web3 wallet to derive a secure zkBob account address.
+2. [**Use a secret recovery phrase**](./#seed-phrase). The application generates a secret recovery phrase (also known as a seed phrase) for you to store securely. You can use this seed phrase to restore your account and/or password as needed from any computer.
 
 {% hint style="warning" %}
 Initial account creation can take several minutes depending on transaction volume in the pool. Please be patient while your account is created!&#x20;
@@ -53,11 +53,11 @@ If this is the first time you have accessed the app, you will be auto-directed t
 
 ![](../../.gitbook/assets/generate-key.png)
 
-5\) Sign message in MetaMask. __ Make sure to double check that Origin is the correct URL. [More info here](metamask-web3-wallet-warning.md).
+5\) Sign message in MetaMask. Make sure to double check that Origin is the correct URL. [More info here](metamask-web3-wallet-warning.md).
 
 <figure><img src="../../.gitbook/assets/sig-origin-request.png" alt=""><figcaption></figcaption></figure>
 
-6\) Create and Re-enter password. **** This password is used to access the application, and can be regenerated using your wallet if needed.
+6\) Create and Re-enter password. This password is used to access the application, and can be regenerated using your wallet if needed.
 
 ![](../../.gitbook/assets/connect-6.png)
 

@@ -83,5 +83,5 @@ In the maintenance state the following service methods are available:
 
 * <mark style="color:blue;">`addOperator`</mark>`(`<mark style="color:purple;">`string`</mark><mark style="color:red;">`name`</mark>`,`` `<mark style="color:purple;">`address`</mark><mark style="color:red;">`addr`</mark>`,`` `<mark style="color:purple;">`string`</mark><mark style="color:red;">`endpoint`</mark>`)` will add a new operator with the specified name, blockchain address and URL endpoint.
 * <mark style="color:blue;">`removeOperator`</mark>`(`<mark style="color:purple;">`address`</mark><mark style="color:red;">`addr`</mark>`)` will remove the operator with the specified address. Please note that the last operator in the list will be relocated to the vacant place.
-* <mark style="color:blue;">`setSlotSize`</mark>`(`<mark style="color:purple;">`uint32`</mark>` ```` `<mark style="color:red;">`blocks`</mark>`)` will change slot size (specified in blocks). The number of blocks should be greater than 0.
+* <mark style="color:blue;">`setSlotSize`</mark>`(`<mark style="color:purple;">`uint32`</mark> <mark style="color:red;">`blocks`</mark>`)` will change slot size (specified in blocks). The number of blocks should be greater than 0.
 

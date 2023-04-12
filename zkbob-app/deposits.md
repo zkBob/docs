@@ -41,12 +41,11 @@ Note: It may take several minutes to update the pool state. If your balances do 
 
 <figure><img src="../.gitbook/assets/after.png" alt=""><figcaption><p><em>After refresh</em></p></figcaption></figure>
 
-_Tx details on Polygonscan :_ [_https://polygonscan.com/tx/0xbb9330d77f8903b91cfcdab32d590a3298962a718ab4951262696f0b18d354c9_](https://polygonscan.com/tx/0xbb9330d77f8903b91cfcdab32d590a3298962a718ab4951262696f0b18d354c9)__
+_Tx details on Polygonscan :_ [_https://polygonscan.com/tx/0xbb9330d77f8903b91cfcdab32d590a3298962a718ab4951262696f0b18d354c9_](https://polygonscan.com/tx/0xbb9330d77f8903b91cfcdab32d590a3298962a718ab4951262696f0b18d354c9)
 
 <figure><img src="../.gitbook/assets/polygonscan.png" alt=""><figcaption></figcaption></figure>
 
-__
 
-__
 
-__
+
+
