@@ -12,6 +12,10 @@ Welcome 👋 Below are instructions for using the **Direct Deposit** functionali
 
 {% hint style="info" %}
 If you plan to use zkBob for the hackathon, you will integrate direct deposit functionality into your Dapp or project. While there is a test application on Sepolia, **we strongly recommend** using the application in production on **Optimism or Polygon**. If you need BOB to get started, please contact us through the hackathon supported channel ([Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
+
+* [Multichain Contract Info](../../deployment/contracts-deployment.md)
+* UI on Polygon: [https://app.zkbob.com](https://app.zkbob.com/deposit)
+* UI on Optimism: [https://optimism--zkbob.netlify.app/](https://optimism--zkbob.netlify.app/)
 {% endhint %}
 
 {% hint style="success" %}
@@ -340,6 +344,13 @@ Yes, a native token (like MATIC or ETH) is required to pay the gas fees for a di
 ### How do I get started?
 
 If you need BOB to get started, please send us a message in the [Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel and we will send you some. We are also available for any questions there.
+
+### What is the address of the zkBob UI?
+
+Optimism will be integrated into the primary instance, however for now there are 2 separate instances.
+
+* **Polygon** instance: [https://app.zkbob.com](https://app.zkbob.com/deposit)
+* **Optimism** instance: [https://optimism--zkbob.netlify.app/](https://optimism--zkbob.netlify.app/)
 
 
 

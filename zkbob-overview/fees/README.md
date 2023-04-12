@@ -1,6 +1,6 @@
 # Fees
 
-A $0.10 stable fee is added to each transaction\* and paid with BOB tokens. You DO NOT need any native (MATIC) tokens to deposit, transfer, or withdraw from zkBob. All tx fees are $0.10 and paid using BOB.
+A $0.10 stable fee is added to each transaction\* and paid with BOB tokens. You DO NOT need any native (MATIC/ETH) tokens to deposit, transfer, or withdraw from zkBob. All tx fees are $0.10 and paid using BOB.
 
 Fees cover the cost of transactions in most situations (_see below_) and can result in a surplus depending on gas and token prices. BOB accumulates with the fee receiver and is periodically withdrawn, swapped for native tokens, and sent to the relayer to subsidize future transaction costs. Relayers do not keep any profits from extra fees - all collected fees are used to support the protocol.&#x20;
 
@@ -8,7 +8,7 @@ Fees cover the cost of transactions in most situations (_see below_) and can res
 
 ### Transaction costs
 
-Exact tx fees are calculated as the cost of the calldata for an operation (deposit, transfer, withdrawal) multiplied by the gas price and the token price. Tx gas examples:
+Exact tx fees are calculated as the cost of the `calldata` for an operation (deposit, transfer, withdrawal) multiplied by the gas price and the token price. Tx gas examples:
 
 * [zkBob deposit](https://polygonscan.com/tx/0xe9755f83c01171446d305d6a1a6988258d1cddeeed6e9fcce5921357f57fd6fc) 783,638 gas
 * [zkBob transfer](https://polygonscan.com/tx/0xb2d823f364906bc8e9a47782ee1950a51025d767ae1dbf1f248c281fe89d975b) 601,357 gas
@@ -30,11 +30,13 @@ Fees can vary significantly based on the gas price and token price at the time o
 
 Fees are currently collected internally within the pool contract and the `accumulatedFee` method. They can be manually withdrawn by a separate operator account (a specified account called the fee recipient) rather than a primary relayer account. This maintains safety in the protocol as a primary relayer is responsible for sending transactions and should not have the ability to call the `withdrawFee` function.
 
-Once enough BOB has accumulated, it can be withdrawn and swapped for native (MATIC) tokens. These are then sent to the primary relayer to cover gas fees for future operations. &#x20;
+Once enough BOB has accumulated, it can be withdrawn and swapped for native (MATIC/ETH) tokens. These are then sent to the primary relayer to cover gas fees for future operations. &#x20;
 
 ### View Accumulated Fees
 
 Anyone can view current fees accumulated by the protocol. This does not represent all fees collected, but only those accumulated since the previous withdrawal.
+
+**Polygon Example**
 
 1\) Go to the [pool proxy contract on Polyscan](https://polygonscan.com/address/0x72e6b59d4a90ab232e55d4bb7ed2dd17494d62fb#readProxyContract) and click the **Read as Proxy** tab.
 

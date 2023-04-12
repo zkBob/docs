@@ -75,7 +75,7 @@ The underlying code is open-source and anyone can deploy contracts, a relayer, a
 
 ## Who heads development and deployment?
 
-zkBob is a decentralized, open-source application with a distributed & decentralized team and no centralized head of development. The app was initiated by the xDai research group in collaboration with [ZeroPool](https://zeropool.network/) and community support. A production instance of zkBob is [deployed on Polygon](https://app.zkbob.com/).
+zkBob is a decentralized, open-source application with a distributed & decentralized team and no centralized head of development. The app was initiated by the xDai research group in collaboration with [ZeroPool](https://zeropool.network/) and community support. zkBob is multichain and [deployed on Polygon and Optimism ](https://app.zkbob.com/).
 
 ## Does zkBob work on mobile devices?
 
@@ -85,13 +85,13 @@ Yes! However, operations can take longer as Proof generation is resource intensi
 
 zkBob is designed to use BOB for several reasons. BOB is stable, flexible (multi-chain, multi-collateral), and easy to use. For questions related to BOB, please see the [BOB details](../bob-stablecoin/bob-details.md) page.
 
-## Do I need MATIC to pay for transactions?
+## Do I need MATIC/ETH to pay for transactions?
 
 **No**, all fees are paid in BOB with a stable $0.10 fee per tx! This includes deposits into the protocol, transfers within zkBob, and **withdrawals** from the application.
 
-Withdrawals from zkBob will also result in 0.10 MATIC sent to the receiving address if certain criteria are met. To receive, the address must have a 0 MATIC balance, and the withdrawal amount must be 10 or more BOB.
+Withdrawals from zkBob will also result in a small amount of MATIC (Polygon) or ETH (Optimism) sent to the receiving address if certain criteria are met. To receive, the address must have a 0 balance, and the withdrawal amount must be 10 or more BOB.
 
-If you want to purchase BOB in other ways ([Uniswap](../bob-stablecoin/bob-on-uniswap-v3.md) or [Metamask swap](../bob-stablecoin/add-bob-to-metamask/swap-bob-with-metamask-swap.md)), you will need a small amount of MATIC to complete the transaction.
+If you want to purchase BOB in other ways ([Uniswap](../bob-stablecoin/bob-on-uniswap-v3.md) or [Metamask swap](../bob-stablecoin/add-bob-to-metamask/swap-bob-with-metamask-swap.md)), you will need a small amount of MATIC/ETH to complete the transaction.
 
 ## Where can I see zkBob stats?
 
@@ -107,11 +107,11 @@ It depends on how large the pool set is and how much activity has happened since
 
 Not completely, there is some information which is recorded on chain. It is transparent that an address interacted with the zkBOB application and how much BOB was deposited or withdrawn.
 
-**Deposits:** When you deposit into zkBob, the 0x address on Polygon you deposited from and how much BOB you deposited into the zkBob protocol can be viewed in a block explorer. [Example Transaction](https://polygonscan.com/tx/0xe5269af7e735c45976f0c627cd138dfd000d99b160ae5c5868abcdf3c540f0cb).
+**Deposits:** When you deposit into zkBob, the 0x address on Polygon or Optimism you deposited from and how much BOB you deposited into the zkBob protocol can be viewed in a block explorer. [Example Transaction](https://polygonscan.com/tx/0xe5269af7e735c45976f0c627cd138dfd000d99b160ae5c5868abcdf3c540f0cb).
 
 <figure><img src="../.gitbook/assets/deposit (1).png" alt=""><figcaption><p>Deposit transaction from an EOA to the zkBob Pool</p></figcaption></figure>
 
-**Withdrawals:** When withdrawing to a regular 0x address on Polygon, the address you withdrew to and amount withdrawn from the protocol can be viewed in a block explorer. [Example Transaction](https://polygonscan.com/tx/0x232df7f7a8b8051950323cb9a19450f1cfd1e19fd6618500b081e515e16fe3a4).
+**Withdrawals:** When withdrawing to a regular 0x address on Polygon or Optimism, the address you withdrew to and amount withdrawn from the protocol can be viewed in a block explorer. [Example Transaction](https://polygonscan.com/tx/0x232df7f7a8b8051950323cb9a19450f1cfd1e19fd6618500b081e515e16fe3a4).
 
 <figure><img src="../.gitbook/assets/withdraw.png" alt=""><figcaption><p>Withdrawal transaction from the zkBob pool to an EOA. </p></figcaption></figure>
 
@@ -144,9 +144,9 @@ If you and Alice are the only active users of the zkBob solution, any neutral ob
 
 ## Accounts and Addresses
 
-## I made deposits to 1 zkAccount from multiple `0x` addresses on Polygon. Is information tying these deposits to a single zkAccount available in the on-chain data?    &#x20;
+## I made deposits to 1 zkAccount from multiple `0x` addresses. Is information tying these deposits to a single zkAccount available in the on-chain data?    &#x20;
 
-**No.** The only available information available is that the `0x` addresses made a deposit for a specific amount of BOB into the zkBob app. Due to the zk proving mechanisms, zkAccount details are not revealed (only confirmation that the amount was deposited), and thus there is no public record of which zkAccount the funds were deposited to within zkBob.&#x20;
+**No.** The only available information available is that the `0x` addresses made a deposit for a specific amount of BOB into the zkBob app. Due to the zk proving mechanisms, zkAccount details are not revealed (only confirmation that the amount was deposited), and thus there is no public record of which zkAccount the funds were deposited to in zkBob.&#x20;
 
 ## Why are there multiple accounts?
 
@@ -155,7 +155,7 @@ There are 2 different types of accounts displayed in the interface. One is for t
 ![Accounts: Wallet is not yet connected and user is not logged into their zkAccount](<../.gitbook/assets/not-yet-connected (1).png>)
 
 1. **Wallet Account**. This is a standard EOA (Externally owned address) you can connect to fund or withdraw from your zkAccount. It can also be used to generate a zkAccount using the private key from the EOA.&#x20;
-2. **zkAccount.** This is the shielded account where you can transact privately with other zkAccount holders. It is auto-named starting with zk (in the example below account name is zkGerti). [More on zkAccounts](../implementation/account-and-notes/accounts.md).
+2. **zkAccount.** This is the shielded account where you can transact privately with other zkAccount holders. It is auto-named when created. [More on zkAccounts](../implementation/account-and-notes/accounts.md).
 
 ![MM wallet is connected and user has logged into zkAccount which is auto-named zkGerti](../.gitbook/assets/connected.png)
 
@@ -175,7 +175,7 @@ Yes, it will still work. You can generate as many addresses as you would like. E
 
 ## What if I lose my password?
 
-It's ok - you can restore your account using your original secret seed phrase or by reconnecting your original Metamask (MM) account. If you created using MM or Wallet connect, you can restore by going through the create account process and signing to generate a key for the same wallet address.
+It's ok - you can restore your account using your original secret seed phrase or by reconnecting your original Metamask (MM) / WalletConnect account. If you created using MM or WalletConnect, you can restore by going through the create account process and signing to generate a key for the same wallet address.
 
 Once restored, you will be asked to create a new password. The password is kept in local storage. &#x20;
 
@@ -185,9 +185,9 @@ Once restored, you will be asked to create a new password. The password is kept 
 
 ## Why do I keep having to enter my password?
 
-Encrypted data is stored in local storage for safety purposes. When the app is refreshed from the browser, the password is needed to decrypt the locally-stored account data. A built-in refresh function lets you update history and balance without needing to refresh the entire application. This is useful to view your current zkaccount state once a transaction has been processed on-chain.&#x20;
+Encrypted data is stored in local storage for safety purposes. When the app is refreshed from the browser, the password is needed to decrypt the locally-stored account data. A built-in refresh function lets you update history and balance without needing to refresh the entire application. This is useful to view your current zkAccount state once a transaction has been processed on-chain.&#x20;
 
-The in-app refresh, located next to your zkaccount name, should be used rather than a 'hard refresh' to avoid password re-entry.
+The in-app refresh, located next to your zkAccount name, should be used rather than a 'hard refresh' to avoid password re-entry.
 
 <figure><img src="../.gitbook/assets/refresg.png" alt=""><figcaption></figcaption></figure>
 
