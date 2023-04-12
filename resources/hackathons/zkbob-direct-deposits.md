@@ -11,7 +11,11 @@ Welcome 👋 Below are instructions for using the **Direct Deposit** functionali
 {% endhint %}
 
 {% hint style="info" %}
-If you plan to use zkBob for the hackathon, you will integrate direct deposit functionality into your Dapp or project. While there is a test application on Sepolia, **we strongly recommend** using the application in production on Polygon. If you need BOB/MATIC to get started, please contact us through the hackathon supported channel ([Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
+If you plan to use zkBob for the hackathon, you will integrate direct deposit functionality into your Dapp or project. While there is a test application on Sepolia, **we strongly recommend** using the application in production on **Optimism or Polygon**. If you need BOB to get started, please contact us through the hackathon supported channel ([Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
+{% endhint %}
+
+{% hint style="success" %}
+See the [FAQs at the end](zkbob-direct-deposits.md#faqs) for commonly asked questions.
 {% endhint %}
 
 ## Introduction
@@ -180,7 +184,7 @@ zkAddresses can be [formatted in different ways](zkbob-direct-deposits.md#zkaddr
 
 ### Submitting a direct deposit
 
-Direct deposits are submitted directly to the pool contract (`0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289`), using one of two approaches:
+Direct deposits are submitted directly to the direct deposits queue contract ([0x15b8c75c024acba8c114c21f42eb515a762c0014](https://optimistic.etherscan.io/address/0x15b8c75c024acba8c114c21f42eb515a762c0014) on Optimism or `0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289 on polygon`), using one of two approaches:
 
 1. Common `approve` + `deposit` approach, suitable for a majority of use-cases.
 2. Shortcut approach using `transferAndCall`, suitable for simple workflows.
@@ -195,6 +199,8 @@ Calling either of these methods requires 3 input arguments:
    (**DO NOT** **set this address to zero or address that does not belong to the intended receiver**)
 2. `amount` - deposit BOB amount, 18 decimals. A small fee (0.1 BOB) is subtracted from each amount.
 3. `zkAddress` - private zk address of the intended receiver, see info below for the supported address formats
+
+**Polygon Example**
 
 ```solidity
 IERC20 bob = IERC20(0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B);
@@ -229,7 +235,7 @@ The most straightforward way to test direct deposit submission is through the Po
 ![](<../../.gitbook/assets/Screenshot 2023-02-22 at 10.16.38 AM (1).png>)
 
 {% hint style="warning" %}
-Submitting a direct deposit in most scenarios will require the end user to pay transaction fees in MATIC, which is not the same for regular zkBob operations.
+Submitting a direct deposit in most scenarios will require the end user to pay transaction fees in MATIC or ETH, which is not the same for regular zkBob operations.
 {% endhint %}
 
 ### Checking deposit status
@@ -317,9 +323,9 @@ Apart from associated gas costs for the deposit transaction submission, which is
 
 ### zkBob is on Polygon/Optimism, does that mean my app also needs to be deployed there?
 
-We have production ready zkBob deployments on Polygon and Optimism, so ideally we expect your app to be working in either of those. Potentially direct deposits could be also available on other chains as well, if properly integrated into one of the cross-chain bridges.
+We have production ready zkBob deployments on **Polygon and Optimism**, so ideally we expect your app to be working in either of those. Potentially direct deposits could be also available on other chains as well, if properly integrated into one of the cross-chain bridges.
 
-For testing purposes, we also actively support staging zkBob deployments on Sepolia and Goerli testnet. These are open for public use as well.
+For testing purposes, we also support staging zkBob deployments on Sepolia and Goerli testnet. These are open for public use as well.
 
 Read more about all relevant contract addresses for all networks zkBob is present at in [deployed-contracts.md](../../implementation/deployed-contracts.md "mention")
 
@@ -329,7 +335,7 @@ There are BOB faucet contracts available in both Goerli/Sepolia ([deployed-contr
 
 ### Does a direct deposit operation require MATIC/ETH?
 
-Yes, native token (like MATIC or ETH) is required to pay the gas fees for a direct deposit transaction. In addition, a fee of 0.10 BOB will be charged for each direct deposit tx. For regular deposits, transfers or withdrawals within the zkBob application, MATIC/ETH is not required.
+Yes, a native token (like MATIC or ETH) is required to pay the gas fees for a direct deposit transaction. In addition, a fee of 0.10 BOB will be charged for each direct deposit tx. For regular deposits, transfers or withdrawals within the zkBob application, MATIC/ETH is not required.
 
 ### How do I get started?
 
