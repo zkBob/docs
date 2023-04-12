@@ -315,13 +315,21 @@ Apart from associated gas costs for the deposit transaction submission, which is
 
 ## FAQs
 
-### zkBOB is on Polygon, does that mean my app also needs to be deployed there?
+### zkBob is on Polygon/Optimism, does that mean my app also needs to be deployed there?
 
-The easiest way to integrate is to deploy directly on Polygon. However, we are excited about ideas for adding multichain composability using bridges. This will require some workarounds, as there are no native bridges for BOB currently.
+We have production ready zkBob deployments on Polygon and Optimism, so ideally we expect your app to be working in either of those. Potentially direct deposits could be also available on other chains as well, if properly integrated into one of the cross-chain bridges.
 
-### Does a direct deposit operation require MATIC?
+For testing purposes, we also actively support staging zkBob deployments on Sepolia and Goerli testnet. These are open for public use as well.
 
-Yes, MATIC is required to pay the gas fees for a direct deposit transaction. In addition, a fee of 0.10 BOB will be charged for each direct deposit tx. For regular deposits, transfers or withdrawals within the zkBob application, MATIC is not required.
+Read more about all relevant contract addresses for all networks zkBob is present at in [deployed-contracts.md](../../implementation/deployed-contracts.md "mention")
+
+### How to get testnet BOB in Goerli/Sepolia?
+
+There are BOB faucet contracts available in both Goerli/Sepolia ([deployed-contracts.md](../../implementation/deployed-contracts.md "mention")), which allow anyone to get up to 10k BOB per transaction made from Etherscan UI.
+
+### Does a direct deposit operation require MATIC/ETH?
+
+Yes, native token (like MATIC or ETH) is required to pay the gas fees for a direct deposit transaction. In addition, a fee of 0.10 BOB will be charged for each direct deposit tx. For regular deposits, transfers or withdrawals within the zkBob application, MATIC/ETH is not required.
 
 ### How do I get started?
 

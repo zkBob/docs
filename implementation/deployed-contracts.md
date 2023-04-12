@@ -23,6 +23,27 @@ zkBob Pool ID: 0
 | Governance Multisig                                                                | [0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8](https://polygonscan.com/address/0xd4a3D9Ca00fa1fD8833D560F9217458E61c446d8) |
 | MATIC Faucet (sends 0.1 MATIC to addresses with 0 balance on withdrawal >= 10 BOB) | [0xdf59ba2cf116397de71cf18d85eaa286ce6759ba](https://polygonscan.com/address/0xdf59ba2cf116397de71cf18d85eaa286ce6759ba) |
 
+## Optimism
+
+RPC: [https://rpc.ankr.com/optimism](https://rpc.ankr.com/optimism)\
+Chain ID: 10\
+zkBob Pool ID: 1
+
+| Contract name                              | Address                                                                                                                          |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| BOB Token                                  | [0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B](https://optimistic.etherscan.io/address/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b) |
+| BOB Token Implementation                   | [0x82907eAeB25D248dC82033E45b00A3E012Ba2d0D](https://optimistic.etherscan.io/address/0x82907eaeb25d248dc82033e45b00a3e012ba2d0d) |
+| zkBob Pool                                 | [0x1CA8C2B9B20E18e86d5b9a72370fC6c91814c97C](https://optimistic.etherscan.io/address/0x1ca8c2b9b20e18e86d5b9a72370fc6c91814c97c) |
+| zkBob Pool Implementation                  | [0xF321a98DFFe0c790A84BbE754811f3918a431ab9](https://optimistic.etherscan.io/address/0xf321a98dffe0c790a84bbe754811f3918a431ab9) |
+| zkBob Direct Deposits Queue                | [0x15B8C75c024acba8c114C21F42eb515A762c0014](https://optimistic.etherscan.io/address/0x15b8c75c024acba8c114c21f42eb515a762c0014) |
+| zkBob Direct Deposits Queue Implementation | [0x6C8Fc6D273500d06DA01ED517dd072A32df59088](https://optimistic.etherscan.io/address/0x6c8fc6d273500d06da01ed517dd072a32df59088) |
+| Operator Manager                           | [0xF853E272893035a8C6A82616B7b442aB329D92D9](https://optimistic.etherscan.io/address/0xf853e272893035a8c6a82616b7b442ab329d92d9) |
+| Transfer Verifier                          | [0x7aD8d97c60BFb59e501e3b6C1d8E564b0bB8195d](https://optimistic.etherscan.io/address/0x7ad8d97c60bfb59e501e3b6c1d8e564b0bb8195d) |
+| Tree Update Verifier                       | [0x2C34aFcB1c51796c3c0C7710c72a56Eb72E1E81D](https://optimistic.etherscan.io/address/0x2c34afcb1c51796c3c0c7710c72a56eb72e1e81d) |
+| Batch Direct Deposit Verifier              | [0x85afa00f38aD5F353C2B80985407b8E8A27eA38f](https://optimistic.etherscan.io/address/0x85afa00f38ad5f353c2b80985407b8e8a27ea38f) |
+| Relayer (Operator) Address                 | [0xb9CD01c0b417b4e9095f620aE2f849A84a9B1690](https://optimistic.etherscan.io/address/0xb9cd01c0b417b4e9095f620ae2f849a84a9b1690) |
+| Governance Multisig                        | [0x14fc6a1a996A2EB889cF86e5c8cD17323bC85290](https://optimistic.etherscan.io/address/0x14fc6a1a996a2eb889cf86e5c8cd17323bc85290) |
+
 ## Sepolia Testnet
 
 RPC: [https://rpc.sepolia.org](https://rpc.sepolia.org/)\
