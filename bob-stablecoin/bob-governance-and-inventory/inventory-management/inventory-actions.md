@@ -33,6 +33,7 @@ BOB is added/removed from inventory LP positions in tranches based on usage and 
 | 3,000,000    | BOB to BobVault (BobSwap) [GP 7](../protocol-governance/gp-7-increase-multi-chain-inventory-and-update-bobswap.md)                                                                            | Mar-10-2023 10:20:23 AM +UTC | [0x9972....3bba](https://etherscan.io/tx/0x9972a9f4294531d0bffc96eb795e35539b0a20a83956b07d39a9887831c03bba) |
 | 2,000,000    | BOB/USDC Kyberswap inventory position [GP 7](../protocol-governance/gp-7-increase-multi-chain-inventory-and-update-bobswap.md)                                                                | Mar-10-2023 10:20:23 AM +UTC | [0x9972....3bba](https://etherscan.io/tx/0x9972a9f4294531d0bffc96eb795e35539b0a20a83956b07d39a9887831c03bba) |
 | 2,000,000    | BOB/USDT Kyberswap inventory position [GP 7](../protocol-governance/gp-7-increase-multi-chain-inventory-and-update-bobswap.md)                                                                | Mar-10-2023 10:20:23 AM +UTC | [0x9972....3bba](https://etherscan.io/tx/0x9972a9f4294531d0bffc96eb795e35539b0a20a83956b07d39a9887831c03bba) |
+| -4,000,000   | BOB LP Kyberswap position closures due to emergency measure [GP 9](../protocol-governance/gp-9-deactivate-kyberswap-inventory-pairs-emergency-measure.md)                                     | Apr-17-2023 01:15:47 PM +UTC | [0x525a....9217](https://etherscan.io/tx/0x525a434a05668791df3826d1bfe937658f8c52969dcb9b5fcc7815d0eb1c9217) |
 
 ## Optimism
 
@@ -44,12 +45,13 @@ BOB is added/removed from inventory LP positions in tranches based on usage and 
 
 ## BNB Chain
 
-| BOB Amount | Info                                                                                                                           | Date                         | Tx Hash                                                                                                     |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| 1,000,000  | [Kyberswap inventory LP](https://kyberswap.com/swap/bnb/bob-to-usdc)                                                           | Nov-07-2022 02:32:10 PM +UTC | [0x27f8....5aa9](https://bscscan.com/tx/0x27f833734e9b3f018ff6b903fe856bf2bbc3a853aa585b5836c6e22308975aa9) |
-| 5,000,000  | New BobVault deployment  [GP 7](../protocol-governance/gp-7-increase-multi-chain-inventory-and-update-bobswap.md)              | Mar-10-2023 10:14:12 AM +UTC | [0x4cc9....6f9f](https://bscscan.com/tx/0x4cc92a608c8d3f8c8e150d22d9038a5fe16a1b2e657a59289441d21778556f9f) |
-| 2,000,000  | BOB/USDC Kyberswap inventory position [GP 7](../protocol-governance/gp-7-increase-multi-chain-inventory-and-update-bobswap.md) | Mar-10-2023 10:14:12 AM +UTC | [0x4cc9....6f9f](https://bscscan.com/tx/0x4cc92a608c8d3f8c8e150d22d9038a5fe16a1b2e657a59289441d21778556f9f) |
-| 2,000,000  | BOB/USDT Kyberswap inventory position [GP 7](../protocol-governance/gp-7-increase-multi-chain-inventory-and-update-bobswap.md) | Mar-10-2023 10:14:12 AM +UTC | [0x4cc9....6f9f](https://bscscan.com/tx/0x4cc92a608c8d3f8c8e150d22d9038a5fe16a1b2e657a59289441d21778556f9f) |
+| BOB Amount | Info                                                                                                                                                      | Date                         | Tx Hash                                                                                                     |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| 1,000,000  | [Kyberswap inventory LP](https://kyberswap.com/swap/bnb/bob-to-usdc)                                                                                      | Nov-07-2022 02:32:10 PM +UTC | [0x27f8....5aa9](https://bscscan.com/tx/0x27f833734e9b3f018ff6b903fe856bf2bbc3a853aa585b5836c6e22308975aa9) |
+| 5,000,000  | New BobVault deployment  [GP 7](../protocol-governance/gp-7-increase-multi-chain-inventory-and-update-bobswap.md)                                         | Mar-10-2023 10:14:12 AM +UTC | [0x4cc9....6f9f](https://bscscan.com/tx/0x4cc92a608c8d3f8c8e150d22d9038a5fe16a1b2e657a59289441d21778556f9f) |
+| 2,000,000  | BOB/USDC Kyberswap inventory position [GP 7](../protocol-governance/gp-7-increase-multi-chain-inventory-and-update-bobswap.md)                            | Mar-10-2023 10:14:12 AM +UTC | [0x4cc9....6f9f](https://bscscan.com/tx/0x4cc92a608c8d3f8c8e150d22d9038a5fe16a1b2e657a59289441d21778556f9f) |
+| 2,000,000  | BOB/USDT Kyberswap inventory position [GP 7](../protocol-governance/gp-7-increase-multi-chain-inventory-and-update-bobswap.md)                            | Mar-10-2023 10:14:12 AM +UTC | [0x4cc9....6f9f](https://bscscan.com/tx/0x4cc92a608c8d3f8c8e150d22d9038a5fe16a1b2e657a59289441d21778556f9f) |
+| -5,000,000 | BOB Kyberswap LP position closures due to emergency measure [GP 9](../protocol-governance/gp-9-deactivate-kyberswap-inventory-pairs-emergency-measure.md) | Apr-17-2023 01:27:25 PM +UTC | [0xee89....5958](https://bscscan.com/tx/0xee898220f074fb750d71777f7d8514a0f1b86c9fcff9576a319875eedb805958) |
 
 ## Arbitrum One
 
