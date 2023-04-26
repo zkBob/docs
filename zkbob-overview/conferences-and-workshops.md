@@ -26,7 +26,7 @@ Andrew spoke on compliant privacy features and enabling personal financial priva
 
 {% embed url="https://youtu.be/H0Nv5iagNns" %}
 
-## ETHTokyo
+## ETHGlobal Tokyo
 
 Kirill presented on BOB and how to integrate zkBob direct deposits into an application. The talk starts at 39:45.
 
@@ -34,11 +34,11 @@ Kirill presented on BOB and how to integrate zkBob direct deposits into an appli
 
 ## ETHTaipei
 
-Igor presented on privacy, compliance, and zk proofs.
+Igor presented at [ETHTaipei](https://ethtaipei.org/) on privacy, compliance, and zk proofs.
 
 <figure><img src="../.gitbook/assets/DSC07539.jpg" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/DSC07542.jpg" alt=""><figcaption></figcaption></figure>
 
-
+Look for us at [ETHGlobal Lisbon](https://ethglobal.com/events/lisbon), [ETHGlobal Paris](https://ethglobal.com/events/paris2023), [EDCON](https://www.edcon.io/) and more soon!
 
