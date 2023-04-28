@@ -33,6 +33,7 @@ Swap BOB, create non-inventory LP positions, and use BOB in a variety of DeFi co
 * [Paraswap](https://app.paraswap.io/#/USDC-BOB/100?network=Polygon) (Polygon, Ethereum, Optimism, BNB, Arbitrum)
 * [OKX](https://www.okx.com/web3/dex?inputChain=137\&inputCurrency=0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b\&outputCurrency=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48\&outputChain=1) (Polygon, Ethereum, Optimism, BNB, Arbitrum)
 * [Sushiswap](https://www.sushi.com/swap) (Polygon, Ethereum, Optimism, BNB, Arbitrum)
+* [Shapeshift](https://app.shapeshift.com/) (Polygon, Ethereum, Optimism, BNB, Arbitrum)
 * [Pancake Swap](https://pancakeswap.finance/swap) (BNB)
 * [Mellow Protocol Vaults](https://app.mellow.finance/products) (Polygon)
 * [Rhino Defi gateway](https://rhino.fi/) (Polygon, Ethereum, Optimism, BNB, Arbitrum)&#x20;
