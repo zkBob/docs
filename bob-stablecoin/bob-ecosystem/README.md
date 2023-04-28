@@ -34,6 +34,8 @@ Swap BOB, create non-inventory LP positions, and use BOB in a variety of DeFi co
 * [Arrakis Vaults](https://beta.arrakis.finance/vaults) (Polygon)
 * [Plasma Finance](https://apy.plasma.finance/#/hyper-dex/market) (Polygon) [Quadrat Strategy](https://apy.plasma.finance/#/quadrat/0xFd1Da9cC77f04A1E1B22a314a53D201A39373719)
 * [Stable Fish](https://stable.fish/) stablecoin APY aggregator (various)
+* [Embr](https://beta.embr.org/) Easy BOB swaps directly from zkbob.com
+* [USDFI](https://usdfi.com/): Trade, stake & earn with $BOB pools on the USDFI DEX.
 
 ## Ecosystem Apps
 
@@ -45,4 +47,6 @@ BOB for stable and secure payments.
 * [tr3butor](https://app.tr3butor.io/organization/clawfr86w0002lh08gsixtkq0): Web3 talent platform for job listings, events and more.
 * [HYVE](https://hyve.works/): Job postings and freelancer payments with BOB.
 * [Rabby Wallet](https://rabby.io/): BOB support for swaps
+* [Peanut](https://peanut.to/): Send BOB with a simple link.
+* [DappBack](https://dappback.com/zkbob): Community-building Quests
 
