@@ -40,6 +40,7 @@ Swap BOB, create non-inventory LP positions, and use BOB in a variety of DeFi co
 BOB for stable and secure payments.
 
 * [Request Finance](https://www.request.finance/): BOB can be selected for invoicing and payroll services.
+* [BetSwirl](https://www.betswirl.com/): Betting between friends, BOB is a stablecoin option. [Learn more about the integration](https://blog.zkbob.com/betswirl/).
 * [Suarmi](https://www.suarmi.com/index): Fiat on-ramp currently available for residents in Mexico, with more countries coming soon.
 * [tr3butor](https://app.tr3butor.io/organization/clawfr86w0002lh08gsixtkq0): Web3 talent platform for job listings, events and more.
 * [HYVE](https://hyve.works/): Job postings and freelancer payments with BOB.
