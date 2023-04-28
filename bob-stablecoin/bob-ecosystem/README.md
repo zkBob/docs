@@ -41,7 +41,8 @@ Swap BOB, create non-inventory LP positions, and use BOB in a variety of DeFi co
 * [Plasma Finance](https://apy.plasma.finance/#/hyper-dex/market) (Polygon) [Quadrat Strategy](https://apy.plasma.finance/#/quadrat/0xFd1Da9cC77f04A1E1B22a314a53D201A39373719)
 * [Stable Fish](https://stable.fish/) (various) stablecoin APY aggregator
 * [Embr](https://beta.embr.org/) (various) Easy BOB swaps directly from zkbob.com
-* [USDFI](https://usdfi.com/): (various) Trade, stake & earn with $BOB pools on the USDFI DEX.
+* [USDFI](https://usdfi.com/) (various) Trade, stake & earn with $BOB pools on the USDFI DEX.
+* [Defiedge](https://www.defiedge.io/) (various) permissionless liquidity management
 
 ## Ecosystem Apps
 
@@ -55,4 +56,5 @@ BOB for stable and secure payments.
 * [Rabby Wallet](https://rabby.io/): BOB support for swaps
 * [Peanut](https://peanut.to/): Send BOB with a simple link.
 * [DappBack](https://dappback.com/zkbob): Community-building Quests
+* [KnowYourCat KYC](https://knowyourcat.id/): Decentralized web3 ID protocol for increased BOB limits.
 
