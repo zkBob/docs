@@ -27,6 +27,7 @@ Swap BOB, create non-inventory LP positions, and use BOB in a variety of DeFi co
 * [Wombat ](https://app.wombat.exchange/)(Arbitrum, BNB) Swap and stake BOB.
   * [Magpie](https://www.magpiexyz.io/) maximize Wombat yields
   * [Quoll](https://quoll.finance/) boosted yields
+* [Beefy](https://app.beefy.com/) multichain yield optimizer (Optimism)
 * [Jumper](https://jumper.exchange/) multichain bridge by Li.Fi
 * [DefiLama DEX Meta-aggregator](https://swap.defillama.com/?chain=polygon\&from=0x2791bca1f2de4661ed88a30c99a7a9449aa84174\&to=0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b) (Polygon, Ethereum, Optimism, BNB, Arbitrum)
 * [1inch](https://app.1inch.io/#/1/unified/swap/BOB/USDC) (Polygon, Ethereum, Optimism, BNB, Arbitrum)

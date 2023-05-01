@@ -43,6 +43,7 @@
     * [GP 9: Deactivate Kyberswap inventory pairs \[Emergency Measure\]](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-9-deactivate-kyberswap-inventory-pairs-emergency-measure.md)
     * [GP 10: Reallocate previous Kyberswap inventory](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-10-reallocate-previous-kyberswap-inventory.md)
     * [GP 11: Add 24 hour timelock to BOB contract on Optimism](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-11-add-24-hour-timelock-to-bob-contract-on-optimism.md)
+    * [GP 12: Raise Polygon limits](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-12-raise-polygon-limits.md)
 * [Capital Efficiency](bob-stablecoin/capital-efficiency.md)
 * [BOB Stablecoin FAQ](bob-stablecoin/bob-stablecoin-faq.md)
 
