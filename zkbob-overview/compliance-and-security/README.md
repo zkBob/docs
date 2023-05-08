@@ -31,7 +31,7 @@ Limits are imposed to prevent large-scale transactions which may be the result o
 
 ## Geo Restrictions
 
-The zkBob application is in Beta with minimal restrictions enabled. Users must abide by local, state and federal laws. **Please check prior to usage**.&#x20;
+The zkBob application is in Beta with minimal restrictions enabled. Users must take responsibility to abide by local, state and federal laws. **Please check prior to usage**.&#x20;
 
 Users in the UAE are programmatically restricted from using zkBob due to Virtual Assets Regulatory Authority (VARA) policies which prohibit anonymity-enhanced transactions. These policies are available [here](https://www.vara.ae/media/Virtual%20Assets%20and%20Related%20Activities%20Regulations%202023.pdf).&#x20;
 
@@ -47,7 +47,7 @@ An integration with TRM and potential future integrations with VAF Compliance an
 
 ### Beta Release
 
-zkBob is now released in a beta version. Contracts [have been audited](../../resources/security-audit.md), and users should use at their own discretion. Risks to users are mitigated through [limits on deposits and withdrawals](../deposit-and-withdrawal-limits.md). In addition, the overall size of a pool cannot exceed 1,000,000 BOB tokens.
+zkBob is now released in a beta version. Contracts [have been audited](../../resources/security-audit.md), and users should use at their own discretion. Risks to users are mitigated through [limits on deposits and withdrawals](../deposit-and-withdrawal-limits.md). In addition, the overall size of a pool cannot exceed 2M BOB tokens on Polygon and 10M BOB on Optimism.
 
 ### Bug Bounty
 

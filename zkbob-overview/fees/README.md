@@ -1,6 +1,6 @@
 # Fees
 
-A $0.10 stable fee is added to each transaction\* and paid with BOB tokens. You DO NOT need any native (MATIC/ETH) tokens to deposit, transfer, or withdraw from zkBob. All tx fees are $0.10 and paid using BOB.
+A $0.10 fee per tx on Polygon and $0.50 fee per tx on Optimism is added to each transaction\* and paid with existing BOB tokens. You DO NOT need any native (MATIC/ETH) tokens to deposit, transfer, or withdraw from zkBob. All tx fees are paid using BOB.
 
 Fees cover the cost of transactions in most situations (_see below_) and can result in a surplus depending on gas and token prices. BOB accumulates with the fee receiver and is periodically withdrawn, swapped for native tokens, and sent to the relayer to subsidize future transaction costs. Relayers do not keep any profits from extra fees - all collected fees are used to support the protocol.&#x20;
 
@@ -18,13 +18,15 @@ To calculate a baseline for any operation, we take the highest gas cost (deposit
 
 Max Fee baseline = `902,000 * gas price * token price`
 
-Fees can vary significantly based on the gas price and token price at the time of a transaction. In this table, the top row shows example USD equivalent token prices ($0.35 to $1.05) and the left column shows varying gas costs ranging from 30 to 100 gwei. These are multiplied with 902,000 to calculate the cost for a max transaction.
+### Polygon Example
+
+Fees can vary significantly based on the gas price and token price at the time of a transaction. In this table, the top row shows example USD equivalent token prices ($0.35 to $1.05) and the left column shows varying gas costs ranging from 30 to 100 Gwei. These are multiplied with 902,000 to calculate the cost for a max transaction.
 
 |          | $0.35  | $0.80 | $1.05 |
 | -------- | ------ | ----- | ----- |
-| 30 gwei  | $0.009 | $0.02 | $0.03 |
-| 75 gwei  | $0.02  | $0.05 | $0.07 |
-| 100 gwei | $0.03  | $0.07 | $0.1  |
+| 30 Gwei  | $0.009 | $0.02 | $0.03 |
+| 75 Gwei  | $0.02  | $0.05 | $0.07 |
+| 100 Gwei | $0.03  | $0.07 | $0.1  |
 
 ### Fee Collection
 
@@ -36,7 +38,7 @@ Once enough BOB has accumulated, it can be withdrawn and swapped for native (MAT
 
 Anyone can view current fees accumulated by the protocol. This does not represent all fees collected, but only those accumulated since the previous withdrawal.
 
-**Polygon Example**
+### **Polygon Example**
 
 1\) Go to the [pool proxy contract on Polyscan](https://polygonscan.com/address/0x72e6b59d4a90ab232e55d4bb7ed2dd17494d62fb#readProxyContract) and click the **Read as Proxy** tab.
 
@@ -46,6 +48,6 @@ Anyone can view current fees accumulated by the protocol. This does not represen
 
 <figure><img src="../../.gitbook/assets/2-fee-accumulated.png" alt=""><figcaption></figcaption></figure>
 
-3\) Convert the result (in gwei) to USD using [Ethereum Unit Converter](https://eth-converter.com/). Since BOB is a stable token, the Ether amount will be USD equivalent (in the case below $13.70 BOB is currently accumulated in the contract).
+3\) Convert the result (in Gwei) to USD using [Ethereum Unit Converter](https://eth-converter.com/). Since BOB is a stable token, the Ether amount will be USD equivalent (in the case below $13.70 BOB is currently accumulated in the contract).
 
 <figure><img src="../../.gitbook/assets/3-converter (1).png" alt=""><figcaption></figcaption></figure>

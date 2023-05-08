@@ -79,7 +79,7 @@ zkBob is a decentralized, open-source application with a distributed & decentral
 
 ## Does zkBob work on mobile devices?
 
-Yes! However, operations can take longer as Proof generation is resource intensive on many mobile devices. Ideally, we recommend using a desktop/laptop environment for zkBob, however we continue to optimize mobile for faster processing.&#x20;
+Yes! However, operations can take longer as Proof generation is resource intensive on many mobile devices. Ideally, we recommend using a desktop/laptop environment for zkBob, and we continue to optimize mobile for faster processing.&#x20;
 
 ## Why does zkBob use the BOB stablecoin?
 
@@ -87,15 +87,15 @@ zkBob is designed to use BOB for several reasons. BOB is stable, flexible (multi
 
 ## Do I need MATIC/ETH to pay for transactions?
 
-**No**, all fees are paid in BOB with a stable $0.10 fee per tx! This includes deposits into the protocol, transfers within zkBob, and withdrawals from the application.
+**No**, all fees are paid in BOB with a stable $0.10(Polygon) and $0.50 (Optimism) fee per tx! This includes deposits into the protocol, transfers within zkBob, and withdrawals from the application.
 
-Withdrawals from zkBob will also result in a small amount of MATIC (Polygon) sent to the receiving address if certain criteria are met. To receive, the address must have a 0 balance, and the withdrawal amount must be 10 or more BOB. Note a faucet is not available on Optimism.
+Withdrawals from zkBob on Polygon will also result in a small amount of MATIC (Polygon) sent to the receiving address if certain criteria are met. To receive, the address must have a 0 balance, and the withdrawal amount must be 10 or more BOB. _Note a faucet is not available on Optimism._
 
 If you want to purchase BOB in other ways ([Uniswap](../bob-stablecoin/bob-on-uniswap-v3.md) or [Metamask swap](../bob-stablecoin/add-bob-to-metamask/swap-bob-with-metamask-swap.md)), you will need a small amount of MATIC/ETH to complete the transaction.
 
 ## Where can I see zkBob stats?
 
-zkBob dune analytics dashboard [https://dune.com/maxaleks/zkbob ](https://dune.com/maxaleks/zkbob)is a good place to start. zkBob is also supported by Defillama [https://defillama.com/protocol/zkbob.](https://defillama.com/protocol/zkbob)
+zkBob dune analytics dashboard [https://dune.com/zkbob/zkbob](https://dune.com/zkbob/zkbob)[ ](https://dune.com/maxaleks/zkbob)is a good place to start. zkBob is also supported by Defillama [https://defillama.com/protocol/zkbob.](https://defillama.com/protocol/zkbob)
 
 ## Privacy
 

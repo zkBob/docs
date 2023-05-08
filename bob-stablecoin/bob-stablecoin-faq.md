@@ -49,9 +49,8 @@ The easiest way to see stats by chain is through the Uniswap interface. Overview
 * [BOB on Ethereum](https://app.uniswap.org/#/tokens/ethereum/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b)
 * [BOB on Arbitrum](https://app.uniswap.org/#/tokens/arbitrum/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b)
 
-Current inventory and circulating supply can be viewed here: [https://dune.com/maxaleks/bob-stable-token](https://dune.com/maxaleks/bob-stable-token)
-
-For an overview of deposits, transfer volume and withdrawals within zkBob, see the dune analytics dashboard at [https://dune.com/maxaleks/zkbob](https://dune.com/maxaleks/zkbob)
+Current inventory, circulating supply as well as zkBob details can be viewed here: \
+[https://dune.com/zkbob/zkbob](https://dune.com/zkbob/zkbob)
 
 ## What are the BOB contract details?
 

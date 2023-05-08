@@ -18,9 +18,9 @@ zkBob uses an Unspent Transaction Output (UTXO) model with strict ordering. Inco
 
 When an account has many incoming and outgoing transactions, notes are aggregated regularly (collected and spent) and do not build up.
 
-However, in certain scenarios there may be a large number of unspent notes which are requested for processing in a single operation. In this case, multiple transactions are performed by the zkBob application for a single operation. Each transaction requires a separate 0.10 BOB fee.&#x20;
+However, in certain scenarios there may be a large number of unspent notes which are requested for processing in a single operation. In this case, multiple transactions are performed by the zkBob application for a single operation. Each transaction requires a separate 0.10 (Polygon) or 0.50 (Optimism)  BOB fee.&#x20;
 
-## Example: Carl withdraws 20 BOB
+## Example: Carl withdraws 20 BOB on Polygon
 
 Carl starts with a zkBob account funded with 10 BOB. He then receives 10 separate transfers through zkBob of 1 BOB each (ie 10 notes) from his friends. Now, Carl's total account balance displays 20 BOB. He decides to withdraw the entire 20 BOB.&#x20;
 
@@ -33,7 +33,7 @@ In this scenario there are 10 unspent notes that need to be processed to complet
 
 When the operation is complete, Carl receives 19.6 BOB, and 0.4 BOB is spent as fees for the 4 transactions. His new zkAccount balance is 0.
 
-## Example: Carl withdraws 15 BOB
+## Example: Carl withdraws 15 BOB on Polygon
 
 If Carl wants to withdraw 15 BOB, the operation only requires 2 txs.&#x20;
 
