@@ -7,15 +7,15 @@ description: >-
 # zkBob Direct Deposits
 
 {% hint style="success" %}
-Welcome 👋 Below are instructions for using the **Direct Deposit** functionality with zkBob for the **EthTokyo Hackathon**.&#x20;
+Welcome 👋 Below are instructions for using the **Direct Deposit** functionality with zkBob for the **EthGlobal Hackathons**.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
-If you plan to use zkBob for the hackathon, you will integrate direct deposit functionality into your Dapp or project. While there is a test application on Sepolia, **we strongly recommend** using the application in production on **Optimism or Polygon**. If you need BOB to get started, please contact us through the hackathon supported channel ([Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
+If you plan to use zkBob for the hackathon, you will integrate direct deposit functionality into your Dapp or project. While there is a test application on Sepolia and Goerli, **we strongly recommend** using the application in production on **Optimism or Polygon**. If you need BOB to get started, please contact us through the hackathon supported channel ([Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
 
 * [Multichain Contract Info](../../deployment/contracts-deployment.md)
-* UI on Polygon: [https://app.zkbob.com](https://app.zkbob.com/deposit)
-* UI on Optimism: [https://optimism--zkbob.netlify.app/](https://optimism--zkbob.netlify.app/)
+* Production UI on Polygon/Optimism: [https://app.zkbob.com](https://app.zkbob.com/deposit)
+* Testnet UI on Sepolia/Goerli: [https://staging--zkbob.netlify.app/](https://staging--zkbob.netlify.app/)
 {% endhint %}
 
 {% hint style="success" %}
@@ -188,7 +188,7 @@ zkAddresses can be [formatted in different ways](zkbob-direct-deposits.md#zkaddr
 
 ### Submitting a direct deposit
 
-Direct deposits are submitted directly to the direct deposits queue contract ([0x15b8c75c024acba8c114c21f42eb515a762c0014](https://optimistic.etherscan.io/address/0x15b8c75c024acba8c114c21f42eb515a762c0014) on Optimism or `0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289 on polygon`), using one of two approaches:
+Direct deposits are submitted directly to the direct deposits queue contract (e.g. [0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289](https://polygonscan.com/address/0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289) on Polygon, see [deployed-contracts.md](../../implementation/deployed-contracts.md "mention") for addresses on other networks), using one of two approaches:
 
 1. Common `approve` + `deposit` approach, suitable for a majority of use-cases.
 2. Shortcut approach using `transferAndCall`, suitable for simple workflows.
@@ -210,7 +210,8 @@ Calling either of these methods requires 3 input arguments:
 IERC20 bob = IERC20(0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B);
 IZkBobDirectDeposits queue = IZkBobDirectDeposits(0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289);
 
-bytes memory zkAddress = bytes("QsnTijXekjRm9hKcq5kLNPsa6P4HtMRrc3RxVx3jsLHeo2AiysYxVJP86mriHfN");
+// zkbob_polygon:QsnTijXekjRm9hKcq5kLNPsa6P4HtMRrc3RxVx3jsLHeo2AiysYxVJP86mz6t7k
+bytes memory zkAddress = bytes("QsnTijXekjRm9hKcq5kLNPsa6P4HtMRrc3RxVx3jsLHeo2AiysYxVJP86mz6t7k");
 
 address fallbackReceiver = msg.sender;
 
@@ -236,7 +237,7 @@ The most straightforward way to test direct deposit submission is through the Po
 \
 [https://polygonscan.com/address/0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289#writeProxyContract](https://polygonscan.com/address/0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289#writeProxyContract)
 
-![](<../../.gitbook/assets/Screenshot 2023-02-22 at 10.16.38 AM (1).png>)
+![](<../../.gitbook/assets/Screenshot 2023-05-09 at 2.12.11 PM.png>)
 
 {% hint style="warning" %}
 Submitting a direct deposit in most scenarios will require the end user to pay transaction fees in MATIC or ETH, which is not the same for regular zkBob operations.
@@ -279,13 +280,13 @@ zkAddress consists of two main parts - a diversifier and a public key, look for 
 The most convenient way to generate a receiving zkAddress is to use the zkBob UI to open an account and an address - [generate-a-secure-address.md](../../zkbob-app/generate-a-secure-address.md "mention")
 {% endhint %}
 
-1. zkBob UI format:
-   * Example: `QsnTijXekjRm9hKcq5kLNPsa6P4HtMRrc3RxVx3jsLHeo2AiysYxVJP86mriHfN`
+1. zkBob UI format (**recommended for Optimism**):
+   * Example: `QsnTijXekjRm9hKcq5kLNPsa6P4HtMRrc3RxVx3jsLHeo2AiysYxVJP86mz6t7k` (simply remove the `zkbob_polygon:` human readable prefix)
    * Base58 encoding of the following string: `bytes10(diversifier_le) ++ bytes32(pk_le) ++ bytes4(checksum)`
    * Length of up to 63 base58 symbols
    * Base58 decoding is done on the smart contract level at the moment of deposit submission and is gas intensive (\~610k gas)
-2. Pre-decoded zkBob UI format (**recommended**):
-   * Example: `0xda9ee1b1b651c87a76c2efe3e4b9b0a0e53e5b66ed19ad100afe5289ea732bfd5ac002969523f26e6f2ff4e1d3a9`
+2. Pre-decoded zkBob UI format (**recommended for Polygon / Optimism**):
+   * Example: `0xda9ee1b1b651c87a76c2efe3e4b9b0a0e53e5b66ed19ad100afe5289ea732bfd5ac002969523f26e6f2ff9ddd34b`
    * Same format as in the zkBob UI, but omitting the base58 encoding - `bytes10(diversifier_le) ++ bytes32(pk_le) ++ bytes4(checksum)`
    * Much more gas efficient decoding than the previous format (\~3,400 gas)
 3. Raw format:
@@ -302,7 +303,7 @@ Sending direct deposit to the incorrectly serialized address might result in the
 
 ### Checksum
 
-zkBob address checksum is first 4 bytes of `keccak(bytes10(diversifier_le) ++ bytes32(pk_le))`
+zkBob address checksum is first 4 bytes of `keccak256(bytes3(pool_id) ++ keccak256(bytes10(diversifier_le) ++ bytes32(pk_le)))`
 
 ### Solidity Library
 
@@ -349,10 +350,8 @@ If you need BOB to get started, please send us a message in the [Discord](https:
 
 Optimism will be integrated into the primary instance, however for now there are 2 separate instances.
 
-* **Polygon** instance: [https://app.zkbob.com](https://app.zkbob.com/deposit)
-* **Optimism** instance: [https://optimism--zkbob.netlify.app/](https://optimism--zkbob.netlify.app/)
-
-
+* **Polygon / Optimism** instance: [https://app.zkbob.com](https://app.zkbob.com/deposit)
+* **Testnet** (Sepolia/Goerli) instance: [https://staging--zkbob.netlify.app/](https://staging--zkbob.netlify.app/)
 
 
 
