@@ -4,9 +4,10 @@
 
 * [zkBob](README.md)
 * [Basic Concepts](zkbob-overview/basic-concepts/README.md)
+  * [Getting Started](zkbob-overview/basic-concepts/getting-started.md)
   * [zk Privacy Solution Comparison](zkbob-overview/basic-concepts/zk-privacy-solution-comparison.md)
 * [zkBob is Multichain](zkbob-overview/zkbob-on-polygon/README.md)
-  * [zkBob Usage](zkbob-overview/zkbob-on-polygon/zkbob-usage.md)
+  * [zkBob Use Statistics](zkbob-overview/zkbob-is-multichain/zkbob-use-statistics.md)
 * [Use Cases](zkbob-overview/use-cases/README.md)
   * [Employee Salary](zkbob-overview/use-cases/employee-salary.md)
   * [Vendor Purchasing](zkbob-overview/use-cases/vendor-purchasing.md)
