@@ -15,7 +15,8 @@
 * [Deposit & Withdrawal Limits](zkbob-overview/deposit-and-withdrawal-limits.md)
 * [Compliance & Security](zkbob-overview/compliance-and-security/README.md)
   * [TRM Labs Integration](zkbob-overview/compliance-and-security/trm-labs-integration.md)
-* [Conferences & Workshops](zkbob-overview/conferences-and-workshops.md)
+* [Conferences, Workshops, Videos](zkbob-overview/conferences-workshops-videos/README.md)
+  * [International Videos](zkbob-overview/conferences-workshops-videos/international-videos.md)
 * [zkBob FAQ](zkbob-overview/faq.md)
 
 ## 🧙♂ BOB Stablecoin

@@ -2,7 +2,7 @@
 description: zkBob sponsorships and participation
 ---
 
-# Conferences & Workshops
+# Conferences, Workshops, Videos
 
 The zkBob decentralized team is spreading the word about personal privacy options, compliance features, and zk tech through participation and sponsorship at many blockchain conferences and hackathons. We are partnering with [ETHGlobal](https://ethglobal.com/) to sponsor several hackathons in 2023, and also participating at other conferences when we can.
 
@@ -18,7 +18,7 @@ Kirill ran a workshop for hackers on the zkBob app and how to integrate v1 for t
 
 Igor presented at the [Gweithering](https://www.gweithering.xyz/) , an outside event before ETHIndia put on by our friends at [Biconomy](https://www.biconomy.io/), [Superblock](https://www.superblock.one/), and [Frontier](https://www.frontier.xyz/).&#x20;
 
-<figure><img src="../.gitbook/assets/BOB-future.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BOB-future.jpeg" alt=""><figcaption></figcaption></figure>
 
 ## ETHDenver
 
@@ -36,9 +36,9 @@ Kirill presented on BOB and how to integrate zkBob direct deposits into an appli
 
 Igor presented at [ETHTaipei](https://ethtaipei.org/) on privacy, compliance, and zk proofs.
 
-<figure><img src="../.gitbook/assets/DSC07539.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/DSC07539.jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/DSC07542.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/DSC07542.jpg" alt=""><figcaption></figcaption></figure>
 
 Look for us at [ETHGlobal Lisbon](https://ethglobal.com/events/lisbon), [ETHGlobal Paris](https://ethglobal.com/events/paris2023), [EDCON](https://www.edcon.io/) and more soon!
 
