@@ -10,9 +10,9 @@ zkBob provides a convenient method to create an account using Metamask (MM) or a
 
 With this method, a zkBob private key is derived using your Metamask private key. You sign a message to enable this derivation. There is no fee, the operation is performed on your local machine and nothing is sent to the blockchain. The zkBob application collects your signature and creates a private key for the shielded account.&#x20;
 
-No one can reproduce the signature without access to your Metamask private key. If you change your browser or device, simply authorize Metamask and resign the same message in the zkBob application to get access to your shielded funds.&#x20;
+No one can reproduce the signature without access to your Metamask private key. If you change your browser or device, simply authorize Metamask and sign the same message in the zkBob application to get access to your shielded funds.&#x20;
 
-This method is secure and anonymous, it is not possible to reveal your private key through signature analysis.
+This method is secure and anonymous; it is not possible to reveal your private key through signature analysis.
 
 {% hint style="danger" %}
 **Security Warning**

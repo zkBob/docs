@@ -52,8 +52,9 @@
 ## 🦸♂ zkBob Application <a href="#zkbob-app" id="zkbob-app"></a>
 
 * [UI Overview](zkbob-app/zkbob-app.md)
-* [Acknowledge Terms](zkbob-app/acknowledge-terms.md)
 * [Account Creation](zkbob-app/account-creation/README.md)
+  * [Login to an existing account](zkbob-app/account-creation/login-to-an-existing-account.md)
+  * [Lost Password](zkbob-app/account-creation/lost-password.md)
   * [Metamask / Web3 Wallet Warning](zkbob-app/account-creation/metamask-web3-wallet-warning.md)
 * [Deposits](zkbob-app/deposits.md)
 * [Transfers](zkbob-app/transfers/README.md)

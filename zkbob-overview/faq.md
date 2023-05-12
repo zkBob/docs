@@ -157,7 +157,7 @@ There are 2 different types of accounts displayed in the interface. One is for t
 1. **Wallet Account**. This is a standard EOA (Externally owned address) you can connect to fund or withdraw from your zkAccount. It can also be used to generate a zkAccount using the private key from the EOA.&#x20;
 2. **zkAccount.** This is the shielded account where you can transact privately with other zkAccount holders. It is auto-named when created. [More on zkAccounts](../implementation/account-and-notes/accounts.md).
 
-![MM wallet is connected and user has logged into zkAccount which is auto-named zkGerti](../.gitbook/assets/connected.png)
+![MM wallet is connected and user has logged into zkAccount which is auto-named zkGerti](<../.gitbook/assets/connected (2).png>)
 
 ## What is the difference between an account and an address?
 
