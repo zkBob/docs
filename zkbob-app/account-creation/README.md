@@ -21,7 +21,7 @@ CIick **Create new zkAccount**. If you already have a zkAccount, select I alread
 Choose to use your web3 wallet (like MetaMask or others through WalletConnect) or create a standalone zkBob secret phrase.  With the web3 wallet method, you will connect your web3 wallet to the application to create an account. With the secret phrase, you do not need to connect your wallet, but will need to securely save your phrase**.**
 
 1. **Web3 wallet**. The application collects a signature locally on your browser - not on the blockchain - using your MetaMask or WalletConnect connected wallet. It uses the private key from your web3 wallet to derive a secure zkAccount address.
-2. **Use a secret phrase**. The application generates a secret phrase (also known as a seed phrase) for you to store securely. You can use this seed phrase to restore your account and/or password as needed from any computer. **With this method, you are responsible for securely saving your secret phrase**.
+2. **Use a secret phrase**. The application generates a secret phrase for you to store securely. You can use this secret phrase to restore your account and/or password as needed from any computer. **With this method, you are responsible for securely saving your secret phrase**.
 
 <figure><img src="../../.gitbook/assets/zkBob3.png" alt=""><figcaption></figcaption></figure>
 
@@ -85,7 +85,7 @@ Once you've created your account, you can [generate a receiving address](../gene
 ## Use zkBob Secret Phrase
 
 {% hint style="info" %}
-Also known as a seed phrase, you can create a new secret recovery phrase for your zkBob account. Be sure to store it securely off-line. If lost, there is no way to recover your account.
+Also known as a seed phrase, you can create a new secret recovery phrase specifically for your zkBob account. Be sure to store it securely off-line. If lost, there is no way to recover your account.
 {% endhint %}
 
 ### 1) Use secret phrase
@@ -96,7 +96,7 @@ Select **Use zkBob secret phrase** in the popup box.
 
 ### 2) View and write down your phrase somewhere safe (offline).&#x20;
 
-It is not wise to keep the seed phrase on your computer.&#x20;
+It is not wise to keep the secret phrase on your computer.&#x20;
 
 <figure><img src="../../.gitbook/assets/seed-phrase-1.png" alt=""><figcaption></figcaption></figure>
 
@@ -129,7 +129,7 @@ If you want to receive a transfer, [generate a receiving address](../generate-a-
 {% hint style="warning" %}
 **Note:** When using the same computer/browser for future zkBob sessions, you can access your account with just your password (assuming local storage has not been cleared). \
 \
-If you change browsers/computers or clear local storage, re-enter your seed phrase (or connect your web3 wallet if you used that method) and create a new password to restore the account.
+If you change browsers/computers or clear local storage, re-enter your secret phrase (or connect your web3 wallet if you used that method) and create a new password to restore the account.
 {% endhint %}
 
 {% hint style="success" %}
