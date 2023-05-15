@@ -40,5 +40,11 @@ Igor presented at [ETHTaipei](https://ethtaipei.org/) on privacy, compliance, an
 
 <figure><img src="../../.gitbook/assets/DSC07542.jpg" alt=""><figcaption></figcaption></figure>
 
-Look for us at [ETHGlobal Lisbon](https://ethglobal.com/events/lisbon), [ETHGlobal Paris](https://ethglobal.com/events/paris2023), [EDCON](https://www.edcon.io/) and more soon!
+## ETHGlobal Lisbon
+
+Kirill ran a workshop on integrating zkBob into DeFi workflows. The workshop starts at 4:27:30.
+
+{% embed url="https://www.youtube.com/live/KCsnFLCAtMw?feature=share&t=16028" %}
+
+Look for us at [ETHGlobal Paris](https://ethglobal.com/events/paris2023), [EDCON](https://www.edcon.io/) and more coming soon!
 
