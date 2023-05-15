@@ -12,7 +12,7 @@ Multi-sender functionality and integrations with projects like [Request Finance]
 
 Bob has 5 employees (Alice, Carlos, Dave, Erin and Frank) he pays monthly with crypto. Bob’s preference is to keep salaries private while still processing them on-chain and using a stable asset for payment. zkBob makes it easy.
 
-1. Bob and his employees each create their own zkBob zkAccounts, using either a seed phrase or web3 wallet private key.
+1. Bob and his employees each create their own zkBob zkAccounts, using either a secret phrase or web3 wallet private key.
 2. Bob swaps his monthly amount of payment in USDC for BOB stable tokens on Uniswap v3 on Polygon.
 3. Bob deposits the BOB he receives into the zkBob application.
 4. Alice, Carlos, Dave, Erin and Frank each send Bob their zkAddress in a private DM on Slack.

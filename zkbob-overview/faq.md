@@ -119,7 +119,7 @@ Not completely, there is some information which is recorded on chain. It is tran
 
 With zkproof transactions specific identifying information is never recorded (such as sender, receiver, and amount sent) so it is not possible to connect these bits of information within zkBob. However, there are other ways your information may be compromised. To maintain privacy, be aware of the following.
 
-* **Secret phrase / private key discovery**: Never write a secret seed phrase on any internet-connected device. Do not take a screenshot of it. Do not copy and paste it anywhere. Write it on a physical piece of paper and keep somewhere secure.
+* **Secret phrase / private key discovery**: Never write a secret phrase on any internet-connected device. Do not take a screenshot of it. Do not copy and paste it anywhere. Write it on a physical piece of paper and keep somewhere secure.
 * **Ip-tracing**: Internet service providers collect logs that can show all ip addresses that connected to an application, including zkBob.&#x20;
 * **Transaction inference:** Depositing a specific amount of tokens and then withdrawing that exact amount (especially unconventional amounts in a short timeframe) can create a compelling case for connection. Withdrawing different amounts than deposit amounts, and maintaining funds in the pool for longer periods of time, increases privacy.&#x20;
 * **Address trail:** Using the same generated zkAddress for transactions with many different parties creates a connection string which can compromise privacy. It is best to generate a new address for each transfer within the application.
@@ -175,13 +175,11 @@ Yes, it will still work. You can generate as many addresses as you would like. E
 
 ## What if I lose my password?
 
-It's ok - you can restore your account using your original secret seed phrase or by reconnecting your original Metamask (MM) / WalletConnect account. If you created using MM or WalletConnect, you can restore by going through the create account process and signing to generate a key for the same wallet address.
+It's ok. You can restore your account depending on how you created it. If you used a secret phrase to create, restore your account by entering your secret phrase. If you created your account using MM or WalletConnect, you can restore it by going through the create account process and **signing the message using the same wallet address**
 
 Once restored, you will be asked to create a new password. The password is kept in local storage. &#x20;
 
-<figure><img src="../.gitbook/assets/restore-1.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/restore-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/lost-password.png" alt=""><figcaption></figcaption></figure>
 
 ## Why do I keep having to enter my password?
 
@@ -189,7 +187,7 @@ Encrypted data is stored in local storage for safety purposes. When the app is r
 
 The in-app refresh, located next to your zkAccount name, should be used rather than a 'hard refresh' to avoid password re-entry.
 
-<figure><img src="../.gitbook/assets/refresg.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/refresh.png" alt=""><figcaption></figcaption></figure>
 
 ## Why is my zkBob transaction taking almost a minute to process?
 
@@ -207,7 +205,7 @@ a) clear your current browser storage\
 b) switch to a different browser, or \
 c) connect to zkBob using incognito mode.&#x20;
 
-After choosing from the options above, reconnect to zkBob using your active MetaMask or WalletConnect account or your seed phrase and create a new password. Your old account should populate, and you can try the transaction again.&#x20;
+After choosing from the options above, reconnect to zkBob using your active MetaMask or WalletConnect account or your secret phrase and create a new password. Your old account should populate, and you can try the transaction again.&#x20;
 
 \-> Instructions on [clearing browser storage](faq.md#clear-browser-storage).
 
@@ -236,7 +234,7 @@ or in the Chrome menu go to View -> Developer -> Developer Tools
 ![](<../.gitbook/assets/reload (1).png>)
 
 {% hint style="warning" %}
-If this doesn't fix the issue, proceed to clear site data. **Note this process will clear all local storage and require you to reenter your seed phrase. If you do not have it your account information will be unrecoverable.**
+If this doesn't fix the issue, proceed to clear site data. **Note this process will clear all local storage and require you to reenter your secret phrase. If you do not have it your account information will be unrecoverable.**
 {% endhint %}
 
 #### Clear Browser Storage
@@ -249,5 +247,5 @@ If this doesn't fix the issue, proceed to clear site data. **Note this process w
 
 ![](../.gitbook/assets/settings-2.png)
 
-5\) Restore your previous account with your seed phrase and create a new password to re-enter the application.
+5\) Restore your previous account with your secret phrase and create a new password to re-enter the application.
 

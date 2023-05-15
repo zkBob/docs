@@ -20,7 +20,7 @@ zkBob uses zkSNARKS zero-knowledge proofs to verify an action has been completed
 
 A zkBob account is linked to a user via a private key. The private key is used to identify the account balance, generate proofs to transfer tokens, and withdraw tokens from the pool.&#x20;
 
-zkBob accounts are created either from the private key of an existing MetaMask/WalletConnect wallet or from a stand-alone secret seed phrase. Users can decide how they would like to create an account following a step-by-step process.
+zkBob accounts are created either from the private key of an existing MetaMask/WalletConnect wallet or from a stand-alone secret phrase. Users can decide how they would like to create an account following a step-by-step process.
 
 Accounts never appear unencrypted in a public field and can only be decrypted by the account owner.
 
