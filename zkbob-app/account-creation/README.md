@@ -73,7 +73,7 @@ You will see a **Loading zkAccount** message while your account is created. Init
 \
 Once the zkAccount is created, you will see 2 connected accounts. You are ready to start interacting with zkBob!
 
-1. Your web3 wallet (MetaMask or WalletConnect)
+1. Your web3 wallet (MetaMask or WalletConnect).
 2. Your zkAccount.
 
 <figure><img src="../../.gitbook/assets/connected (1).png" alt=""><figcaption></figcaption></figure>
@@ -85,7 +85,7 @@ Once you've created your account, you can [generate a receiving address](../gene
 ## Use zkBob Secret Phrase
 
 {% hint style="info" %}
-Also known as a seed phrase, you can create a new secret recovery phrase specifically for your zkBob account. Be sure to store it securely off-line. If lost, there is no way to recover your account.
+Also known as a seed phrase, you can create a new secret phrase specifically for your zkBob account. You will use this secret phrase to recover your account if needed. Be sure to store it securely off-line. If lost, there is no way to recover your account.
 {% endhint %}
 
 ### 1) Use secret phrase

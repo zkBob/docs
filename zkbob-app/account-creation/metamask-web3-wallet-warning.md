@@ -4,7 +4,7 @@ description: When deriving a zkBob account using MetaMask
 
 # Metamask / Web3 Wallet Warning
 
-zkBob provides a convenient method to create an account using Metamask (MM) or another web3 wallet using Wallet Connect. When deriving an account with a web3 wallet there is no need to write down or remember a new seed phrase for your shielded account.&#x20;
+zkBob provides a convenient method to create an account using Metamask (MM) or another web3 wallet using Wallet Connect. When deriving an account with a web3 wallet there is no need to write down or remember a new secret phrase for your shielded account.&#x20;
 
 <figure><img src="../../.gitbook/assets/mm-wc.png" alt=""><figcaption></figcaption></figure>
 

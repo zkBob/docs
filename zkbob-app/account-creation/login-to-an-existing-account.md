@@ -35,9 +35,9 @@ You will see a prompt to connect your wallet. [**Starting from step 2**](./#2-se
 
 ## 3.2 zkBob Secret Phrase
 
-Enter the existing seed phrase and wrote down in a secure location during initial zkAccount creation.
+Enter the existing secret phrase and wrote down in a secure location during initial zkAccount creation.
 
 <figure><img src="../../.gitbook/assets/restore (1).png" alt=""><figcaption></figcaption></figure>
 
-\Follow the remaining flow from the[ Account Creation section](./#4-create-and-re-enter-a-password) to create a new password and connect to the application.
+Follow the remaining flow from the[ Account Creation section](./#4-create-and-re-enter-a-password) to create a new password and connect to the application.
 
