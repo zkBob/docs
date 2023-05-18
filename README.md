@@ -34,6 +34,10 @@ _\*zkBob introduces_ [_deposit and withdrawal limits_](zkbob-overview/deposit-an
 * zkBob application: [https://zkbob.com/](https://zkbob.com/)
 * BOB stablecoin: [https://bob.zkbob.com/](https://bob.zkbob.com/)
 
+## Newsletter & Blog
+
+[Sign up for the zkBob Blog](https://blog.zkbob.com/) to receive the latest updates about zkBob.
+
 
 
 ###
