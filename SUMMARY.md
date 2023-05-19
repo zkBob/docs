@@ -28,7 +28,7 @@
 * [Add BOB to Metamask](bob-stablecoin/add-bob-to-metamask/README.md)
   * [Swap BOB with Metamask Swap](bob-stablecoin/add-bob-to-metamask/swap-bob-with-metamask-swap.md)
 * [BOB on Uniswap v3](bob-stablecoin/bob-on-uniswap-v3.md)
-* [BOB Swap](bob-stablecoin/bob-swap.md)
+* [BobSwap](bob-stablecoin/bobswap.md)
 * [BOB Governance & Inventory](bob-stablecoin/bob-governance-and-inventory/README.md)
   * [BOB DAO](bob-stablecoin/bob-governance-and-inventory/bob-dao.md)
   * [Inventory Management](bob-stablecoin/bob-governance-and-inventory/inventory-management/README.md)
