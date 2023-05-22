@@ -6,7 +6,7 @@ description: BOB collateralization module
 
 BobSwap (also called BobVault) is a unique AMM designed to issue BOB from inventory into the circulating supply via stable-only swaps.
 
-BobSwap does not have it's own UI, but is integrated into [1inch exchange](https://app.1inch.io/) on Ethereum and Polygon. Those interested in swapping USD-pegged assets (USDC, USDT or DAI) to BOB can simply visit 1inch and enter their desired swap. BobSwap is optimized to provide lower fees than many other available trading routes and will be used when it provides the best swap rate.
+BobSwap does not have it's own UI, but is integrated into [1inch exchange](https://app.1inch.io/) on Ethereum and Polygon. Those interested in swapping USD-pegged assets (USDC, USDT or DAI) to BOB can simply visit 1inch and enter their desired swap. BobSwap is optimized to provide lower fees than many other available trading routes, offers 1-to-1 stable swaps (USDC/USDT/DAI to BOB), and is used when it provides the best swap rate.
 
 Current volume and other statistics related to BobSwap are available in Dune analytics (scroll to the bottom of the page to BobVault) [https://dune.com/zkbob/zkbob](https://dune.com/zkbob/zkbob)
 
