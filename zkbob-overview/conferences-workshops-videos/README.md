@@ -46,5 +46,11 @@ Kirill ran a workshop on integrating zkBob into DeFi workflows. The workshop sta
 
 {% embed url="https://www.youtube.com/live/KCsnFLCAtMw?feature=share&t=16028" %}
 
-Look for us at [ETHGlobal Paris](https://ethglobal.com/events/paris2023), [EDCON](https://www.edcon.io/) and more coming soon!
+### Leading Privacy Alliance (LPA) Summit
+
+Ulyana gave an overview of zkBob and compliance features that set it apart.
+
+{% embed url="https://youtu.be/HNJvk9kK9Rc" %}
+
+Look for us at [ETHBelgrade](https://ethbelgrade.rs/), [ETHGlobal Paris](https://ethglobal.com/events/paris2023), more coming soon!
 
