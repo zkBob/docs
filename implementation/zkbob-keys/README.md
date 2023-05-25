@@ -12,8 +12,8 @@ zkBob is based on complex cryptography. There are several keys needed for privat
 * **Transaction verifier key (**$$A$$**)** is used for transaction signature verification. It's derived from the spending key and multiplied by the generator point in the JubJub elliptic curve field: $$A = \sigma G$$
 * **Intermediate key (**$$\eta$$**)** is derived from the $$A$$ key by the[ $$Poseidon$$ hash function](../untitled/the-poseidon-hash.md):$$\eta = Hash(A.x)$$. It is used in several cases:
   * to calculate the account[ nullifier](../transaction-overview/the-nullifiers.md)
-  * to obtain the account balance and transaction history
+  * to derive the outgoing viewing key ($$\kappa$$)
   * to decrypt incoming notes
 * **Receiving key** is used to decrypt incoming notes in the memo block. It is a combination of the intermediate key and ephemeral key generated for each note.
-* **Outgoing viewing key** is used to decrypt the whole memo block in the transaction which is initiated by itself.
+* **Outgoing viewing key (**$$\kappa$$**)** is used to decrypt the whole memo block in the transaction which is initiated by itself. The key is derived from the intermediate key by the keccak hash function: $$\kappa = keccak_{256}(\eta, \text{"this is the suffix for zeropool symmetric encryption key"})$$
 * **Private payment address** $$(d, P_d)$$ - is a set of random diversifiers $$d$$ and point $$P_d = \eta G_p = \eta \text{ToSubGroupHash}_{E(F_r)}(d)$$
