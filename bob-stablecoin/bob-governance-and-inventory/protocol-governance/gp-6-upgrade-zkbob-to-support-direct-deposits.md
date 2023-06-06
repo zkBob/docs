@@ -22,7 +22,7 @@ Each direct deposit left unprocessed by the relayer for a certain amount of time
 * **directDepositTimeout** - configured direct deposit refund timeout
 
 {% hint style="info" %}
-Learn more about Direct Deposit functionality and how to use in our [hackathon instructions](../../../resources/hackathons/zkbob-direct-deposits.md).
+Learn more about Direct Deposit functionality and how to use in our [hackathon instructions](../../../zkbob-app/zkbob-direct-deposits.md).
 {% endhint %}
 
 ### Proposal objective

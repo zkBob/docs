@@ -63,6 +63,7 @@
 * [Withdrawals](zkbob-app/withdrawals.md)
 * [Generate a Receiving Address](zkbob-app/generate-a-secure-address.md)
 * [Get BOB](zkbob-app/get-bob.md)
+* [zkBob Direct Deposits](zkbob-app/zkbob-direct-deposits.md)
 * [Support ID](zkbob-app/support-id.md)
 * [Optional KYC](zkbob-app/optional-kyc.md)
 * [Integrated Services](zkbob-app/integrated-services.md)
@@ -127,7 +128,6 @@
 
 * [Visual Assets](resources/visual-assets.md)
 * [Hackathons](resources/hackathons/README.md)
-  * [zkBob Direct Deposits](resources/hackathons/zkbob-direct-deposits.md)
   * [zkBob Cloud](resources/hackathons/zkbob-cloud.md)
 * [Release Notes](resources/release-notes/README.md)
   * [March 28, 2023](resources/release-notes/march-28-2023.md)
