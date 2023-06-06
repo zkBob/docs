@@ -15,3 +15,5 @@ zkBob Logos
 {% file src="../.gitbook/assets/BOB_coins.zip" %}
 BOB images
 {% endfile %}
+
+<figure><img src="../.gitbook/assets/BOB_color.svg" alt=""><figcaption><p>SVG image</p></figcaption></figure>

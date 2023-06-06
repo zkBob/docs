@@ -5,12 +5,7 @@
 
 ### Issue Assessment
 
-| Issue Severity                                                    | Found | Corrected / Updated Spec                                   | Risk Accepted                                     |
-| ----------------------------------------------------------------- | ----- | ---------------------------------------------------------- | ------------------------------------------------- |
-| <mark style="color:red;background-color:red;">Critical</mark>     | 0     | <mark style="background-color:green;">N/A</mark>           | <mark style="background-color:yellow;">N/A</mark> |
-| <mark style="color:orange;background-color:orange;">High</mark>   | 1     | <mark style="color:green;background-color:green;">1</mark> | <mark style="background-color:yellow;">0</mark>   |
-| <mark style="color:yellow;background-color:yellow;">Medium</mark> | 2     | <mark style="color:green;background-color:green;">1</mark> | <mark style="background-color:yellow;">1</mark>   |
-| <mark style="color:purple;background-color:purple;">Low</mark>    | 8     | <mark style="color:green;background-color:green;">5</mark> | <mark style="background-color:yellow;">3</mark>   |
+<table><thead><tr><th width="160">Issue Severity</th><th width="86">Found</th><th>Corrected / Updated Spec</th><th>Risk Accepted</th></tr></thead><tbody><tr><td><mark style="color:red;background-color:red;">Critical</mark> </td><td>0</td><td><mark style="background-color:green;">N/A</mark></td><td><mark style="background-color:yellow;">N/A</mark></td></tr><tr><td><mark style="color:orange;background-color:orange;">High</mark> </td><td>1</td><td><mark style="color:green;background-color:green;">1</mark></td><td><mark style="background-color:yellow;">0</mark></td></tr><tr><td><mark style="color:yellow;background-color:yellow;">Medium</mark></td><td>2</td><td><mark style="color:green;background-color:green;">1</mark></td><td><mark style="background-color:yellow;">1</mark></td></tr><tr><td><mark style="color:purple;background-color:purple;">Low</mark></td><td>8</td><td><mark style="color:green;background-color:green;">5</mark></td><td><mark style="background-color:yellow;">3</mark></td></tr></tbody></table>
 
 ### Report
 
