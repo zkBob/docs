@@ -6,14 +6,10 @@ description: >-
 
 # zkBob Direct Deposits
 
-{% hint style="success" %}
-Welcome 👋 Below are instructions for using the **Direct Deposit** functionality with zkBob for the **EthGlobal Hackathons**.&#x20;
-{% endhint %}
-
 {% hint style="info" %}
-If you plan to use zkBob for the hackathon, you will integrate direct deposit functionality into your Dapp or project. While there is a test application on Sepolia and Goerli, **we strongly recommend** using the application in production on **Optimism or Polygon**. If you need BOB to get started, please contact us through the hackathon supported channel ([Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
+&#x20;While there is a test application on Sepolia and Goerli, **we strongly recommend** using the application in production on **Optimism or Polygon**. If you need BOB to get started, please contact us through a supported channel (for hackathons use the official the hackathon [Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
 
-* [Multichain Contract Info](../../deployment/contracts-deployment.md)
+* [Multichain Contract Info](../deployment/contracts-deployment.md)
 * Production UI on Polygon/Optimism: [https://app.zkbob.com](https://app.zkbob.com/deposit)
 * Testnet UI on Sepolia/Goerli: [https://staging--zkbob.netlify.app/](https://staging--zkbob.netlify.app/)
 {% endhint %}
@@ -38,7 +34,7 @@ However, with **direct deposits**, private deposits can be performed while abstr
 
 Direct deposits allow any user, smart contract, or third party protocol to deposit any amount\* ([within accepted limits](zkbob-direct-deposits.md#direct-deposit-limits)) of BOB into the queue, which is then processed by the zkBob relayer in a trustless manner. The only function of the relayer is to include deposits in the state tree, providing a safe mechanism for deposits.
 
-The relayer can process multiple direct deposits at once, however, users may need to wait some time - possibly up to a few hours - until the deposit is reflected in the zkBob account. [More on transaction types here.](../../implementation/transaction-overview/transaction-types.md)
+The relayer can process multiple direct deposits at once, however, users may need to wait some time - possibly up to a few hours - until the deposit is reflected in the zkBob account. [More on transaction types here.](../implementation/transaction-overview/transaction-types.md)
 
 {% hint style="warning" %}
 For now, pending or cancelled direct deposits are not shown in the zkBob UI. Users will only see already processed deposits.
@@ -181,14 +177,14 @@ interface IZkBobDirectDeposits {
 {% hint style="info" %}
 The most convenient way for users to generate a receiving zkAddress is to use the zkBob UI.  \
 \
-Open an account and generate an address: [generate-a-secure-address.md](../../zkbob-app/generate-a-secure-address.md "mention")
+Open an account and generate an address: [generate-a-secure-address.md](generate-a-secure-address.md "mention")
 
 zkAddresses can be [formatted in different ways](zkbob-direct-deposits.md#zkaddress-format) for direct deposit submission.&#x20;
 {% endhint %}
 
 ### Submitting a direct deposit
 
-Direct deposits are submitted directly to the direct deposits queue contract (e.g. [0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289](https://polygonscan.com/address/0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289) on Polygon, see [deployed-contracts.md](../../implementation/deployed-contracts.md "mention") for addresses on other networks), using one of two approaches:
+Direct deposits are submitted directly to the direct deposits queue contract (e.g. [0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289](https://polygonscan.com/address/0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289) on Polygon, see [deployed-contracts.md](../implementation/deployed-contracts.md "mention") for addresses on other networks), using one of two approaches:
 
 1. Common `approve` + `deposit` approach, suitable for a majority of use-cases.
 2. Shortcut approach using `transferAndCall`, suitable for simple workflows.
@@ -237,7 +233,7 @@ The most straightforward way to test direct deposit submission is through the Po
 \
 [https://polygonscan.com/address/0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289#writeProxyContract](https://polygonscan.com/address/0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289#writeProxyContract)
 
-![](<../../.gitbook/assets/Screenshot 2023-05-09 at 2.12.11 PM.png>)
+![](<../.gitbook/assets/Screenshot 2023-05-09 at 2.12.11 PM.png>)
 
 {% hint style="warning" %}
 Submitting a direct deposit in most scenarios will require the end user to pay transaction fees in MATIC or ETH, which is not the same for regular zkBob operations.
@@ -274,10 +270,12 @@ uint32 nextDepositId = queue.directDepositNonce();
 
 zkBob smart contracts supports 3 different zkAddress formats. These are identical to one to another with the exception of a small difference in their processing.
 
-zkAddress consists of two main parts - a diversifier and a public key, look for more information here - [address-derivation.md](../../implementation/zkbob-keys/address-derivation.md "mention"). zkBob smart contracts support multiple address formats, which contain a different encoding of the two parts.
+zkAddress consists of two main parts - a diversifier and a public key. More information here - [address-derivation.md](../implementation/zkbob-keys/address-derivation.md "mention").&#x20;
+
+zkBob smart contracts support multiple address formats, which contain a different encoding of the two parts.
 
 {% hint style="info" %}
-The most convenient way to generate a receiving zkAddress is to use the zkBob UI to open an account and an address - [generate-a-secure-address.md](../../zkbob-app/generate-a-secure-address.md "mention")
+The most convenient way to generate a receiving zkAddress is to use the zkBob UI to open an account and an address - [generate-a-secure-address.md](generate-a-secure-address.md "mention")
 {% endhint %}
 
 1. zkBob UI format (**recommended for Optimism**):
@@ -322,21 +320,21 @@ Default direct deposits limits for all users:
 
 ## Direct deposit fee
 
-Apart from associated gas costs for the deposit transaction submission, which is paid by the user, each direct deposit submission will also cost 0.1 **BOB** to process.
+Apart from associated gas costs for the deposit transaction submission, which is paid by the user, each direct deposit submission also costs 0.1 **BOB** to process.
 
 ## FAQs
 
 ### zkBob is on Polygon/Optimism, does that mean my app also needs to be deployed there?
 
-We have production ready zkBob deployments on **Polygon and Optimism**, so ideally we expect your app to be working in either of those. Potentially direct deposits could be also available on other chains as well, if properly integrated into one of the cross-chain bridges.
+We have production ready zkBob deployments on **Polygon and Optimism**, ideally your app should be deployed on either of those chains. Potentially direct deposits could be available on other chains as well, if properly integrated into one of the cross-chain bridges.
 
-For testing purposes, we also support staging zkBob deployments on Sepolia and Goerli testnet. These are open for public use as well.
+For testing purposes, we also support staging zkBob deployments on Sepolia and Goerli testnet. These are open for public use.
 
-Read more about all relevant contract addresses for all networks zkBob is present at in [deployed-contracts.md](../../implementation/deployed-contracts.md "mention")
+Read more about all relevant contract addresses for all networks zkBob is present at in [deployed-contracts.md](../implementation/deployed-contracts.md "mention")
 
 ### How to get testnet BOB in Goerli/Sepolia?
 
-There are BOB faucet contracts available in both Goerli/Sepolia ([deployed-contracts.md](../../implementation/deployed-contracts.md "mention")), which allow anyone to get up to 10k BOB per transaction made from Etherscan UI.
+There are BOB faucet contracts available in both Goerli/Sepolia ([deployed-contracts.md](../implementation/deployed-contracts.md "mention")), which allow anyone to get up to 10k BOB per transaction  using the Etherscan UI.
 
 ### Does a direct deposit operation require MATIC/ETH?
 
@@ -344,11 +342,9 @@ Yes, a native token (like MATIC or ETH) is required to pay the gas fees for a di
 
 ### How do I get started?
 
-If you need BOB to get started, please send us a message in the [Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel and we will send you some. We are also available for any questions there.
+If you need BOB to get started (hackathon participants), please send us a message in the [Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel and we will send you some. We are also available for any questions there. If you are a developer, you can contact us via the [zkBob discord](https://discord.com/invite/zkbob).
 
 ### What is the address of the zkBob UI?
-
-Optimism will be integrated into the primary instance, however for now there are 2 separate instances.
 
 * **Polygon / Optimism** instance: [https://app.zkbob.com](https://app.zkbob.com/deposit)
 * **Testnet** (Sepolia/Goerli) instance: [https://staging--zkbob.netlify.app/](https://staging--zkbob.netlify.app/)
