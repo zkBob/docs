@@ -18,6 +18,7 @@
   * [TRM Labs Integration](zkbob-overview/compliance-and-security/trm-labs-integration.md)
 * [Conferences, Workshops, Videos](zkbob-overview/conferences-workshops-videos/README.md)
   * [International Videos](zkbob-overview/conferences-workshops-videos/international-videos.md)
+* [Governance](zkbob-overview/governance.md)
 * [zkBob FAQ](zkbob-overview/faq.md)
 
 ## 🧙♂ BOB Stablecoin
