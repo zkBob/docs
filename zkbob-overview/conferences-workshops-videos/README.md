@@ -36,9 +36,7 @@ Kirill presented on BOB and how to integrate zkBob direct deposits into an appli
 
 Igor presented at [ETHTaipei](https://ethtaipei.org/) on privacy, compliance, and zk proofs.
 
-<figure><img src="../../.gitbook/assets/DSC07539.jpg" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/DSC07542.jpg" alt=""><figcaption></figcaption></figure>
+{% embed url="https://youtu.be/B0ZEnFAc5C8" %}
 
 ## ETHGlobal Lisbon
 
