@@ -16,9 +16,9 @@ If a transaction is rejected or another error occurs, an error will appear along
 
 <figure><img src="../.gitbook/assets/support-ID.png" alt=""><figcaption><p>Support ID is also listed in the footer of the zkBob application</p></figcaption></figure>
 
-## If you receive an error while using zkBob:
+## If you receive an error while using zkBob
 
-{% embed url="https://scribehow.com/shared/Submit_a_help_request_on_canny__MFRrlkgcSkqGQFelMEYn5w" %}
+Contact us [in Discord](https://discord.gg/zkbob) and we will help you troubleshoot the problem.
 
 
 

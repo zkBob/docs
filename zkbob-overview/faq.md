@@ -87,7 +87,7 @@ zkBob is designed to use BOB for several reasons. BOB is stable, flexible (multi
 
 ## Do I need MATIC/ETH to pay for transactions?
 
-**No**, all fees are paid in BOB with a stable $0.10(Polygon) and $0.50 (Optimism) fee per tx! This includes deposits into the protocol, transfers within zkBob, and withdrawals from the application.
+**No**, all fees are paid in BOB with a stable $0.10(Polygon) or a stable dynamic (Optimism) fee per tx! This includes deposits into the protocol, transfers within zkBob, and withdrawals from the application.
 
 Withdrawals from zkBob on Polygon will also result in a small amount of MATIC (Polygon) sent to the receiving address if certain criteria are met. To receive, the address must have a 0 balance, and the withdrawal amount must be 10 or more BOB. _Note a faucet is not available on Optimism._
 

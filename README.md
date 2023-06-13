@@ -24,7 +24,7 @@ zkBob is optimized to work with the [BOB token](broken-reference), a multi-chain
 
 When a transfer is initiated, the amount and recipient is never disclosed or published. Transactions are routed through a [relayer](implementation/relayer-node/), abstracting gas fees while providing an efficient transfer environment. Deposits, transfers and withdrawals are all processed on Polygon or Optimism, with standardized gas fees ($0.10 per tx) paid using BOB tokens. MATIC/ETH is not needed for any of these actions, simplifying usage.
 
-* The [zkBob application](https://app.zkbob.com/) is deployed Multichain (Polygon & Optimism) to utilize existing infrastructure (Uniswap v3, Aave, and native USDC), prioritize scalability, and support their commitment to zk-based solutions.
+* The [zkBob application](https://app.zkbob.com/) is multichain (**Polygon & Optimism**) to utilize existing infrastructure (Uniswap v3, Aave, and native USDC), prioritize scalability, and support their commitment to zk-based solutions.
 * The [BOB stablecoin](bob-stablecoin/bob-details.md) is currently available on Polygon, Optimism, BNB Chain,  Ethereum and Arbitru with additional chains on the horizon.&#x20;
 
 _\*zkBob introduces_ [_deposit and withdrawal limits_](zkbob-overview/deposit-and-withdrawal-limits.md) _and other_ [_compliance features_](zkbob-overview/compliance-and-security/) _to keep the application and its users safe. Transfers are limited by these pool constraints._&#x20;
