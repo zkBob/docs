@@ -17,3 +17,5 @@ BOB images
 {% endfile %}
 
 <figure><img src="../.gitbook/assets/BOB_color.svg" alt=""><figcaption><p>SVG image</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/BOB_color.png" alt=""><figcaption><p>PNG image</p></figcaption></figure>
