@@ -83,7 +83,7 @@ Yes! However, operations can take longer as Proof generation is resource intensi
 
 ## Why does zkBob use the BOB stablecoin?
 
-zkBob is designed to use BOB for several reasons. BOB is stable, flexible (multi-chain, multi-collateral), and easy to use. For questions related to BOB, please see the [BOB details](../bob-stablecoin/bob-details.md) page.
+zkBob is designed to use BOB for several reasons. BOB is stable, flexible (multi-chain, multi-collateral), and easy to use. For questions related to BOB, please see the [BOB details](broken-reference) page.
 
 ## Do I need MATIC/ETH to pay for transactions?
 
@@ -91,7 +91,7 @@ zkBob is designed to use BOB for several reasons. BOB is stable, flexible (multi
 
 Withdrawals from zkBob on Polygon will also result in a small amount of MATIC (Polygon) sent to the receiving address if certain criteria are met. To receive, the address must have a 0 balance, and the withdrawal amount must be 10 or more BOB. _Note a faucet is not available on Optimism._
 
-If you want to purchase BOB in other ways ([Uniswap](../bob-stablecoin/bob-on-uniswap-v3.md) or [Metamask swap](../bob-stablecoin/add-bob-to-metamask/swap-bob-with-metamask-swap.md)), you will need a small amount of MATIC/ETH to complete the transaction.
+If you want to purchase BOB in other ways ([Uniswap](broken-reference) or [Metamask swap](broken-reference)), you will need a small amount of MATIC/ETH to complete the transaction.
 
 ## Where can I see zkBob stats?
 

@@ -7,7 +7,7 @@ description: zkBob deployed contracts
 {% hint style="info" %}
 Contract deployments in this section cover all aspects of the zkBob application deployed on several networks.\
 \
-For BOB specific contract info on other networks ( Ethereum Mainnet, Arbitrum etc) see the [BOB FAQs](../bob-stablecoin/bob-stablecoin-faq.md#what-are-the-bob-contract-details). \
+For BOB specific contract info on other networks ( Ethereum Mainnet, Arbitrum etc) see the [BOB FAQs](broken-reference). \
 \
 Note the BOB stablecoin is deployed with the same address on all networks: `0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B`\
 

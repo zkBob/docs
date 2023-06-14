@@ -19,37 +19,8 @@
 * [Conferences, Workshops, Videos](zkbob-overview/conferences-workshops-videos/README.md)
   * [International Videos](zkbob-overview/conferences-workshops-videos/international-videos.md)
 * [Governance](zkbob-overview/governance.md)
+* [BOB Stablecoin](zkbob-overview/bob-stablecoin.md)
 * [zkBob FAQ](zkbob-overview/faq.md)
-
-## 🧙♂ BOB Stablecoin
-
-* [BOB Highlights](bob-stablecoin/bob-details.md)
-* [BOB Ecosystem](bob-stablecoin/bob-ecosystem/README.md)
-  * [Mellow Protocol Vaults](bob-stablecoin/bob-ecosystem/mellow-protocol-vaults.md)
-* [Add BOB to Metamask](bob-stablecoin/add-bob-to-metamask/README.md)
-  * [Swap BOB with Metamask Swap](bob-stablecoin/add-bob-to-metamask/swap-bob-with-metamask-swap.md)
-* [BOB on Uniswap v3](bob-stablecoin/bob-on-uniswap-v3.md)
-* [BobSwap](bob-stablecoin/bobswap.md)
-* [BOB Governance & Inventory](bob-stablecoin/bob-governance-and-inventory/README.md)
-  * [BOB DAO](bob-stablecoin/bob-governance-and-inventory/bob-dao.md)
-  * [Inventory Management](bob-stablecoin/bob-governance-and-inventory/inventory-management/README.md)
-    * [Inventory Actions](bob-stablecoin/bob-governance-and-inventory/inventory-management/inventory-actions.md)
-  * [Protocol Governance](bob-stablecoin/bob-governance-and-inventory/protocol-governance/README.md)
-    * [GP 0: Increase SAFE membership](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-0-increase-safe-membership.md)
-    * [GP 1: BobVault (BobSwap) beta testing infrastructure](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-1-bobvault-bobswap-beta-testing-infrastructure.md)
-    * [GP 2: Upgrade Contracts to v1.0.0](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-2-upgrade-contracts-to-v1.0.0.md)
-    * [GP 3: Enable BobVault (BobSwap) for Public Use](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-3-enable-bobvault-bobswap-for-public-use.md)
-    * [GP 4: Increase Multisig & Upgrade BOB contract on all networks](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-4-increase-multisig-and-upgrade-bob-contract-on-all-networks.md)
-    * [GP 5: Enable BobVault (BobSwap) on Ethereum Mainnet](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-5-enable-bobvault-bobswap-on-ethereum-mainnet.md)
-    * [GP 6: Upgrade zkBob to support direct deposits](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-6-upgrade-zkbob-to-support-direct-deposits.md)
-    * [GP 7: Increase Multi-chain Inventory and Update BobSwap](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-7-increase-multi-chain-inventory-and-update-bobswap.md)
-    * [GP 8: Extend pool limits for KYC'd users](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-8-extend-pool-limits-for-kycd-users.md)
-    * [GP 9: Deactivate Kyberswap inventory pairs \[Emergency Measure\]](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-9-deactivate-kyberswap-inventory-pairs-emergency-measure.md)
-    * [GP 10: Reallocate previous Kyberswap inventory](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-10-reallocate-previous-kyberswap-inventory.md)
-    * [GP 11: Add 24 hour timelock to BOB contract on Optimism](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-11-add-24-hour-timelock-to-bob-contract-on-optimism.md)
-    * [GP 12: Raise Polygon limits](bob-stablecoin/bob-governance-and-inventory/protocol-governance/gp-12-raise-polygon-limits.md)
-* [Capital Efficiency](bob-stablecoin/capital-efficiency.md)
-* [BOB Stablecoin FAQ](bob-stablecoin/bob-stablecoin-faq.md)
 
 ## 🦸♂ zkBob Application <a href="#zkbob-app" id="zkbob-app"></a>
 
@@ -68,16 +39,6 @@
 * [Support ID](zkbob-app/support-id.md)
 * [Optional KYC](zkbob-app/optional-kyc.md)
 * [Integrated Services](zkbob-app/integrated-services.md)
-
-## 👷♂ Roadmap
-
-* [On the Roadmap](roadmap/on-the-roadmap.md)
-* [Exploratory Features](roadmap/exploratory-features/README.md)
-  * [XP (Experience Points)](roadmap/exploratory-features/xp/README.md)
-    * [XP-based Auctions](roadmap/exploratory-features/xp/xp-based-auctions.md)
-  * [Multi-chain Custom Rollup Deployment](roadmap/exploratory-features/multi-chain-custom-rollup-deployment.md)
-  * [Round-robin Operator Manager](roadmap/exploratory-features/round-robin-operator-manager.md)
-  * [Compounding](roadmap/exploratory-features/compounding.md)
 
 ## 👩⚕ Technical Implementation <a href="#implementation" id="implementation"></a>
 
@@ -120,6 +81,16 @@
 * [Trusted Setup Ceremony](deployment/trusted-setup-ceremony.md)
 * [Contract Deployment](deployment/contracts-deployment.md)
 * [Relayer Subsystem](deployment/relayers-subsystem.md)
+
+## 👷♂ Roadmap
+
+* [On the Roadmap](roadmap/on-the-roadmap.md)
+* [Exploratory Features](roadmap/exploratory-features/README.md)
+  * [XP (Experience Points)](roadmap/exploratory-features/xp/README.md)
+    * [XP-based Auctions](roadmap/exploratory-features/xp/xp-based-auctions.md)
+  * [Multi-chain Custom Rollup Deployment](roadmap/exploratory-features/multi-chain-custom-rollup-deployment.md)
+  * [Round-robin Operator Manager](roadmap/exploratory-features/round-robin-operator-manager.md)
+  * [Compounding](roadmap/exploratory-features/compounding.md)
 
 ## 🧑💻 Jobs
 
