@@ -137,5 +137,5 @@ Next:&#x20;
 
 * [Make a Deposit](../deposits.md)
 * [Receive a Transfer](../transfers/)
-* [Withdraw Funds](../withdrawals.md)
+* [Withdraw Funds](../withdrawals/)
 {% endhint %}

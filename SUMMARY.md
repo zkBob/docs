@@ -32,12 +32,13 @@
 * [Deposits](zkbob-app/deposits.md)
 * [Transfers](zkbob-app/transfers/README.md)
   * [Multitransfers](zkbob-app/transfers/multitransfers.md)
-* [Withdrawals](zkbob-app/withdrawals.md)
+* [Withdrawals](zkbob-app/withdrawals/README.md)
+  * [Native Token Conversion](zkbob-app/withdrawals/native-token-conversion.md)
 * [Generate a Receiving Address](zkbob-app/generate-a-secure-address.md)
+* [Optional KYC](zkbob-app/optional-kyc.md)
 * [Get BOB](zkbob-app/get-bob.md)
 * [zkBob Direct Deposits](zkbob-app/zkbob-direct-deposits.md)
 * [Support ID](zkbob-app/support-id.md)
-* [Optional KYC](zkbob-app/optional-kyc.md)
 * [Integrated Services](zkbob-app/integrated-services.md)
 
 ## 👩⚕ Technical Implementation <a href="#implementation" id="implementation"></a>
