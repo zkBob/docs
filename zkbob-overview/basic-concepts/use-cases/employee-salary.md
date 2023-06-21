@@ -2,13 +2,13 @@
 
 Businesses often prefer to keep salary information private. This creates issues for some businesses who want to use blockchain for payments but also want to keep salary information confidential. With zkBob, employers can keep information private and use the blockchain to send salaries.&#x20;
 
-Several prominent projects in the ecosystem are already using zkBob for salary payments. These [Tier 1](../deposit-and-withdrawal-limits.md#tiered-limits) projects are able to deposit higher amounts of BOB into the protocol for sending salary to known employees of the business. Since employees are KYC'd by their employers, this KYC is automatically inherited into the protocol.
+Several prominent projects in the ecosystem are already using zkBob for salary payments. These [Tier 1](../../deposit-and-withdrawal-limits.md#tiered-limits) projects are able to deposit higher amounts of BOB into the protocol for sending salary to known employees of the business. Since employees are KYC'd by their employers, this KYC is automatically inherited into the protocol.
 
 Multi-sender functionality and integrations with projects like [Request Finance](https://request.network/en/) make salary processing even easier as more users onboard to zkBob.
 
 ## Generic Use Case: Bob :man\_office\_worker: the Business Employer
 
-<figure><img src="../../.gitbook/assets/Bob_small_business.png" alt=""><figcaption><p>Bob pays his employees through zkBob for stability and privacy purposes.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Bob_small_business.png" alt=""><figcaption><p>Bob pays his employees through zkBob for stability and privacy purposes.</p></figcaption></figure>
 
 Bob has 5 employees (Alice, Carlos, Dave, Erin and Frank) he pays monthly with crypto. Bob’s preference is to keep salaries private while still processing them on-chain and using a stable asset for payment. zkBob makes it easy.
 

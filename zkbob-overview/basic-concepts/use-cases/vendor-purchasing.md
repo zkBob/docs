@@ -4,7 +4,7 @@ Businesses often need to keep the details of their purchases confidential to mai
 
 ## Generic Use Case: **Alice** 🐇 the Comic Book Collector&#x20;
 
-<figure><img src="../../.gitbook/assets/Alice1.png" alt=""><figcaption><p>Alice uses blockchain for her comic book business</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Alice1.png" alt=""><figcaption><p>Alice uses blockchain for her comic book business</p></figcaption></figure>
 
 Alice runs a small business buying and selling comic books. She does a lot of business on the blockchain, but prefers to keep the details of her purchases, sales, and customers private. Luckily, she finds zkBob!
 
