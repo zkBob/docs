@@ -1,5 +1,5 @@
 ---
-description: A stablecoin-based privacy solution for everyday users powered by BOB
+description: A stablecoin-based privacy wallet build for everyday users
 ---
 
 # zkBob
@@ -18,11 +18,13 @@ description: A stablecoin-based privacy solution for everyday users powered by B
 
 [zkBob](https://app.zkbob.com) is a stablecoin-based privacy application deployed on Polygon and Optimism and designed for everyday users and [common use cases](zkbob-overview/basic-concepts/use-cases/). zkBob uses [zkSNARKS](implementation/zksnarks-and-circuits/) to anonymize senders, receivers, and amounts when transferring stable funds. [Compliance features](zkbob-overview/compliance-and-security/) deter bad actors and illicit usage, giving privacy and safety back to ordinary blockchain users.&#x20;
 
-zkBob is optimized to work with the [BOB token](zkbob-overview/bob-stablecoin.md), a multi-chain stable token (stablecoin) enhanced with optional privacy. Once BOB is deposited into the zkBob pool, participants can transfer any amount\* of BOB amongst themselves in a private, secure manner without needing to connect MetaMask, WalletConnect or any web3 wallet.
+zkBob was developed for use with the [BOB token](zkbob-overview/bob-stablecoin.md), a multi-chain stable token (stablecoin) enhanced with optional privacy. Once BOB is deposited into the zkBob pool, participants can transfer any amount\* of BOB amongst themselves in a private, secure manner without needing to connect MetaMask, WalletConnect or any web3 wallet.
 
-<figure><img src=".gitbook/assets/zkBob-interface.png" alt=""><figcaption><p>zkBob interface</p></figcaption></figure>
+Now that BOB pools have been used effectively, new pools for ETH and USDC will be rolling out soon.
 
-When a transfer is initiated, the amount and recipient is never disclosed or published. Transactions are routed through a [relayer](implementation/relayer-node/), abstracting gas fees while providing an efficient transfer environment. Deposits, transfers and withdrawals are all processed on Polygon or Optimism, with standardized gas fees ($0.10 per tx) paid using BOB tokens. MATIC/ETH is not needed for any of these actions, simplifying usage.
+<figure><img src=".gitbook/assets/home-page-1.png" alt=""><figcaption></figcaption></figure>
+
+When a transfer is initiated, the amount and recipient is never disclosed or published. Transactions are routed through a [relayer](implementation/relayer-node/), abstracting gas fees while providing an efficient transfer environment. Deposits, transfers and withdrawals are all processed on Polygon or Optimism, with standardized gas fees ($0.10 per tx on MATIC, variable on Optimism) paid using BOB tokens. MATIC/ETH is not needed for any of these actions, simplifying usage.
 
 * The [zkBob application](https://app.zkbob.com/) is multichain (**Polygon & Optimism**) to utilize existing infrastructure (Uniswap v3, Aave, and native USDC), prioritize scalability, and support their commitment to zk-based solutions.
 * The [BOB stablecoin](zkbob-overview/bob-stablecoin.md) is currently available on Polygon, Optimism, BNB Chain,  Ethereum and Arbitrum with additional chains on the horizon.&#x20;

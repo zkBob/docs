@@ -10,3 +10,4 @@ zkBob has been in research and development since December 2020. The original con
 * March 2022: Testing, bug fixing, protocol updates and enhancements.
 * August 2022:  Prep for beta launch and trusted ceremony, select Polygon for initial deployment.
 * April 2023: Second deployment on Optimism, making zkBob a multichain app.
+* July 2023: First ETH pool deployed on Optimism.

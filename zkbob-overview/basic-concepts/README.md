@@ -4,10 +4,6 @@
 Below are descriptions of basic concepts underlying zkBob functionality. For more thorough details, see the [technical implementation ](broken-reference) section.
 {% endhint %}
 
-### BOB
-
-BOB is the name of the multi-chain, multi-collateral stablecoin optimized for the zkBob protocol. It provides optional privacy features for users when paired with the zkBob application. BOB can be swapped for the equivalent amount of other stablecoins (minus standard swap fees) or other available tokens on Ethereum, Polygon, Optimism, Arbitrum and BSC. [More details here](broken-reference).
-
 ### zkBob
 
 zkBob is a zk-based privacy application built for stablecoin transfers. It accepts BOB stablecoins for deposit, and once deposited in the zkBob app, BOB can be transferred anonymously between participants. BOB can then be withdrawn from the application to an EOA (externally owned address) preserving anonymity of the transfer amounts and participants.
@@ -58,6 +54,10 @@ The relayer acts as an intermediary between the user and the smart contracts. Tr
 zkBob stands on the pillars of privacy, anti-censorship, and decentralization and seeks to prevent misuse of the protocol through built-in compliance measures.&#x20;
 
 By enacting these measures, the protocol is designed to function on a neutral base layer. This means that participants on the base layer (validators, sequencers, relayers etc) can operate normally without taking additional measures (like censoring sanctioned addresses) to properly write and order on-chain transactions. [Learn more about base layer neutrality here](https://www.paradigm.xyz/2022/09/base-layer-neutrality).
+
+### BOB
+
+BOB is the name of the multi-chain, multi-collateral stablecoin optimized for the zkBob protocol. It provides optional privacy features for users when paired with the zkBob application. BOB can be swapped for the equivalent amount of other stablecoins (minus standard swap fees) or other available tokens on Ethereum, Polygon, Optimism, Arbitrum and BSC. [More details here](broken-reference).
 
 
 
