@@ -12,9 +12,9 @@ A proposal to [migrate the zkBob BOB pool on Polygon to USDC was added to the zk
 
 **In response to comments and discussion, the proposal has successfully moved forward and all BOB in the pool will be automatically converted to USDC.**
 
-Users don't need to do anything, BOB is automatically converted in the pool. Anyone with BOB in the pool will see their BOB balance automatically converted to a USDC balance.
+Users don't need to do anything, BOB will be automatically converted in the pool. Anyone with BOB in the pool will see their BOB balance automatically converted to a USDC balance.
 
-On withdrawal, a receiving wallet will receive USDC rather than BOB. USDC deposits are now accepted into zkBob on Polygon and can be transferred and withdrawn privately.
+On withdrawal, a receiving wallet will receive USDC rather than BOB. USDC deposits will be accepted into zkBob on Polygon and can be transferred and withdrawn privately.
 
 ## USDC Migration FAQ
 
@@ -56,7 +56,7 @@ Transaction details will be posted once the transaction is complete.
 
 <summary>What changes for the Polygon pool?</summary>
 
-Nothing will change regarding general processes, only the token will change. Deposits, transfers and withdrawals now use USDC instead of BOB. The rest of the functionality remains the same.&#x20;
+Nothing will change regarding general processes, only the token will change. Deposits, transfers and withdrawals will use USDC instead of BOB. The rest of the functionality remains the same.&#x20;
 
 </details>
 
