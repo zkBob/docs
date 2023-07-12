@@ -13,6 +13,7 @@
   * [Development Timeline](zkbob-overview/basic-concepts/development-timeline.md)
   * [zk Privacy Solution Comparison](zkbob-overview/basic-concepts/zk-privacy-solution-comparison.md)
 * [zkBob Pools](zkbob-overview/zkbob-pools/README.md)
+  * [USDC Pool on Polygon](zkbob-overview/zkbob-pools/usdc-pool-on-polygon.md)
   * [ETH Pool on Optimism](zkbob-overview/zkbob-pools/eth-pool-on-optimism.md)
 * [Fees](zkbob-overview/fees/README.md)
   * [Unspent note handling](zkbob-overview/fees/unspent-note-handling.md)
