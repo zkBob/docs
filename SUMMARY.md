@@ -108,6 +108,7 @@
 * [Hackathons](resources/hackathons/README.md)
   * [zkBob Cloud](resources/hackathons/zkbob-cloud.md)
 * [Release Notes](resources/release-notes/README.md)
+  * [July 13, 2023](resources/release-notes/july-13-2023.md)
   * [June 13, 2023](resources/release-notes/june-13-2023.md)
   * [March 28, 2023](resources/release-notes/march-28-2023.md)
   * [January 30, 2023](resources/release-notes/january-30-2023.md)
