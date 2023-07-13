@@ -4,12 +4,12 @@ There are several zkBob private pools [across multiple chains](../basic-concepts
 
 ### Optimism
 
-🏊‍ ETH pool
+🏊‍[ ETH pool](eth-pool-on-optimism.md)
 
-🏊‍♂️ BOB pool
+🏊‍♂️ [BOB pool](bob-pool-on-optimism.md)
 
 ### Polygon
 
-🏊‍♂️ USDC pool (formerly BOB pool)
+🏊‍♂️ [USDC pool (formerly BOB pool)](usdc-pool-on-polygon.md)
 
 _More pools coming soon_
