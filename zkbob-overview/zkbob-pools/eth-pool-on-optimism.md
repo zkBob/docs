@@ -4,6 +4,10 @@ description: The first zkBob ETH pool is deployed on Optimism
 
 # ETH Pool on Optimism
 
+{% hint style="success" %}
+ETH pool launched. [Read the announcement here](https://blog.zkbob.com/new-eth-pool-on-optimism/).
+{% endhint %}
+
 To access, select Optimism in the Network dropdown and choose the ETH pool.
 
 <figure><img src="../../.gitbook/assets/network-dropdown-1.png" alt=""><figcaption></figcaption></figure>
