@@ -4,4 +4,4 @@ zkBob protocol updates (along with BOB stablecoin updates) are handled via a gov
 
 ### Protocol Governance
 
-Updates to the protocol are managed via the governance SAFE. More info on protocol governance, decisions, and implementations is available on the BOB docs page.
+Updates to the protocol are managed via the governance SAFE. More info on protocol governance, decisions, and implementations is available on the BOB docs [page](https://bob-docs.zkbob.com/bob-dao/governance/protocol-governance).

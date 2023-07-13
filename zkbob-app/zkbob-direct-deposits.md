@@ -7,7 +7,7 @@ description: >-
 # zkBob Direct Deposits
 
 {% hint style="info" %}
-&#x20;While there is a test application on Sepolia and Goerli, **we strongly recommend** using the application in production on **Optimism or Polygon**. If you need BOB to get started, please contact us through a supported channel (for hackathons use the official the hackathon [Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
+While there is a test application on Sepolia and Goerli, **we strongly recommend** using the application in production on **Optimism or Polygon**. If you need BOB to get started, please contact us through a supported channel (for hackathons use the official the hackathon [Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
 
 * [Multichain Contract Info](../deployment/contracts-deployment.md)
 * Production UI on Polygon/Optimism: [https://app.zkbob.com](https://app.zkbob.com/deposit)
@@ -23,16 +23,16 @@ See the [FAQs at the end](zkbob-direct-deposits.md#faqs) for commonly asked ques
 zkBob supports 5 different operations:
 
 1. **Deposit** - Add funds to your zkAccount.
-2. **Withdraw** - Withdraw BOB tokens from your private account to a public `0x` address.
+2. **Withdraw** - Withdraw tokens from your private account to a public `0x` address.
 3. **Private transfer** - Make an anonymous transfer from one user to another with their zkAddress.
 4. **Private multi-transfer** - Make an anonymous atomic batch transfer to multiple zkAddresses
-5. **Direct deposit -** Send BOB directly to someone’s zkAddress from outside the zkBob application.
+5. **Direct deposit -** Send tokens directly to someone’s zkAddress from outside the zkBob application.
 
 The first 4 operations can only be performed by end users via zkBob clients, such as the zkBob UI.
 
 However, with **direct deposits**, private deposits can be performed while abstracting away zk complexity. Depositors only need to know the private zkAddress of the receiver. This makes it very easy to integrate it into various automated web3 workflows.
 
-Direct deposits allow any user, smart contract, or third party protocol to deposit any amount\* ([within accepted limits](zkbob-direct-deposits.md#direct-deposit-limits)) of BOB into the queue, which is then processed by the zkBob relayer in a trustless manner. The only function of the relayer is to include deposits in the state tree, providing a safe mechanism for deposits.
+Direct deposits allow any user, smart contract, or third party protocol to deposit any amount\* ([within accepted limits](zkbob-direct-deposits.md#direct-deposit-limits)) of pool token into the queue, which is then processed by the zkBob relayer in a trustless manner. The only function of the relayer is to include deposits in the state tree, providing a safe mechanism for deposits.
 
 The relayer can process multiple direct deposits at once, however, users may need to wait some time - possibly up to a few hours - until the deposit is reflected in the zkBob account. [More on transaction types here.](../implementation/transaction-overview/transaction-types.md)
 
@@ -172,7 +172,53 @@ interface IZkBobDirectDeposits {
 
 </details>
 
-### Creating a zkAddress for receiving BOB
+<details>
+
+<summary>IZkBobDirectDepositsETH.sol</summary>
+
+```solidity
+// SPDX-License-Identifier: CC0-1.0
+
+pragma solidity ^0.8.0;
+
+import "./IZkBobDirectDeposits.sol";
+
+interface IZkBobDirectDepositsETH is IZkBobDirectDeposits {
+    /**
+     * @notice Performs a direct deposit to the specified zk address in native token.
+     * In case the deposit cannot be processed, it can be refunded later to the fallbackReceiver address.
+     * @param fallbackReceiver receiver of deposit refund.
+     * @param zkAddress receiver zk address.
+     * @return depositId id of the submitted deposit to query status for.
+     */
+    function directNativeDeposit(
+        address fallbackReceiver,
+        bytes memory zkAddress
+    )
+        external
+        payable
+        returns (uint256 depositId);
+
+    /**
+     * @notice Performs a direct deposit to the specified zk address in native token.
+     * In case the deposit cannot be processed, it can be refunded later to the fallbackReceiver address.
+     * @param fallbackReceiver receiver of deposit refund.
+     * @param zkAddress receiver zk address.
+     * @return depositId id of the submitted deposit to query status for.
+     */
+    function directNativeDeposit(
+        address fallbackReceiver,
+        string memory zkAddress
+    )
+        external
+        payable
+        returns (uint256 depositId);
+}
+```
+
+</details>
+
+### Creating a zkAddress for the receiver
 
 {% hint style="info" %}
 The most convenient way for users to generate a receiving zkAddress is to use the zkBob UI.  \
@@ -186,8 +232,9 @@ zkAddresses can be [formatted in different ways](zkbob-direct-deposits.md#zkaddr
 
 Direct deposits are submitted directly to the direct deposits queue contract (e.g. [0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289](https://polygonscan.com/address/0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289) on Polygon, see [deployed-contracts.md](../implementation/deployed-contracts.md "mention") for addresses on other networks), using one of two approaches:
 
-1. Common `approve` + `deposit` approach, suitable for a majority of use-cases.
-2. Shortcut approach using `transferAndCall`, suitable for simple workflows.
+1. Common `approve` + `directDeposit` approach, suitable for a majority of use-cases.
+2. Shortcut approach using `transferAndCall`, suitable for simple workflows (available only for BOB)
+3. Shortcut `wrap` + `directNativeDeposit` approach, suitable for depositing native ETH (available only for ETH pool)
 
 {% hint style="info" %}
 The  ERC677 `transferAndCall` approach is more gas efficient. However, it does not return the `depositId`. If you need to implement any post-submission logic in your application on the smart contract level and you need a `depositId`, please use the 1st approach.
@@ -200,7 +247,7 @@ Calling either of these methods requires 3 input arguments:
 2. `amount` - deposit BOB amount, 18 decimals. A small fee (0.1 BOB) is subtracted from each amount.
 3. `zkAddress` - private zk address of the intended receiver, see info below for the supported address formats
 
-**Polygon Example**
+**Polygon BOB Example**
 
 ```solidity
 IERC20 bob = IERC20(0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B);
@@ -315,12 +362,12 @@ All submitted direct deposits are subject to per-user limits at the time of thei
 
 Default direct deposits limits for all users:
 
-1. Max amount of a single deposit - **1,000 BOB**
-2. Max daily sum of all single user deposits - **10,000 BOB**
+1. Max amount of a single deposit - **1,000 BOB / 1 ETH**
+2. Max daily sum of all single user deposits - **10,000 BOB / 5 ETH**
 
 ## Direct deposit fee
 
-Apart from associated gas costs for the deposit transaction submission, which is paid by the user, each direct deposit submission also costs 0.1 **BOB** to process.
+Apart from associated gas costs for the deposit transaction submission, which is paid by the user, each direct deposit submission also costs **0.1** **BOB / 0.0002 ETH** to process.
 
 ## FAQs
 
