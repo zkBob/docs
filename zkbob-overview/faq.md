@@ -34,6 +34,7 @@ description: Frequently asked questions
 
 * [What if I lose my password?](faq.md#what-if-i-lose-my-password)
 * [Why do I need to keep entering my password?](faq.md#why-do-i-keep-having-to-enter-my-password)
+* I'm getting a deposit error - cannot deposit
 * [Why is my zkBob transaction taking almost a minute to process?](faq.md#why-is-my-zkbob-transaction-taking-almost-a-minute-to-process)
 * [I just sent a transactions on zkBob which has not processed yet. Do I need to wait to perform another action (deposit/transfer/withdrawal)?](faq.md#related-i-just-sent-a-transaction-on-zkbob.-why-do-i-have-to-wait-to-perform-another-deposit-transfe)
 * [I received a "Transaction was Rejected" error.](faq.md#i-received-a-transaction-was-rejected-error.)
@@ -188,6 +189,13 @@ Encrypted data is stored in local storage for safety purposes. When the app is r
 The in-app refresh, located next to your zkAccount name, should be used rather than a 'hard refresh' to avoid password re-entry.
 
 <figure><img src="../.gitbook/assets/refresh.png" alt=""><figcaption></figcaption></figure>
+
+## I'm getting a deposit error or cannot deposit
+
+There are several applications that can interfere with zkBob. Some known ones include:
+
+* **Revoke.cash** browser extension ([https://discord.com/channels/1095673887389392916/1112786753133220042/1130467777975697408](https://discord.com/channels/1095673887389392916/1112786753133220042/1130467777975697408)). Deactivate this plugin when using zkBob.
+* Using a **Ledger wallet connected through the Rabby wallet**. Connecting your ledger to MetaMask is a known workaround.
 
 ## Why is my zkBob transaction taking almost a minute to process?
 
