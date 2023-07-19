@@ -25,7 +25,7 @@ description: Frequently asked questions
 
 **Accounts and Addresses**
 
-* [I made deposits to 1 zkAccount from multiple 0x addresses on Polygon. Is information tying these deposits to a single zkAccount available in the on-chain data?](faq.md#i-made-deposits-to-1-zkaccount-from-multiple-0x-addresses-on-polygon.-is-information-tying-these-dep)
+* [I made deposits to 1 zkAccount from multiple 0x addresses on Polygon. Is information tying these deposits to a single zkAccount available in the on-chain data?](faq.md#i-made-deposits-to-1-zkaccount-from-multiple-0x-addresses.-is-information-tying-these-deposits-to-a)
 * [Why are there multiple accounts?](faq.md#why-are-there-multiple-accounts)
 * [What is the difference between an account and an address?](faq.md#what-is-the-difference-between-an-account-and-an-address)
 * [I generated a new zkBob address, will my old one still work?](faq.md#i-generated-a-new-zkbob-address-will-my-old-one-still-work)
@@ -34,7 +34,7 @@ description: Frequently asked questions
 
 * [What if I lose my password?](faq.md#what-if-i-lose-my-password)
 * [Why do I need to keep entering my password?](faq.md#why-do-i-keep-having-to-enter-my-password)
-* I'm getting a deposit error - cannot deposit
+* [I'm getting a deposit error or cannot deposit - possible reasons?](faq.md#im-getting-a-deposit-error-or-cannot-deposit)
 * [Why is my zkBob transaction taking almost a minute to process?](faq.md#why-is-my-zkbob-transaction-taking-almost-a-minute-to-process)
 * [I just sent a transactions on zkBob which has not processed yet. Do I need to wait to perform another action (deposit/transfer/withdrawal)?](faq.md#related-i-just-sent-a-transaction-on-zkbob.-why-do-i-have-to-wait-to-perform-another-deposit-transfe)
 * [I received a "Transaction was Rejected" error.](faq.md#i-received-a-transaction-was-rejected-error.)
