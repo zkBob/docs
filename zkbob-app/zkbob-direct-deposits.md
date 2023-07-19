@@ -230,11 +230,11 @@ zkAddresses can be [formatted in different ways](zkbob-direct-deposits.md#zkaddr
 
 ### Submitting a direct deposit
 
-Direct deposits are submitted directly to the direct deposits queue contract (e.g. [0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289](https://polygonscan.com/address/0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289) on Polygon, see [deployed-contracts.md](../implementation/deployed-contracts.md "mention") for addresses on other networks), using one of two approaches:
+Direct deposits are submitted directly to the direct deposits queue contract (e.g. [0x318e2C1f5f6Ac4fDD5979E73D498342B255fC869](https://optimism.blockscout.com/address/0x318e2C1f5f6Ac4fDD5979E73D498342B255fC869) on Optimism, see [deployed-contracts.md](../implementation/deployed-contracts.md "mention") for addresses on other networks), using one of three approaches:
 
-1. Common `approve` + `directDeposit` approach, suitable for a majority of use-cases.
-2. Shortcut approach using `transferAndCall`, suitable for simple workflows (available only for BOB)
-3. Shortcut `wrap` + `directNativeDeposit` approach, suitable for depositing native ETH (available only for ETH pool)
+1. Common `approve` + `directDeposit` approach, suitable for a majority of use-cases. Available for all supported tokens.
+2. Shortcut approach using `transferAndCall`, suitable for simple workflows. Available only for BOB token.
+3. Shortcut `directNativeDeposit` approach, suitable for depositing native ETH. Available only for ETH deposits in the ETH pool.
 
 {% hint style="info" %}
 The  ERC677 `transferAndCall` approach is more gas efficient. However, it does not return the `depositId`. If you need to implement any post-submission logic in your application on the smart contract level and you need a `depositId`, please use the 1st approach.
@@ -244,17 +244,33 @@ Calling either of these methods requires 3 input arguments:
 
 1. `fallbackReceiver` - regular user public `0x` address, which will receive the funds in the unlikely scenario that the deposit is rejection by the system \
    (**DO NOT** **set this address to zero or address that does not belong to the intended receiver**)
-2. `amount` - deposit BOB amount, 18 decimals. A small fee (0.1 BOB) is subtracted from each amount.
+2. `amount` - direct deposit amount. A small flat fee is subtracted from each deposit to account for relayer expenses.
 3. `zkAddress` - private zk address of the intended receiver, see info below for the supported address formats
 
-**Polygon BOB Example**
+**Polygon USDC Example**
 
 ```solidity
-IERC20 bob = IERC20(0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B);
+IERC20 usdc = IERC20(0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174);
 IZkBobDirectDeposits queue = IZkBobDirectDeposits(0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289);
 
 // zkbob_polygon:QsnTijXekjRm9hKcq5kLNPsa6P4HtMRrc3RxVx3jsLHeo2AiysYxVJP86mz6t7k
 bytes memory zkAddress = bytes("QsnTijXekjRm9hKcq5kLNPsa6P4HtMRrc3RxVx3jsLHeo2AiysYxVJP86mz6t7k");
+
+address fallbackReceiver = msg.sender;
+
+// Option A, through pool contract
+usdc.approve(address(queue), 100 * 1e6);
+uint256 depositId = queue.directDeposit(fallbackReceiver, 100 * 1e6, zkAddress);
+```
+
+**Optimism BOB Example**
+
+```solidity
+IERC20 bob = IERC20(0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B);
+IZkBobDirectDeposits queue = IZkBobDirectDeposits(0x15B8C75c024acba8c114C21F42eb515A762c0014);
+
+// zkbob_optimism:CFiQ36Ghy3LRDFY7YmGvQE8nQaFGQmnbgorjFxDsDqKSdmfzUYtb6FTaWnHZBkP
+bytes memory zkAddress = bytes("CFiQ36Ghy3LRDFY7YmGvQE8nQaFGQmnbgorjFxDsDqKSdmfzUYtb6FTaWnHZBkP");
 
 address fallbackReceiver = msg.sender;
 
@@ -267,20 +283,39 @@ uint256 depositId = queue.directDeposit(fallbackReceiver, 100 ether, zkAddress);
 bob.transferAndCall(address(queue), 100 ether, abi.encode(fallbackReceiver, zkAddress));
 ```
 
+**Optimism ETH Example**
+
+```solidity
+IERC20 weth = IERC20(0x4200000000000000000000000000000000000006);
+IZkBobDirectDepositsETH queue = IZkBobDirectDepositsETH(0x318e2C1f5f6Ac4fDD5979E73D498342B255fC869);
+
+// zkbob_optimism_eth:Pny2VS1uphaJkHZdvfzhLdmruM6BMPSqyACzZkcUbJpmAe1hKwpi6Em56gKYsz3
+bytes memory zkAddress = bytes("Pny2VS1uphaJkHZdvfzhLdmruM6BMPSqyACzZkcUbJpmAe1hKwpi6Em56gKYsz3");
+
+address fallbackReceiver = msg.sender;
+
+// Option A, through pool contract
+weth.approve(address(queue), 1 ether);
+uint256 depositId1 = queue.directDeposit(fallbackReceiver, 1 ether, zkAddress);
+
+// Option C, through native ETH deposit
+uint256 depositId2 = queue.directNativeDeposit{value: 1 ether}(fallbackReceiver, zkAddress);
+```
+
 Calls to either of the deposit methods can revert with corresponding revert reasons in case of the following scenarios:
 
-1. Insufficient BOB allowance for `directDeposit` call.
+1. Insufficient token allowance for `directDeposit` call.
 2. Zero `fallbackReceiver` parameter.
 3. Insufficient deposit amount to cover the implied deposit fee.
-4. Deposit amount exceeding the single deposit limit for a particular user (1,000 BOB).
-5. Sum of daily direct deposits exceeding daily deposit limit for a particular user (10,000 BOB).
+4. Deposit amount exceeding the single deposit limit for a particular user.
+5. Sum of daily direct deposits exceeding daily deposit limit for a particular user.
 6. Invalid zkAddress format/length/checksum.
 
-The most straightforward way to test direct deposit submission is through the Polygonscan UI:\
+The most straightforward way to test direct deposit submission is through the Blockscout UI:\
 \
-[https://polygonscan.com/address/0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289#writeProxyContract](https://polygonscan.com/address/0x668c5286eAD26fAC5fa944887F9D2F20f7DDF289#writeProxyContract)
+[https://optimism.blockscout.com/address/0x318e2C1f5f6Ac4fDD5979E73D498342B255fC869?tab=write\_proxy](https://optimism.blockscout.com/address/0x318e2C1f5f6Ac4fDD5979E73D498342B255fC869?tab=write\_proxy)
 
-![](<../.gitbook/assets/Screenshot 2023-05-09 at 2.12.11 PM.png>)
+<figure><img src="../.gitbook/assets/Screenshot 2023-07-19 at 10.40.32 AM.png" alt="" width="563"><figcaption><p>Making a direct deposit from the Blockscout UI</p></figcaption></figure>
 
 {% hint style="warning" %}
 Submitting a direct deposit in most scenarios will require the end user to pay transaction fees in MATIC or ETH, which is not the same for regular zkBob operations.
@@ -362,12 +397,16 @@ All submitted direct deposits are subject to per-user limits at the time of thei
 
 Default direct deposits limits for all users:
 
-1. Max amount of a single deposit - **1,000 BOB / 1 ETH**
-2. Max daily sum of all single user deposits - **10,000 BOB / 5 ETH**
+1. Max amount of a single deposit - **1,000 BOB / 1,000 USDC / 5 ETH**
+2. Max daily sum of all single user deposits - **10,000 BOB / 10,000 USDC / 5 ETH**
+
+Limits can be adjusted in the future. Please refer to the up-to-date limit values displayed in the UI, or obtained through the smart contract interface.
 
 ## Direct deposit fee
 
-Apart from associated gas costs for the deposit transaction submission, which is paid by the user, each direct deposit submission also costs **0.1** **BOB / 0.0002 ETH** to process.
+Apart from associated gas costs for the deposit transaction submission, which is paid by the user, each direct deposit submission also costs **0.1** **BOB / 0.1 USDC / 0.0002 ETH** to process.
+
+Fees can be adjusted in the future. Please refer to the up-to-date fee values displayed in the UI, or obtained through the smart contract interface.
 
 ## FAQs
 
@@ -379,13 +418,13 @@ For testing purposes, we also support staging zkBob deployments on Sepolia and G
 
 Read more about all relevant contract addresses for all networks zkBob is present at in [deployed-contracts.md](../implementation/deployed-contracts.md "mention")
 
-### How to get testnet BOB in Goerli/Sepolia?
+### How to get testnet tokens in Goerli/Sepolia?
 
-There are BOB faucet contracts available in both Goerli/Sepolia ([deployed-contracts.md](../implementation/deployed-contracts.md "mention")), which allow anyone to get up to 10k BOB per transaction  using the Etherscan UI.
+There are BOB/USDC faucet contracts available in both Goerli/Sepolia ([deployed-contracts.md](../implementation/deployed-contracts.md "mention")), which allow anyone to get up to 10k BOB/USDC per transaction using the Blockscout UI.
 
 ### Does a direct deposit operation require MATIC/ETH?
 
-Yes, a native token (like MATIC or ETH) is required to pay the gas fees for a direct deposit transaction. In addition, a fee of 0.10 BOB will be charged for each direct deposit tx. For regular deposits, transfers or withdrawals within the zkBob application, MATIC/ETH is not required.
+Yes, a native token (like MATIC or ETH) is required to pay the gas fees for a direct deposit transaction. In addition, a fee of 0.10 BOB / 0.0002 ETH will be charged for each direct deposit tx. For regular deposits, transfers or withdrawals within the zkBob application, MATIC/ETH is not required.
 
 ### How do I get started?
 
