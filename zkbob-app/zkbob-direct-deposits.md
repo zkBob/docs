@@ -9,7 +9,7 @@ description: >-
 {% hint style="info" %}
 While there is a test application on Sepolia and Goerli, **we strongly recommend** using the application in production on **Optimism or Polygon**. If you need BOB to get started, please contact us through a supported channel (for hackathons use the official the hackathon [Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
 
-* [Multichain Contract Info](../deployment/contracts-deployment.md)
+* [Local contract deployment](../deployment/contracts-deployment.md)
 * Production UI on Polygon/Optimism: [https://app.zkbob.com](https://app.zkbob.com/deposit)
 * Testnet UI on Sepolia/Goerli: [https://staging--zkbob.netlify.app/](https://staging--zkbob.netlify.app/)
 {% endhint %}
