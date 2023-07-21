@@ -160,7 +160,7 @@ The following configurations contain only the mandatory fields. To instantiate t
 `USDM` pools are formerly `BOB` ones which were migrated to the USDC token. "_**M**_" in the pool name means "Migrated". But it's simply a pool alias for internal usage. You can rename it to another arbitrary value.
 {% endhint %}
 
-{% file src="../../../../.gitbook/assets/prod-pools (2).json" %}
+{% file src="../../../../.gitbook/assets/prod-pools.json" %}
 **Production Pools:** USDM-polygon, BOB-optimism, WETH-optimism
 {% endfile %}
 

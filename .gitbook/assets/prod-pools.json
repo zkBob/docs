@@ -1,14 +1,15 @@
 {
 	"pools": {
-        "USDC-polygon": {
+        "USDM-polygon": {
             "chainId": 137,
             "poolAddress": "0x72e6B59D4a90ab232e55D4BB7ed2dD17494D62fB",
-            "tokenAddress": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
+            "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
             "relayerUrls": ["https://relayer-mvp.zkbob.com"],
             "delegatedProverUrls": ["https://remoteprover-mvp.zkbob.com/"],
             "coldStorageConfigPath": "./assets/zkbob-polygon-coldstorage.cfg",
 	    	"feeDecimals": 2,
-	    	"depositScheme": "permit"
+	    	"depositScheme": "usdc-polygon",
+	    	"ddSubgraph": "zkbob-usdc-polygon"
 	    },
 		"BOB-optimism": {
     	    "chainId": 10,
@@ -18,7 +19,8 @@
     	    "delegatedProverUrls": [],
     	    "coldStorageConfigPath": "",
             "feeDecimals": 2,
-		    "depositScheme": "permit"
+		    "depositScheme": "permit",
+		    "ddSubgraph": "zkbob-bob-optimism"  
 		},
 		"WETH-optimism": {
     	    "chainId": 10,
@@ -29,7 +31,8 @@
     	    "coldStorageConfigPath": "",
 	    	"isNative": true,
     	    "minTxAmount": 0,
-    	    "depositScheme": "permit2"
+    	    "depositScheme": "permit2",
+    	    "ddSubgraph": "zkbob-eth-optimism"
 		}
     },
     "chains": {
@@ -39,5 +42,9 @@
 		"10": {
 			"rpcUrls": ["https://rpc.ankr.com/optimism", "https://mainnet.optimism.io"]
         }
+    },
+    "snarkParams": {
+      "transferParamsUrl": "https://r2.zkbob.com/transfer_params_22022023.bin",
+      "transferVkUrl": "https://r2.zkbob.com/transfer_verification_key_22022023.json"
     }
 }
