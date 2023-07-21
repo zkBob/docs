@@ -1,0 +1,71 @@
+{
+    "pools": {
+        "BOB-sepolia": {
+            "chainId": 11155111,
+            "poolAddress": "0x3bd088C19960A8B5d72E4e01847791BD0DD1C9E6",
+            "tokenAddress": "0x2C74B18e2f84B78ac67428d0c7a9898515f0c46f",
+            "relayerUrls": ["https://relayer.thgkjlr.website/"],
+            "delegatedProverUrls": ["https://prover-staging.thgkjlr.website/"],
+            "coldStorageConfigPath": "",
+            "feeDecimals": 2,
+            "depositScheme": "permit"
+        },
+        "BOB2USDC-goerli": {
+            "chainId": 5,
+            "poolAddress": "0x49661694a71B3Dab9F25E86D5df2809B170c56E6",
+            "tokenAddress": "0x28B531401Ee3f17521B3772c13EAF3f86C2Fe780",
+            "relayerUrls": ["https://dev-relayer.thgkjlr.website/"],
+            "delegatedProverUrls": [],
+            "coldStorageConfigPath": "",
+            "feeDecimals": 2,
+            "depositScheme": "usdc-polygon",
+            "ddSubgraph": "zkbob-bob-goerli"
+        },
+        "WETH-goerli": {
+            "chainId": 5,
+            "poolAddress": "0xf9dbCF4005497e042838dE9082C817fCa790e945",
+            "tokenAddress": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+            "relayerUrls": ["https://goerli-weth-relayer.thgkjlr.website/"],
+            "delegatedProverUrls": [],
+            "coldStorageConfigPath": "",
+            "minTxAmount": 0,
+            "depositScheme": "permit2",
+            "isNative": true,
+            "ddSubgraph": "zkbob-eth-goerli"
+        },
+        "USDC-goerli": {
+            "chainId": 5,
+            "poolAddress": "0xCF6446Deb67b2b56604657C67DAF54f884412531",
+            "tokenAddress": "0x28B531401Ee3f17521B3772c13EAF3f86C2Fe780",
+            "relayerUrls": ["https://goerli-usdc-relayer.thgkjlr.website"],
+            "delegatedProverUrls": [],
+            "coldStorageConfigPath": "",
+            "feeDecimals": 2,
+            "minTxAmount": 50000,
+            "depositScheme": "usdc-polygon"
+        },
+        "BOB-op-goerli": {
+            "chainId":420,
+            "poolAddress":"0x55B81b0730399974Ccad8AC858e766Cf54126596",
+            "tokenAddress":"0x0fA7E69b9344D6434Bd6b79c5950bb5234245a5F",
+            "relayerUrls":["https://gop-relayer.thgkjlr.website"],
+            "delegatedProverUrls": [],
+            "coldStorageConfigPath": "",
+            "feeDecimals": 2,
+            "depositScheme": "permit",
+            "ddSubgraph": "zkbob-bob-goerli-opt"
+        }
+    },
+
+    "chains": {
+        "11155111": {
+            "rpcUrls": ["https://rpc.sepolia.org"]
+        },
+        "5": {
+            "rpcUrls": ["https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"]
+        },
+        "420": {
+            "rpcUrls": ["https://goerli.optimism.io"]
+        }
+    }
+}

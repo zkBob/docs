@@ -19,7 +19,7 @@ Go to the Withdraw tab in the application and enter the amount you'd like to wit
 
 A popup with details will allow you to confirm and complete the transaction. Relayer fees (dynamic fees on Optimism, 0.1 fee on Polygon) are paid with BOB during the withdrawal process and you will not need to sign a transaction in any connected wallet. It may take a minute to create the proof and initiate the withdrawal from the zero knowledge pool.
 
-<figure><img src="../../.gitbook/assets/withdraw-3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/withdraw-3 (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
