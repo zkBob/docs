@@ -7,7 +7,9 @@ description: >-
 # zkBob Direct Deposits
 
 {% hint style="info" %}
-While there is a test application on Sepolia and Goerli, **we strongly recommend** using the application in production on **Optimism or Polygon**. If you need BOB to get started, please contact us through a supported channel (for hackathons use the official the hackathon [Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
+While there is a test application on Sepolia and Goerli, **we strongly recommend** using the application in production on **Optimism or Polygon**.&#x20;
+
+If you need BOB to get started, please contact us through a supported channel (for hackathons use the official the hackathon [Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
 
 * [Local contract deployment](../deployment/contracts-deployment.md)
 * Production UI on Polygon/Optimism: [https://app.zkbob.com](https://app.zkbob.com/deposit)
@@ -15,6 +17,10 @@ While there is a test application on Sepolia and Goerli, **we strongly recommend
 {% endhint %}
 
 {% hint style="success" %}
+Find our new [**Client Library SDK**](../implementation/client-library-sdk/) for integration methods and examples.
+
+
+
 See the [FAQs at the end](zkbob-direct-deposits.md#faqs) for commonly asked questions.
 {% endhint %}
 
@@ -25,7 +31,7 @@ zkBob supports 5 different operations:
 1. **Deposit** - Add funds to your zkAccount.
 2. **Withdraw** - Withdraw tokens from your private account to a public `0x` address.
 3. **Private transfer** - Make an anonymous transfer from one user to another with their zkAddress.
-4. **Private multi-transfer** - Make an anonymous atomic batch transfer to multiple zkAddresses
+4. **Private multi-transfer** - Make an anonymous atomic batch transfer to multiple zkAddresses.
 5. **Direct deposit -** Send tokens directly to someone’s zkAddress from outside the zkBob application.
 
 The first 4 operations can only be performed by end users via zkBob clients, such as the zkBob UI.

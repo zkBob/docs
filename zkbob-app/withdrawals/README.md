@@ -22,7 +22,7 @@ When you withdraw 10.0 or more BOB to a receiving address on Polygon with a 0 MA
 
 3\) **Confirm** to proceed with the withdrawal.
 
-<figure><img src="../../.gitbook/assets/withdraw-3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/withdraw-3 (1).png" alt=""><figcaption></figcaption></figure>
 
 4\) Application will generate a proof and confirm the withdrawal.
 
