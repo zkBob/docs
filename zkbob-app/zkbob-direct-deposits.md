@@ -9,7 +9,7 @@ description: >-
 {% hint style="info" %}
 While there is a test application on Sepolia and Goerli, **we strongly recommend** using the application in production on **Optimism or Polygon**.&#x20;
 
-If you need BOB to get started, please contact us through a supported channel (for hackathons use the official the hackathon [Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
+If you need some live tokens to get started, please contact us through a supported channel (for hackathons use the official the hackathon [Discord](https://discord.gg/ethglobal) _sponsor-zkbob_ channel) and we will send BOB!&#x20;
 
 * [Local contract deployment](../deployment/contracts-deployment.md)
 * Production UI on Polygon/Optimism: [https://app.zkbob.com](https://app.zkbob.com/deposit)
@@ -24,7 +24,7 @@ Find our new [**Client Library SDK**](../implementation/client-library-sdk/) for
 See the [FAQs at the end](zkbob-direct-deposits.md#faqs) for commonly asked questions.
 {% endhint %}
 
-## Introduction
+## Direct Deposits Introduction
 
 zkBob supports 5 different operations:
 
