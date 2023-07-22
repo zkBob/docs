@@ -6,6 +6,18 @@ description: A stablecoin-based privacy wallet build for everyday users
 
 <figure><img src=".gitbook/assets/readme2.jpg" alt=""><figcaption></figcaption></figure>
 
+{% hint style="success" %}
+**ETHGlobal Paris Hackathon happening this weekend!**
+
+\-> [Bounties](https://ethglobal.com/events/paris2023/prizes#zkbob)
+
+\-> [Direct Deposits](zkbob-app/zkbob-direct-deposits.md)
+
+\-> [Client Library SDK](implementation/client-library-sdk/)
+
+\-> [Discord ](https://discord.com/invite/ethglobal)(partner-zkbob channel)
+{% endhint %}
+
 ## Get Started
 
 > :man: [zkBob App](https://app.zkbob.com/)\
