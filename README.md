@@ -6,12 +6,6 @@ description: A stablecoin-based privacy wallet build for everyday users
 
 <figure><img src=".gitbook/assets/readme2.jpg" alt=""><figcaption></figcaption></figure>
 
-{% hint style="success" %}
-**ETHGlobal Paris Hackathon happening this weekend!**
-
-Winners announcement coming soon
-{% endhint %}
-
 ## Get Started
 
 > :man: [zkBob App](https://app.zkbob.com/)\
