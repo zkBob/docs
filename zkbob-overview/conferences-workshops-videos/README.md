@@ -52,9 +52,25 @@ Ulyana gave an overview of zkBob and compliance features that set it apart.
 
 ## ETHDam
 
-Mike presented on UI issues and solutions for web3 products like zkBob
+Mike presented on UI issues and solutions for web3 products like zkBob.
 
 {% embed url="https://youtu.be/-gBAIC0lHbM" %}
 
-Look for us at [ETHGlobal Paris](https://ethglobal.com/events/paris2023) and more coming soon!
+## ETHBelgrade
+
+Mike presented on the importance of user-friendly interfaces to onboard the next generation of web3 users.&#x20;
+
+{% embed url="https://www.youtube.com/watch?v=ID3av0xJzKc" %}
+
+## ETHCC
+
+Andrew presented on compliance and privacy and how the 2 can coexist moving forward thanks to zk technology.
+
+{% embed url="https://youtu.be/QxrRXCVBvsc" %}
+
+## ETHGlobal Paris
+
+Kirill led a workshop on zkBob and the new SDK available for developers.
+
+{% embed url="https://youtu.be/TR59XORYO94" %}
 
