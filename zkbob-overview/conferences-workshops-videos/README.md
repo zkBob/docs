@@ -16,7 +16,7 @@ Kirill ran a workshop for hackers on the zkBob app and how to integrate v1 for t
 
 ### Gweithering
 
-Igor presented at the [Gweithering](https://www.gweithering.xyz/) , an outside event before ETHIndia put on by our friends at [Biconomy](https://www.biconomy.io/), [Superblock](https://www.superblock.one/), and [Frontier](https://www.frontier.xyz/).&#x20;
+Igor presented at the Gweithering, an outside event before ETHIndia put on by our friends at [Biconomy](https://www.biconomy.io/), [Superblock](https://www.superblock.one/), and [Frontier](https://www.frontier.xyz/).&#x20;
 
 <figure><img src="../../.gitbook/assets/BOB-future.jpeg" alt=""><figcaption></figcaption></figure>
 
