@@ -1,5 +1,9 @@
 # Native Token Conversion
 
+{% hint style="warning" %}
+Examples are performed with BOB on Polygon. However, **the BOB pool is now a USDC pool on Polygon**. You can also follow the instructions to deposit BOB or ETH on Optimism.
+{% endhint %}
+
 You may want to withdraw BOB to a new address on Polygon or Optimism. To use this address immediately, it helps to have some native tokens sent along with BOB to cover any gas fees.
 
 The native token conversion feature lets you convert 1, 5, or 10 BOB into native tokens (MATIC on Polygon, ETH on Optimism) during the withdrawal process.

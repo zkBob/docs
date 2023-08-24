@@ -6,6 +6,10 @@ description: >-
 
 # Multitransfers
 
+{% hint style="warning" %}
+Examples are performed with BOB on Polygon. However, **the BOB pool is now a USDC pool on Polygon**. You can also follow the instructions to deposit BOB or ETH on Optimism.
+{% endhint %}
+
 Multitransfer allows multiple transfers to be processed in a single transaction. There are no limits to the number of transfers, and the entire process can be completed with a single proof and a single 0.10 relayer fee.  Each transfer adds an additional note to the zkproof, which can slightly increase proof generation time. Other than that, multitransfer is as smooth and seamless as an ordinary zkBob transfer!
 
 {% hint style="info" %}

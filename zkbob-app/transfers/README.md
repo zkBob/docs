@@ -4,6 +4,10 @@ description: Shielded transfers through the zkBob privacy pool
 
 # Transfers
 
+{% hint style="warning" %}
+Examples are performed with BOB on Polygon. However, **the BOB pool is now a USDC pool on Polygon**. You can also follow the instructions to deposit BOB or ETH on Optimism.
+{% endhint %}
+
 Transfers are made within the zkpool between zkAccounts. You do not transfer to an 0x account, but rather to another zkAccount holder's generated receiving address. Typically, the receiver will send you a [generated receiving address](../generate-a-secure-address.md) via a private channel, invoice, or some other private method.&#x20;
 
 This also means you do not need to connect MetaMask, WalletConnect or any other web3 wallet. Transfers occur within the application with no need for outside wallet connections.
@@ -24,7 +28,7 @@ The minimum transfer amount is 0.05 BOB. A 0.10 fee is added to each transfer.
 
 ## Sending a Transfer
 
-1\) Check your zkAccount is connected (you will see zk_AccountName_ and an amount of BOB if it is connected). Since you will not be depositing funds, it is your choice whether or not to connect your MetaMask/WalletConnect wallet.
+1\) Check your zkAccount is connected (you will see zk_AccountName_ and an amount of BOB/USDC/ETH if it is connected). Since you will not be depositing funds, it is your choice whether or not to connect your MetaMask/WalletConnect wallet.
 
 <figure><img src="../../.gitbook/assets/trans-1.png" alt=""><figcaption></figcaption></figure>
 

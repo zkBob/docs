@@ -1,6 +1,10 @@
 # Deposits
 
-Deposits to the zkBob pool involve moving the BOB stablecoin from a web3 wallet address (MetaMask/WalletConnect) into a zkAccount. You can use the UI to easily connect a wallet and deposit into your zkAccount.
+{% hint style="warning" %}
+Examples are performed with BOB on Polygon. However, **the BOB pool is now a USDC pool on Polygon**. You can also follow the instructions to deposit BOB or ETH on Optimism.
+{% endhint %}
+
+Deposits to the zkBob pool involve moving the supported token (USDC on Polygon, ETH or BOB on Optimism) from a web3 wallet address (MetaMask/WalletConnect) into a zkAccount. You can use the UI to easily connect a wallet and deposit into your zkAccount.
 
 1\) Check your [accounts are connected](account-creation/).
 
@@ -11,10 +15,10 @@ _If you have previously setup your zkBob account using the Metamask/WalletConnec
 
 <figure><img src="../.gitbook/assets/dep1.png" alt=""><figcaption></figcaption></figure>
 
-2\) You should have some amount of BOB tokens available to deposit. Enter the amount and press **Deposit**.&#x20;
+2\) You should have some amount of tokens available to deposit. Enter the amount and press **Deposit**.&#x20;
 
 {% hint style="warning" %}
-Note that 0.10 BOB is added to any amount you deposit to pay the relayer fee. If you deposit 10 BOB, 10 BOB is added to your zkAccount and an additional 0.10 BOB is deducted from your 0x address to pay the relayer. The total cost for this tx is 10.1 BOB.
+Note that a 0.10 fee is added to any amount you deposit to pay the relayer fee. If you deposit 10 USDC 10 USDC is added to your zkAccount and an additional 0.10 USDC is deducted from your 0x address to pay the relayer. The total cost for this tx is 10.1 USDC.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/deposit-2 (1).png" alt=""><figcaption></figcaption></figure>
