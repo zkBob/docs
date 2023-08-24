@@ -76,7 +76,7 @@ The underlying code is open-source and anyone can deploy contracts, a relayer, a
 
 ## Who heads development and deployment?
 
-zkBob is a decentralized, open-source application with a distributed & decentralized team and no centralized head of development. The app was initiated by the xDai research group in collaboration with [ZeroPool](https://zeropool.network/) and community support. zkBob is multichain and [deployed on Polygon and Optimism ](https://app.zkbob.com/).
+zkBob is a decentralized, open-source application with a distributed & decentralized team and no centralized head of development. The app was initiated by the xDai research group in collaboration with [ZeroPool](https://zeropool.network/) and community support. zkBob is multichain and [deployed on Polygon and Optimism](https://app.zkbob.com/).
 
 ## Does zkBob work on mobile devices?
 
@@ -84,15 +84,13 @@ Yes! However, operations can take longer as Proof generation is resource intensi
 
 ## Why does zkBob use the BOB stablecoin?
 
-zkBob is designed to use BOB for several reasons. BOB is stable, flexible (multi-chain, multi-collateral), and easy to use. For questions related to BOB, please see the [BOB details](broken-reference) page.
+zkBob was originally designed to use the BOB stablecoin. After v1 was complete, the protocol was opened up to additional pools including a USDC pool on Polygon and an ETH pool on Optimism. BOB is still available in the ecosystem, but not as used as it once was. For questions related to BOB, please see the [BOB details](broken-reference) page.
 
 ## Do I need MATIC/ETH to pay for transactions?
 
-**No**, all fees are paid in BOB with a stable $0.10(Polygon) or a stable dynamic (Optimism) fee per tx! This includes deposits into the protocol, transfers within zkBob, and withdrawals from the application.
+**No**, all fees are paid in USDC with a stable $0.10(Polygon) or a stable dynamic (Optimism) fee per tx! This includes deposits into the protocol, transfers within zkBob, and withdrawals from the application.
 
-Withdrawals from zkBob on Polygon will also result in a small amount of MATIC (Polygon) sent to the receiving address if certain criteria are met. To receive, the address must have a 0 balance, and the withdrawal amount must be 10 or more BOB. _Note a faucet is not available on Optimism._
-
-If you want to purchase BOB in other ways ([Uniswap](broken-reference) or [Metamask swap](broken-reference)), you will need a small amount of MATIC/ETH to complete the transaction.
+Withdrawals from zkBob on Polygon will also result in a small amount of MATIC (Polygon) sent to the receiving address if certain criteria are met. To receive, the address must have a 0 balance, and the withdrawal amount must be 10 or more USDC. _Note a faucet is not available on Optimism._
 
 ## Where can I see zkBob stats?
 
@@ -106,9 +104,9 @@ It depends on how large the pool set is and how much activity has happened since
 
 ## Are deposits into zkBob and withdrawals from zkBob private?
 
-Not completely, there is some information which is recorded on chain. It is transparent that an address interacted with the zkBOB application and how much BOB was deposited or withdrawn.
+Not completely, there is some information which is recorded on chain. It is transparent that an address interacted with the zkBob application and how much was deposited or withdrawn.
 
-**Deposits:** When you deposit into zkBob, the 0x address on Polygon or Optimism you deposited from and how much BOB you deposited into the zkBob protocol can be viewed in a block explorer. [Example Transaction](https://polygonscan.com/tx/0xe5269af7e735c45976f0c627cd138dfd000d99b160ae5c5868abcdf3c540f0cb).
+**Deposits:** When you deposit into zkBob, the 0x address on Polygon or Optimism you deposited from and how much of any tokenyou deposited into the zkBob protocol can be viewed in a block explorer. [Example Transaction](https://polygonscan.com/tx/0xe5269af7e735c45976f0c627cd138dfd000d99b160ae5c5868abcdf3c540f0cb).
 
 <figure><img src="../.gitbook/assets/deposit (1).png" alt=""><figcaption><p>Deposit transaction from an EOA to the zkBob Pool</p></figcaption></figure>
 

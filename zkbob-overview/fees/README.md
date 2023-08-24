@@ -1,8 +1,8 @@
 # Fees
 
-A $0.10 fee per tx on Polygon and a dynamic fee per tx is added on Optimism is added to each transaction\* and paid with existing BOB tokens. You DO NOT need any native (MATIC/ETH) tokens to deposit, transfer, or withdraw from zkBob. All tx fees are paid using BOB.
+A $0.10 fee per tx on Polygon, and a dynamic fee per tx is added on Optimism, is added to each transaction\* and paid with existing USDC tokens. You DO NOT need any native (MATIC/ETH) tokens to deposit, transfer, or withdraw from zkBob.&#x20;
 
-Fees cover the cost of transactions in most situations (_see below_) and can result in a surplus depending on gas and token prices. BOB accumulates with the fee receiver and is periodically withdrawn, swapped for native tokens, and sent to the relayer to subsidize future transaction costs. Relayers do not keep any profits from extra fees - all collected fees are used to support the protocol.&#x20;
+Fees cover the cost of transactions in most situations (_see below_) and can result in a surplus depending on gas and token prices. USDC (or other pool token) accumulates with the fee receiver and is periodically withdrawn, swapped for native tokens, and sent to the relayer to subsidize future transaction costs. Relayers do not keep any profits from extra fees - all collected fees are used to support the protocol.&#x20;
 
 \*_In special cases, transactions may incur additional fees when many notes need to be processed at the same time._ [_Learn more_](unspent-note-handling.md)_._
 
@@ -32,7 +32,7 @@ Fees can vary significantly based on the gas price and token price at the time o
 
 Fees are currently collected internally within the pool contract and the `accumulatedFee` method. They can be manually withdrawn by a separate operator account (a specified account called the fee recipient) rather than a primary relayer account. This maintains safety in the protocol as a primary relayer is responsible for sending transactions and should not have the ability to call the `withdrawFee` function.
 
-Once enough BOB has accumulated, it can be withdrawn and swapped for native (MATIC/ETH) tokens. These are then sent to the primary relayer to cover gas fees for future operations. &#x20;
+Once enough USDC has accumulated, it can be withdrawn and swapped for native (MATIC/ETH) tokens. These are then sent to the primary relayer to cover gas fees for future operations. &#x20;
 
 ### View Accumulated Fees
 
@@ -48,6 +48,6 @@ Anyone can view current fees accumulated by the protocol. This does not represen
 
 <figure><img src="../../.gitbook/assets/2-fee-accumulated.png" alt=""><figcaption></figcaption></figure>
 
-3\) Convert the result (in Gwei) to USD using [Ethereum Unit Converter](https://eth-converter.com/). Since BOB is a stable token, the Ether amount will be USD equivalent (in the case below $13.70 BOB is currently accumulated in the contract).
+3\) Convert the result (in Gwei) to USD using [Ethereum Unit Converter](https://eth-converter.com/). The Ether amount will be USD equivalent (in the case below $13.70 is currently accumulated in the contract).
 
 <figure><img src="../../.gitbook/assets/3-converter (1).png" alt=""><figcaption></figcaption></figure>
