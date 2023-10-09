@@ -14,7 +14,7 @@
   * [zk Privacy Solution Comparison](zkbob-overview/basic-concepts/zk-privacy-solution-comparison.md)
 * [zkBob Pools](zkbob-overview/zkbob-pools/README.md)
   * [USDC Pool on Polygon](zkbob-overview/zkbob-pools/usdc-pool-on-polygon.md)
-  * [BOB Pool on Optimism](zkbob-overview/zkbob-pools/bob-pool-on-optimism.md)
+  * [USDC Pool on Optimism](zkbob-overview/zkbob-pools/usdc-pool-on-optimism.md)
   * [ETH Pool on Optimism](zkbob-overview/zkbob-pools/eth-pool-on-optimism.md)
 * [Fees](zkbob-overview/fees/README.md)
   * [Unspent note handling](zkbob-overview/fees/unspent-note-handling.md)

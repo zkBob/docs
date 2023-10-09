@@ -6,11 +6,7 @@ description: To interact with the relayer
 
 {% swagger method="post" path="/transaction" baseUrl="http://relayer" summary="Send a transaction to the contract" %}
 {% swagger-description %}
-This method checks an incoming transaction, builds the zkSNARK Merkle tree proof, and sends the transaction to the Pool contract. The transaction doesn’t process immediately because contract interaction is completed in a serial manner. Incoming transactions are put into the job queue. The method returns 
-
-`jobId`
-
- on success
+This method checks an incoming transaction, builds the zkSNARK Merkle tree proof, and sends the transaction to the Pool contract. The transaction doesn’t process immediately because contract interaction is completed in a serial manner. Incoming transactions are put into the job queue. The method returns `jobId` on success
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="proof" type="Dictionary" required="true" %}
@@ -58,11 +54,7 @@ Account nullifier signature with the client's native chain private key (for with
 
 {% swagger method="get" path="/job/:id" baseUrl="http://relayer" summary="Get the job status" %}
 {% swagger-description %}
-Returns incoming transaction processing state. 
-
-`jobId`
-
- is returned by /transaction method
+Returns incoming transaction processing state. `jobId` is returned by /transaction method
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="id" type="Integer" required="true" %}
