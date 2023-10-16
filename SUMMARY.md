@@ -45,6 +45,8 @@
 * [zkBob Direct Deposits](zkbob-app/zkbob-direct-deposits.md)
 * [Support ID](zkbob-app/support-id.md)
 * [Integrated Services](zkbob-app/integrated-services.md)
+* [Multilingual support](zkbob-app/multilingual-support/README.md)
+  * [Português](zkbob-app/multilingual-support/portugues.md)
 
 ## 👩⚕ Technical Implementation <a href="#implementation" id="implementation"></a>
 
