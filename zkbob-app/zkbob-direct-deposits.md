@@ -7,7 +7,7 @@ description: >-
 # zkBob Direct Deposits
 
 {% hint style="warning" %}
-Examples are performed with BOB on Polygon. However, **the BOB pool is now a USDC pool on Polygon**. You can also follow the instructions to deposit BOB or ETH on Optimism.
+Examples are performed with BOB on Polygon. However, **the BOB pool is now a USDC pool on Polygon**. You can also follow the instructions to deposit USDC or ETH on Optimism.
 {% endhint %}
 
 {% hint style="info" %}
