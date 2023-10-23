@@ -44,6 +44,7 @@
 * [Get BOB](zkbob-app/get-bob.md)
 * [zkBob Direct Deposits](zkbob-app/zkbob-direct-deposits.md)
 * [Support ID](zkbob-app/support-id.md)
+* [Payment Links](zkbob-app/payment-links.md)
 * [Integrated Services](zkbob-app/integrated-services.md)
 * [Multilingual support](zkbob-app/multilingual-support/README.md)
   * [Português](zkbob-app/multilingual-support/portugues.md)
