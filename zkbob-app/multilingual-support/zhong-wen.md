@@ -1,7 +1,5 @@
 # 中文
 
-
-
 {% hint style="success" %}
 ZH-CN Translation added by community member [**Yondcutie**](https://github.com/Yondcutie)  in [https://github.com/zkBob/docs/issues/16](https://github.com/zkBob/docs/issues/16)
 {% endhint %}

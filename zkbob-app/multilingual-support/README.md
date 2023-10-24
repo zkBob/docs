@@ -8,8 +8,8 @@ zkBob has been translated by the community into several languages. The following
 
 * English (default)
 * [Português](portugues.md)
-* Русский
-* 中文
+* [Русский](https://docs.zkbob.com/zkbob-app/multilingual-support/russkii)
+* [中文](https://docs.zkbob.com/zkbob-app/multilingual-support/zhong-wen)
 * _More coming soon_
 
 ### Add support for new languages
