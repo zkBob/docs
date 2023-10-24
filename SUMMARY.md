@@ -48,6 +48,8 @@
 * [Integrated Services](zkbob-app/integrated-services.md)
 * [Multilingual support](zkbob-app/multilingual-support/README.md)
   * [Português](zkbob-app/multilingual-support/portugues.md)
+  * [Русский](zkbob-app/multilingual-support/russkii.md)
+  * [中文](zkbob-app/multilingual-support/zhong-wen.md)
 
 ## 👩⚕ Technical Implementation <a href="#implementation" id="implementation"></a>
 
