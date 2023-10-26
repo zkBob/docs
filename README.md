@@ -9,8 +9,7 @@ description: A stablecoin-based privacy wallet build for everyday users
 
 
 {% hint style="success" %}
-Introducing [private payment link](https://zkbob.com/payment-link). Send to anyone - they don't need a zkBob account to pay you privately with any token! \
-
+zkBob is an open-source, decentralized application available for the community.[ Learn More.](zkbob-overview/basic-concepts/open-source-and-decentralized.md)
 {% endhint %}
 
 ## Get Started

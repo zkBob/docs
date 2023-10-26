@@ -5,6 +5,7 @@
 * [zkBob](README.md)
 * [Basic Concepts](zkbob-overview/basic-concepts/README.md)
   * [Getting Started](zkbob-overview/basic-concepts/getting-started.md)
+  * [Open-Source and Decentralized](zkbob-overview/basic-concepts/open-source-and-decentralized.md)
   * [Multichain Deployment](zkbob-overview/basic-concepts/multichain-deployment.md)
   * [Usage Statistics](zkbob-overview/basic-concepts/usage-statistics.md)
   * [Use Cases](zkbob-overview/basic-concepts/use-cases/README.md)
