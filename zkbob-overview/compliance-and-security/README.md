@@ -31,13 +31,12 @@ Limits are imposed to prevent large-scale transactions which may be the result o
 
 ## Geo Restrictions
 
-The zkBob application is in Beta with minimal restrictions enabled. Users must take responsibility to abide by local, state and federal laws. **Please check prior to usage**.&#x20;
+The zkBob application is in Beta with minimal restrictions enabled. Users must take responsibility to abide by local, state, and federal laws. **Please check and confirm prior to usage**.&#x20;
 
-Users in the UAE are programmatically restricted from using zkBob due to [Virtual Assets Regulatory Authority (VARA)](https://www.vara.ae/en/) policies which prohibit anonymity-enhanced transactions.&#x20;
+**zkBob usage is currently restricted in several jurisdictions:**
 
-The BOB stablecoin on its own is not an anonymity-enhanced cryptocurrency, however when used with zkBob privacy is enabled. Therefore, out of an abundance of caution and necessity to preserve safe transactions for all zkBob users, UAE users are prohibited from accessing the protocol.
-
-Post-beta, restrictions may be enabled for additional countries based on legal considerations.
+* **United Arab Emirates (UAE)**: Users in the UAE are programmatically restricted from using zkBob due to [Virtual Assets Regulatory Authority (VARA)](https://www.vara.ae/en/) policies which prohibit anonymity-enhanced transactions.&#x20;
+* **United States (US)**: Users in the US are restricted from zkBob due to uncertainty around the [proposed rulemaking (NPRM)](https://www.fincen.gov/sites/default/files/federal\_register\_notices/2023-10-19/FinCEN\_311MixingNPRM\_FINAL.pdf) restrictions, pursuant to section 311 of the USA PATRIOT Act. This is a proactive measure to protect users until these rules are clarified.
 
 ## Wallet Compliance
 
