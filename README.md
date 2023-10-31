@@ -9,14 +9,14 @@ description: A stablecoin-based privacy wallet build for everyday users
 
 
 {% hint style="success" %}
-zkBob is an open-source, decentralized application available for the community.[ Learn More.](zkbob-overview/basic-concepts/open-source-and-decentralized.md)
+zkBob is an open-source, decentralized application available for the community.[ Learn More.](zkbob-overview/basic-concepts/open-source-and-decentralized.md)&#x20;
 {% endhint %}
 
 ## Get Started
 
 > :man: [zkBob App](https://app.zkbob.com/)\
 > :man\_swimming: [Info and Instructions](zkbob-app/zkbob-app.md)\
-> :person\_running:[Technical Details and Contracts](broken-reference)\
+> :person\_running:[Technical Details & Contracts](broken-reference)\
 > 🔐 [Security Audit](resources/security-audit.md)\
 > :man\_mage: [BOB Stablecoin](broken-reference)
 
