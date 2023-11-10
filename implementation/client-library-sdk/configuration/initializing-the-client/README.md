@@ -9,7 +9,8 @@ Before interacting with the privacy pool you must instantiate the `ZkBobClient` 
 ```typescript
 static async create(
     config: ClientConfig,
-    activePoolAlias: string
+    activePoolAlias: string,
+    callback?: ClientStateCallback
 ): Promise<ZkBobClient>
 ```
 
@@ -18,6 +19,8 @@ static async create(
 `config` - the [client configuration](client-configuration.md) which defines available pools, associated chains and other parameters.
 
 `activePoolAlias` - the name of the pool which should be activated during instance creation. The names of the pools (aka aliases) are defined in the client configuration. The client should always have an active pool.
+
+`callback` - is an optional parameter of the type [ClientStateCallback](../../common-types.md#client-library-state-callback) which can be helpful to monitor the current library state. You can set it anytime by setting the `stateCallback` client property.
 
 ### Returns
 

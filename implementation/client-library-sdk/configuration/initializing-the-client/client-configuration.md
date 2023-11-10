@@ -10,7 +10,8 @@ Your should provide a client configuration when instantiating `ZkBobClient`. Thi
 interface ClientConfig {
   pools: Pools;
   chains: Chains;
-  snarkParams: SnarkConfigParams;
+  snarkParams: SnarkConfigParams;  // global SNARK parameters (for all pools)
+  snarkParamsSet?: Parameters;     // customized SNARK parameters
   supportId?: string;
   forcedMultithreading?: boolean;
 }
@@ -36,6 +37,7 @@ interface Pool {
   feeDecimals?: number;
   isNative?: boolean;
   ddSubgraph?: string;
+  parameters?: string;
 }
 ```
 {% endcode %}
@@ -69,6 +71,7 @@ enum DepositType {
 * `feeDecimals` - the number of digits after the decimal point in the transaction fee (it will always rounded-up). Fees will not round if `feeDecimals` is `undefined`.
 * `isNative` - should be true for WETH deployments.
 * `ddSubgraph` - name of the subgraph to fetch pending direct deposit transactions.
+* `parameters` - SNARK parameters set the alias (string name). The set MUST exist in `ClientConfig.snarkParamsSet` otherwise the global parameters set in `ClientConfig.snarkParams` will used if that parameter is omitted.
 
 ### ClientConfig.chains
 
@@ -88,13 +91,30 @@ where `rpcUrls` contain a list of JSON RPC endpoints which can interact with tha
 
 **`ClientConfig.snarkParams`** contains URLs of the zk-SNARK parameters and associated verification keys. It's needed to calculate and verify transactions proofs. The parameters are created before the pool deployment (during the Ceremony) and should be public available for the every pool.
 
+```typescript
+interface SnarkConfigParams {
+  transferParamsUrl: string;
+  transferVkUrl: string;
+}
+```
+
 {% hint style="warning" %}
-`snarkParams` is a common parameters applicable for all defined pools. Keep in mind there are pools with different unique parameters. Currently the library doesn't support multipool configurations with different parameters. We'll add support for those types of deployments soon.
+`snarkParams` is a common parameters applicable for all defined pools without `parameters` customization field
 {% endhint %}
+
+### ClientConfig.snarkParamsSet
+
+**`ClientConfig.snarkParamsSet`** contains customized URLs of the zk-SNARK parameters and associated verification keys. This field implements the multiparameters support feature.
+
+```typescript
+type Parameters = {
+  [name: string]: SnarkConfigParams;
+}
+```
 
 ### **ClientConfig.supportID**
 
-**`ClientConfig.supportId`** is a unique random string sent to the relayer in the every request. It's needed to track the user's activity for support purposes. The most common way to generate it is using the `uuid.v4()` method of the [uuid package](https://www.npmjs.com/package/uuid).&#x20;
+**`ClientConfig.supportId`** is a unique random string sent to the relayer in every request. It's needed to track the user's activity for support purposes. The most common way to generate it is using the `uuid.v4()` method of the [uuid package](https://www.npmjs.com/package/uuid).&#x20;
 
 {% hint style="info" %}
 Please note the `supportId` updates every time the library loads so there is no way to link all user actions on the relayer side. That field is optional but in most cases the relayer requires it and all requests without `supportId` will be rejected.
@@ -109,40 +129,48 @@ Please note the `supportId` updates every time the library loads so there is no 
 ```ts
 const clientConfig: ClientConfig = {
     pools: {
+        'USDC-polygon': {
+            'chainId': 137,
+            'parameters': 'prod',
+            'poolAddress': '0x72e6B59D4a90ab232e55D4BB7ed2dD17494D62fB',
+            'tokenAddress': '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+            'relayerUrls': ['https://relayer-mvp.zkbob.com'],
+            'delegatedProverUrls': ['https://remoteprover-mvp.zkbob.com/'],
+            'feeDecimals': 2,
+            'depositScheme': 'usdc-polygon',
+            'ddSubgraph': 'zkbob-usdc-polygon'
+        },
         'BOB-sepolia': {
             'chainId': 11155111,
+            'parameters': 'stage',
             'poolAddress': '0x3bd088C19960A8B5d72E4e01847791BD0DD1C9E6',
             'tokenAddress': '0x2C74B18e2f84B78ac67428d0c7a9898515f0c46f',
             'relayerUrls': ['https://relayer.thgkjlr.website/'],
             'delegatedProverUrls': [],
-            'coldStorageConfigPath': '',
             'feeDecimals': 2,
-            'depositScheme': 'permit'
+            'depositScheme': 'permit',
         },
-        'USDC-goerli': {
-            'chainId': 5,
-            'poolAddress': '0xCF6446Deb67b2b56604657C67DAF54f884412531',
-            'tokenAddress': '0x28B531401Ee3f17521B3772c13EAF3f86C2Fe780',
-            'relayerUrls': ['https://goerli-usdc-relayer.thgkjlr.website'],
-            'delegatedProverUrls': [],
-            'coldStorageConfigPath': '',
-            'feeDecimals': 2,
-            'minTxAmount': 50000,
-            'depositScheme': 'usdc-polygon'
-        }
+
     },
     chains: {
+        '137': {
+            rpcUrls: ['https://rpc.ankr.com/polygon']
+        },
         '11155111': {
             rpcUrls: ['https://rpc.sepolia.org']
-        },
-        '5': {
-            rpcUrls: ['https://rpc.ankr.com/eth_goerli']
-        },
+        }
     },
-    snarkParams: {
-        transferParamsUrl: '/path/to/transfer/params',  
-        transferVkUrl: '/path/to/transfer/vk'
+    snarkParamsSet: {
+        'prod': {
+            transferParamsUrl: '/path/to/prod/transfer/params',
+            transferVkUrl: '/path/to/prod/transfer/vk'
+        },
+        'stage': {
+            transferParamsUrl: '/path/to/stage/transfer/params',
+            transferVkUrl: '/path/to/stage/transfer/vk'
+        }
     },
+    
     supportId: 'unique_string_generated_with_uuidv4',
     forcedMultithreading: undefined
 };
@@ -156,14 +184,10 @@ To get started with already deployed privacy pools you can download the minimal 
 The following configurations contain only the mandatory fields. To instantiate the ZkBobClient object do not forget to provide other parameters. For example the client can be initialized without `supportId` but most likely the relayer will reject any request without this field.
 {% endhint %}
 
-{% hint style="info" %}
-`USDM` pools are formerly `BOB` ones which were migrated to the USDC token. "_**M**_" in the pool name means "Migrated". But it's simply a pool alias for internal usage. You can rename it to another arbitrary value.
-{% endhint %}
-
-{% file src="../../../../.gitbook/assets/prod-pools.json" %}
-**Production Pools:** USDM-polygon, BOB-optimism, WETH-optimism
+{% file src="../../../../.gitbook/assets/prod-pools (3).json" %}
+**Production Pools:** USDC-polygon, BOB-optimism, WETH-optimism
 {% endfile %}
 
-{% file src="../../../../.gitbook/assets/dev-pools.json" %}
-**Development Pools:** BOB-sepolia, USDM-goerli, WETH-goerli, USDC-goerli, BOB-op-goerli
+{% file src="../../../../.gitbook/assets/dev-pools (3).json" %}
+**Development Pools:** BOB-sepolia, BOB2USDC-goerli, WETH-goerli, USDC-goerli, BOB-op-goerli
 {% endfile %}

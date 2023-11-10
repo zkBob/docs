@@ -14,6 +14,7 @@ async deposit(
     signatureCallback: (request: SignatureRequest) => Promise<string>,
     fromAddress: string,
     relayerFee?: RelayerFee,
+    blockNumber?: number,
 ): Promise<string>
 ```
 
@@ -40,6 +41,8 @@ The signature request type depends on deposit scheme which set in the pool confi
 `fromAddress` - the `0x`-address which will be used to depositing funds
 
 `relayerFee` - a raw [relayer fee object](../common-types.md#relayer-raw-fee) which will be used to estimate total transaction fee (will requested under the hood when undefined)
+
+`blockNumber` - the client waits until the internal provider becomes synced with the specified block before the input account balance (and allowance if applicable) validation. The waiting interval is hardcoded to 60 seconds. If the provider does not become synced within that interval the transaction is sent.
 
 ### Returns
 

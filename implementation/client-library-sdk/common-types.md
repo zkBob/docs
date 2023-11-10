@@ -197,7 +197,7 @@ where
 
 ## <mark style="background-color:green;">History Record</mark>
 
-A single history record is always describes a single transaction to the pool
+A single history record always describes a single transaction to the pool.
 
 ```typescript
 enum HistoryTransactionType {
@@ -221,6 +221,7 @@ interface TokensMoving {
   to: string,
   amount: bigint,
   isLoopback: boolean,
+  ddFee?: bigint,
 }
 
 class HistoryRecord {
@@ -231,6 +232,7 @@ class HistoryRecord {
     txHash: string,
     state: HistoryRecordState,
     failureReason?: string,
+    extraInfo?: any,
 }
 ```
 
@@ -242,13 +244,23 @@ where
   * `TokensMoving.from` and `TokensMoving.to` contain origin and destination addresses of the funds transferring. There are no strict restrictions for these fields. E.g. `TokensMoving.to` field may contain `0x` address for the withdrawal transaction as well as shielded address for the outgoing transfers inside a privacy pool. Due to privacy transactions nature one of these fields are always void string
   * `TokensMoving.amount` is a token transferring value in the pool dimension
   * `TokensMoving.isLoopback` is applicable for the outgoing transfers only. This field contain true in case of transferring funds to the own account
+  * `TokensMoving.ddFee` is an optional field which exists only for direct-deposit associated transactions and contains a direct deposit fee amount
 * `HistoryRecord.type` is one of the `HistoryTransactionType` enum members
 * `HistoryRecord.timestamp` is an associated transaction time (in seconds since Jan 01 1970)
-* `HistoryRecord.actions` is a set of token movings (e.g. a multitransfer transaction may contain several destination addresses)
-* `HistoryRecord.fee` is a transaction cost (relayer's reward) in pool token dimension. The incoming transfers are always have zero in this field
+* `HistoryRecord.actions` is a set of token moves (e.g. a multitransfer transaction may contain several destination addresses)
+* `HistoryRecord.fee` is a transaction cost (relayer's reward) in pool token dimension. The incoming transfers always have zero in this field
 * `HistoryRecord.txHash` is an associated transaction hash (to the pool smart contract)
 * `HistoryRecord.state` is a transaction state (an `HistoryRecordState` member)
-* `HistoryRecord.failureReason` is an optional `string` field which contain a problem description in case of the history record is in a rejected state
+* `HistoryRecord.failureReason` is an optional `string` field which contain a problem description in case the history record is in a rejected state
+* `HistoryRecord.extraInfo` is an optional field of any type which may contain transaction related info. For example, direct deposits made with the payment link may contain the following object in that field:
+
+```
+interface DDPaymentInfo {
+  note: string | null;
+  sender: string;
+  token: string;
+}
+```
 
 ## <mark style="background-color:green;">Compliance History Record</mark>
 
@@ -471,3 +483,123 @@ where
 * `fullSync` - `true` in case of bulding full Merkle tree on the client
 * `totalTime` - syncing time in milliseconds
 * `timePerTx` - average time per transaction in milliseconds
+
+## <mark style="background-color:green;">Client Library State Callback</mark>
+
+The callback is used to notify the application that the internal state has been updated. There are regular and continuous states. The second one has a `progress` property (a number from 0 to 1).
+
+```typescript
+type ClientStateCallback = (state: ClientState, progress?: number) => void;
+
+enum ClientState {
+  Initializing,
+  AccountlessMode,
+  SwitchingPool,
+  AttachingAccount,
+  // the following routines belongs to the full mode only
+  FullMode,
+  StateUpdating,           // fast sync
+  StateUpdatingContinuous, // sync which takes longer than threshold
+  HistoryUpdating,
+}
+```
+
+The following client library states distinguished:
+
+* `Initializing` - the state during the client instantiation. This state is short-term. After client initialization the state sets to `AccountlessMode`
+* `AccountlessMode` - the client library is ready to operate but no account was attached. Limited functionality is available in that state (see [account-less-mode-operations](account-less-mode-operations/ "mention"))
+* `SwitchingPool` - the client switches current privacy pool. Most routines are unavailable during this state
+* `AttachingAccount` - the user account is initializing. This state also appears on pool switching when the client operates in full mode (if account was already attached to another pool it should be reattached to the new one)
+* `FullMode` - Regular state: client and account are ready to operate. All routines are available
+* `StateUpdating` \ `StateUpdatingContinuous`- the client is syncing the user account state with the pool. The continuous state using in case of state sync take over threshold (1 sec currently)
+* `HistoryUpdating` - the history synchronization. Additional activities are needed to produce history records from the local state so it may take some time.
+
+## <mark style="background-color:green;">Forced Exit State</mark>
+
+Forced exit is an optional pool contract feature for emergency withdraw of user funds if the relayer is unavailable.
+
+```typescript
+enum ForcedExitState {
+  NotStarted,
+  CommittedWaitingSlot,
+  CommittedReady,
+  Completed,
+  Outdated,
+}
+```
+
+where:
+
+* `NotStarted` - the regular account state: forced exit was not initiated
+* `CommittedWaitingSlot` - forced exit was committed (the first stage) but the exit window isn't opened yet (and you cannot send the execute transaction)
+* `CommittedReady` - the first stage (commit) was performed and exit window is available, so you are able to execute your committed forced exit now
+* `Completed` - the forced exit was executed and the account was destroyed
+* `Outdated` - forced exit was committed but the exit window has passed. You cannot execute a forced exit but you can cancel it and create a new one.
+
+## <mark style="background-color:green;">Committed Forced Exit</mark>
+
+The committed forced exit retrieved from the pool contract
+
+```typescript
+interface CommittedForcedExit {
+  nullifier: bigint;
+  to: string;
+  operator: string;
+  amount: bigint;
+  exitStart: number;
+  exitEnd: number;
+  txHash: string;
+}
+```
+
+where:
+
+* `nullifier` - the last account nullifier which was marked for forced exit
+* `to` - an address to withdraw funds
+* `operator` - address who allowed to execute forced exit (no execution limitations in case of operator equals zero address)
+* `amount` - value to withdraw (in pool dimension)
+* `exitStart` - timestamp when exit window opened (in seconds)
+* `exitEnd` - timestamp when exit window closed (in seconds)
+* `txHash` - commit transaction hash
+
+## <mark style="background-color:green;">Finalized Forced Exit</mark>
+
+The executed or cancelled forced exit retrieved from the pool contract
+
+```typescript
+interface FinalizedForcedExit {
+  nullifier: bigint;
+  to: string;
+  amount: bigint;
+  cancelled: boolean;
+  txHash: string;
+}
+```
+
+where:
+
+* `nullifier` - the last account nullifier associated with the forced exit
+* `to` - an address to withdraw funds
+* `amount` - value to withdraw (in pool dimension)
+* `cancelled` - false for successful forced exit, true for canceled one
+* `txHash` - execute transaction hash
+
+## <mark style="background-color:green;">Transaction to be Send</mark>
+
+The following interface describes the transaction request which should be sent by the superior user or application. It can be approve or direct deposit transaction. For example:
+
+```typescript
+interface PreparedTransaction {
+    to: string;
+    amount: bigint;
+    data: string;
+    selector?: string;
+}
+```
+
+where:
+
+* `to` - transaction destination address
+* `amount` - amount of native coins to be sent with transaction
+* `data` - prepared raw transaction data (depends on underlying blockchain)
+* `selector` - an optional field which can be used on some chains (e.g. Tron) where selector is separated from transaction data (for EVM networks selector is included in `data` field so that field remains `undefined`)

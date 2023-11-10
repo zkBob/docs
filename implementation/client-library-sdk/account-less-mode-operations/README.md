@@ -18,6 +18,8 @@ All functions described in this section belong to the `ZkBobClient` instance and
 
 [gift-cards.md](gift-cards.md "mention")
 
+[client-library-status.md](client-library-status.md "mention")
+
 [helpers.md](helpers.md "mention")
 
 [versioning.md](versioning.md "mention")

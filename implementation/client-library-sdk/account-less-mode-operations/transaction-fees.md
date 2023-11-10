@@ -82,3 +82,22 @@ const fee = await zkClient.atomicTxFee(TxType.BridgeDeposit);
 console.log(`The typical deposit will cost you approx ${fee}`);
 // output: The typical withdraw will cost you approx 505867110
 ```
+
+## <mark style="background-color:green;">Getting Direct Deposit Fee</mark>
+
+Direct deposit transaction should include extra cost for the relayer.
+
+```typescript
+async directDepositFee(): Promise<bigint>
+```
+
+### Returns
+
+`Promise` returns the direct deposit fee in the pool dimension.
+
+### Example
+
+```typescript
+console.log(`DD fee: ${await zkClient.directDepositFee()}`);
+// output: DD fee: 100000000
+```

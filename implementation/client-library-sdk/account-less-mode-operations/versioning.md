@@ -18,7 +18,7 @@ Version string as defined in the `package.json` file
 
 ```typescript
 console.log(`You are using client library v${zkClient.getLibraryVersion()}`);
-// output: You are using client library v4.0.0
+// output: You are using client library v5.4.0
 ```
 
 ## <mark style="background-color:green;">Get the Relayer Version</mark>
@@ -36,7 +36,7 @@ async getRelayerVersion(): Promise<ServiceVersion>
 ```typescript
 const relayerVer = await zkClient.getRelayerVersion();
 console.log(`We are communicating with relayer ${relayerVer.ref}`);
-// output: We are communicating with relayer v4.0.0
+// output: We are communicating with relayer v4.3.0
 ```
 
 ## <mark style="background-color:green;">Get the Delegated Prover Version</mark>

@@ -1,5 +1,5 @@
 ---
-description: Client library v5.2.0 development guide
+description: Client library v5.4.0 development guide
 ---
 
 # Client Library SDK
@@ -25,7 +25,7 @@ yarn add zkbob-client-js
 ```json
 "dependencies": {
     .........
-    "zkbob-client-js": "5.2.0"
+    "zkbob-client-js": "5.4.0"
     .........
 }
 ```
@@ -106,7 +106,6 @@ Then pass the resulting spending key to the `accountConfig` object to login.
     const accountConfig: AccountConfig = {
       sk,
       pool: 'BOB-sepolia',
-      birthindex: -1,
       proverMode: ProverMode.Local,
     };
     await client.login(accountConfig);
