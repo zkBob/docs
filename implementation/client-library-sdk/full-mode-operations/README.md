@@ -26,4 +26,6 @@ The methods described in this section are related to the customer wallet. It is 
 
 [ephemeral-deposits.md](ephemeral-deposits.md "mention")
 
+[forced-exit.md](forced-exit.md "mention")
+
 [other-routines.md](other-routines.md "mention")
