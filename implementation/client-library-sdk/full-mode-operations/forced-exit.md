@@ -137,18 +137,19 @@ The result is `undefined` in case the forced exit was executed, cancelled, or no
 
 ### Example
 
-<pre class="language-typescript"><code class="lang-typescript">const committed = await zkClient.activeForcedExit()
+```typescript
+const committed = await zkClient.activeForcedExit()
 if (committed) {
     console.log('Found committed forced exit');
-<strong>    console.log(`Nullifier:  ${committed.nullifier}`);
-</strong><strong>    console.log(`Operator:   ${committed.operator}`);
-</strong><strong>    console.log(`Receiver:   ${committed.to}`);
-</strong><strong>    console.log(`Amount:     ${committed.amount}`);
-</strong><strong>    console.log(`Start time: ${new Date(committed.exitStart * 1000).toLocaleString()}`);
-</strong><strong>    console.log(`End time:   ${new Date(committed.exitEnd * 1000).toLocaleString()}`);
-</strong><strong>    console.log(`Tx hash:    ${committed.txHash`);
-</strong><strong>}
-</strong>// Found committed forced exit
+    console.log(`Nullifier:  ${committed.nullifier}`);
+    console.log(`Operator:   ${committed.operator}`);
+    console.log(`Receiver:   ${committed.to}`);
+    console.log(`Amount:     ${committed.amount}`);
+    console.log(`Start time: ${new Date(committed.exitStart * 1000).toLocaleString()}`);
+    console.log(`End time:   ${new Date(committed.exitEnd * 1000).toLocaleString()}`);
+    console.log(`Tx hash:    ${committed.txHash`);
+}
+// Found committed forced exit
 // Nullifier:  7151204415055949250553114361348271896976012357469097285489034137873972583466
 // Operator:   0x6D16337B9a1651556749230eeAA4Dc602A22DcAf
 // Receiver:   0x6D16337B9a1651556749230eeAA4Dc602A22DcAf
@@ -156,7 +157,7 @@ if (committed) {
 // Start time: 24.10.2023, 21:49:12
 // End time:   25.10.2023, 20:49:12
 // Tx hash:    0x2cb5eb49f7b89810675fce988f259b7f47a63710029a303ab0906b59a5bba7b2
-</code></pre>
+```
 
 ## <mark style="background-color:green;">Getting Completed Forced Exit Details</mark>
 
@@ -176,20 +177,21 @@ Although [FinalizedForcedExit](../common-types.md#finalized-forced-exit) object 
 
 ### Example
 
-<pre class="language-typescript"><code class="lang-typescript">const executed = await zkClient.executedForcedExit()
+```typescript
+const executed = await zkClient.executedForcedExit()
 if (executed) {
     console.log('Found completed forced exit');
-<strong>    console.log(`Nullifier:  ${executed.nullifier}`);
-</strong><strong>    console.log(`Receiver:   ${executed.to}`);
-</strong><strong>    console.log(`Amount:     ${executed.amount}`);
-</strong><strong>    console.log(`Tx hash:    ${executed.txHash`);
-</strong><strong>}
-</strong>// Found completed forced exit
+    console.log(`Nullifier:  ${executed.nullifier}`);
+    console.log(`Receiver:   ${executed.to}`);
+    console.log(`Amount:     ${executed.amount}`);
+    console.log(`Tx hash:    ${executed.txHash`);
+}
+// Found completed forced exit
 // Nullifier:  13575656066236883124312534101991453259859429227583973074085956794292119880492
 // Receiver:   0x6e9aE59020788AfCaAb243FCD0e9317189a81435
 // Amount:     7000000000
 // Tx hash:    0x6df714f0e6100f1755611e0f3e58e23111b4642a3f437fca0062b685ab84db9e
-</code></pre>
+```
 
 ## <mark style="background-color:green;">Checking Funds Available for Forced Exit</mark>
 
@@ -250,7 +252,8 @@ async requestForcedExit(
 
 ### Example
 
-<pre class="language-typescript"><code class="lang-typescript">const committed = await zkClient.requestForcedExit(
+```typescript
+const committed = await zkClient.requestForcedExit(
     '0x6D16337B9a1651556749230eeAA4Dc602A22DcAf',
     '0x6D16337B9a1651556749230eeAA4Dc602A22DcAf',
     async (tx: PreparedTransaction) => 
@@ -259,12 +262,12 @@ async requestForcedExit(
     
 if (committed) {
     console.log(`Forced exit has been committed ${committed.txHash}`);
-<strong>    console.log(`Wait until ${new Date(committed.exitStart * 1000).toLocaleString()}`);
-</strong><strong>}
-</strong>// Forced exit has been committed 0x2cb5eb49f7b89810675fce988f259b7f47a63710029a303ab0906b59a5bba7b2
+    console.log(`Wait until ${new Date(committed.exitStart * 1000).toLocaleString()}`);
+}
+// Forced exit has been committed 0x2cb5eb49f7b89810675fce988f259b7f47a63710029a303ab0906b59a5bba7b2
 // Wait until 24.10.2023, 21:49:12
 
-</code></pre>
+```
 
 ## <mark style="background-color:green;">Executing Forced Exit</mark>
 
@@ -290,18 +293,19 @@ async executeForcedExit(
 
 ### Example
 
-<pre class="language-typescript"><code class="lang-typescript">const completed = await zkClient.executeForcedExit(
-<strong>    async (tx: PreparedTransaction) => 
-</strong>        this.sendAndSendTx(tx.to, tx.amount, tx.data);
+```typescript
+const completed = await zkClient.executeForcedExit(
+    async (tx: PreparedTransaction) => 
+        this.sendAndSendTx(tx.to, tx.amount, tx.data);
 );
     
 if (completed) {
     console.log(`Forced exit has been completed: ${completed.txHash}`);
-<strong>    console.log(`Check address ${completed.to} for withdrawn funds`);
-</strong><strong>}
-</strong>// Forced exit has been completed: 0x6df714f0e6100f1755611e0f3e58e23111b4642a3f437fca0062b685ab84db9e
+    console.log(`Check address ${completed.to} for withdrawn funds`);
+}
+// Forced exit has been completed: 0x6df714f0e6100f1755611e0f3e58e23111b4642a3f437fca0062b685ab84db9e
 // Check address 0x6e9aE59020788AfCaAb243FCD0e9317189a81435 for withdrawn funds
-</code></pre>
+```
 
 ## <mark style="background-color:green;">Cancelling Forced Exit</mark>
 
@@ -327,12 +331,13 @@ async cancelForcedExit(
 
 ### Example
 
-<pre class="language-typescript"><code class="lang-typescript">const cancelled = await zkClient.cancelForcedExit(
-<strong>    async (tx: PreparedTransaction) => this.sendAndSendTx(tx.to, tx.amount, tx.data);
-</strong>);
+```typescript
+const cancelled = await zkClient.cancelForcedExit(
+    async (tx: PreparedTransaction) => this.sendAndSendTx(tx.to, tx.amount, tx.data);
+);
     
 if (cancelled) {
     console.log(`Forced exit has been cancelled: ${cancelled.txHash}`);
-<strong>}
-</strong>// Forced exit has been cancelled: 0x81039f753be2078a467370947807fdbdca571630f21920b6d6337b305fb488d4
-</code></pre>
+}
+// Forced exit has been cancelled: 0x81039f753be2078a467370947807fdbdca571630f21920b6d6337b305fb488d4
+```

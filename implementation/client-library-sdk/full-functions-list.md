@@ -73,6 +73,18 @@ Functions available in the account-less mode are marked with `[*]`
 * [getEphemeralAddressOutTxCount](full-mode-operations/ephemeral-deposits.md#retrieving-number-of-token-transfers-from-the-address)
 * [getEphemeralAddressPrivateKey](full-mode-operations/ephemeral-deposits.md#getting-the-ephemeral-address-private-key)
 
+## Forced Exit
+
+* [isAccountDead](full-mode-operations/forced-exit.md#checking-if-account-destroyed)
+* [isForcedExitSupported](full-mode-operations/forced-exit.md#checking-if-emergency-exit-is-supported-by-current-pool)
+* [forcedExitState](full-mode-operations/forced-exit.md#getting-forced-exit-state-for-account)
+* [activeForcedExit](full-mode-operations/forced-exit.md#getting-committed-forced-exit-details)
+* [executedForcedExit](full-mode-operations/forced-exit.md#getting-completed-forced-exit-details)
+* [availableFundsToForcedExit](full-mode-operations/forced-exit.md#checking-funds-available-for-forced-exit)
+* [requestForcedExit](full-mode-operations/forced-exit.md#making-commit-forced-exit)
+* [executeForcedExit](full-mode-operations/forced-exit.md#executing-forced-exit)
+* [cancelForcedExit](full-mode-operations/forced-exit.md#cancelling-forced-exit)
+
 ## Misc
 
 * \[\*] [shieldedAmountToWei](account-less-mode-operations/converting-token-amounts.md#shielded-to-native)
@@ -95,3 +107,5 @@ Functions available in the account-less mode are marked with `[*]`
 * [getAverageTimePerTx](full-mode-operations/other-routines.md#getting-average-sync-time)
 * [directDepositContract](full-mode-operations/direct-deposits.md#getting-direct-deposit-contract)
 * \[\*] [tokenSellerContract](account-less-mode-operations/helpers.md#getting-token-seller-contract)
+* \[\*] [getState](account-less-mode-operations/client-library-status.md#getting-the-client-state)
+* \[\*] [getProgress](account-less-mode-operations/client-library-status.md#getting-the-client-continuous-state-progress)
