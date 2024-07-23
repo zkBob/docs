@@ -5,9 +5,11 @@
 {% hint style="info" %}
 **Limits update 23/07/24:**  Polygon USDC pool deposit limits have been reduced from 10,000 to 1,000 per day after ongoing reviews of usage and demand.&#x20;
 
-* Daily user deposit limit, USDC: 1000 USD
-* Single deposit limit, USDC:  1000 USD
-* Daily user direct deposit cap: 1000 USD
+[View Transaction](https://polygon.blockscout.com/tx/0xa771d0506ca8b0a51246e194240ac1ed2b998af9c7222da4eecac22282335b86)
+
+* Daily user deposit limit set to 1000 USD
+* Single deposit limit set to 1000 USD
+* Daily user direct deposit capped at 1000 USD
 {% endhint %}
 
 * Limits are imposed to protect against large deposits and withdrawals which may result from illegal activity (for example a hack where attackers need to quickly move a large amount of funds).&#x20;
