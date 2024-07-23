@@ -28,7 +28,7 @@
 * [BOB Stablecoin](zkbob-overview/bob-stablecoin.md)
 * [zkBob FAQ](zkbob-overview/faq.md)
 
-## 🦸♂ zkBob Application <a href="#zkbob-app" id="zkbob-app"></a>
+## 🦸‍♂️ zkBob Application <a href="#zkbob-app" id="zkbob-app"></a>
 
 * [UI Overview](zkbob-app/zkbob-app.md)
 * [Account Creation](zkbob-app/account-creation/README.md)
@@ -52,7 +52,7 @@
   * [Русский](zkbob-app/multilingual-support/russkii.md)
   * [中文](zkbob-app/multilingual-support/zhong-wen.md)
 
-## 👩⚕ Technical Implementation <a href="#implementation" id="implementation"></a>
+## 👩‍⚕️ Technical Implementation <a href="#implementation" id="implementation"></a>
 
 * [zkBob Application Overview](implementation/high-level-overview.md)
 * [Deployed Contracts](implementation/deployed-contracts.md)
@@ -121,13 +121,13 @@
   * [Full Functions List](implementation/client-library-sdk/full-functions-list.md)
   * [Utilities](implementation/client-library-sdk/utilities.md)
 
-## 👩🏫 Deployment
+## 👩‍🏫 Deployment
 
 * [Trusted Setup Ceremony](deployment/trusted-setup-ceremony.md)
 * [Contract Deployment](deployment/contracts-deployment.md)
 * [Relayer Subsystem](deployment/relayers-subsystem.md)
 
-## 👷♂ Roadmap
+## 👷‍♂️ Roadmap
 
 * [On the Roadmap](roadmap/on-the-roadmap.md)
 * [Exploratory Features](roadmap/exploratory-features/README.md)
@@ -137,7 +137,7 @@
   * [Round-robin Operator Manager](roadmap/exploratory-features/round-robin-operator-manager.md)
   * [Compounding](roadmap/exploratory-features/compounding.md)
 
-## 🧑💻 Jobs
+## 🧑‍💻 Jobs
 
 * [Zero-Knowledge Researcher & Protocol Developer](jobs/zero-knowledge-researcher-and-protocol-developer.md)
 
