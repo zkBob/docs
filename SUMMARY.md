@@ -42,7 +42,6 @@
   * [Native Token Conversion](zkbob-app/withdrawals/native-token-conversion.md)
 * [Generate a Receiving Address](zkbob-app/generate-a-secure-address.md)
 * [Optional KYC](zkbob-app/optional-kyc.md)
-* [Get BOB](zkbob-app/get-bob.md)
 * [zkBob Direct Deposits](zkbob-app/zkbob-direct-deposits.md)
 * [Support ID](zkbob-app/support-id.md)
 * [Payment Links](zkbob-app/payment-links.md)

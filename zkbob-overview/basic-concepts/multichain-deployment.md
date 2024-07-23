@@ -6,7 +6,7 @@ description: zkBob is Multichain for several reasons.
 
 ## Why Multichain?
 
-Chains with a **mature and robust infrastructure** support the needs of the zkBob application. Prerequisites for zkBob include:
+Chains with a **mature and robust infrastructure** support the needs of the zkBob application. Useful applications include:
 
 * Uniswap v3
 * Aave

@@ -84,7 +84,7 @@ Yes! However, operations can take longer as Proof generation is resource intensi
 
 ## Why does zkBob use the BOB stablecoin?
 
-zkBob was originally designed to use the BOB stablecoin. After v1 was complete, the protocol was opened up to additional pools including a USDC pool on Polygon and an ETH pool on Optimism. BOB is still available in the ecosystem, but not as used as it once was. For questions related to BOB, please see the [BOB details](broken-reference) page.
+zkBob no longer uses the BOB stablecoin. The protocol was originally designed to use the BOB stablecoin, however after v1 was complete, the protocol was opened up to additional pools including a USDC pool on Polygon and an ETH pool on Optimism. For questions related to BOB, please see the [BOB details](broken-reference) page.
 
 ## Do I need MATIC/ETH to pay for transactions?
 
