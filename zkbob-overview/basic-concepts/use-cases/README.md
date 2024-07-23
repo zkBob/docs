@@ -6,7 +6,3 @@ zkBob can be used to protect transactional privacy for a variety of use cases. B
 * Business owners who do not want to [divulge vendor addresses or prices they paid for items](vendor-purchasing.md) to reduce competitive risk.
 * Philanthropists who want to donate to causes anonymously.
 * Everyday users who want a "digital cash" option to transfer and trade for goods and services with one another privately through a shielded pool.
-
-
-
-##

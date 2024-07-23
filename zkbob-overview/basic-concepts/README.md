@@ -6,7 +6,7 @@ Below are descriptions of basic concepts underlying zkBob functionality. For mor
 
 ### zkBob
 
-zkBob is a zk-based privacy application built for stablecoin transfers. It accepts BOB stablecoins for deposit, and once deposited in the zkBob app, BOB can be transferred anonymously between participants. BOB can then be withdrawn from the application to an EOA (externally owned address) preserving anonymity of the transfer amounts and participants.
+zkBob is a zk-based application built for private transfers. It accepts  stablecoins including USDC and USDT for deposit, as well as ETH on Optimism.Once deposited in the zkBob app, tokens can be transferred anonymously between participants. They can then be withdrawn from the application to an EOA (externally owned address), preserving anonymity of the transfer amounts and participants.
 
 ### Zero-Knowledge Proofs (zkSNARKs)
 
@@ -30,7 +30,7 @@ Each created address is encoded in base58 format. For example `5fkW3dXTvA8Kizt1E
 
 ### **Deposits**
 
-Deposits can be made by sending Bob tokens (from a regular 0x-based account) to the zkBob Pool contract. Depositors complete 2 steps to get started.&#x20;
+Deposits can be made by sending  tokens (from a regular 0x-based account) to the zkBob Pool contract. Depositors complete 2 steps to get started.&#x20;
 
 1. Approve the contract to access funds.
 2. Create and send the deposit.&#x20;
@@ -57,7 +57,5 @@ By enacting these measures, the protocol is designed to function on a neutral ba
 
 ### BOB
 
-BOB is the name of the multi-chain, multi-collateral stablecoin optimized for the zkBob protocol. It provides optional privacy features for users when paired with the zkBob application. BOB can be swapped for the equivalent amount of other stablecoins (minus standard swap fees) or other available tokens on Ethereum, Polygon, Optimism, Arbitrum and BSC. [More details here](broken-reference).
-
-
+BOB is the name of the multi-chain, multi-collateral stablecoin optimized for the zkBob protocol. It is no longer in use in the protocol. You can access previous details about BOB [here](https://bob-docs.zkbob.com/).
 

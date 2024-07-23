@@ -34,7 +34,7 @@ _**Update:** The migration is complete and all operations are functioning normal
 
 <summary>Will a BOB pool still be available on Polygon?</summary>
 
-No. The BOB pool on Polygon will be replaced by the USDC pool. However, a BOB pool is available on Optimism along with the newly deployed [ETH pool on Optimism](eth-pool-on-optimism.md).
+No.&#x20;
 
 
 

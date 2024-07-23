@@ -12,6 +12,6 @@ Chains with a **mature and robust infrastructure** support the needs of the zkBo
 * Aave
 * Native USDC implementation
 
-Polygon and Optimism both support these applications and are committed to protecting privacy and neutrality for the Ethereum ecosystem. Future governance decisions may create additional deployments in other on-chain environments in the future.
+Polygon and Optimism both support these applications and are committed to protecting privacy and neutrality for the Ethereum ecosystem. zkBob is also available on Tron.
 
-##
+&#x20;Future governance decisions may create additional deployments in other on-chain environments in the future.

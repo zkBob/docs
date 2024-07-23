@@ -17,6 +17,7 @@
   * [USDC Pool on Polygon](zkbob-overview/zkbob-pools/usdc-pool-on-polygon.md)
   * [USDC Pool on Optimism](zkbob-overview/zkbob-pools/usdc-pool-on-optimism.md)
   * [ETH Pool on Optimism](zkbob-overview/zkbob-pools/eth-pool-on-optimism.md)
+  * [USDT Pool on Tron](zkbob-overview/zkbob-pools/usdt-pool-on-tron.md)
 * [Fees](zkbob-overview/fees/README.md)
   * [Unspent note handling](zkbob-overview/fees/unspent-note-handling.md)
 * [Deposit & Withdrawal Limits](zkbob-overview/deposit-and-withdrawal-limits.md)
