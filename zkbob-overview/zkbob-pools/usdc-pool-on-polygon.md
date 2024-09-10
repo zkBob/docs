@@ -2,7 +2,11 @@
 description: BOB pool converted to USDC
 ---
 
-# USDC Pool on Polygon
+# USDC Pool on Polygon (sunsets January 31, 2025)
+
+{% hint style="danger" %}
+The Polygon USDC pool will officially sunset on January 31, 2025. Please [remove funds ](../../zkbob-app/withdrawals/)prior to that date. More information -> [https://blog.zkbob.com/polygon-sunsets-january-31-2025/](https://blog.zkbob.com/polygon-sunsets-january-31-2025/)
+{% endhint %}
 
 {% hint style="success" %}
 The migration to USDC from BOB was completed Jul-18-2023 02:11:08 PM +UTC [0x7cf8f47d95b7e38eea8c9b2b1110d3ce4602f2936f70cdc44a5fa670923e7d58](https://polygonscan.com/tx/0x7cf8f47d95b7e38eea8c9b2b1110d3ce4602f2936f70cdc44a5fa670923e7d58)
