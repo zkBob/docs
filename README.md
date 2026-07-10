@@ -8,11 +8,13 @@ description: A stablecoin-based privacy wallet build for everyday users
 
 
 
-{% hint style="success" %}
-zkBob is now in withdrawal only mode. If you hold any remaining funds in a zkBob account in any pool, go to [https://app.zkbob.com/](https://app.zkbob.com/) to start the withdrawal process.
+{% hint style="danger" %}
+zkBob is now in withdrawal only mode due to a vulnerability discovered on 05 June, 2026. If you hold any remaining funds in a zkBob account in any pool, go to [https://app.zkbob.com/](https://app.zkbob.com/) to start the withdrawal process.
+
+* [Vulnerability Post Mortem with additional details](zkbob-overview/vulnerability-post-mortem.md)
 {% endhint %}
 
-## Get Started
+## zkBob Basics
 
 > :man: [zkBob App](https://app.zkbob.com/)\
 > :man\_swimming: [Info and Instructions](zkbob-app/zkbob-app.md)\
@@ -39,7 +41,6 @@ _\*zkBob introduces_ [_deposit and withdrawal limits_](zkbob-overview/deposit-an
 
 * zkBob application: [https://zkbob.com/](https://zkbob.com/)
 * Private payment links: [https://zkbob.com/payment-link](https://zkbob.com/payment-link)
-*
 
 ## Newsletter & Blog
 

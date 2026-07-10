@@ -28,6 +28,7 @@
 * [Governance](zkbob-overview/governance.md)
 * [BOB Stablecoin](zkbob-overview/bob-stablecoin.md)
 * [zkBob FAQ](zkbob-overview/faq.md)
+* [Vulnerability Post Mortem](zkbob-overview/vulnerability-post-mortem.md)
 
 ## 🦸‍♂️ zkBob Application <a href="#zkbob-app" id="zkbob-app"></a>
 
