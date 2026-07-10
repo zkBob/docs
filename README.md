@@ -9,16 +9,15 @@ description: A stablecoin-based privacy wallet build for everyday users
 
 
 {% hint style="success" %}
-zkBob is an open-source, decentralized application available for the community.[ Learn More.](zkbob-overview/basic-concepts/open-source-and-decentralized.md)&#x20;
+zkBob is now in withdrawal only mode. If you hold any remaining funds in a zkBob account in any pool, go to [https://app.zkbob.com/](https://app.zkbob.com/) to start the withdrawal process.
 {% endhint %}
 
 ## Get Started
 
 > :man: [zkBob App](https://app.zkbob.com/)\
 > :man\_swimming: [Info and Instructions](zkbob-app/zkbob-app.md)\
-> :person\_running:[Technical Details & Contracts](broken-reference)\
-> 🔐 [Security Audit](resources/security-audit.md)\
->
+> :person\_running:[Technical Details & Contracts](https://app.gitbook.com/s/-MjSwkv4zokqCUebt-98/implementation)\
+> 🔐 [Security Audit](resources/security-audit.md)<br>
 
 ## About
 
